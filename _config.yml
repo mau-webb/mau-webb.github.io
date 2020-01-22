@@ -1,0 +1,31 @@
+name: "MAU Webb"
+description: "En publik platform för öppna utbildningsresurser (OER)"
+site_url: "https://mau-webb.github.io"
+github_url: "https://github.com/mau-webb/mau-webb.github.io"
+resource_path: "resurser"
+
+permalink: pretty
+
+exclude: [
+    "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/",
+    "vendor/cache/", "vendor/gems/", "vendor/ruby/", "README.md", "LICENSE"
+]
+
+webrick:
+    headers:
+        X-UA-Compatible: "IE=Edge,chrome=1"
+
+sass:
+    style: compressed
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
+    -
+        scope:
+            path: "resurser"
+        values:
+            layout: "resource"

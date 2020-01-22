@@ -1,0 +1,38 @@
+---
+classes: "start"
+---
+
+<header class="hero">
+    <div class="hero-image">
+        <img src="/assets/images/logo_transparent.png" alt="MAU Webb logotype">
+    </div>
+    <h1>En samlingsplats för öppna utbildningsresurser från Malmö Universitet.</h1>
+    <h6>Senast uppdaterad {{ site.time | date: "%Y-%m-%d %H:%M" }}</h6>
+</header>
+
+<section class="resources">
+    {% for id in site.data.index %}
+    {% assign resource = site.data.resources[id] %}
+    {%- capture site_path -%}
+        {% if site.resource_path %}{{ site.resource_path }}{% else %}resources{% endif %}
+    {%- endcapture -%}
+    {%- capture resource_path -%}
+        {% if resource.path %}{{ resource.path }}{% else %}{{ resource.id }}{% endif %}
+    {%- endcapture -%}
+    <a href="/{{ site_path }}/{{ resource_path }}" class="resource">
+        <h2>{{ resource.title }}</h2>
+
+        {% if resource.subtitle %}
+        <h3>{{ resource.subtitle }}</h3>
+        {% endif %}
+
+        <div class="tags">
+            {% for tag in resource.tags %}
+            <div class="tag">{{ tag }}</div>
+            {% endfor %}
+        </div>
+
+        <div class="icon circle-right"></div>
+    </a>
+    {% endfor %}
+</section>

@@ -1,0 +1,31 @@
+id: me152a
+title: "Inledande webbprogrammering med JavaScript"
+tags: ["Kurs", "Grundnivå", "15 hp", "ME152A", "VT20"]
+
+sidebar:
+    items:
+        - label: "Introduktion"
+          root: true
+        - label: "Kursplan"
+          url: "https://edu.mah.se/sv/course/me152a"
+        - label: "Schema"
+          url: "https://schema.mau.se/setup/jsp/Schema.jsp?startDatum=idag&intervallTyp=m&intervallAntal=6&sprak=SV&sokMedAND=true&forklaringar=true&resurser=k.ME152A-20201-08203-"
+      # - label: "Uppgifter"
+      #   open: true
+      #   items:
+      #       - label: "IMDB"
+        - label: "Laborationer"
+          open: true
+          items:
+              - label: "Laboration 1"
+              - label: "Laboration 2"
+              - label: "Laboration 3"
+              - label: "Laboration 4"
+              - label: "Laboration 5"
+            # - label: "Laboration 6"
+            # - label: "Laboration 7"
+            # - label: "Laboration 8"
+            # - label: "Laboration 9"
+            # - label: "Laboration 10"
+            # - label: "Laboration 11"
+            # - label: "Extra"

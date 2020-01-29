@@ -1,0 +1,64 @@
+// CODE HIGHLIGHT BOXES
+// ====================
+
+div.highlighter-rouge {
+    pre code {
+        font-size: 0.9em;
+        font-family: "Roboto Mono";
+    }
+
+    pre {
+        overflow-x: auto;
+        background-color: darken($bg-color, 3);
+        padding: 16px 20px;
+        margin: 24px 0;
+        border-radius: 2px;
+    }
+}
+
+code.highlighter-rouge {
+    font-size: 0.85em;
+    color: #d63200;
+    background-color: darken($bg-color, 3);
+    padding: 3px 5px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+p.info code.highlighter-rouge,
+p.warn code.highlighter-rouge {
+    background-color: darken($bg-color, 6);
+}
+
+// CODE HIGHLIGHT SYNTAX COLORS
+// ============================
+
+.language-js {
+    .highlight .c1 { color: darken($bg-color, 40); }
+    .highlight .cm { color: darken($bg-color, 40); }
+    .highlight .na { color: inherit; }
+    .highlight .dl { color: $highlight_green; }
+    .highlight .s2 { color: $highlight_green; }
+    .highlight .mi { color: $highlight_red; }
+    .highlight .mf { color: $highlight_red; }
+    .highlight .k { color: $highlight_red; }
+    .highlight .kc { color: $highlight_red; }
+    .highlight .kd { color: $highlight_blue; }
+    .highlight .nb { color: $highlight_blue; }
+}
+
+.language-html {
+    .highlight .c { color: darken($bg-color, 40); }
+    .highlight .cp { color: darken($bg-color, 40); }
+    .highlight .s { color: $highlight_red; }
+    .highlight .na { color: $highlight_green; }
+    .highlight .nt { color: $highlight_blue; }
+}
+
+.language-css {
+    .highlight .nf { color: $highlight_blue; }
+    .highlight .nc { color: $highlight_blue; }
+    .highlight .m { color: $highlight_red; }
+    .highlight .nb { color: $highlight_green; }
+    .highlight .no { color: $highlight_green; }
+}

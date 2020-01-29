@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+
+{% if page.title %}
+    <title>{{ page.title }} | {{ site.name }}</title>
+{% else %}
+    <title>{{ site.name }}</title>
+{% endif %}
+
+{% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+{% else %}
+    <meta name="description" content="{{ site.description }}">
+{% endif %}
+
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:400,400i,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- <script src="/assets/js/turbolinks.js"></script> -->

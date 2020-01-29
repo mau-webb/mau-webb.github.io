@@ -1,0 +1,75 @@
+{% if page.id %}
+
+{% assign r = site.data.resources[page.id] %}
+
+{%- capture site_root -%}
+    {% if site.resource_path %}{{ site.resource_path }}{% else %}resources{% endif %}
+{%- endcapture -%}
+
+{%- capture root_path -%}
+    {{ site_root }}/{% if r.path %}{{ r.path }}{% else %}{{ r.id }}{% endif %}
+{%- endcapture -%}
+
+<section class="sidebar">
+
+    <div class="brand-container">
+        <a href="/"><img src="/assets/images/logo_transparent_2.png"></a>
+        <div class="menu"><i class="icon-menu"></i></div>
+    </div>
+
+    {% if r.sidebar.label %}
+    <div class="sidebar-label-container">
+        <h4>{{ r.sidebar.label }}</h4>
+    </div>
+    {% endif %}
+
+    <div class="sidebar-items-container">
+    {% for outer_item in r.sidebar.items %}
+        {%- capture outer_path -%}
+            {{ root_path }}/{% if outer_item.path %}{{ outer_item.path }}{% else %}{{ outer_item.label | slugify }}{% endif %}
+        {%- endcapture -%}
+
+        {% unless outer_item.items %} 
+            {% if outer_item.root %}
+                <a href="/{{ root_path }}/" class="outer-link root">{{ outer_item.label }}</a>
+            {% elsif outer_item.url %}
+                <a href="{{ outer_item.url }}" target="_blank" class="outer-link external">{{ outer_item.label }}<i class="icon-forward"></i></a>
+            {% else %}
+                <a href="/{{ outer_path }}" class="outer-link">{{ outer_item.label }}</a>
+            {% endif %}
+        {% else %}
+        <div class="sidebar-inner-container {% if outer_item.open == true %}open{% else %}closed{% endif %}">
+            <h5>
+                {{ outer_item.label }}
+                <i class="icon-up-open"></i>
+                <i class="icon-down-open"></i>
+            </h5>
+
+            <ol class="sidebar-inner-links">
+                {% for inner_item in outer_item.items %}
+                {%- capture label -%}
+                    {% if outer_item.numbering %}{{ forloop.index }}. {{ inner_item.label }}{% else %}{{ inner_item.label }}{% endif %}
+                {%- endcapture -%}
+
+                <li>
+                    {% if inner_item.url %}
+                        <a href="{{ inner_item.url }}" target="_blank" class="inner-link external">{{ label }}<i class="icon-forward"></i></a>
+                    {% elsif inner_item.path %}
+                        <a href="/{{ outer_path }}/{{ inner_item.path }}" class="inner-link">{{ label }}</a>
+                    {% else %}
+                        <a href="/{{ outer_path }}/{{ inner_item.label | slugify }}" class="inner-link">{{ label }}</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+        {% endunless %}
+
+    {% endfor %}
+    </div>
+
+    <div class="back-container">
+        <a href="/">&larr; Startsidan</a>
+    </div>
+</section>
+{% endif %}

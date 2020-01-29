@@ -1,0 +1,19 @@
+$bg-color: rgb(245, 245, 245);
+$bg-color2: darken($bg-color, 3);
+$bg-color3: darken($bg-color, 4);
+$bg-color4: darken($bg-color, 6);
+$border: darken($bg-color, 10);
+
+$blue1: rgb(55, 79, 106);
+$blue2: darken($blue1, 6);
+$blue3: darken($blue1, 10);
+
+$blue-gray1: rgb(123, 138, 155);
+$blue-gray2: rgb(93, 112, 133);
+
+$purple1: #556cd6;
+$purple2: darken($purple1, 10);
+
+$highlight_green: #2aad4b;
+$highlight_blue: #057bd6;
+$highlight_red: #d63200;

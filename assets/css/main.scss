@@ -814,4 +814,11 @@ body.resource.closed {
             padding-left: 8px;
         }
     }
+
+    body.resource .content .content-inner p.info,
+    body.resource .content .content-inner p.warn,
+    body.resource .content .content-inner p.code-header {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }

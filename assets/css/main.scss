@@ -820,5 +820,14 @@ body.resource.closed {
     body.resource .content .content-inner p.code-header {
         margin-left: 12px;
         margin-right: 12px;
+
+        &::before {
+            margin-top: -12px;
+            left: -13px;
+            width: 22px;
+            height: 22px;
+            line-height: 22px;
+            font-size: 0.8em;
+        }
     }
 }

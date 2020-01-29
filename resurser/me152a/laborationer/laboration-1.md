@@ -51,8 +51,8 @@ main.js
 {: .code-header}
 
 ``` js
-// Här skapar vi två variabler, den ena innehåll text och den andra en siffra.
-// Ändra gärna dessa värden till erat namn och ålder
+// Här skapar vi två variabler, den första innehåller text och den andra en siffra.
+// Ändra gärna dessa värden till erat egna namn och ålder.
 let name = "Jane Doe";
 let age = 33;
 ```

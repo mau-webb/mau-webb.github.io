@@ -724,8 +724,8 @@ body.resource.closed {
             order: 1;
             flex: 1 1 0;
             width: 100%;
-            display: flex;
-            justify-content: flex-end;
+            display: block;
+            text-align: right;
         }
         nav a {
             padding: 12px 12px 12px 12px;
@@ -812,6 +812,22 @@ body.resource.closed {
         & > ol li,
         & > ul li {
             padding-left: 8px;
+        }
+    }
+
+    body.resource .content .content-inner p.info,
+    body.resource .content .content-inner p.warn,
+    body.resource .content .content-inner p.code-header {
+        margin-left: 12px;
+        margin-right: 12px;
+
+        &::before {
+            margin-top: -12px;
+            left: -13px;
+            width: 22px;
+            height: 22px;
+            line-height: 22px;
+            font-size: 0.8em;
         }
     }
 }

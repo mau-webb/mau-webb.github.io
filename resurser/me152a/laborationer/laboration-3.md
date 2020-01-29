@@ -63,7 +63,7 @@ All kod ska godkännas av [JSHint](https://jshint.com/).
 
 ## Uppgift 2
 
-#### A - Jämn och Ojämn
+#### A - Jämn och ojämn
 
 Återskapa följande utskrift (1 - 20).
 
@@ -126,7 +126,7 @@ console.log(num.toFixed(2));
 
 #### A - 2D
 
-Med utgångspunkt i den två dimensionella listan `nestedArray` nedan.
+Med utgångspunkt i den två-dimensionella listan `nestedArray` nedan.
 
 ``` js
 let nestedArray = [

@@ -724,8 +724,8 @@ body.resource.closed {
             order: 1;
             flex: 1 1 0;
             width: 100%;
-            display: flex;
-            justify-content: flex-end;
+            display: block;
+            text-align: right;
         }
         nav a {
             padding: 12px 12px 12px 12px;

@@ -330,7 +330,7 @@ let countries = ["Sweden", "Denmark", "Finland", "Norway"];
 
 ## Inlämning
 
-Innan ni lämnar in denna laboration så ska ni kontrollera att er JavaScript-fil innehåller lösningar på alla uppgifter och svar på alla frågor. Utöver detta ska ni även kopiera in er kod på [JSHint](https://jshint.com/). Denna tjänst kontrollerar att kvalitén på er kod är god och skriv ut kommentarer i högerspalten om något problem har uppstått. Frå ni något meddelande? Om så är fallet, kan ni lösa det? Om ni inte lyckats lösa kommentarerna från JSHint så anteckna detta vid er inlämning.
+Innan ni lämnar in denna laboration så ska ni kontrollera att er JavaScript-fil innehåller lösningar på alla uppgifter och svar på alla frågor. Utöver detta ska ni även kopiera in er kod på [JSHint](https://jshint.com/). Denna tjänst kontrollerar att kvalitén på er kod är god och skriver ut kommentarer i högerspalten om något problem har uppstått. Får ni något meddelande? Om så är fallet, kan ni lösa det? Om ni inte lyckats lösa kommentarerna från JSHint så anteckna detta vid er inlämning.
 
 Om ni stöter på kommentarer innehållande `ES6 (use 'esversion: 6')` så kan ni i högerspalten (högst upp) välja **Configure** och sedan klickar ni i **New JavaScript features (ES6)** för att slippa dessa kommentarer.
 {: .info}

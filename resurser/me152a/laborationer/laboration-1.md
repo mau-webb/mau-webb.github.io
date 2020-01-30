@@ -245,7 +245,7 @@ console.log("Uppgift 2.");
 // Er lösning
 ```
 
-Börja alltid lösningar på era uppgifter med en `console.log`.
+Börja alltid lösningar på era uppgifter med en `console.log("Uppgift x.")`.
 {: .info}
 
 ---
@@ -302,7 +302,7 @@ console.log(ages.length);
 
 ## Uppgift 4
 
-Från listan `numbers` nedan kan ni
+Från listan `numbers` nedan ska ni
 
 * skapa en variabel vars värde är summan av alla element.
 * skapa en variabel vars värde är medelvärdet av alla element.
@@ -316,7 +316,7 @@ let numbers = [128, 256, 512, 1024, 2048];
 
 ## Uppgift 5
 
-Från listan `countries` nedan kan ni
+Från listan `countries` nedan ska ni
 
 * skapa en variabel vars värde är de tre första bokstäverna av det andra elementet.
 * skapa en variabel vars värde är medelvärdet av antal bokstäver för alla dessa länder.

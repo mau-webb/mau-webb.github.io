@@ -257,7 +257,7 @@ Använd funktionerna `substring`, `toUpperCase` och `toLowerCase` för att skriv
 * Skriv ut `"LEARNING"` av `"It's Learning"`.
 * Skriv ut `"good parts"` av `"JavaScript: The Good Parts"`.
 * Skriv ut `"GOOD"` av `"JavaScript: The Good Parts"`.
-* Skriv ut `"Ent Java"` av `"Eloquent JavaScript"`.
+* Skriv ut `"ent Java"` av `"Eloquent JavaScript"`.
 
 Information om respektive funktion [finner ni här](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 

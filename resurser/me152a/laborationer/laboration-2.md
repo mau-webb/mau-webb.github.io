@@ -216,7 +216,8 @@ while (shouldContinue) {
 
 Genom kontrollstrukturen `while` kan vi få vårat program att fortsätta göra saker utan att vi själva behöver skriva en massa kod. Vi kan (genom kod) beskriva när vårt program ska sluta. I ovanstående exempel 1 kan vi se att våran sk. "while-loop" kommer att fortsätta skriva ut variabeln `counter` så länge denna är mindre än 10. Det vill säga att så länge våran kontroll i `while (...)` ger `true` kommer våran while-loop att fortsätta upprepa kodblocket inom `{ ... }`.
 
-**Observera** att om kodblocket *alltid* ger `true` kommer koden aldrig att sluta och det finns risk att din webbläsare krashar eller att du får starta om den.
+**Observera** att om kodblocket **alltid** ger `true` kommer koden aldrig att sluta och det finns risk att din webbläsare krashar eller att du får starta om den.
+{: .info}
 
 I exempel 2 väljer vi istället att ta användarens input genom `confirm` (som ger oss `true/false`) för att genom detta styra när vår while-loop ska sluta.
 

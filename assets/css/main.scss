@@ -337,8 +337,7 @@ body.resource .content {
         & > p,
         & > ul,
         & > ol,
-        & > div,
-        & > table {
+        & > div {
             max-width: 800px;
             margin-left: auto;
             margin-right: auto;
@@ -496,6 +495,42 @@ body.resource .content {
                 border-radius: 0 0 2px 2px;
             }
         }
+
+        table {
+            width: 100%;
+            max-width: 800px;
+            background-color: $bg-color2;
+            margin: 32px auto;
+            border-spacing: 0;
+            border-collapse: collapse;
+
+            thead th {
+                padding: 8px;
+                border-bottom: 1px solid $border;
+            }
+
+            tbody {
+
+                tr:nth-child(odd) {
+                    background-color: $bg-color4;
+                }
+
+                td {
+                    padding: 8px;
+                    border-bottom: 1px solid $border;
+                }
+            }
+        }
+
+        .video {
+            margin-top: 32px;
+            margin-bottom: 32px;
+            text-align: center;
+
+            iframe {
+                max-width: 100%;
+            }
+        }
     }
 }
 
@@ -561,6 +596,14 @@ body.resource.closed {
         margin-right: 64px;
         margin-left: 64px;
     }
+
+    body.resource .content .content-inner table {
+        max-width: 90%;
+    }
+
+    body.resource .content .content-inner table {
+        font-size: 90%;
+    }
 }
 
 @media screen and (max-width: 940px) {
@@ -606,6 +649,13 @@ body.resource.closed {
     body.resource .content {
         font-size: 90%;
     }
+
+    body.resource .content .content-inner table {
+        thead th,
+        tbody td {
+            padding: 4px 6px;
+        }
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -628,8 +678,7 @@ body.resource.closed {
         & > p,
         & > ul,
         & > ol,
-        & > div,
-        & > table {
+        & > div {
             padding-left: 48px;
             padding-right: 48px;
         }
@@ -682,8 +731,7 @@ body.resource.closed {
         & > p,
         & > ul,
         & > ol,
-        & > div,
-        & > table {
+        & > div {
             padding-left: 24px;
             padding-right: 24px;
         }
@@ -803,8 +851,7 @@ body.resource.closed {
         & > p,
         & > ul,
         & > ol,
-        & > div,
-        & > table {
+        & > div {
             padding-left: 12px;
             padding-right: 12px;
         }

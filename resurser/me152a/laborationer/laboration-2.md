@@ -26,7 +26,7 @@ All kod ska godkännas av [JSHint](https://jshint.com/).
 
 ## Uppgift 1
 
-Denna uppgift består av fem stycken deluppgifter (A - E). Dessa behandlar listor på olika vis och kräver att ni söker genom [dokumentationen](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) för att kunna färdigställa dem. Det rekommenderas att ni läser om följande funktioner: reverse, concat, push, join och indexOf.
+Denna uppgift består av fem stycken deluppgifter (A - E). Dessa behandlar listor på olika vis och kräver att ni söker genom [dokumentationen](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) för att kunna färdigställa dem. Det rekommenderas att ni läser på om följande funktioner: reverse, concat, push, join och indexOf.
 
 I kommentarerna nedan kan ni notera `// => ...`, denna kommentar visar på vilken utskrift ni bör få ut i webbkonsolen om ni gjort rätt.
 {: .info}

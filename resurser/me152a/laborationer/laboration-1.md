@@ -306,7 +306,7 @@ Från listan `numbers` nedan ska ni
 
 * skapa en variabel vars värde är summan av alla element.
 * skapa en variabel vars värde är medelvärdet av alla element.
-* skriva ut dessa två variabler i konsollen.
+* skriva ut dessa två variabler i webbkonsolen.
 
 ``` js
 let numbers = [128, 256, 512, 1024, 2048];
@@ -320,6 +320,7 @@ Från listan `countries` nedan ska ni
 
 * skapa en variabel vars värde är de tre första bokstäverna av det andra elementet.
 * skapa en variabel vars värde är medelvärdet av antal bokstäver för alla dessa länder.
+* skriva ut dessa två variabler i webbkonsolen.
 
 ``` js
 let countries = ["Sweden", "Denmark", "Finland", "Norway"];

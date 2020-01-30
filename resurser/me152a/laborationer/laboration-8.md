@@ -7,38 +7,31 @@ title: "Laboration 8"
 
 Syfte med laborationen:
 
-* att öva på att använda Document Object Model (DOM)
-* att kombinera tidigare kunskaper för att utnyttja funktionalitet via DOM
+* att öva på att använda Document Object Model (DOM).
+* att kombinera tidigare kunskaper med funktionalitet via DOM.
 
-Inlämning sker i form av en zippad mapp innehållande:
+Inlämning sker i form av en zippad mapp innehållande
 
-* en HTML-fil
-* en JavaScript-fil
-* lösningar på alla **Uppgifter** placeras i JavaScript-filen
-* all kod ska godkännas av [JSHint](http://jshint.com/)
+* en HTML-fil.
+* en JavaScript-fil.
+* lösningar på alla **Uppgifter** i JavaScript-filen.
 
-Rekommenderad läsning i samband med uppgifterna:
+All kod ska godkännas av [JSHint](https://jshint.com/).
+{: .info}
 
-* Funktionerna [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert), [prompt](https://developer.mozilla.org/en-US/docs/Web/API/window/prompt) och [confirm](https://developer.mozilla.org/en-US/docs/Web/API/window/confirm)
-* Metoden [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) för att köra en funktion vid ett sk. *event*, t.ex. när någon klickar på en knapp
-* Metoderna [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) och [document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) för att antingen hämta ett element baserat på deras ID eller baserat på en CSS-selector
-* Metoderna [document.createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) och [document.createTextNode](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode) för att skapa ett element och för att skapa en textnod (dvs. den text som användaren ser på skärmen)
-* Metoderna [.appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) och [.removeChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild) för att lägga till ett element i ett annat (eller en textnod) samt för att radera ett element
-* Attributen (på HTML-elementen, via DOM) [.children](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children), [.firstElementChild](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild) och [.lastElementChild](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/lastElementChild)
-
-**Observera** att längst ner i denna laboration finner ni några kodexempel ni kan bejaka.
+**I slutet av denna laboration finner ni både kodexempel och länkar till relevant dokumentation.**
 
 ---
 
 ## Uppgift 1
 
-I denna uppgift kommer ni bli tilldelad färdig HTML och CSS som ni fyller er HTML-fil med, detta innebär också att ni behöver endast tänka på JavaScript-koden i denna uppgift.
+I denna uppgift så kommer ni bli tilldelad färdig HTML- och CSS-kod, detta innebär att ni endast behöver fokusera på JavaScript-koden i denna uppgift.
 
-Uppgiften går ut på att en användare kan klicka på en av tre stycken knappar. Vid ett klick på en knapp så kommer en CSS-klass att läggas till på elementet `<div id="message-box">`. Vilken CSS-klass som läggs till beror på vilken knapp som användaren klickade på. Om ni tar en titt på HTML-koden så ser ni att varje knapp har ett eget ID - värdet av detta ID, t.ex. `success`, kommer vara den CSS-klass som läggs till.
+Uppgiften går ut på att en användare ska kunna klicka på en av tre stycken knappar. Vid ett klick på en av dessa så kommer en CSS-klass att läggas till på elementet `<div id="message-box">`. Vilken CSS-klass som läggs till beror på vilken knapp som användaren klickade på. Om ni tar en titt på HTML-koden så ser ni att varje knapp har ett eget `id`, det är värdet av detta `id` som ska läggas till som en ny CSS-klass.
 
-För att förtydliga: om användaren klickar på knappen `<button id="success">Success</button>` så kommer klassen `success` att läggas till på vårt element, dvs. att vårt element kommer därefter att se ut så här: `<div id="message-box" class="success"></div>`.
+Det vill säga, klickar användaren på knappen med `id="success"` så ska CSS-klassen `"success"` läggas till på vår `<div>`. Vilket hade resulterat i `<div id="message-box" class="success">`.
 
-För att lösa detta kommer ni behöva att hämta varje knapp och sedan lägga till en funktion som körs när en användare klickar på respektive knapp.
+För att lösa detta kommer ni behöva hämta respektive knapp och sedan lägga till en funktion som körs när en användare klickar på knappen.
 
 HTML
 {: .code-header}
@@ -83,9 +76,9 @@ CSS
 
 ## Uppgift 2
 
-#### A
+### Del A
 
-I denna uppgift ska göra så att när en användare klickar på knappen så ska en popup-ruta dyka upp, med hjälp av funktionen `prompt`, där besökaren kan fylla i en valfri text. Denna text ska sedan sparas som ett nytt list-element i listan. Grunden för HTML-koden finner ni nedan.
+I denna uppgift ska ni göra så att när en användare klickar på en knapp så ska en ruta dyka upp (`window.prompt`) där användaren kan fylla i en bit text. Denna text ska sedan sparas som ett nytt list-element i en lista. Utgå från HTML-koden nedan.
 
 ``` html
 <ul id="items">
@@ -95,7 +88,7 @@ I denna uppgift ska göra så att när en användare klickar på knappen så ska
 <button type="button" id="add-item">Add item</button>
 ```
 
-#### B
+### Del B
 
 Komplettera del **A** med ytterligare en knapp, ni väljer själva ID och knapptext, som raderar det sista elementet i listan varje gång användaren klickar på knappen.
 
@@ -103,10 +96,15 @@ Komplettera del **A** med ytterligare en knapp, ni väljer själva ID och knappt
 
 ## Uppgift 3
 
-I denna uppgift ska ni utgå från HTML-koden nedan. Er uppgift är att göra så att när användaren klickar på knappen "X" i ett av dessa list-element så ska det list-elementet raderas. Dvs. klickar jag på knappen "X" i list-elementet med texten "This is the first item" så ska hela det list-elementet raderas. **Innan** detta raderas måste dock användaren få chans att godkänna detta, det innebär att ni ska använda er av funktionen `confirm` för att säkerhetsställa att användaren faktiskt gör ett aktivt val att radera ett list-element.
+I denna uppgift ska ni utgå från HTML-koden nedan. Ni ska göra så att när en användare klickar på en av knapparna med texten "X" så ska list-elementet (där knappen är placerad) raderas.
 
-Använd er av variabeln `this` inuti den funktion som hanterar klick-eventet för respektive knapp. Ta även en titt på attributet [.parentElement](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement).
+Det vill säga, klickar jag på knappen "X" i det första list-elementet med texten "This is the first item" så ska hela detta list-element raderas. **Innan det raderas** ska användaren presenteras med en ruta för att godkänna detta (`window.confirm`) för att säkerhetsställa att det var ett aktivt val.
+
+Använd er av variabeln `this` i den funktion som hanterar klick-eventet. Ta då även en titt på attributet `.parentElement`.
 {: .info}
+
+HTML
+{: .code-header}
 
 ``` html
 <ul>
@@ -131,17 +129,20 @@ Använd er av variabeln `this` inuti den funktion som hanterar klick-eventet fö
 
 ---
 
-## Extrauppgift 1
+## Extrauppgift
 
-I den första extrauppgiften kommer ni att arbeta med formulär, detta är en lite större uppgift och är därför indelad i tre delar:
+I denna uppgift kommer ni att arbeta med ett formulär. Detta är en lite större uppgift och är därför indelad i tre delar:
 
 * **A:** Hämta det ifyllda innehållet från formuläret
 * **B:** Kontrollera att innehållet är korrekt ifyllt (validering)
-* **C:** Ge användaren feedback (genom CSS) om formuläret inte är komplett eller korrekt ifyllt
+* **C:** Ge användaren feedback (genom CSS) om formuläret inte är komplett eller inkorrekt ifyllt
 
-Ni kommer tilldelas färdig HTML för denna uppgiften. Det finns dock ingen CSS-kod och därmed är det inte speciellt användarvänligt - lägg därför gärna på lite grundläggande CSS så ni ökar användbarheten.
+Ni kommer tilldelas färdig HTML för denna uppgiften. Det finns dock ingen CSS-kod och därmed är det inte speciellt användarvänligt, skriv därför lite CSS som ökar användbarheten.
 
-Varje del (A, B, C) är påbyggnader av varandra och bör därför göras i den ordningen.
+Varje del (A, B, C) är påbyggnader av varandra och bör göras i den ordningen.
+
+HTML
+{: .code-header}
 
 ``` html
 <form method="get" action="" id="apply-for-pet">
@@ -174,14 +175,19 @@ Varje del (A, B, C) är påbyggnader av varandra och bör därför göras i den 
 </form>
 ```
 
-#### A
+---
 
-I del A ska ni hämta det ifyllda formuläret och logga ut all input i konsollen. Innan vi hämtar allt innehåll behöver vi dock utföra två saker:
+### Extrauppgift: Del A
 
-1. Hämta hela formuläret, dvs. `<form id="apply-for-pet">`
-2. Lyssna på när användaren skickar formuläret, så att vi kan logga ut all input innan innehållet skickas vidare, detta görs med eventet `submit`
+I del A ska ni hämta det ifyllda formuläret och skriva ut all input i webbkonsolen. Innan vi hämtar allt innehåll behöver vi dock utföra två saker:
 
-För att avbryta att formuläret inte skickas, t.ex. till en ny sida, så kan ni bejaka följande kod:
+1. Hämta hela formuläret och spara det i en variabel (`form`).
+2. Lyssna på när användaren skickar formuläret (eventet `submit`) så att vi kan skriva ut all input innan innehållet skickas vidare.
+
+För att förstå hur vi avbryter att formuläret skickare vidare användaren kan ni bejaka exemplet nedan:
+
+preventDefault
+{: .code-header}
 
 ``` js
 let form = /* hämta formuläret */;
@@ -202,37 +208,43 @@ function onSubmit(event) {
 form.addEventListener("submit", onSubmit);
 ```
 
-Syftet med del **A** är att logga ut allt innehåll i fälten - detta kommer göras i vår ovanstående funktion `onSubmit`. Nyckelordet `this` inuti denna funktion kan ses som att den innehåller hela formuläret (och därmed alla fälten). Dessa är sparade under attributet `this.elements`. Där respektive fält hämtas genom deras HTML-attribut `name=""`. Det vill säga att vill vi skriva ut texten för fältet `<input type="text" name="firstname" />` så kan vi skriva `console.log( this.elements.firstname.value );`. Testa att köra en `console.log` på `this.elements` för att se vad den innehåller.
+I denna del ska vi skriva ut allt innehåll från formuläret. Detta kommer vi göra i funktionen `onSubmit`. Nyckelordet `this` i denna funktion representerar formuläret och innehåller därför allt innehåll.
 
-Detta funkar för samtliga av våra element förutom våra checkboxar, eftersom där kan en användare välja flera val samtidigt. Det innebär att `this.elements.day` är en lista som innehåller varje checkbox. Eftersom det är en lista kan vi ju därför enkelt gå igenom denna med en for-loop. För att kontrollera att en checkbox är vald används attributet `.checked`, dvs. om vi skulle vilja kontrollera om måndag är valt hade vi skrivit `this.elements.day[0].checked`. Detta innebär att ni får nyttja en for-loop för att slutligen skriva ut vilka dagar användaren har klickat i.
+Allt innehåll sparas under `this.elements` och respektive fält finns under deras namn från HTML-koden (`name="..."`). Till exempel fältet `<input type="text" name="firstname" />` kommer sparas under `this.elements.firstname` och för att hämta värdet lägger vi till attributet `value`, det vills säga `this.elements.firstname.value`.
 
-#### B
+Detta fungerar på alla våra fält i formuläret **förutom** våra checkboxar, eftersom där kan användaren välja flera val samtidigt. Det innebär att `this.elements.day` är en lista av respektive checkbox. Eftersom det är en lista kan vi enkelt gå igenom denna med hjälp av en for-loop.
 
-I del **B** kommer ni att nyttja if-satser som kontrollerar respektive fält i förmuläret, kravlistan finner ni nedan. Skulle alla fälten vara korrekt ifyllda anropar ni `this.submit();` annars skriver ni ut ett kortare felmeddelande i konsollen.
+För att kontrollera att en checkbox är vald kan ni kontrollera att attributet `checked` är `true`. Till exempel om vi ska kontrollera den första checkboxen hade vi skrivit `this.elements.day[0].checked`.
 
-* Förnamn - får endast innehålla `0` till `50` bokstäver
-* Efternamn - får endast innehålla `0` till `50` bokstäver
-* Ålder - måste vara en `Number` och vara mer än `0`
-* Epost - får endast innehålla `0` till `50` bokstäver
-* Husdjur - ett husdjur måste vara valt
-* Dagar - en dag måste vara vald
+---
 
-#### C
+### Extrauppgift: Del B
 
-I del **C** ska ni påverka utseendet av formuläret baserat på om något av fälten är korrekt ifyllda eller inte. Detta görs enklast på ett av två vis. Antingen gör ni så att när en användare fyller i ett fält på ett inkorrekt vis så lägger ni till en CSS-klass på det fältet, t.ex. som gör att bakgrundsfärgen blir röd. Det andra alternativet är att ni gör detta med hjälp av JavaScript.
+I del **B** ska ni nyttja `if`-satser som kontrollerar att respektive fält i förmuläret är korrekt ifyllt (kravlistan finner ni nedan). Skulle alla fälten vara korrekt ifyllda anropar ni `this.submit();` annars skriver ni ut ett kortare felmeddelande i webbkonsolen.
 
-För att påverka utseendet (CSS) med JavaScript använder vi oss av attributet `.style`. Det innebär att om vi skulle vilja göra bakgrundsfärgen röd på fältet med förnamnet hade vi kunnat skriva `this.elements.firstname.style.background = "red";`. Det vill säga att attributen efter `.style` är detsamma som i CSS: `.style.background = "red";` är det samma som `{ background: red; }` i CSS.
+* Förnamn: får endast innehålla `0` till `50` bokstäver
+* Efternamn: får endast innehålla `0` till `50` bokstäver
+* Ålder: måste vara en `Number` och vara mer än `0`
+* Epost: får endast innehålla `0` till `50` bokstäver
+* Husdjur: ett husdjur måste vara valt
+* Dagar: en dag måste vara vald
 
-Baserat på kravlistan i del **B** så ska ni nu göra så att om ett fält inte är korrekt ifyllt så ska utseendet reflektera detta.
+---
 
-Tänk på att radioknapparna och checkboxarna ligger i varsin `<div>`, det är förmodligen enklast att påverka utseendet på den.
+### Extrauppgift: Del C
+
+I del **C** ska ni påverkat utseende av fälten i formuläret om någonting inte är korrekt ifyllt. Detta görs enklast genom att lägga till en CSS-klass när någonting är inkorrekt ifyllt. Denna CSS-klass kan till exempel ändra bakgrundsfärgen till röd eller någonting annat som fångar användarens uppmärksamhet.
+
+Baserat på den kravlista ni fann i del **B** så ska ni nu även ändra utseendet när ett fällt är inkorrekt ifyllt.
+
+Tänk på att radioknapparna och checkboxarna ligger i varsin `<div>`, det är därför förmodligen enklast att påverka utseendet på den.
 {: .info}
 
 ---
 
 ## Kodexempel
 
-Att skapa ett element
+Skapa ett element
 {: .code-header}
 
 ``` js
@@ -248,17 +260,17 @@ p.appendChild(textNode);
 
 // Hämta vår <body>
 let body = document.querySelector("body");
-// Lägg till vårt stycke sist
+// Lägg till vårt stycke sist i <body>
 body.appendChild(p);
 ```
 
-Att radera ett element
+Radera ett element
 {: .code-header}
 
 ``` js
 // Vi utgår från följande HTML
 // <p id="info">
-//     Lite exempel innehåll <a href="google.com" id="link">här.</a>
+//     Lite innehåll <a href="google.com" id="link">här.</a>
 // </p>
 
 // Hämta de element vi arbetar med
@@ -269,7 +281,7 @@ let a = document.getElementById("link");
 p.removeChild(a);
 ```
 
-Att lägga till ett event på ett element
+Lyssna på ett event (t.ex. klick)
 {: .code-header}
 
 ``` js
@@ -296,5 +308,18 @@ function onMyButtonClick(event) {
 button.addEventListener("click", onMyButtonClick);
 ```
 
-Metoden `.addEventListener` tar emot två argument: **1** vilket event (t.ex. *click*) och **2** vilken funktion som ska köras när ett event sker. Denna funktion, som ni själva skapar, blir anropad med ett argument. Detta argument brukar ges benämningen `event` och är ett objekt innehållande, bland annat, information om vilket element som användaren klickade på.
+Metoden `addEventListener` tar emot två argument. Det **första** är vilket event det gäller (t.ex. "click") och det **andra** är vilken funktion som ska köras när detta event sker. När detta event sker anropas denna funktion med ett argument (vilket ofta döps till `event`) som innehåller information om eventet.
 {: .info}
+
+---
+
+## Dokumentation
+
+Rekommenderad läsning i samband med uppgifterna:
+
+* Funktionerna [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert), [prompt](https://developer.mozilla.org/en-US/docs/Web/API/window/prompt) och [confirm](https://developer.mozilla.org/en-US/docs/Web/API/window/confirm).
+* [.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) för att köra en funktion vid ett **event**.
+* [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) och [document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) för att antingen hämta ett element baserat på deras ID eller på en CSS-selector.
+* [document.createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) och [document.createTextNode](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode) för att skapa ett element och för att skapa en textnod.
+* [.appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) och [.removeChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild) för att lägga till ett element i ett annat (eller en textnod) samt för att radera ett element.
+* Attributen [.children](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children), [.firstElementChild](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild) och [.lastElementChild](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/lastElementChild).

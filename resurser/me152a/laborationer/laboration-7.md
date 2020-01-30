@@ -9,34 +9,39 @@ Syfte med laborationen:
 
 * att fortsätta öva på att använda sig av objekt i olika situationer.
 * att öva på att använda sig av attributet `prototype` i samband med objekt.
-* att fortsätta öva på att använda kontrollstrukturer, loopar och funktioner.
+* att fortsätta öva på att använda kontrollstrukturerna loopar och funktioner.
 
-Inlämning sker i form av en mapp (zippad) innehållande:
+Inlämning sker i form av en mapp (zippad) innehållande
 
-* en HTML-fil
-* en JavaScript-fil
-* lösningar på alla **Uppgifter** placeras i JavaScript-filen
-* all kod ska godkännas av [JSHint](http://jshint.com/)
+* en HTML-fil.
+* en JavaScript-fil.
+* lösningar på alla **Uppgifter** i JavaScript-filen.
 
-**Observera** att alla funktioner ni skapar ska ha en kommentar där ni beskriver följande:
+All kod ska godkännas av [JSHint](https://jshint.com/).
+{: .info}
 
-* vad funktionen tar emot för argument
-* vad funktionen returnerar
-
-När ni skapar ett objekt ska ni **alltid** använda er av operatorn `new` framför, dvs. `let p = new Person();`.
+Alla funktioner **ska** innehålla en kommentar som kort beskriver vad funktionens **syfte** är (vad den gör), vad den **tar emot** (argument) och vad den **returnerar**.
 {: .info}
 
 ---
 
 ## Uppgiften
 
-Denna laboration består av **en** uppgift och är således en aning mer omfattande än tidigare uppgifter. Konceptet för denna uppgift är att skapa en *kalender* som hanterar ett obestämt antal *events*. Detta innebär att ni kommer skapa objekt som representerar dessa, dvs. `Calendar` och `Event`. I jämförelse med föregående laboration kommer dessa objekt och deras funktioner att skapas genom att använda er av prototyp-kedjan (ett exempel på hur detta fungerar presenteras längre ned).
+Denna laboration består av **en** större uppgift. Konceptet för denna uppgift är att ni ska skapa en kalender som innehåller evenemang, där vi har möjlighet att hantera dessa på olika vis (lägga till, ta bort, filtrera, osv.). Detta innebär att ni kommer skapa objekten `Calendar` och `Event` för att representera detta koncept. Dessa kommer ha diverse attribut och metoder som beskrivs längre ner. När ni skapar metoderna för dessa objekt kommer detta göras genom attributet `prototype`.
 
-Ni kommer få en beskrivning över *vad* ni ska implementera, men *hur* ni väljer att göra det är upp till er själva - då det är möjligt att lösa detta på olika vis.
+Här finner ni mer dokumenation om attributet [prototype](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes).
+{: .info}
 
-#### Exempel på prototyp
+Innan ni börjar med själva uppgiften så kan ni läsa igenom exemplet nedan för att ha en grund att utgå ifrån.
 
-För att få en kortare praktiskt introduktion till objekt med tillhörande funktioner genom `prototype` kan ni bejaka exemplet nedan:
+---
+
+## Exempel: Person
+
+För att praktiskt experimentera med attributet `prototype` kan ni utgå från exemplet nedan. Detta kan ni sedan nyttja som en mall till själva uppgiften.
+
+Person
+{: .code-header}
 
 ``` js
 // Vårt objekt (dvs. vår konstruktor-funktion)
@@ -46,81 +51,80 @@ function Person(firstname, lastname, age) {
     this.age = age;
 }
 
-// Funktionen (också kallat metod) `getFullName` returnerar
-// för- och efternamn tillsammans separerat med ett mellanslag.
+// Vår metod (funktion) `getFullName` returnerar för- och efternamn
+// tillsammans separerat med ett mellanslag.
 Person.prototype.getFullName = function() {
     return this.firstname + " " + this.lastname;
 };
 
-// Funktionen `sayHello` returnerar en kortare hälsning innehållande
-// både för- och efternamn samt åldern.
+// Metoden `sayHello` returnerar en kortare hälsning innehållande både
+// för- och efternamn samt åldern.
 Person.prototype.sayHello = function() {
     return "Hello my name is " + this.getFullName() + " and I'm " + this.age + " years old";
 };
 
-// Funktionen `toString` är en speciell funktion då gör det möjligt att
-// påverka utskriften när objektet anropas av funktionen `String`
+// Metoden `toString` är en unik funktion, när denna finns så kan vi styra
+// utskriften av vårt objekt
 Person.prototype.toString = function() {
     return this.getFullName() + " (" + this.age + ")";
 };
 
-// Observera att vi använder oss av operatorn `new`
+// Skapa en ny instans (ett nytt objekt)
 let sherlock = new Person("Sherlock", "Holmes", 38);
 console.log(sherlock);
+// I webbkonsolen kan ni klicka runt i objektet för att se alla attribut
 
 let name = sherlock.getFullName();
 console.log(name);
+// => "Sherlock Holmes"
 
 let greeting = sherlock.sayHello();
 console.log(greeting);
+// => "Hello my name is Sherlock Holmes and I'm 38 years old"
 
-// Observera vad som händer när vi konverterar vårt objekt till en sträng
-// - om vi definierat en `toString` funktion så anropas den.
-console.log( String(sherlock) );
+// Om vi konvertera vårt objekt till en sträng så anropas metoden `toString`
+console.log(String(sherlock));
+// Vad får vi för utskrift?
 ```
-
-Kopiera och pröva ovanstående kodexempel för att känna på hur det fungerar.
 
 ---
 
-### Event
+## Event
 
-Objektet `Event` kommer att innehålla tre stycken attribut: day, tid och plats. Dessa tre attribut kommer att kunna hämtas från detta objekt genom tre funktioner (dvs. **metoder**). Nedan listas implementationsbeskrivningen.
+Objektet `Event` kommer att innehålla tre stycken attribut: dag, tid och plats. Dessa tre attribut kommer att kunna hämtas från detta objekt genom tre metoder (funktioner). Nedan listas implementationsbeskrivningen.
 
 * Konstruktornamn: `Event`
-* Argument till konstruktorn (samt de attribut som ska finnas):
-    * `day` - sträng i formatet `Monday`, `Tuesday`, osv.
-    * `time` - sträng i formatet `12:00`, `14:45`, osv.
-    * `place` - sträng i formatet `Stockholm`, `Malmö Arena`, osv.
+* Argument till konstruktorn **och** de attribut som objektet ska ha:
+    * `day`, sträng, t.ex. `"Monday"`, `"Tuesday"`.
+    * `time`, sträng, t.ex. `"12:00"`, `"14:45"`.
+    * `place`, sträng, t.ex. `"Stockholm"`, `"Malmö Arena"`.
 * Metoder:
-    * `getDay` - inga argument, returnerar `day`
-    * `getTime` - inga argument, returnerar `time`
-    * `getPlace` - inga argument, returnerar `place`
-    * `toString` - inga argument, returnerar en sträng i formatet (exempel) `Stockholm @ Monday (12:00)`
+    * `getDay`, inga argument, returnerar `day`.
+    * `getTime`, inga argument, returnerar `time`.
+    * `getPlace`, inga argument, returnerar `place`.
+    * `toString`, inga argument, returnerar en sträng i formatet `"Stockholm @ Monday (12:00)"`.
+
+### Exempel på utskrift
+
+![Exempelutskrift: Event](../images/example_event_complete.png) _Figur 1. Skärmdump av objektet Event._
 
 ---
     
-### Calendar
+## Calendar
 
-Objektet `Calendar` kommer att innehålla ett attribut: events. Utöver detta kommer den innehålla en mängd olika metoder som hanterar dessa på olika vis. Nedan listas implementationsbeskrivningen.
+Objektet `Calendar` kommer att innehålla ett attribut: evenemang. Utöver detta kommer den innehålla en mängd olika metoder som hanterar dessa evenemang på olika vis. Nedan listas implementationsbeskrivningen.
 
 * Konstruktornamn: `Calendar`
-* Argument till konstruktorn (samt de attribut som ska finnas):
-    * `events` - en lista, antingen tom eller fylld av ett eller flera `Event`
+* Argument till konstruktorn **och** de attribut som objektet ska ha:
+    * `events`, lista, 
 * Metoder:
-    * `getEvents` - inga argument, returnerar listan över alla events
-    * `addEvent` - tar emot ett argument i form av ett event och lägger sedan till detta i listan över events, returnerar `undefined`
-    * `clearEvents` - inga argument, tömmer listan av events (dvs. det blir en tom lista), returnerar `undefined`
-    * `getEventsByDay` - tar emot ett argument i form av en sträng (`day`) och returnerar en lista över de events som sker på denna dag
-    * `getEventsByTime` - tar emot ett argument i form av en sträng (`time`) och returnerar en lista över de events som sker på denna tid
-    * `getEventsByPlace` - tar emot ett argument i form av en sträng (`place`) och returnerar en lista över de events som sker på denna plats
+    * `getEvents`, inga argument, returnerar `events`.
+    * `addEvent`, tar emot ett argument i form av ett `event` och lägger till det i listan `events`.
+    * `clearEvents`, inga argument, tömmer listan `events` (så listan blir tom).
+    * `getEventsByDay`, tar emot ett argument i form av en sträng (`day`) och returnerar en lista över de events som sker på denna dag.
+    * `getEventsByTime`, tar emot ett argument i form av en sträng (`time`) och returnerar en lista över de events som sker på denna tid.
+    * `getEventsByPlace`, tar emot ett argument i form av en sträng (`place`) och returnerar en lista över de events som sker på denna plats.
 
----
+### Exempel på utskrift
 
-## Exempel på utskrifter
-
-Nedan visas två skärmdumpar på exempelutskrifter från respektive objekt.
-
-![Exempelutskrift: Event](../images/example_event_complete.png) _Figur 1. Event_
-
-![Exempelutskrift: Calendar](../images/example_calendar_complete.png) _Figur 2. Calendar_
+![Exempelutskrift: Calendar](../images/example_calendar_complete.png) _Figur 2. Skärmdump av objektet Calendar._

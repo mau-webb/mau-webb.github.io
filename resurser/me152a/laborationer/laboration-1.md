@@ -178,7 +178,7 @@ console.log("Uppgift 1.");
 
 // Ersätt frågetecknet med en av de operatorer som listats ovan
 console.log(5 * 2 ? 12);
-console.log(55 ? 22 ;
+console.log(55 ? 22);
 console.log(16 / 4 ? 4);
 console.log(8 + 2 ? 128);
 console.log(32 * 8 ? 255);
@@ -245,7 +245,7 @@ console.log("Uppgift 2.");
 // Er lösning
 ```
 
-Börja alltid lösningar på era uppgifter med en `console.log`.
+Börja alltid lösningar på era uppgifter med en `console.log("Uppgift x.")`.
 {: .info}
 
 ---
@@ -257,7 +257,7 @@ Använd funktionerna `substring`, `toUpperCase` och `toLowerCase` för att skriv
 * Skriv ut `"LEARNING"` av `"It's Learning"`.
 * Skriv ut `"good parts"` av `"JavaScript: The Good Parts"`.
 * Skriv ut `"GOOD"` av `"JavaScript: The Good Parts"`.
-* Skriv ut `"Ent Java"` av `"Eloquent JavaScript"`.
+* Skriv ut `"ent Java"` av `"Eloquent JavaScript"`.
 
 Information om respektive funktion [finner ni här](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
@@ -302,11 +302,11 @@ console.log(ages.length);
 
 ## Uppgift 4
 
-Från listan `numbers` nedan kan ni
+Från listan `numbers` nedan ska ni
 
 * skapa en variabel vars värde är summan av alla element.
 * skapa en variabel vars värde är medelvärdet av alla element.
-* skriva ut dessa två variabler i konsollen.
+* skriva ut dessa två variabler i webbkonsolen.
 
 ``` js
 let numbers = [128, 256, 512, 1024, 2048];
@@ -316,10 +316,11 @@ let numbers = [128, 256, 512, 1024, 2048];
 
 ## Uppgift 5
 
-Från listan `countries` nedan kan ni
+Från listan `countries` nedan ska ni
 
 * skapa en variabel vars värde är de tre första bokstäverna av det andra elementet.
 * skapa en variabel vars värde är medelvärdet av antal bokstäver för alla dessa länder.
+* skriva ut dessa två variabler i webbkonsolen.
 
 ``` js
 let countries = ["Sweden", "Denmark", "Finland", "Norway"];
@@ -329,7 +330,7 @@ let countries = ["Sweden", "Denmark", "Finland", "Norway"];
 
 ## Inlämning
 
-Innan ni lämnar in denna laboration så ska ni kontrollera att er JavaScript-fil innehåller lösningar på alla uppgifter och svar på alla frågor. Utöver detta ska ni även kopiera in er kod på [JSHint](https://jshint.com/). Denna tjänst kontrollerar att kvalitén på er kod är god och skriv ut kommentarer i högerspalten om något problem har uppstått. Frå ni något meddelande? Om så är fallet, kan ni lösa det? Om ni inte lyckats lösa kommentarerna från JSHint så anteckna detta vid er inlämning.
+Innan ni lämnar in denna laboration så ska ni kontrollera att er JavaScript-fil innehåller lösningar på alla uppgifter och svar på alla frågor. Utöver detta ska ni även kopiera in er kod på [JSHint](https://jshint.com/). Denna tjänst kontrollerar att kvalitén på er kod är god och skriver ut kommentarer i högerspalten om något problem har uppstått. Får ni något meddelande? Om så är fallet, kan ni lösa det? Om ni inte lyckats lösa kommentarerna från JSHint så anteckna detta vid er inlämning.
 
 Om ni stöter på kommentarer innehållande `ES6 (use 'esversion: 6')` så kan ni i högerspalten (högst upp) välja **Configure** och sedan klickar ni i **New JavaScript features (ES6)** för att slippa dessa kommentarer.
 {: .info}

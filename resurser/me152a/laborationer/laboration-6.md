@@ -10,33 +10,36 @@ Syfte med laborationen:
 * att öva på att använda sig av objekt i olika situationer.
 * att fortsätta öva på att använda kontrollstrukturer, loopar och funktioner.
 
-Inlämning sker i form av en mapp (zippad) innehållande:
+Inlämning sker i form av en mapp (zippad) innehållande
 
-* en HTML-fil
-* en JavaScript-fil
-* lösningar på alla **Uppgifter** placeras i JavaScript-filen
-* all kod ska godkännas av [JSHint](http://jshint.com/)
+* en HTML-fil.
+* en JavaScript-fil.
+* lösningar på alla **Uppgifter** i JavaScript-filen.
 
-**Observera** att alla funktioner ni skapar ska ha en kommentar där ni beskriver följande:
-
-* vad funktionen tar emot för argument
-* vad funktionen returnerar
+All kod ska godkännas av [JSHint](https://jshint.com/).
+{: .info}
 
 ---
 
 ## Uppgift 1
 
-#### A
+### A: Box
+
+Skapa en `if`-sats som kontrollerar om objektet `box` har attributet `area`. Om detta attribut finns och är **mer än** 200 så skriver ni ut `"The box is large!"` annars skriver ni ut `"The box is small."`. Om attributet **inte** finns ska ni **räkna ut** arean och sedan **lägga till** detta attribut (med det uträknade värdet) till objektet `box`, sedan skriver ni ut `"This box has an area of x"` (ersätt x med den uträknade arean).
+
+Box
+{: .code-header}
 
 ``` js
 let box = { width: 12, height: 16 };
 ```
 
-Skapa en if-sats som kontrollerar om objektet ovan har attributet `area`, om detta finns ska ni skriva ut `A large box` om arean är mer än 200 annars skriver ni ut `A small box`. Om attributet **inte** finns ska ni räkna ut arean och sedan lägga till detta attribut med det uträknade värdet samt skriva ut `This box has an area of ...`.
+### B: Person
 
-#### B
+Skapa objektet `person` innehållande attributen: för- och efternamn, ålder och en lista av filmtitlar (allting kan vara fiktivt). Ni ska sedan nyttja detta objekt för att skapa följande utskrift (notera både radbryt och indentering).
 
-Skapa ett objekt innehållande attributen för- och efternamn, ålder, och en lista av filmtitlar - alla dessa kan vara fiktiva. Med detta objekt ska ni skapa följande utskrift:
+Exempelutskrift
+{: .code-header}
 
 ```
 Sherlock Holmes (38) likes the following titles:
@@ -45,18 +48,22 @@ Sherlock Holmes (38) likes the following titles:
     - The Holiday
 ```
 
-**Observera** att ni ersätter denna exempeldata med er egen fiktiva data.
+**Ersätt** ovanstående exempel med er egen fiktiva data.
 
 ---
 
 ## Uppgift 2
 
-#### A
+### A: User
 
-Ni ska använda er av en for-loop för att skriva ut samtliga av dessa attribut. För att använda sig av en for-loop i kombination med ett objekt [kan ni läsa mer här](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in).
+Ni ska använda er av en for-loop för att skriva ut samtliga värden av dessa attribut. Det är **inte** tillåtet att använda sig av `console.log(user.firstname);` och så vidare. För att använda sig av en for-loop i kombination med ett objekt kan ni läsa om "[for ... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)".
+
+User
+{: .code-header}
 
 ``` js
-let person = {
+let user = {
+    id: "85Fd0eRYg2a",
     firstname: "Jane",
     lastname: "Doe",
     age: 31,
@@ -67,51 +74,77 @@ let person = {
 };
 ```
 
-#### B
+### B: getAttributes
 
-Ni ska skapa funktionen `getAttributes` som tar emot ett argument, ett objekt, och returnerar alla attribut från detta objekt i en lista. Nedan visas ett exempel.
+Skapa funktionen `getAttributes` som tar emot ett argument (objekt) och sedan returnerar alla attribut från detta objekt i form av en lista av strängar.
+
+getAttributes
+{: .code-header}
 
 ``` js
 let box = { width: 12, height: 16 };
-let boxAttrs = getAttributes(box);
-console.log(boxAttrs); // => ["width", "height"]
+let boxAttributes = getAttributes(box);
+
+console.log(boxAttributes);
+// => ["width", "height"]
+
+let cat = { sound: "Meow", legs: 4 };
+let catAttributes = getAttributes(cat);
+
+console.log(catAttributes);
+// => ["sound", "legs"];
 ```
 
 ---
 
 ## Uppgift 3
 
-#### A
+### A: Rectangle
 
-Ni ska skapa en så kallad konstruktor-funktion. Denna ska ha namnet `Rectangle` och tar emot två stycken argument, båda siffror, höjd och bredd. Denna funktion ska bilda ett objekt som har följande attribut:
+Skapa en så kallad konstruktor-funktion med namnet `Rectangle`. Denna funktion ska ta emot två stycken argument (siffror), höjd och bredd. Detta objekt ska ha följande attribut:
 
-* `height` (det första argumentet)
-* `width` (det andra argumentet)
-* En metod (funktion) vid namn `area` som vid anrop räknar ut rektangelns area och returnerar denna
+* `height` (det första argumentet).
+* `width` (det andra argumentet).
+* Metoden (en funktion) `area` som räknar ut och returnera rektangelns area.
+
+Rectangle
+{: .code-header}
 
 ``` js
 // Skapa en rektangel där vi anger höjd och bredd
-let rec = Rectangle(15, 12);
+let rec = new Rectangle(15, 12);
 
 // Kontrollera att våra attribut stämmer
-console.log(rec.height); // => 15
-console.log(rec.width); // => 12
-console.log(rec.area()); // => 180
+console.log(rec.height);
+// => 15
+console.log(rec.width);
+// => 12
+console.log(rec.area());
+// => 180
 ```
 
-#### B
+Här hittar ni dokumentation om  operatorn [new](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new).
+{: .info}
 
-Ni ska skapa en funktion som filtrerar en lista av rektanglar baserat på deras area. Funktionen ska heta `filterByArea` och tar emot två stycken argument. Det **första** argumentet representerar den minsta area en rektangel måste ha för att passera filtreringen och det **andra** argumentet är själva lista över rektanglar.
+### B: filterByArea
+
+Skapa funktionen `filterByArea` som ska filtrera en lista av rektanglar baserat på deras area. Funktionen ska ta emot två stycken argument (en lista och en siffra). Det **första** argumentet är en lista av rektanglar som ska filtreras. Det **andra** argumentet är den area som vi ska filtrera på, om en rektangels area är **mindre än** detta argument ska den filtreras bort.
+
+filterByArea
+{: .code-header}
 
 ``` js
-let rec1 = Rectangle(5, 3);
-let rec2 = Rectangle(7, 9);
-let rec3 = Rectangle(12, 14);
+// Respektive rektangel
+let r1 = new Rectangle(5, 3);   // Area: 15
+let r2 = new Rectangle(7, 9);   // Area: 63
+let r3 = new Rectangle(12, 14); // Area: 168
 
-let rectangles = [rec1, rec2, rec3];
-let filteredRectangles = filterByArea(150, rectangles);
+// Alla rektanglar tillsammans
+let rectangles = [r1, r2, r3];
 
-// Denna utskrift bör ge er en lista innehållande en rektangel,
-// eftersom vi valde att filtrera på en area av 150.
+// Filtrera bort alla rektanglar vars area är mindre än 150
+let filteredRectangles = filterByArea(rectangles, 150);
+
+// Detta bör ge er en utskrift av en lista endast innehållande rektangel nr 3.
 console.log(filteredRectangles);
 ```

@@ -521,6 +521,16 @@ body.resource .content {
                 }
             }
         }
+
+        .video {
+            margin-top: 32px;
+            margin-bottom: 32px;
+            text-align: center;
+
+            iframe {
+                max-width: 100%;
+            }
+        }
     }
 }
 

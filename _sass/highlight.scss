@@ -56,8 +56,13 @@ p.warn code.highlighter-rouge {
 }
 
 .language-css {
+    .highlight .c { color: darken($bg-color, 40); }
+    .highlight .cm { color: darken($bg-color, 40); }
+    .highlight .nt { color: $highlight_blue; }
     .highlight .nf { color: $highlight_blue; }
     .highlight .nc { color: $highlight_blue; }
+    .highlight .k { color: $highlight_blue; }
+    .highlight .nd { color: $highlight_red; }
     .highlight .m { color: $highlight_red; }
     .highlight .nb { color: $highlight_green; }
     .highlight .no { color: $highlight_green; }

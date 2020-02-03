@@ -7,39 +7,41 @@ title: "Laboration 11"
 
 Syfte med laborationen:
 
-* att öva på att använda ett JavaScript-bibliotek (jQuery)
-* att fortsätta öva på att använda funktioner för att hämta extern data
-* att fortsätta öva på att använda Document Object Model (DOM)
+* att öva på att använda ett JavaScript-bibliotek (jQuery).
+* att fortsätta öva på att använda funktioner för att hämta extern data.
+* att fortsätta öva på att använda Document Object Model (DOM).
 
-Inlämning sker i form av en zippad mapp innehållande:
+Inlämning sker i form av en zippad mapp innehållande
 
-* en HTML-fil
-* en JavaScript-fil
-* lösningar på **Uppgifter** placeras i JavaScript-filen
-* all kod ska godkännas av [JSHint](http://jshint.com/)
+* en HTML-fil.
+* en JavaScript-fil.
+* lösningar på **Uppgifter** i JavaScript-filen.
 
-Övrigt:
+All kod ska godkännas av [JSHint](https://jshint.com/).
+{: .info}
 
-* [ladda ner biblioteket här](https://code.jquery.com/jquery-3.3.1.min.js)
-* [dokumentationen för jQuery finner ni här](http://api.jquery.com/)
+**jQuery:**
+
+* [Dokumentation: jQuery](http://api.jquery.com/)
+* [Ladda ner jQuery](https://jquery.com/download/) ("Download the compressed ...")
 
 ---
 
 ## Inledning
 
-Ett av de vanligaste JavaScript-biblioteken i produktion idag är [jQuery](https://jquery.com/) (även om bibliotek som React m.m. är mer populära). Det är ett bibliotek vars funktionalitet är väldigt bred och generell, detta innebär att med hjälp av detta kan vi skapa allt ifrån animationer, bildspel, till att hämta information från ett API och så vidare. Således kan detta bibliotek även ses som att det "förenklar" den process ni tidigare genomgått när ni arbetat med funktionerna för Document Object Model.
-
-jQuery finns i ett flertal olika versioner med för- och nackdelar med varje. Ni finner [en version att ladda ned här](https://code.jquery.com/jquery-3.3.1.min.js).
-{: .info}
+Ett av de vanligaste JavaScript-biblioteken i produktion idag är [jQuery](https://jquery.com/) (även om bibliotek som React, Angular, och Vue.js är mer populära). Det är ett bibliotek vars funktionalitet är väldigt bred och generell, detta innebär att med hjälp av detta kan vi skapa allt ifrån animationer, bildspel, till att hämta information från ett API och så vidare. Således kan detta bibliotek även ses som att det "förenklar" den process ni tidigare genomgått när ni arbetat med funktionerna för Document Object Model.
 
 Som med alla andra JavaScript-filer måste vi inkludera jQuery i vårt HTML-dokument.
+
+HTML
+{: .code-header}
 
 ``` html
 <!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Laboration 12</title>
+        <title>Laboration 11</title>
     </head>
     <body>
         <!-- Inkludera jQuery -->
@@ -165,7 +167,7 @@ $("li.item").each(function() {
 // Vi kan även hämta JSON från en URL (t.ex ett API)
 
 // Den URL vi vill hämta ifrån
-let url = "https://api.dryg.net/dagar/v2.1/2019/03/18";
+let url = "https://api.dryg.net/dagar/v2.1/2020/02/02";
 
 $.getJSON(url, function(response) {
     // Gör något med `response`
@@ -184,23 +186,26 @@ $("#message").slideUp();
 $("#message").slideDown();
 ``` 
 
-Det som presenterats ovan är ett mindre urval av all den funktionalitet som finns tillgängligt genom biblioteket jQuery. De har givetvis en dokumentationssida där ni finner mer utförliga exempel, ibland kan det även vara värt att söka på webben för ytterligare exempel.
+Det som presenterats ovan är ett mindre urval av all den funktionalitet som finns tillgänglig genom biblioteket jQuery. De har givetvis en dokumentationssida där ni finner mer utförliga exempel, ibland kan det även vara värt att söka på webben för ytterligare exempel.
 
 ---
 
 ## Uppgiften
 
-Tanken med denna uppgift är att ni ska nyttja kärnfunktionalitet från biblioteket jQuery samt använda er av API:et [http://jservice.io](http://jservice.io). Med hjälp av jQuery och detta API ska ni skapa ett minimalt frågespel där ni (utöver API:et) måste använda er av jQuery-metoderna som listas nedan. Ni ska även använda er av CSS för att göra ert spel mer tilltalande och användbart.
+Tanken med denna uppgift är att ni ska nyttja kärnfunktionalitet från biblioteket jQuery samt använda er av API:et [http://jservice.io](http://jservice.io). Med hjälp av jQuery och detta API ska ni skapa ett minimalt frågespel där ni (utöver API:et) måste använda er av jQuery-funktionerna som listas nedan. Ni ska även använda er av CSS för att göra ert spel mer tilltalande och användbart.
 
-* `.getJSON()` - används för att hämta data (t.ex. från ett API)
-* `.on()` - används på samma vis som `.addEventListener()`
-* `.text()` eller `.html()` - dessa används för att ändra text respektive HTML för ett element
-* `.fadeIn()` - används för att animera synligheten (från osynlig till synlig) på ett element (t.ex. kan ni "animera in" resultatet från en förfrågan av ett API)
-* `.append()` - används på samma sätt som för `.appendChild()`, men med mer möjligheter
+Om ni har ett eget förslag på ett API så får ni gärna använda er av det istället.
+{: .info}
+
+* `.getJSON()`: används för att hämta data (tänk `fetch`).
+* `.on()`: används på samma vis som `.addEventListener()`.
+* `.text()` eller `.html()`: dessa används för att ändra text respektive HTML för ett element.
+* `.fadeIn()`: används för att animera synligheten (från osynlig till synlig) på ett element (ni kan till exempel animera in resultatet från ett API).
+* `.append()`: används på samma sätt som för `.appendChild()` men med mer möjligheter.
 
 Hur ni väljer att skapa frågespelet är upp till er själva baserat på vad API:et kan tillhandahålla.
 
-**Tänk på att** jQuerys metoder går att anropa efter varandra. Till exempel om vi skulle vilja lägga till en paragraf med text, dölja den och sedan animera in den (genom dess opacitet) - så hade vi kunnat skriva på följande vis:
+**Tänk på att** jQuerys funktioner går att anropa efter varandra. Till exempel om vi skulle vilja lägga till en paragraf med text, dölja den och sedan animera in den (genom dess opacitet), så hade vi kunnat skriva på följande vis:
 
 ``` js
 $("#mitt-exempel-id").append("<p>Hello world!</p>").hide().fadeIn();

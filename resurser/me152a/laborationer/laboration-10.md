@@ -10,17 +10,20 @@ Syfte med laborationen:
 * att färdigställa tidigare laborationer.
 * att fortsätta öva på att använda sig av variabler, kontrollstrukturer och funktioner.
 * att fortsätta öva på att skriva välformaterad kod och dokumentation.
-* att öva på att bearbeta data
+* att öva på att bearbeta data.
 
 ---
 
-## Extrauppgifter
+## Extrauppgifter A till F
 
-Nedan presenteras några extrauppgifter som handlar om att ni får ett dataset som sedan ska bearbetas för att nå ett beskrivet resultat, dvs. transformeras. Ni får **inte** använda er av traditionella for-loopar utan ni ska istället använda er av Array-metoderna `map` och `filter`.
+Nedan hittar ni uppgifterna A till F som handlar om att bearbeta data på olika vis. Ni kommer få ett färdigt dataset som ni kommer utgå ifrån. Ni **ska** i dessa uppgifter använda er av Array-metoderna `map` och `filter`.
+
+Det är **inte** tillåtet att använda traditionella for-loopar för dessa uppgifter.
+{: .warn}
 
 ---
 
-#### Uppgift A
+## Uppgift A
 
 Transformera alla namnen till versaler.
 
@@ -36,7 +39,7 @@ let names = [
 
 ---
 
-#### Uppgift B
+## Uppgift B
 
 Transformera listan och lägg till attributet `area`, värdet för detta attribut ska räknas ut genom respektive objekts höjd och bredd.
 
@@ -52,7 +55,7 @@ let triangles = [
 
 ---
 
-#### Uppgift C
+## Uppgift C
 
 Filtrera ut alla filmer som släpptes inom perioden 1990 - 2000.
 
@@ -73,7 +76,7 @@ let movies = [
 
 ---
 
-#### Uppgift D
+## Uppgift D
 
 Filtrera ut alla filmer som släpptes på 2000-talet och transformera resultatet till en lista innhållande alla titlar. Det vill säga något i stil med följande: `["Batman Begins", "Batman: Under the Red Hood", ...]`.
 
@@ -94,7 +97,7 @@ let movies = [
 
 ---
 
-#### Uppgift E
+## Uppgift E
 
 Filtrera och transformera resultatet till en lista innehållande alla `id` på de `tasks` som är avklarade **och** hade hög prioritet.
 
@@ -116,9 +119,9 @@ let todoList = {
 
 ---
 
-#### Uppgift F
+## Uppgift F
 
-Filtrera och transformera resultatet till en lista innehållande objekt med attributet `name`, vars innehåll är `title` + `id` **och** ni ska endast ha kvar de `tasks` som *inte är avklarade* och *inte har låg prioritet*. Det vill säga något i stil med följande: `[{ name: "Do something (101)" }, ...]`.
+Filtrera och transformera resultatet till en lista innehållande objekt med attributet `name` (vars innehåll är `title` + `id`) **och** ni ska endast ha kvar de `tasks` som **inte är avklarade** och **inte har låg prioritet**. Det vill säga något i stil med följande: `[{ name: "Do something (101)" }, ...]`.
 
 ``` js
 let todoList = {

@@ -35,7 +35,7 @@
             {% elsif outer_item.url %}
                 <a href="{{ outer_item.url }}" target="_blank" class="outer-link external">{{ outer_item.label }}<i class="icon-forward"></i></a>
             {% else %}
-                <a href="/{{ outer_path }}" class="outer-link">{{ outer_item.label }}</a>
+                <a href="/{{ outer_path }}/" class="outer-link">{{ outer_item.label }}</a>
             {% endif %}
         {% else %}
         <div class="sidebar-inner-container {% if outer_item.open == true %}open{% else %}closed{% endif %}">
@@ -55,9 +55,9 @@
                     {% if inner_item.url %}
                         <a href="{{ inner_item.url }}" target="_blank" class="inner-link external">{{ label }}<i class="icon-forward"></i></a>
                     {% elsif inner_item.path %}
-                        <a href="/{{ outer_path }}/{{ inner_item.path }}" class="inner-link">{{ label }}</a>
+                        <a href="/{{ outer_path }}/{{ inner_item.path }}/" class="inner-link">{{ label }}</a>
                     {% else %}
-                        <a href="/{{ outer_path }}/{{ inner_item.label | slugify }}" class="inner-link">{{ label }}</a>
+                        <a href="/{{ outer_path }}/{{ inner_item.label | slugify }}/" class="inner-link">{{ label }}</a>
                     {% endif %}
                 </li>
                 {% endfor %}

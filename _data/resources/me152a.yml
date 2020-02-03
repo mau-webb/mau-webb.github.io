@@ -6,14 +6,17 @@ sidebar:
     items:
         - label: "Introduktion"
           root: true
+
         - label: "Kursplan"
           url: "https://edu.mah.se/sv/course/me152a"
         - label: "Schema"
           url: "https://schema.mau.se/setup/jsp/Schema.jsp?startDatum=idag&intervallTyp=m&intervallAntal=6&sprak=SV&sokMedAND=true&forklaringar=true&resurser=k.ME152A-20201-08203-"
-      # - label: "Uppgifter"
-      #   open: true
-      #   items:
-      #       - label: "IMDB"
+
+        - label: "Uppgifter"
+          open: true
+          items:
+              - label: "Uppgift 1"
+
         - label: "Laborationer"
           open: true
           items:

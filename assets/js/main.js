@@ -23,15 +23,17 @@
     // ==================
     var menu = document.querySelector(".sidebar .menu");
 
-    menu.addEventListener("click", function() {
-        var width  = window.innerWidth || doc.clientWidth || body.clientWidth;
+    if (menu !== null) {
+        menu.addEventListener("click", function() {
+            var width  = window.innerWidth || doc.clientWidth || body.clientWidth;
 
-        if (width < 940) {
-            body.classList.toggle("opened");
-        } else {
-            body.classList.toggle("closed");
-        }
-    });
+            if (width < 940) {
+                body.classList.toggle("opened");
+            } else {
+                body.classList.toggle("closed");
+            }
+        });
+    }
 
     // Toggle sidebar items
     // ====================

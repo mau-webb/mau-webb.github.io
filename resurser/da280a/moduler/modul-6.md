@@ -20,9 +20,9 @@ Dessutom ska vi nu, i enkelhet, anpassa vår webbsida så att den är mobilanpas
 
 ### Övrig läsning
 
-* [Introduktion till Media Queries](/resurser/da280a/material/m6_vid_intro_media_queries/) (video)
-* [Exempel: webbplats med Media Queries](/resurser/da280a/material/m6_vid_example_media_queries/) (video)
-* [Mobilanpassa en klar webbplats](/resurser/da280a/material/m6_ex_rwd/) (övning)
+* [Introduktion till Media Queries](/{{ site.resource_path }}/da280a/material/m6_vid_intro_media_queries/) (video)
+* [Exempel: webbplats med Media Queries](/{{ site.resource_path }}/da280a/material/m6_vid_example_media_queries/) (video)
+* [Mobilanpassa en klar webbplats](/{{ site.resource_path }}/da280a/material/m6_ex_rwd/) (övning)
 * [The Mystery Of The CSS Float Property](https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/)
 * [Mastering CSS Coding: Getting Started](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)
 * [Mastering CSS Principles: A Comprehensive Guide](https://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
@@ -31,4 +31,4 @@ Dessutom ska vi nu, i enkelhet, anpassa vår webbsida så att den är mobilanpas
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 6](/resurser/da280a/uppgifter/uppgift-6/)
+[Inlämningsuppgift 6](/{{ site.resource_path }}/da280a/uppgifter/uppgift-6/)

@@ -10,7 +10,7 @@ classes: "start"
     <h6>Senast uppdaterad {{ site.time | date: "%Y-%m-%d %H:%M" }}</h6>
 </header>
 
-<section class="resources">
+<article class="resources">
     {% for id in site.data.index %}
     {% assign resource = site.data.resources[id] %}
     {%- capture site_path -%}
@@ -35,4 +35,4 @@ classes: "start"
         <div class="icon circle-right"></div>
     </a>
     {% endfor %}
-</section>
+</article>

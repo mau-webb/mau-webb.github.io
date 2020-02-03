@@ -7,9 +7,11 @@ layout: compress
         {% include head.html %}
     </head>
     <body class="default {{ page.classes }}">
-        <div class="content">
+        <main class="content">
             {{ content }}
-        </div>
+        </main>
         {% include footer.html %}
+
+        <script src="/assets/js/main.js"></script>
     </body>
 </html>

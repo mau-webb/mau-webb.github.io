@@ -13,7 +13,7 @@ Kursen börjar med att ni ska bekanta er med den lärplatform som vi använder (
 
 Instruktioner för att aktivera och använda er av dvwebb [hittar ni här](http://ddwap.mah.se/dotnet/index.aspx). Har ni några problem ed att komma igång med denna tjänst så använd kommentarsfältet längst ner på sidan (i värsta fall kan ni skicka ett mail till kursansvarig).
 
-Det finns även [en videoguide för hur ni aktiverar och kommer igång med dvwebb](/resurser/da280a/material/m1_intro_dvwebb/).
+Det finns även [en videoguide för hur ni aktiverar och kommer igång med dvwebb](/{{ site.resource_path }}/da280a/material/m1_intro_dvwebb/).
 
 ### Kom igång med HTML
 
@@ -40,22 +40,22 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 
 ### Övrig läsning
 
-* [Ett första HTML-dokument](/resurser/da280a/material/m1_vid_first_html_document/) (video)
-* [Indentering av kod](/resurser/da280a/material/m1_indentation/) (beskrivning)
-* [HTML: rubriker](/resurser/da280a/material/m1_html_headings/) (beskrivning)
-* [HTML: stycken och text](/resurser/da280a/material/m1_html_paragraphs_text/) (beskrivning)
-* [HTML: bilder](/resurser/da280a/material/m1_html_images/) (beskrivning)
-* [HTML: länkar](/resurser/da280a/material/m1_html_links/) (beskrivning)
-* [HTML: listor](/resurser/da280a/material/m1_html_lists/) (beskrivning)
-* [Ett första HTML-dokument](/resurser/da280a/material/m1_ex_first_html_document/) (övning)
-* [Text (stycken, rubriker och listor)](/resurser/da280a/material/m1_ex_text/) (övning)
-* [Bilder och länkar](/resurser/da280a/material/m1_ex_images_links/) (övning)
-* [Indentering](/resurser/da280a/material/m1_ex_indentation/) (övning)
-* [Att validera HTML](/resurser/da280a/material/m1_ex_validate_html/) (övning)
+* [Ett första HTML-dokument](/{{ site.resource_path }}/da280a/material/m1_vid_first_html_document/) (video)
+* [Indentering av kod](/{{ site.resource_path }}/da280a/material/m1_indentation/) (beskrivning)
+* [HTML: rubriker](/{{ site.resource_path }}/da280a/material/m1_html_headings/) (beskrivning)
+* [HTML: stycken och text](/{{ site.resource_path }}/da280a/material/m1_html_paragraphs_text/) (beskrivning)
+* [HTML: bilder](/{{ site.resource_path }}/da280a/material/m1_html_images/) (beskrivning)
+* [HTML: länkar](/{{ site.resource_path }}/da280a/material/m1_html_links/) (beskrivning)
+* [HTML: listor](/{{ site.resource_path }}/da280a/material/m1_html_lists/) (beskrivning)
+* [Ett första HTML-dokument](/{{ site.resource_path }}/da280a/material/m1_ex_first_html_document/) (övning)
+* [Text (stycken, rubriker och listor)](/{{ site.resource_path }}/da280a/material/m1_ex_text/) (övning)
+* [Bilder och länkar](/{{ site.resource_path }}/da280a/material/m1_ex_images_links/) (övning)
+* [Indentering](/{{ site.resource_path }}/da280a/material/m1_ex_indentation/) (övning)
+* [Att validera HTML](/{{ site.resource_path }}/da280a/material/m1_ex_validate_html/) (övning)
 * [w3schools: en guidad introduktion till HTML](http://www.w3schools.com/htmL/html_intro.asp) (guide)
 * [Codeacademy: en interaktiv introduktion till HTML](https://www.codecademy.com/courses/html-one-o-one/0/1) (guide)
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 1](/resurser/da280a/uppgifter/uppgift-1/)
+[Inlämningsuppgift 1](/{{ site.resource_path }}/da280a/uppgifter/uppgift-1/)
 

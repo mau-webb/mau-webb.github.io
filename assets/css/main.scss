@@ -29,12 +29,12 @@ body.start {
     display: flex;
     flex-direction: column;
 
-    .content {
+    main {
         flex: 1 1 0;
         padding: 0 20px;
     }
 
-    .content .hero {
+    main .hero {
         margin: 32px auto 76px auto;
     }
 
@@ -118,14 +118,14 @@ body.start {
 }
 
 body.page-not-found {
-    .content {
+    main {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .content .hero {
+    main .hero {
         margin-top: 0;
     }
 
@@ -175,7 +175,7 @@ body.resource .sidebar {
     border-right: 1px solid $border;
     display: flex;
     flex-direction: column;
-    transition: left 300ms ease;
+    transition: left 300ms ease, width 120ms ease;
 
     .brand-container {
         border-bottom: 1px solid $border;
@@ -322,10 +322,10 @@ body.resource .sidebar {
     }
 }
 
-body.resource .content {
+body.resource main {
     margin-left: 220px;
     color: $blue2;
-    transition: margin 300ms ease, font-size 120ms ease;
+    transition: margin 300ms ease, font-size 120ms ease, margin-left 120ms ease;
 
     .content-inner {
         h1,
@@ -335,6 +335,8 @@ body.resource .content {
         h5,
         h6,
         & > p,
+        & > details,
+        & > blockquote,
         & > ul,
         & > ol,
         & > div {
@@ -344,6 +346,51 @@ body.resource .content {
             padding-left: 64px;
             padding-right: 64px;
             transition: padding 120ms ease;
+        }
+
+        & > blockquote {
+            font-style: italic;
+            font-size: 95%;
+
+            p {
+                background-color: #ededed;
+                padding: 16px;
+                border-left: 4px solid #dcdcdc;
+                border-radius: 0 2px 2px 0;
+            }
+        }
+
+        & > details summary {
+            user-select: none;
+            cursor: pointer;
+            padding: 8px 16px;
+            background-color: #ededed;
+            border-bottom: 1px solid transparent;
+            transition: background-color 120ms ease, box-shadow 100ms ease, border-color 120ms ease;
+            border-radius: 2px;
+
+            &:hover {
+                background-color: #eaeaea;
+            }
+
+            &:active {
+                box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.15);
+            }
+        }
+
+
+        & > details[open] {
+            & summary {
+                background-color: #ebebeb;
+                border-bottom: 1px solid #dcdcdc;
+                margin-bottom: 0;
+                border-radius: 2px 2px 0 0;
+            }
+
+            & pre.highlight {
+                margin-top: 0;
+                border-radius: 0 0 2px 2px;
+            }
         }
 
         & > ul,
@@ -433,6 +480,7 @@ body.resource .content {
             padding: 24px 16px 24px 32px;
             border-left: 4px solid $purple1;
             background-color: $bg-color2;
+            transition: margin 120ms ease;
             position: relative;
         }
 
@@ -459,6 +507,7 @@ body.resource .content {
             padding: 24px 16px 24px 32px;
             border-left: 4px solid $highlight_red;
             background-color: $bg-color2;
+            transition: margin 120ms ease;
             position: relative;
         }
 
@@ -489,6 +538,7 @@ body.resource .content {
             background-color: $bg-color3;
             color: $blue-gray2;
             border-bottom: 1px solid $border;
+            transition: margin 120ms ease;
 
             & + .highlighter-rouge pre {
                 margin-top: 0;
@@ -535,7 +585,7 @@ body.resource .content {
 }
 
 
-body.resource .content .navigation {
+body.resource main .navigation {
     border-bottom: 1px solid $border;
     margin-bottom: 48px;
     height: 58px;
@@ -583,25 +633,40 @@ body.resource.closed {
         right: -40px;
     }
 
-    .content {
+    main {
         margin-left: 0;
     }
 }
 
+@media screen and (min-width: 1440px) {
+    body.resource {
+        .sidebar {
+            width: 270px;
+        }
+        main {
+            margin-left: 270px;
+            font-size: 105%;
+        }
+    }
+
+    body.resource.closed .sidebar {
+        left: -270px;
+    }
+}
 
 @media screen and (max-width: 1150px) {
-    body.resource .content .content-inner p.info,
-    body.resource .content .content-inner p.warn,
-    body.resource .content .content-inner p.code-header {
+    body.resource main .content-inner p.info,
+    body.resource main .content-inner p.warn,
+    body.resource main .content-inner p.code-header {
         margin-right: 64px;
         margin-left: 64px;
     }
 
-    body.resource .content .content-inner table {
+    body.resource main .content-inner table {
         max-width: 90%;
     }
 
-    body.resource .content .content-inner table {
+    body.resource main .content-inner table {
         font-size: 90%;
     }
 }
@@ -620,7 +685,7 @@ body.resource.closed {
             right: -40px;
         }
 
-        .content {
+        main {
             margin-left: 0;
         }
     }
@@ -636,9 +701,9 @@ body.resource.closed {
         }
     }
 
-    body.resource .content .content-inner p.info,
-    body.resource .content .content-inner p.warn,
-    body.resource .content .content-inner p.code-header {
+    body.resource main .content-inner p.info,
+    body.resource main .content-inner p.warn,
+    body.resource main .content-inner p.code-header {
         margin-left: 64px;
         margin-right: 64px;
         max-width: 748px;
@@ -646,11 +711,11 @@ body.resource.closed {
 }
 
 @media screen and (max-width: 800px) {
-    body.resource .content {
+    body.resource main {
         font-size: 90%;
     }
 
-    body.resource .content .content-inner table {
+    body.resource main .content-inner table {
         thead th,
         tbody td {
             padding: 4px 6px;
@@ -662,13 +727,13 @@ body.resource.closed {
     body.start {
         font-size: 80%;
 
-        .content .hero {
+        main .hero {
             margin-top: 0;
             margin-bottom: 64px;
         }
     }
 
-    body.resource .content .content-inner {
+    body.resource main .content-inner {
         h1,
         h2,
         h3,
@@ -676,6 +741,8 @@ body.resource.closed {
         h5,
         h6,
         & > p,
+        & > details,
+        & > blockquote,
         & > ul,
         & > ol,
         & > div {
@@ -694,7 +761,7 @@ body.resource.closed {
         }
     }
 
-    body.resource .content .content-inner {
+    body.resource main .content-inner {
         .navigation .navigation-inner {
             padding: 0 48px;
         }
@@ -703,9 +770,8 @@ body.resource.closed {
         }
     }
 
-    body.resource .content .content-inner p.info,
-    body.resource .content .content-inner p.warn,
-    body.resource .content .content-inner p.code-header {
+    body.resource main .content-inner p.info,
+    body.resource main .content-inner p.warn {
         margin-left: 48px;
         margin-right: 48px;
         padding: 16px 12px 16px 24px;
@@ -718,10 +784,24 @@ body.resource.closed {
             line-height: 26px;
         }
     }
+
+    body.resource main .content-inner p.code-header {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    div.highlighter-rouge pre {
+        font-size: 95%;
+        padding: 12px 16px;
+    }
+
+    body.resource main .content-inner > details summary {
+        padding: 8px 12px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    body.resource .content .content-inner {
+    body.resource main .content-inner {
         h1,
         h2,
         h3,
@@ -729,6 +809,8 @@ body.resource.closed {
         h5,
         h6,
         & > p,
+        & > details,
+        & > blockquote,
         & > ul,
         & > ol,
         & > div {
@@ -744,14 +826,14 @@ body.resource.closed {
         }
     }
 
-    body.resource .content .content-inner p.info,
-    body.resource .content .content-inner p.warn,
-    body.resource .content .content-inner p.code-header {
+    body.resource main .content-inner p.info,
+    body.resource main .content-inner p.warn,
+    body.resource main .content-inner p.code-header {
         margin-left: 24px;
         margin-right: 24px;
     }
 
-    body.resource .content .content-inner {
+    body.resource main .content-inner {
         .navigation {
             height: auto;
         }
@@ -806,7 +888,7 @@ body.resource.closed {
         font-size: 75%;
     }
 
-    body.resource .content .content-inner {
+    body.resource main .content-inner {
         & > ul,
         & > ol {
             & ul,
@@ -819,7 +901,7 @@ body.resource.closed {
 
 @media screen and (max-width: 420px) {
     body.start {
-        .content {
+        main {
             padding: 0 10px;
 
             .hero {
@@ -841,7 +923,7 @@ body.resource.closed {
         }
     }
 
-    body.resource .content .content-inner {
+    body.resource main .content-inner {
         h1,
         h2,
         h3,
@@ -849,6 +931,8 @@ body.resource.closed {
         h5,
         h6,
         & > p,
+        & > details,
+        & > blockquote,
         & > ul,
         & > ol,
         & > div {
@@ -862,9 +946,9 @@ body.resource.closed {
         }
     }
 
-    body.resource .content .content-inner p.info,
-    body.resource .content .content-inner p.warn,
-    body.resource .content .content-inner p.code-header {
+    body.resource main .content-inner p.info,
+    body.resource main .content-inner p.warn,
+    body.resource main .content-inner p.code-header {
         margin-left: 12px;
         margin-right: 12px;
 

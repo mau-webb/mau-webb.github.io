@@ -27,12 +27,20 @@ bundle install
 3. Build and preview the site locally at `http://localhost:4000`
 
 ```bash
-bundle exec jekyll serve  # add --watch for auto-regeneration
+bundle exec jekyll serve
 ```
 
 You should now be up and running locally!
 
 ## Documentation
+
+TODO
+
+### Configuration
+
+TODO
+
+### The `_data` directory
 
 TODO
 

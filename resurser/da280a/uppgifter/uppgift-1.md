@@ -92,6 +92,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas Du ska även publicera din lösning på ddwap (en [guide om detta finner du här](/resurser/da280a/material/m1_intro_dvwebb/)) - glöm inte att bifoga en länk till din sida i kommetarsfältet på Canvas.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas Du ska även publicera din lösning på ddwap (en [guide om detta finner du här](/{{ site.resource_path }}/da280a/material/m1_intro_dvwebb/)) - glöm inte att bifoga en länk till din sida i kommetarsfältet på Canvas.
 
 Lycka till!

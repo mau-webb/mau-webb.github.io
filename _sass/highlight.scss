@@ -13,6 +13,8 @@ div.highlighter-rouge {
         padding: 16px 20px;
         margin: 24px 0;
         border-radius: 2px;
+
+        line-height: 1.45em;
     }
 }
 
@@ -38,6 +40,7 @@ p.warn code.highlighter-rouge {
     .highlight .cm { color: darken($bg-color, 40); }
     .highlight .na { color: inherit; }
     .highlight .dl { color: $highlight_green; }
+    .highlight .s1 { color: $highlight_green; }
     .highlight .s2 { color: $highlight_green; }
     .highlight .mi { color: $highlight_red; }
     .highlight .mf { color: $highlight_red; }
@@ -66,4 +69,15 @@ p.warn code.highlighter-rouge {
     .highlight .m { color: $highlight_red; }
     .highlight .nb { color: $highlight_green; }
     .highlight .no { color: $highlight_green; }
+}
+
+.language-bash {
+    .highlight .nv { color: $highlight_blue; }
+    .highlight .s1 { color: $highlight_green; }
+    .highlight .s2 { color: $highlight_green; }
+    .highlight .nb { color: $highlight_red; }
+    .highlight .nt { color: $highlight_red; }
+    .highlight .k { color: $highlight_red; }
+    .highlight .o { color: darken($bg-color, 40); }
+    .highlight .sb { color: darken($bg-color, 40); }
 }

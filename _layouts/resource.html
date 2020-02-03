@@ -9,13 +9,15 @@ layout: compress
     <body class="default resource {{ page.classes }}">
         {% include sidebar.html %}
 
-        <div class="content">
+        <main class="content">
             <div class="content-inner">
                 {% include navigation.html %}
                 {{ content }}
             </div>
 
             {% include footer.html %}
-        </div>
+        </main>
+
+        <script src="/assets/js/main.js"></script>
     </body>
 </html>

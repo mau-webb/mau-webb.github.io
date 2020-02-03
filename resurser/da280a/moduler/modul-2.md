@@ -26,4 +26,4 @@ Tabeller kan vara allt ifrån väldigt grundläggande till mer avancerade. Tänk
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 2](/resurser/da280a/uppgifter/uppgift-2/)
+[Inlämningsuppgift 2](/{{ site.resource_path }}/da280a/uppgifter/uppgift-2/)

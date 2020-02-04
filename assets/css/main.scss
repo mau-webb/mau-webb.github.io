@@ -175,7 +175,7 @@ body.resource .sidebar {
     border-right: 1px solid $border;
     display: flex;
     flex-direction: column;
-    transition: left 300ms ease;
+    transition: left 300ms ease, width 120ms ease;
 
     .brand-container {
         border-bottom: 1px solid $border;
@@ -325,7 +325,7 @@ body.resource .sidebar {
 body.resource .content {
     margin-left: 220px;
     color: $blue2;
-    transition: margin 300ms ease, font-size 120ms ease;
+    transition: margin 300ms ease, font-size 120ms ease, margin-left 120ms ease;
 
     .content-inner {
         h1,
@@ -588,6 +588,16 @@ body.resource.closed {
     }
 }
 
+@media screen and (min-width: 1440px) {
+    body.resource {
+        .sidebar {
+            width: 270px;
+        }
+        .content {
+            margin-left: 270px;
+        }
+    }
+}
 
 @media screen and (max-width: 1150px) {
     body.resource .content .content-inner p.info,

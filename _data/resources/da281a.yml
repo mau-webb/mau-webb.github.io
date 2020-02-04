@@ -1,0 +1,47 @@
+id: da281a
+title: "Webbutveckling 2 - Klient"
+tags: ["Kurs", "Grundnivå", "7.5 hp", "DA281A", "HT20"]
+
+sidebar:
+    items:
+        - label: "Introduktion"
+          root: true
+        - label: "Planering"
+        - label: "Material"
+
+        - label: "Kursplan"
+          url: "https://edu.mah.se/sv/Course/DA281A#Syllabus"
+        - label: "Canvas"
+          url: "https://mau.instructure.com/login/saml"
+
+        - label: "Moduler"
+          open: true
+          items:
+              - label: "Programmeringsmiljö"
+                path: "modul-1"
+              - label: "Introduktion till programmering"
+                path: "modul-2"
+              - label: "DOM"
+                path: "modul-3"
+              - label: "AJAX"
+                path: "modul-4"
+              - label: "React"
+                path: "modul-5"
+              - label: "Projekt"
+                path: "modul-6"
+
+        - label: "Uppgifter"
+          open: true
+          items:
+              - label: "Inlämningsuppgift 1"
+                path: "uppgift-1"
+              - label: "Inlämningsuppgift 2"
+                path: "uppgift-2"
+              - label: "Inlämningsuppgift 3"
+                path: "uppgift-3"
+              - label: "Inlämningsuppgift 4"
+                path: "uppgift-4"
+              - label: "Inlämningsuppgift 5"
+                path: "uppgift-5"
+              - label: "Inlämningsuppgift 6"
+                path: "uppgift-6"

@@ -35,7 +35,6 @@ Kursen är uppdelad i 6 moduler som behandlar olika områden inom grundläggande
 | 21 | - | [Inlämningsuppgift 6](/{{ site.resource_path }}/da280a/uppgifter/uppgift-6/) |
 | 22 | Kompletteringar |
 | 23 | - |
-{: .small}
 
 ---
 

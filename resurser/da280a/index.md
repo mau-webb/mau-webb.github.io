@@ -11,7 +11,7 @@ Kurs - grundnivå - 7.5 hp - 25% distans - Betygsskala: U/G
 
 Kursen består av 6 delmoment, s. k. moduler, där varje modul har material i form av föreläsningar, hänvisningar till litteratur, osv. följt av en inlämningsuppgift. Moduler och inlämningsuppgifterna hittar ni i vänstermenyn. Inlämning av uppgifter samt respektive deadline för dessa finner ni på [Canvas](https://mau.instructure.com/login/saml).
 
-Ta dig tid att gå igenom kursens innehåll samt [planering](/resurser/da280a/planering/) innan du börjar. **Lycka till!**
+Ta dig tid att gå igenom kursens innehåll samt [planering](/{{ site.resource_path }}/da280a/planering/) innan du börjar. **Lycka till!**
 
 ---
 

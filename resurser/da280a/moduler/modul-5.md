@@ -22,10 +22,10 @@ Vi ska även lära oss att skapa stilmallar i separata filer - så att vi kan se
 
 ### Övrig läsning
 
-* [Föreläsning: CSS i externt dokumet](/resurser/da280a/material/m5_vid_lecture_css_document/) (video)
-* [Exempel: CSS i externt dokumet](/resurser/da280a/material/m5_vid_example_css_document/) (video)
-* [CSS i externt dokument](/resurser/da280a/material/m5_css_document/) (övning)
-* [Layout med CSS](/resurser/da280a/material/m5_css_layout/) (övning)
+* [Föreläsning: CSS i externt dokumet](/{{ site.resource_path }}/da280a/material/m5_vid_lecture_css_document/) (video)
+* [Exempel: CSS i externt dokumet](/{{ site.resource_path }}/da280a/material/m5_vid_example_css_document/) (video)
+* [CSS i externt dokument](/{{ site.resource_path }}/da280a/material/m5_css_document/) (övning)
+* [Layout med CSS](/{{ site.resource_path }}/da280a/material/m5_css_layout/) (övning)
 * [CSS selectors (codeacademy)](https://www.codecademy.com/courses/web-beginner-en-WF0CF/0/1?curriculum_id=50579fb998b470000202dc8b) (guide)
 * [The Mystery Of The CSS Float Property](https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/)
 * [Mastering CSS Coding: Getting Started](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)
@@ -38,4 +38,4 @@ Vi ska även lära oss att skapa stilmallar i separata filer - så att vi kan se
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 5](/resurser/da280a/uppgifter/uppgift-5/)
+[Inlämningsuppgift 5](/{{ site.resource_path }}/da280a/uppgifter/uppgift-5/)

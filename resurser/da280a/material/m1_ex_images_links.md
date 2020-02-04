@@ -43,7 +43,7 @@ Försök nu att få in samtliga ikoner på rätt plats med rätt sökväg i ditt
 
 ## Klickbara ikoner
 
-I [beskrivningen över länkar](/resurser/da280a/material/m1_html_links/) bekantade vi oss med elementet `<a>` (eng. anchor) där vi kan ange, som med bilder, relativa eller absoluta sökvägar till en annan plats. Det rolga är att bilderna/ikonerna kan också vara länkar! För att göra en klickbar ikon behöver vi definera dels vad som ska vara klickbart (vår ikon) och vart besökaren ska hamna när de klickar på den (t.ex facebook). Detta görs genom att vi nästlar (eng. nesting) våra element - i detta fallet en `<img>` tillsammans med en `<a>`:
+I [beskrivningen över länkar](/{{ site.resource_path }}/da280a/material/m1_html_links/) bekantade vi oss med elementet `<a>` (eng. anchor) där vi kan ange, som med bilder, relativa eller absoluta sökvägar till en annan plats. Det rolga är att bilderna/ikonerna kan också vara länkar! För att göra en klickbar ikon behöver vi definera dels vad som ska vara klickbart (vår ikon) och vart besökaren ska hamna när de klickar på den (t.ex facebook). Detta görs genom att vi nästlar (eng. nesting) våra element - i detta fallet en `<img>` tillsammans med en `<a>`:
 
 ``` html
 <a href="länk-till-annan-sida">

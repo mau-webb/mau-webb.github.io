@@ -18,24 +18,24 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Övrig läsning
 
-* [Ett första HTML-dokument](/resurser/da280a/material/m1_vid_first_html_document/) (video)
-* [Indentering av kod](/resurser/da280a/material/m1_indentation/) (beskrivning)
-* [HTML: rubriker](/resurser/da280a/material/m1_html_headings/) (beskrivning)
-* [HTML: stycken och text](/resurser/da280a/material/m1_html_paragraphs_text/) (beskrivning)
-* [HTML: bilder](/resurser/da280a/material/m1_html_images/) (beskrivning)
-* [HTML: länkar](/resurser/da280a/material/m1_html_links/) (beskrivning)
-* [HTML: listor](/resurser/da280a/material/m1_html_lists/) (beskrivning)
-* [Ett första HTML-dokument](/resurser/da280a/material/m1_ex_first_html_document/) (övning)
-* [Text (stycken, rubriker och listor)](/resurser/da280a/material/m1_ex_text/) (övning)
-* [Bilder och länkar](/resurser/da280a/material/m1_ex_images_links/) (övning)
-* [Indentering](/resurser/da280a/material/m1_ex_indentation/) (övning)
-* [Att validera HTML](/resurser/da280a/material/m1_ex_validate_html/) (övning)
+* [Ett första HTML-dokument](/{{ site.resource_path }}/da280a/material/m1_vid_first_html_document/) (video)
+* [Indentering av kod](/{{ site.resource_path }}/da280a/material/m1_indentation/) (beskrivning)
+* [HTML: rubriker](/{{ site.resource_path }}/da280a/material/m1_html_headings/) (beskrivning)
+* [HTML: stycken och text](/{{ site.resource_path }}/da280a/material/m1_html_paragraphs_text/) (beskrivning)
+* [HTML: bilder](/{{ site.resource_path }}/da280a/material/m1_html_images/) (beskrivning)
+* [HTML: länkar](/{{ site.resource_path }}/da280a/material/m1_html_links/) (beskrivning)
+* [HTML: listor](/{{ site.resource_path }}/da280a/material/m1_html_lists/) (beskrivning)
+* [Ett första HTML-dokument](/{{ site.resource_path }}/da280a/material/m1_ex_first_html_document/) (övning)
+* [Text (stycken, rubriker och listor)](/{{ site.resource_path }}/da280a/material/m1_ex_text/) (övning)
+* [Bilder och länkar](/{{ site.resource_path }}/da280a/material/m1_ex_images_links/) (övning)
+* [Indentering](/{{ site.resource_path }}/da280a/material/m1_ex_indentation/) (övning)
+* [Att validera HTML](/{{ site.resource_path }}/da280a/material/m1_ex_validate_html/) (övning)
 * [w3schools: en guidad introduktion till HTML](http://www.w3schools.com/htmL/html_intro.asp) (guide)
 * [Codeacademy: en interaktiv introduktion till HTML](https://www.codecademy.com/courses/html-one-o-one/0/1) (guide)
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 1](/resurser/da280a/uppgifter/uppgift-1/)
+[Inlämningsuppgift 1](/{{ site.resource_path }}/da280a/uppgifter/uppgift-1/)
 
 ---
 
@@ -54,7 +54,7 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 2](/resurser/da280a/uppgifter/uppgift-2/)
+[Inlämningsuppgift 2](/{{ site.resource_path }}/da280a/uppgifter/uppgift-2/)
 
 ---
 
@@ -66,7 +66,7 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Övrig läsning
 
-* [Ett grundläggande formulär](/resurser/da280a/material/m3_form/)
+* [Ett grundläggande formulär](/{{ site.resource_path }}/da280a/material/m3_form/)
 * [Forms in HTML (mozilla)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms_in_HTML)
 * [HTML Forms (w3schools)](http://www.w3schools.com/html/html_forms.asp)
 * [HTML Form Elements (w3schools)](http://www.w3schools.com/html/html_form_elements.asp)
@@ -76,7 +76,7 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 3](/resurser/da280a/uppgifter/uppgift-3/)
+[Inlämningsuppgift 3](/{{ site.resource_path }}/da280a/uppgifter/uppgift-3/)
 
 ---
 
@@ -89,14 +89,14 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Övrig läsning
 
-* [Intro till CSS och "inline styling"](/resurser/da280a/material/m3_vid_intro_css/) (video)
+* [Intro till CSS och "inline styling"](/{{ site.resource_path }}/da280a/material/m3_vid_intro_css/) (video)
 * [CSS Tutorial (w3schools)](http://www.w3schools.com/css/)
 * [CSS Reference (w3schools)](http://www.w3schools.com/cssref/default.asp)
 * [CSS: coding with style (codeacademy)](https://www.codecademy.com/courses/css-coding-with-style/0/1) (guide)
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 4](/resurser/da280a/uppgifter/uppgift-4/)
+[Inlämningsuppgift 4](/{{ site.resource_path }}/da280a/uppgifter/uppgift-4/)
 
 ---
 
@@ -109,10 +109,10 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Övrig läsning
 
-* [Föreläsning: CSS i externt dokumet](/resurser/da280a/material/m5_vid_lecture_css_document/) (video)
-* [Exempel: CSS i externt dokumet](/resurser/da280a/material/m5_vid_example_css_document/) (video)
-* [CSS i externt dokument](/resurser/da280a/material/m5_css_document/) (övning)
-* [Layout med CSS](/resurser/da280a/material/m5_css_layout/) (övning)
+* [Föreläsning: CSS i externt dokumet](/{{ site.resource_path }}/da280a/material/m5_vid_lecture_css_document/) (video)
+* [Exempel: CSS i externt dokumet](/{{ site.resource_path }}/da280a/material/m5_vid_example_css_document/) (video)
+* [CSS i externt dokument](/{{ site.resource_path }}/da280a/material/m5_css_document/) (övning)
+* [Layout med CSS](/{{ site.resource_path }}/da280a/material/m5_css_layout/) (övning)
 * [CSS selectors (codeacademy)](https://www.codecademy.com/courses/web-beginner-en-WF0CF/0/1?curriculum_id=50579fb998b470000202dc8b) (guide)
 * [The Mystery Of The CSS Float Property](https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/)
 * [Mastering CSS Coding: Getting Started](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)
@@ -125,7 +125,7 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 5](/resurser/da280a/uppgifter/uppgift-5/)
+[Inlämningsuppgift 5](/{{ site.resource_path }}/da280a/uppgifter/uppgift-5/)
 
 ---
 
@@ -138,9 +138,9 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Övrig läsning
 
-* [Introduktion till Media Queries](/resurser/da280a/material/m6_vid_intro_media_queries/) (video)
-* [Exempel: webbplats med Media Queries](/resurser/da280a/material/m6_vid_example_media_queries/) (video)
-* [Mobilanpassa en klar webbplats](/resurser/da280a/material/m6_ex_rwd/) (övning)
+* [Introduktion till Media Queries](/{{ site.resource_path }}/da280a/material/m6_vid_intro_media_queries/) (video)
+* [Exempel: webbplats med Media Queries](/{{ site.resource_path }}/da280a/material/m6_vid_example_media_queries/) (video)
+* [Mobilanpassa en klar webbplats](/{{ site.resource_path }}/da280a/material/m6_ex_rwd/) (övning)
 * [The Mystery Of The CSS Float Property](https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/)
 * [Mastering CSS Coding: Getting Started](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)
 * [Mastering CSS Principles: A Comprehensive Guide](https://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
@@ -149,5 +149,5 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 6](/resurser/da280a/uppgifter/uppgift-6/)
+[Inlämningsuppgift 6](/{{ site.resource_path }}/da280a/uppgifter/uppgift-6/)
 

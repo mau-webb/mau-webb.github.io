@@ -19,7 +19,7 @@ I denna modul ska vi i inlämningsuppgiften bygga ett formulär som innehåller 
 
 ### Övrig läsning
 
-* [Ett grundläggande formulär](/resurser/da280a/material/m3_form/)
+* [Ett grundläggande formulär](/{{ site.resource_path }}/da280a/material/m3_form/)
 * [Forms in HTML (mozilla)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms_in_HTML)
 * [HTML Forms (w3schools)](http://www.w3schools.com/html/html_forms.asp)
 * [HTML Form Elements (w3schools)](http://www.w3schools.com/html/html_form_elements.asp)
@@ -29,4 +29,4 @@ I denna modul ska vi i inlämningsuppgiften bygga ett formulär som innehåller 
 
 ### Inlämningsuppgift
 
-[Inlämningsuppgift 3](/resurser/da280a/uppgifter/uppgift-3/)
+[Inlämningsuppgift 3](/{{ site.resource_path }}/da280a/uppgifter/uppgift-3/)

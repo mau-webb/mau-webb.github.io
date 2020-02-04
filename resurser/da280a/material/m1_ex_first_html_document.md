@@ -46,11 +46,11 @@ Om ni tar [en titt på denna bilden](../assets/da280a_ex1_bild1.png) så kan ni 
 
 Din uppgift är nu att lägga till mer innehåll i ditt HTML-dokument, nedan visas en lista av vilka element som ska användas (vad du väljer för innehåll är valfritt):
 
-* En huvudrubrik, `<h1>` - [läs mer här](/resurser/da280a/material/m1_html_headings/)
-* Två stycken, `<p>` - [läs mer här](/resurser/da280a/material/m1_html_paragraphs_text/)
-* En underrubrik, `<h2>` - [läs mer här](/resurser/da280a/material/m1_html_headings/)
-* En bild, `<img>` - [läs mer här](/resurser/da280a/material/m1_html_images/)
-* En länk, `<a>` - [läs mer här](/resurser/da280a/material/m1_html_links/)
+* En huvudrubrik, `<h1>` - [läs mer här](/{{ site.resource_path }}/da280a/material/m1_html_headings/)
+* Två stycken, `<p>` - [läs mer här](/{{ site.resource_path }}/da280a/material/m1_html_paragraphs_text/)
+* En underrubrik, `<h2>` - [läs mer här](/{{ site.resource_path }}/da280a/material/m1_html_headings/)
+* En bild, `<img>` - [läs mer här](/{{ site.resource_path }}/da280a/material/m1_html_images/)
+* En länk, `<a>` - [läs mer här](/{{ site.resource_path }}/da280a/material/m1_html_links/)
 
 För att se hur du skapar dessa olika element kan du titta på deras förläsningar som är länkade till.
 

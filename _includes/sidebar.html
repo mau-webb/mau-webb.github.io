@@ -38,7 +38,7 @@
                 <a href="/{{ outer_path }}/" class="outer-link">{{ outer_item.label }}</a>
             {% endif %}
         {% else %}
-        <div class="sidebar-inner-container {% if outer_item.open == true %}open{% else %}closed{% endif %}">
+        <div class="sidebar-inner-container {% if outer_item.collapsed == true %}closed{% else %}open{% endif %}">
             <h5>
                 {{ outer_item.label }}
                 <i class="icon-up-open"></i>

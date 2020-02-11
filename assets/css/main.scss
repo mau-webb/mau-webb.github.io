@@ -598,6 +598,10 @@ body.resource.closed {
             font-size: 105%;
         }
     }
+
+    body.resource.closed .sidebar {
+        left: -270px;
+    }
 }
 
 @media screen and (max-width: 1150px) {

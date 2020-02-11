@@ -20,7 +20,8 @@ Inlämning sker i form av en mapp (zippad) innehållande
 All kod ska godkännas av [JSHint](https://jshint.com/).
 {: .info}
 
-**Samtliga uppgifter utgår från att en eller flera for-loop(ar) används.**
+Samtliga uppgifter utgår från att en eller flera for-loop(ar) används.
+{: .warn}
 
 ---
 

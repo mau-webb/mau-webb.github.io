@@ -1,6 +1,6 @@
 id: da281a
 title: "Webbutveckling 2 - Klient"
-tags: ["Kurs", "Grundnivå", "7.5 hp", "DA281A", "HT20"]
+tags: ["HT20", "Kurs", "Grundnivå", "7.5 hp", "DA281A"]
 
 sidebar:
     items:
@@ -15,7 +15,6 @@ sidebar:
           url: "https://mau.instructure.com/login/saml"
 
         - label: "Moduler"
-          open: true
           items:
               - label: "Programmeringsmiljö"
                 path: "modul-1"
@@ -31,7 +30,6 @@ sidebar:
                 path: "modul-6"
 
         - label: "Uppgifter"
-          open: true
           items:
               - label: "Inlämningsuppgift 1"
                 path: "uppgift-1"

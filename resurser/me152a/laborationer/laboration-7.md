@@ -116,7 +116,7 @@ Objektet `Calendar` kommer att innehålla ett attribut: evenemang. Utöver detta
 
 * Konstruktornamn: `Calendar`
 * Argument till konstruktorn **och** de attribut som objektet ska ha:
-    * `events`, lista, 
+    * `events`, en lista.
 * Metoder:
     * `getEvents`, inga argument, returnerar `events`.
     * `addEvent`, tar emot ett argument i form av ett `event` och lägger till det i listan `events`.

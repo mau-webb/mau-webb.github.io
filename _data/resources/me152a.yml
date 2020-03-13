@@ -15,6 +15,7 @@ sidebar:
         - label: "Uppgifter"
           items:
               - label: "Uppgift 1"
+              - label: "Uppgift 2"
 
         - label: "Laborationer"
           items:

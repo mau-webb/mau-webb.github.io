@@ -10,7 +10,6 @@ Syfte med uppgiften:
 * att öva på att arbeta med ett färdigt dataset.
 * att öva på att bearbeta data från ett format till ett annat.
 * att öva på att skapa en implementation av ett givet problem baserat på en beskrivning.
-* att öva på att använda Array-metoder istället för traditionella for-loopar.
 
 Inlämning sker i form av en zippad mapp innehållande
 

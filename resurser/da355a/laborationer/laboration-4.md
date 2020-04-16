@@ -13,6 +13,7 @@ Ni ska i denna laborationen bekanta er med ett CSS-ramverk (eller flera om ni vi
 * [UI Kit](https://getuikit.com)
 * [Semantic UI](https://semantic-ui.com)
 * [Materialize](https://materializecss.com)
+* [Tailwind](https://tailwindcss.com)
 
 Ni kommer säkerligen upptäcka att det finns en hel del likheter med samtliga av dessa CSS-ramverk. Det som skiljer dom åt är givetvis utseendet men i vissa fall även hur ni kan strukturera er webbplats. I vissa fall finns det även stöd för en del JavaScript-lösningar, men detta är inget som är viktigt för denna laborationen (men kan vara i framtida projekt).
 

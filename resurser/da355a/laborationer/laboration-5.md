@@ -343,7 +343,7 @@ $("#newsletter").on("submit", function(event) {
     // Här placerar ni er validerings kod.
 
     // Om allting var korrekt - skicka vidare användaren.
-    $("#newsletter").submit();
+    $("#newsletter")[0].submit();
 });
 ```
 

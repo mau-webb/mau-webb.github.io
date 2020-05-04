@@ -14,3 +14,4 @@ Föreläsningar kommer att publiceras allt eftersom.
 * [CSS Ramverk](forelasningar/04_CSS_Ramverk_DA344A_DA355A_VT20.pdf)
 * [jQuery och Ajax](forelasningar/05_jQuery_AJAX_DA344A_DA355A_VT20.pdf)
 * [Cookies, LocalStorage och Geolocation](forelasningar/06_Geolocation_LocalStorage_DA344A_DA355A_VT20.pdf)
+* [JavaScript Ramverk](forelasningar/07_JS_Ramverk_DA344A_DA355A_VT20.pdf)

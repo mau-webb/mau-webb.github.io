@@ -1,0 +1,64 @@
+id: da354a
+title: "Introduktion till Python"
+tags: ["HT20", "Kurs", "Grundnivå", "7.5 hp", "DA354A"]
+
+sidebar:
+    items:
+        - label: "Kursöversikt"
+          root: true
+        - label: "Planering"
+        - label: "Material"
+        - label: "Kursplan"
+          url: "https://edu.mah.se/sv/Course/DA354A#Syllabus"
+        - label: "Canvas"
+          url: "https://mau.instructure.com/login/saml"
+
+        - label: "1. Introduktion till Python"
+          collapsed: false
+          items:
+              - label: "Översikt"
+                path: "index"
+              - label: "Föreläsning"
+                path: "lecture"
+              - label: "Övning 1: Python & Idle"
+                path: "ex-1"
+              - label: "Övning 2: Variabler, datatyper & användarinput"
+                path: "ex-2"
+              - label: "Övning 3: Debugging"
+                path: "ex-3"
+              - label: "Övning 4: Extra (1)"
+                path: "ex-4"
+              - label: "Övning 4: Extra (2)"
+                path: "ex-5"
+              - label: "Övning 4: Extra (3)"
+                path: "ex-6"
+        - label: "2. Funktioner"
+          collapsed: true
+          items:
+              - label: "Introduktion till HTML"
+                path: "modul-1"
+        - label: "3. Iteration och selektion"
+          collapsed: true
+          items:
+              - label: "Introduktion till HTML"
+                path: "modul-1"
+        - label: "4. Listor och lexikon"
+          collapsed: true
+          items:
+              - label: "Introduktion till HTML"
+                path: "modul-1"
+        - label: "5. Fil- och felhantering"
+          collapsed: true
+          items:
+              - label: "Introduktion till HTML"
+                path: "modul-1"
+        - label: "6. Webbapplikationer"
+          collapsed: true
+          items:
+              - label: "Introduktion till HTML"
+                path: "modul-1"
+        - label: "7. Objektorientering"
+          collapsed: true
+          items:
+              - label: "Introduktion till HTML"
+                path: "modul-1"

@@ -16,7 +16,7 @@ sidebar:
           collapsed: false
           items:
               - label: "Översikt"
-                path: "index"
+                path: "overview"
               - label: "Föreläsning"
                 path: "lecture"
               - label: "Ö.1: Python & Idle"

@@ -7,6 +7,12 @@ title: "Modul 1 - Introduktion till Python"
 
 ## 2.a. Variabler & datatyper
 
+#### Rekommenderad läsning
+
+- [Think Python - Chapter 2 Variables, expressions and statements](http://greenteapress.com/thinkpython2/html/thinkpython2003.html)
+
+### Inledning
+
 Precis som i andra programmeringsspråk så använder man i Python variabler för att spara olika värden, som kan vara bra att ha koll på. En variabel med värde skrivs såhär i Python:
 
 ```python
@@ -44,7 +50,7 @@ print("Hej " + name + "!")
 
 <p class="info">
     Det som händer ovan är att vi <strong>slår ihop</strong> tre strängar till en genom <code class="highlighter-rouge">+</code>. Vi kan allså läsa ut:
-    <code class="highlighter-rouge">print("Hej " + name + "!")</code> som <code class="highlighter-rouge">print("Hej " + "Anton" + "!")</code>
+    <code class="highlighter-rouge">print("Hej " + name + "!")</code> som <code class="highlighter-rouge">print("Hej " + "Anton" + "!")</code> i exemplet ovan.
 </p>
 
 #### Att tänka på vid utskrifter med textsträngar & tal
@@ -102,7 +108,7 @@ Man kan alltid fråga pythontolken om vilken datatyp ett värde har. Till exempe
 
 ---
 
-## 2.2. Användarinput
+## 2.b. Användarinput
 
 Hittills har vi bestämt värdet på de variabler som vi skapat, t.ex. vad vi heter, vilka tal vi vill räkna med osv. Denna information skulle ju bli mer intressant om vi kan få den från personen som använder vårt program. Vi kan i Python fråga användaren efter input/indata till vårt program genom funktionen `input()`.
 

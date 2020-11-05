@@ -14,17 +14,17 @@ I den första modulen kommer vi att titta på några grundläggande koncept &amp
 - Utskrifter
 - Indata (från användaren)
 
-Denna modul syftar till att introducera många av dessa koncept, i ett (för många) nytt programspråk, _Python_.
+Denna modul syftar till att introducera många av dessa koncept, i ett (för många) nytt programspråk, _Python_.**Ö** i tabell nedan, och menyn till vänster är förkortning för **övning**.
 
 | Innehåll | Kommentar |
 | --- | --- |
 | Föreläsning | *Publiceras senare* |
-| Övning 1: Python & Idle | En introduktion till språket Python och miljön där vi skriver vår kod |
-| Övning 2: Variabler, datatyper & användarinput | En introduktion till de vanligaste byggstenarna i programmering |
-| Övning 3: Debugging | En introduktion till att hitta (och åtgärda) fel i kod |
-| Övning 4: Extra (1) | Rekommenderad extra träning |
-| Övning 5: Extra (2) | Rekommenderad extra träning |
-| Övning 6: Extra (3) | Rekommenderad extra träning |
+| Ö.1: Python & Idle | En introduktion till språket Python och miljön Idle där vi skriver vår kod |
+| Ö.2: Variabler & datatyper | En introduktion till grundläggande byggstenar i programmering |
+| Ö.3: Debugging & kommentarer | En introduktion till att hitta (och åtgärda) fel i kod, samt kommentera kod |
+| Ö.4: Case (1) - Valutakonverterare | En något större uppgift att träna på |
+| Ö.5: Case (2) - Budgetberäknare | En något större uppgift att träna på |
+| Ö.6: Case (3) - Valfritt | En något större uppgift att träna på |
 | Inlämningsuppgift | *Ingen uppgift i den första modulen* |
 
 ### Rekommenderad läsning

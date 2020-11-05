@@ -7,4 +7,4 @@ title: "Modul 1 - Introduktion till Python"
 
 ## Föreläsning
 
-*Vi har inte haft någon föreläsning än, när vi haft den så kommer den att laddas upp här.*
+*Vi har inte haft någon föreläsning än, när vi haft den så kommer den (tillsammans med ev. kod) att laddas upp här.*

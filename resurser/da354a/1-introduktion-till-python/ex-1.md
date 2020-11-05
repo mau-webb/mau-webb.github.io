@@ -7,6 +7,10 @@ title: "Modul 1 - Introduktion till Python"
 
 ## 1.a. Bekanta dig med Python & IDLE
 
+#### Rekommenderad läsning
+
+- [Think Python - Chapter 1 The way of the program](http://greenteapress.com/thinkpython2/html/thinkpython2002.html)
+
 ### Bakgrund
 
 Python är ett plattformsoberoende, dynamiskt, objektorienterat skriptspråk — lämpligt för såväl prototyputveckling som "tyngre" applikationer (Google, Nasa, Sun Microsystems och Spotify är några av användarna). Det finns tillgängligt för fri nedladdning på [https://python.org/](https://python.org/) och är förinstallerat på Mac OS X, liksom de flesta distributioner av Linux.

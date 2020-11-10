@@ -164,6 +164,13 @@ footer {
     }
 }
 
+div.video-frame > iframe {
+    border: 10px solid #fff;
+    box-shadow: 0 0 2px #999;
+    display: block;
+    margin: auto;
+}
+
 body.resource .sidebar {
     position: fixed;
     z-index: 10;

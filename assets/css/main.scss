@@ -273,6 +273,7 @@ body.resource .sidebar {
         i {
             position: absolute;
             right: 8px;
+            top: 8px;
         }
 
         &:hover {
@@ -641,16 +642,16 @@ body.resource.closed {
 @media screen and (min-width: 1440px) {
     body.resource {
         .sidebar {
-            width: 270px;
+            width: 280px;
         }
         main {
-            margin-left: 270px;
+            margin-left: 280px;
             font-size: 105%;
         }
     }
 
     body.resource.closed .sidebar {
-        left: -270px;
+        left: -280px;
     }
 }
 

@@ -21,7 +21,7 @@ title: "Modul 1 - Introduktion till Python"
 
 ### Dagens exempel
 
-### En miniräknare
+#### En miniräknare
 
 ```python
 # Skriver ut en rubrik till vårt program
@@ -46,7 +46,7 @@ result = float(nr_1) + float(nr_2)
 print(name + ", summan blir: " + str(result))
 ```
 
-### En moms-räknare
+#### En moms-räknare
 
 ```python
 print("-------------")

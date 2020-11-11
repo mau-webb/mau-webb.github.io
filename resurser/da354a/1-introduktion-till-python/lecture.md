@@ -19,4 +19,50 @@ title: "Modul 1 - Introduktion till Python"
 
 ---
 
+### Dagens exempel
+
+### En miniräknare
+
+```python
+# Skriver ut en rubrik till vårt program
+print("-------------")
+print("Miniräknare")
+print("-------------")
+
+# Frågar efter användarens namn, sparar det i variabeln "name"
+name = input("Vad heter du? ")
+
+# Skriver ut en beskrivning av vad som kommer att ske
+print("Vi kommer ni att göra en beräkning, vänligen ange tal nedan")
+# Frågar efter det första talet, sparar det i variabeln "nr_1"
+nr_1 = input("Ange tal 1: ")
+# Frågar efter det andra talet, sparar det i variabeln "nr_2"
+nr_2 = input("Ange tal 2: ")
+
+# Beräknar summan av talen (gör både talen till datatypen nummer)
+result = float(nr_1) + float(nr_2)
+
+# Skriver ut resultatet till användaren
+print(name + ", summan blir: " + str(result))
+```
+
+### En moms-räknare
+
+```python
+print("-------------")
+print("Momsberäknare")
+print("-------------")
+
+moms = 0.3
+
+user_money = input("Vilken summa vill du räkna moms på? ")
+
+result = float(user_money) * moms
+
+print("Momsen på " + str(user_money) + " är " + str(result))
+
+```
+
+---
+
 Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/introduktion-till-programmering.pdf).

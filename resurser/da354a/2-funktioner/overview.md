@@ -23,6 +23,7 @@ Denna modul syftar till att introducera funktioner, med övningarna uppdelade i 
 | Ö.3: Att returnera värden | Hur returneras värden från funktioner? |
 | Ö.4: Struktur av program | Hur skapar man en bra programstruktur? |
 | Ö.5: Moduler i Python | Hur använder man sig utav Pythons moduler? |
+| Ö.6: Utskriftsfunktioner | Smidigare sätt att hantera utskrifter |
 | Inlämningsuppgift | Grundläggande kunskap inom funktioner |
 
 ### Rekommenderad läsning

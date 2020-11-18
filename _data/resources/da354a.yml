@@ -13,7 +13,7 @@ sidebar:
           url: "https://mau.instructure.com/login/saml"
 
         - label: "1. Introduktion till Python"
-          collapsed: false
+          collapsed: true
           items:
               - label: "Översikt"
                 path: "overview"
@@ -34,7 +34,7 @@ sidebar:
               - label: "Ö.6: Case (3) - Valfritt"
                 path: "ex-6"
         - label: "2. Funktioner"
-          collapsed: true
+          collapsed: false
           items:
               - label: "Översikt"
                 path: "overview"

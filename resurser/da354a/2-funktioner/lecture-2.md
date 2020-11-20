@@ -33,7 +33,7 @@ def print_three_times(x):
     Skriver ut x tre gånger
 
     Args:
-        x: string
+        x (str): Strängen som ska skrivas ut
     '''
     print(x)
     print(x)
@@ -44,7 +44,7 @@ def hej(name):
     Välkomnar en användare
 
     Args:
-        name: string
+        name (str) : Namnet på användaren
     '''
     print(f"Hej {name}!")
 
@@ -63,10 +63,10 @@ def kr_to_dollar(kr):
     Konverterar kronor till dollar
 
     Args:
-        kr: int
+        kr (int) : Antal kronor som ska omvandlas till dollar
 
-    Returns:
-        int
+    Return:
+        int : Antal dollar
     '''
     usd = 8.65 # En dollar är 8.65kr
     result = round(kr / usd, 2)
@@ -77,10 +77,10 @@ def get_user_int(question):
     Hämta ett nummer från användaren
 
     Args:
-        question: string
+        question (string) : Frågan som ska skrivas ut
 
     Returns:
-        int
+        int : Användarens angivna nummer
     '''
     user_input = input(question)
     return int(user_input)

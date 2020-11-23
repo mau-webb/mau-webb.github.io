@@ -57,10 +57,26 @@ sidebar:
               - label: "Inlämningsuppgift"
                 path: "assignment"
 #        - label: "3. Iteration och selektion"
-#          collapsed: true
+#          collapsed: false
 #          items:
-#              - label: "Introduktion till HTML"
-#                path: "modul-1"
+#              - label: "Översikt"
+#                path: "overview"
+#              - label: "Föreläsning"
+#                path: "lecture"
+#              - label: "Föreläsning (extra)"
+#                path: "lecture-2"
+#              - label: "Ö.1: Introduktion till selektion"
+#                path: "ex-1"
+#              - label: "Ö.2: Nästlade if-satser"
+#                path: "ex-2"
+#              - label: "Ö.3: Introduktion till iterationer"
+#                path: "ex-3"
+#              - label: "Ö.4: Nästlade iterationer"
+#                path: "ex-4"
+#              - label: "Ö.5: Iteration och selektion"
+#                path: "ex-5"
+#              - label: "Inlämningsuppgift"
+#                path: "assignment"
 #        - label: "4. Listor och lexikon"
 #          collapsed: true
 #          items:

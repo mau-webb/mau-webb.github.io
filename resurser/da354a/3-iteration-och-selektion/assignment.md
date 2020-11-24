@@ -93,7 +93,7 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 ### Redovisning
 
-Redovisa genom att ladda upp programmets källkod på It's Learning i en **zip-fil**.
+Redovisa genom att ladda upp programmets källkod på Canvas i en **zip-fil**.
 
 Inlämningsuppgifter rättas varje vecka, med söndag som rullande deadline. Deadline för denna uppgift är:
 **_söndagen den 2020-12-06_**.

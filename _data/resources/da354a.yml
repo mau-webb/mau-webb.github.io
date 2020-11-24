@@ -57,7 +57,7 @@ sidebar:
               - label: "Inlämningsuppgift"
                 path: "assignment"
         - label: "3. Iteration och selektion"
-          collapsed: false
+          collapsed: true
           items:
               - label: "Översikt"
                 path: "overview"

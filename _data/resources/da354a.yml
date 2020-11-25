@@ -34,7 +34,7 @@ sidebar:
               - label: "Ö.6: Case (3) - Valfritt"
                 path: "ex-6"
         - label: "2. Funktioner"
-          collapsed: false
+          collapsed: true
           items:
               - label: "Översikt"
                 path: "overview"
@@ -57,7 +57,7 @@ sidebar:
               - label: "Inlämningsuppgift"
                 path: "assignment"
         - label: "3. Iteration och selektion"
-          collapsed: true
+          collapsed: false
           items:
               - label: "Översikt"
                 path: "overview"

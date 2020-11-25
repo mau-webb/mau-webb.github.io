@@ -131,7 +131,7 @@ for i in range(12): # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 ### Rövarspråket
 
-```Python
+```python
 def is_vowel(char):
     '''Controlls if a character is a vowel
 

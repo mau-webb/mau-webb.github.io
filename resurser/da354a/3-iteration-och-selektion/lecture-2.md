@@ -9,7 +9,11 @@ title: "Modul 3 - Iteration & Selektion"
 
 
 ---
-*Videon håller på att laddas upp*
+
+<div class="video-frame">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NNFkgYjoQj0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ---
 
 ## Dagens exempel

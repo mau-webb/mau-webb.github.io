@@ -78,7 +78,7 @@ sidebar:
               - label: "Inlämningsuppgift"
                 path: "assignment"
         - label: "4. Listor och lexikon"
-          collapsed: false
+          collapsed: true
           items:
               - label: "Översikt"
                 path: "overview"
@@ -97,7 +97,7 @@ sidebar:
               - label: "Inlämningsuppgift"
                 path: "assignment"
         - label: "5. Fil- och felhantering"
-          collapsed: true
+          collapsed: false
           items:
               - label: "Översikt"
                 path: "overview"

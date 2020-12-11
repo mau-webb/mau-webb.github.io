@@ -91,3 +91,8 @@ print(celcius)
 Kör man koden ovan och vi *inte* skriver in ett tal (med eller utan decimaler) så kommer programmet att krascha (testa att skriv in `hej` för att bekräfta detta). Er uppgift är att skriva en felhantering (m.h.a.`try`/`except`) för att kontrollera så att användaren matar in siffror/decimaltal. Ni ska dessutom göra en iteration som körs till det att användaren har matat in korrekt information. En exempelkörning kan se ut såhär:
 
 ![Idle](../images/idle9.png)
+
+### Exempellösningar
+
+- [Övning 1 - Förbättra er bokhanterare](../ex-solutions/Ö2.1.py)
+- [Övning 2 - Kontrollera användarinput](../ex-solutions/Ö2.2.py)

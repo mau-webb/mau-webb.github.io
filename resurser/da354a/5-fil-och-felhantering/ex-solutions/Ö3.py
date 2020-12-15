@@ -135,7 +135,7 @@ def read_movies_from_file(file_name):
         },
         {
             "title": "Fight club",
-            "year", 1999,
+            "year": 1999,
             "director": "David Fincher"
         },
     ]

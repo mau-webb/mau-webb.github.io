@@ -59,17 +59,17 @@ Eller genom JSON, t.ex. på följade sätt:
 [
     {
         "title": "Star Wars",
-        "year", 1977,
+        "year": 1977,
         "director": "George Lucas"
     },
     {
         "title": "Fight club",
-        "year", 1999,
+        "year": 1999,
         "director": "David Fincher"
     },
     {
         "title": "American Beauty",
-        "year", 1999,
+        "year": 1999,
         "director": "Sam Mendes"
     }
 ]

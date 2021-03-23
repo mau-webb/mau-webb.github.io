@@ -20,6 +20,9 @@ Kursens upplägg består veckovis av en eller två föreläsning(ar) följt av e
 
 Kursmaterial i form av laborationer och uppgifter kommer att publiceras på denna webbplats allt eftersom vi har haft de olika momenten, men förhoppningsvis tidigare. **Resultat** och **meddelanden** finner ni dock fortfarande på Canvas.
 
+**Kursplaner**
+
+
 **Kurslitteratur**
 
 * Weyl, Estelle (2013) *Mobile HTML5*, O’Reilly Media, Sebastopol, ISBN 13: **9781449311414**

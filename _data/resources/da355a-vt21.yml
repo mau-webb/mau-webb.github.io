@@ -1,0 +1,62 @@
+id: da355a-vt21
+title: "Flerplattformsapplikationer med webbtekniker & Webbapplikationer för mobila enheter"
+tags: ["VT21", "Kurs", "Grundnivå", "7.5 hp", "DA355A, DA344A"]
+
+sidebar:
+    items:
+        - label: "Introduktion"
+          root: true
+        - label: "Kursöversikt"
+          path: "overview"
+        - label: "Planering"
+          path: "plan"
+
+        - label: "1. Kursintro & HTML/CSS/JS"
+          items:
+              - label: "Översikt"
+                path: "index"
+              - label: "F: Kursintroduktion"
+                path: "f1"
+              - label: "F: HTML/CSS"
+                path: "f2"
+              - label: "F: JavaScript"
+                path: "f3"
+              - label: "L: HTML/CSS"
+                path: "l1"
+              - label: "L: JavaScript"
+                path: "l2"
+
+        # - label: "2. JavaScript & DOM"
+        #   items:
+        #       - label: "Översikt"
+        #         path: "index"
+        #       - label: "F: JavaScript & DOM"
+        #         path: "f1"
+        #       - label: "Inlämningsuppgift 1.a"
+        #         path: "i1"
+        #       - label: "Inlämningsuppgift 1.b"
+        #         path: "i2"
+        #       - label: "Extra övningar"
+        #         path: "extra"
+          
+        # - label: "3. RWD & CSS-ramverk"
+        #   items:
+        #       - label: "Översikt"
+        #         path: "index"
+        #       - label: "F: RWD & CSS-ramverk"
+        #         path: "f1"
+        #       - label: "Inlämningsuppgift 2.a"
+        #         path: "i1"
+        #       - label: "Inlämningsuppgift 2.b"
+        #         path: "i2"
+
+        # - label: "4. jQuery & Ajax"
+        #   items:
+        #       - label: "Översikt"
+        #         path: "index"
+        #       - label: "F: jQuery & Ajax"
+        #         path: "f1"
+        #       - label: "Inlämningsuppgift 3.a"
+        #         path: "i1"
+        #       - label: "Inlämningsuppgift 3.b"
+        #         path: "i2"

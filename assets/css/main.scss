@@ -25,6 +25,10 @@ html, body {
 img { max-width: 100%; }
 a { text-decoration: none; }
 
+table.small-text {
+    font-size: 12px;
+}
+
 body.start {
     display: flex;
     flex-direction: column;

@@ -12,6 +12,7 @@ sidebar:
           path: "plan"
 
         - label: "1. Kursintro & HTML/CSS/JS"
+          collapsed: true
           items:
               - label: "Översikt"
                 path: "index"
@@ -26,37 +27,52 @@ sidebar:
               - label: "L: JavaScript"
                 path: "l2"
 
-        # - label: "2. JavaScript & DOM"
-        #   items:
-        #       - label: "Översikt"
-        #         path: "index"
-        #       - label: "F: JavaScript & DOM"
-        #         path: "f1"
-        #       - label: "Inlämningsuppgift 1.a"
-        #         path: "i1"
-        #       - label: "Inlämningsuppgift 1.b"
-        #         path: "i2"
-        #       - label: "Extra övningar"
-        #         path: "extra"
+        - label: "2. JavaScript & DOM"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index"
+              - label: "F: JavaScript & DOM"
+                path: "f1"
+              - label: "Inlämningsuppgift 1.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 1.b"
+                path: "i2"
+              - label: "Extra övningar"
+                path: "extra"
           
-        # - label: "3. RWD & CSS-ramverk"
-        #   items:
-        #       - label: "Översikt"
-        #         path: "index"
-        #       - label: "F: RWD & CSS-ramverk"
-        #         path: "f1"
-        #       - label: "Inlämningsuppgift 2.a"
-        #         path: "i1"
-        #       - label: "Inlämningsuppgift 2.b"
-        #         path: "i2"
+        - label: "3. RWD & CSS-ramverk"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index"
+              - label: "F: RWD & CSS-ramverk"
+                path: "f1"
+              - label: "Inlämningsuppgift 2.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 2.b"
+                path: "i2"
 
-        # - label: "4. jQuery & Ajax"
-        #   items:
-        #       - label: "Översikt"
-        #         path: "index"
-        #       - label: "F: jQuery & Ajax"
-        #         path: "f1"
-        #       - label: "Inlämningsuppgift 3.a"
-        #         path: "i1"
-        #       - label: "Inlämningsuppgift 3.b"
-        #         path: "i2"
+        - label: "4. jQuery & Ajax"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index"
+              - label: "F: jQuery & Ajax"
+                path: "f1"
+              - label: "Inlämningsuppgift 3.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 3.b"
+                path: "i2"
+
+        - label: "5. Store and locate"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index"
+              - label: "F: Store & locate"
+                path: "f1"
+              - label: "Inlämningsuppgift 4.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 4.b"
+                path: "i2"

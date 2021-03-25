@@ -1,4 +1,4 @@
-(function() {
+(function () {
     var doc = document.documentElement,
         body = document.body;
 
@@ -24,8 +24,8 @@
     var menu = document.querySelector(".sidebar .menu");
 
     if (menu !== null) {
-        menu.addEventListener("click", function() {
-            var width  = window.innerWidth || doc.clientWidth || body.clientWidth;
+        menu.addEventListener("click", function () {
+            var width = window.innerWidth || doc.clientWidth || body.clientWidth;
 
             if (width < 940) {
                 body.classList.toggle("opened");
@@ -42,7 +42,7 @@
     for (var i = 0; i < navigationHeaders.length; i++) {
         var el = navigationHeaders[i];
 
-        el.addEventListener("click", function(e) {
+        el.addEventListener("click", function (e) {
             // Click would target icon as well
             var p = e.target.className == ""
                 ? e.target.parentElement
@@ -57,7 +57,34 @@
             }
         });
     }
-    
+
+    // Open last visited sidebar group
+    // ======================================
+    const savedSection = JSON.parse(window.localStorage.history);
+    const course = document.querySelector("header.navigation h4").textContent;
+    if (savedSection.course === course) {
+        document.querySelectorAll(".sidebar-inner-container h5").forEach((element) => {
+            if (element.textContent === savedSection.section) {
+                element.parentElement.classList.toggle("closed");
+                element.parentElement.classList.add("open");
+            }
+        });
+    }
+
+    // Save last visited sidebar group
+    // ======================================
+    document.querySelectorAll(".sidebar-inner-container h5").forEach((element) => {
+        element.addEventListener("click", function (e) {
+            const lastVisitedSection = e.target.textContent;
+            const course = document.querySelector("header.navigation h4").textContent;
+            window.localStorage.history = JSON.stringify({
+                section: lastVisitedSection,
+                course: course
+            });
+        });
+    });
+
+
     // Adds anchor to content headers (h1-h3)
     // ======================================
     function setHeaderAnchors() {
@@ -75,13 +102,13 @@
             }
         }
     }
-    
+
     // Make external links open in a new tab
     // =====================================
     function setTargetBlankForLinks() {
         var anchors = document.getElementsByTagName("a"),
             re1 = new RegExp("^https://mau-webb.github.io");
-            re2 = new RegExp("^http://localhost");
+        re2 = new RegExp("^http://localhost");
 
         for (var i = 0, len = anchors.length; i < len; i++) {
             var anchor = anchors[i];
@@ -92,7 +119,7 @@
         }
     }
 
-    window.onload = function() {
+    window.onload = function () {
         setHeaderAnchors();
         setTargetBlankForLinks();
     };

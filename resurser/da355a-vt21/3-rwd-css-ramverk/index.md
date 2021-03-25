@@ -10,12 +10,12 @@ Denna vecka ska vi fokusera på [responsiv webbdesign](https://sv.wikipedia.org/
 ## Veckans kurstillfälle
 
 - Tisdag kl. 13.15 - **Föreläsning**: RWD & CSS-ramverk
-- Torsdag kl. 08.15 - **Laboration**: Inlämningsuppgift 2.a. & Inlämningsuppgift 2.b.
+- Torsdag kl. 08.15 - **Laboration**: [Inlämningsuppgift 2.a.](../i1/) & [Inlämningsuppgift 2.b.](../i2/)
 
 ## Deadlines
 
-- Tisdag kl. 23.59 - **Peer reviewing: Inlämningsuppgift 1.b.**
-- Söndag kl. 23:59 - **Inlämningsuppgift 2.a.** & **Inlämningsuppgift 2.b.**.
+- Tisdag kl. 23.59 - **Peer reviewing:** [Inlämningsuppgift 1.b.](../../2-javascript-dom/i2/)
+- Söndag kl. 23:59 - **[Inlämningsuppgift 2.a.](../i1/)** & **[Inlämningsuppgift 2.b.](../i2/)**.
 
 ## Läshänvisningar
 

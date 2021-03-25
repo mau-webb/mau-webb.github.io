@@ -12,12 +12,12 @@ Vi kommer även att titta på [Ajax](https://sv.wikipedia.org/wiki/AJAX) (*Async
 ## Veckans kurstillfälle
 
 - Tisdag kl. 13.15 - **Föreläsning**: RWD & CSS-ramverk
-- Torsdag kl. 08.15 - **Laboration**: Inlämningsuppgift 3.a. & Inlämningsuppgift 3.b.
+- Torsdag kl. 08.15 - **Laboration**: [Inlämningsuppgift 3.a.](../i1/) & [Inlämningsuppgift 3.b.](../i2/)
 
 ## Deadlines
 
-- Tisdag kl. 23.59 - **Peer reviewing: Inlämningsuppgift 2.b.**
-- Söndag kl. 23:59 - **Inlämningsuppgift 3.a.** & **Inlämningsuppgift 3.b.**.
+- Tisdag kl. 23.59 - **Peer reviewing:** [Inlämningsuppgift 2.b.](../../3-rwd-css-ramverk/i2/)
+- Söndag kl. 23:59 - [**Inlämningsuppgift 3.a.**](../i1/) & [**Inlämningsuppgift 3.b.**](../i2/)
 
 ## Läshänvisningar
 

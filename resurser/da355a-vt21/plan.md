@@ -14,7 +14,7 @@ Nedan kommer en snabb översikt av kursens planering.
 {:.small-text}
 | V.  | Måndag              | Tisdag                                        | Onsdag             | Torsdag               | F | L | Söndag    |
 |--------|---------------------|-----------------------------------------------|--------------------|-----------------------|--------|--------|-----------|
-| **13** | **F**: Kursintroduktion | **F**: Repetition HTML/CSS<br>**F**: Repetition JS           |                    | **L**: Repetition HTML/CSS<br>**L**: Repetition JS     |        |        |           |
+| **13** | **F**: Kursintroduktion | **F**: Repetition HTML/CSS (Sys)<br>**F**: Repetition JS (IA)           |                    | **L**: Repetition HTML/CSS (Sys)<br>**L**: Repetition JS (IA)    |        |        |           |
 | **14** |                     | **F**: JavaScript & DOM                           |                    | **L**: JavaScript & DOM   |        |        | **D**: Inl. 1 |
 | **15** |                     | **F**: RWD & CSS-ramverk <br>**D**: Peer-review (Inl. 1.b)  |                    | **L**: RWD & CSS-ramverk  |        |        | **D**: Inl. 2 |
 | **16** |                     | **F**: jQuery & Ajax <br>**D**: Peer-review (Inl. 2.b)      |                    | **L**: jQuery & Ajax      |        |        | **D**: Inl. 3 |

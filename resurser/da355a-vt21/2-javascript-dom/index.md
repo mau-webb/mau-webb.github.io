@@ -10,11 +10,11 @@ Denna vecka ska vi fokusera på JavaScript & DOM. Kort sagt så ska vi titta nä
 ## Veckans kurstillfälle
 
 - Tisdag kl. 13.15 - **Föreläsning**: JavaScript & DOM
-- Torsdag kl. 08.15 - **Laboration**: Inlämningsuppgift 1.a. & Inlämningsuppgift 1.b.
+- Torsdag kl. 08.15 - **Laboration**: [Inlämningsuppgift 1.a.](../i1/) & [Inlämningsuppgift 1.b.](../i2/)
 
 ## Deadlines
 
-- Söndag kl. 23:59 - **Inlämningsuppgift 1.a.** & **Inlämningsuppgift 1.b.**.
+- Söndag kl. 23:59 - [**Inlämningsuppgift 1.a.**](../i1/) & [**Inlämningsuppgift 1.b.**](../i2/).
 
 ## Läshänvisningar
 

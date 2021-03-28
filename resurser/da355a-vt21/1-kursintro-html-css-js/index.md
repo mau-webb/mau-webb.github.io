@@ -15,11 +15,11 @@ Det är **väldigt viktigt** att man är med i kursen från start, om man kommer
 
 ### Informationsarkitekt
 - Tisdag kl. 13.15 - **Föreläsning**: Repetition JavaScript
-- Torsdag kl. 08.15 - **Laboration**: Repetition JavaScript
+- Torsdag kl. 08.15 - **Laboration**: [Repetition JavaScript](../l2/)
 
 ### Systemutvecklare
 - Tisdag kl. 13.15 - **Föreläsning**: Repetition HTML/CSS
-- Torsdag kl. 08.15 - **Laboration**: Repetition HTML/CSS
+- Torsdag kl. 08.15 - **Laboration**: [Repetition HTML/CSS](../l1/)
 
 ## Läshänvisningar
 

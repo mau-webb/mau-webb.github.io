@@ -15,7 +15,7 @@ sidebar:
           collapsed: true
           items:
               - label: "Översikt"
-                path: "index"
+                path: "index-page"
               - label: "F: Kursintroduktion"
                 path: "f1"
               - label: "F: HTML/CSS"
@@ -31,7 +31,7 @@ sidebar:
           collapsed: true
           items:
               - label: "Översikt"
-                path: "index"
+                path: "index-page"
               - label: "F: JavaScript & DOM"
                 path: "f1"
               - label: "Inlämningsuppgift 1.a"
@@ -45,7 +45,7 @@ sidebar:
           collapsed: true
           items:
               - label: "Översikt"
-                path: "index"
+                path: "index-page"
               - label: "F: RWD & CSS-ramverk"
                 path: "f1"
               - label: "Inlämningsuppgift 2.a"
@@ -57,7 +57,7 @@ sidebar:
           collapsed: true
           items:
               - label: "Översikt"
-                path: "index"
+                path: "index-page"
               - label: "F: jQuery & Ajax"
                 path: "f1"
               - label: "Inlämningsuppgift 3.a"
@@ -69,7 +69,7 @@ sidebar:
           collapsed: true
           items:
               - label: "Översikt"
-                path: "index"
+                path: "index-page"
               - label: "F: Store & locate"
                 path: "f1"
               - label: "Inlämningsuppgift 4.a"

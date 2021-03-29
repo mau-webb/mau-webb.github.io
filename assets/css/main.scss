@@ -185,6 +185,12 @@ div.video-frame > iframe {
     margin: auto;
 }
 
+div.video-frame > div {
+    border: 10px solid #fff;
+    box-shadow: 0 0 2px #999;
+    box-sizing: border-box;
+}
+
 body.resource .sidebar {
     position: fixed;
     z-index: 10;

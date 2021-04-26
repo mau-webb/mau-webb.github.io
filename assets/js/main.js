@@ -60,15 +60,17 @@
 
     // Open last visited sidebar group
     // ======================================
-    const savedSection = JSON.parse(window.localStorage.history);
-    const course = document.querySelector("header.navigation h4").textContent;
-    if (savedSection.course === course) {
-        document.querySelectorAll(".sidebar-inner-container h5").forEach((element) => {
-            if (element.textContent === savedSection.section) {
-                element.parentElement.classList.toggle("closed");
-                element.parentElement.classList.add("open");
-            }
-        });
+    if (window.localStorage.history) {
+        const savedSection = JSON.parse(window.localStorage.history);
+        const course = document.querySelector("header.navigation h4").textContent;
+        if (savedSection.course === course) {
+            document.querySelectorAll(".sidebar-inner-container h5").forEach((element) => {
+                if (element.textContent === savedSection.section) {
+                    element.parentElement.classList.toggle("closed");
+                    element.parentElement.classList.add("open");
+                }
+            });
+        }
     }
 
     // Save last visited sidebar group

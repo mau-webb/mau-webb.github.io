@@ -9,6 +9,8 @@ Projektet ska göras i grupper om **tre (3) personer**. Ni anmäler er projektgr
 
 Hittar ni ingen projektgrupp så skriv (i god tid) i kanalen `#hitta-projektgrupp` på Discord för att hitta andra studenter som också vill hitat en projektgrupp.
 
+Skulle ni inte lyckas att skapa en grupp innan deadline så **skapa en grupp med bara en person i (du)** - så kommer vi att slå ihop alla "en"-grupper till "tre"-grupper senast den 14:e maj.
+
 ---
 
 ## Kravspecifikation
@@ -30,6 +32,17 @@ Hittar ni ingen projektgrupp så skriv (i god tid) i kanalen `#hitta-projektgrup
 
 * [https://any-api.com](https://any-api.com)
 * [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
+
+Tänk på att projektet ska publiceras på github.com och därför är det viktigt att ni gått igenom laboration 9 innan så ni är någorlunda bekväma med Git + GitHub. För att ge er ytterligare stöd kring detta kan ni [klicka här för att läsa mer](https://github.com/trumtomte/introduktion-git-och-github/blob/master/working-with-github-desktop.md) (i detta fallet om hur ni använder det grafiska gränssnittet GitHub Desktop).
+{: .info}
+
+---
+
+## Projekthandledning
+
+Projekthandledning kommer ske på ett snarlikt vis som våra laborationer (samma Zoom-rum) med ett viktigt undantag:
+
+* Ni ska komma dit med hela er grupp och vara förberedda med frågor. Därefter kommer vi använda oss av break-out-rooms för att hjälpa respektive grupp.
 
 ---
 

@@ -10,6 +10,8 @@ sidebar:
           path: "overview"
         - label: "Planering"
           path: "plan"
+        - label: "Projekt"
+          path: "projekt"
 
         - label: "1. Kursintro & HTML/CSS/JS"
           collapsed: true

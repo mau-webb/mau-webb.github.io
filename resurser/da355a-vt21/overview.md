@@ -78,3 +78,5 @@ I kursen kan man uppnå betyget VG. För att få betyget VG behöver man bli god
 ## Projekt
 
 Kursens tre sista veckor kommer att fokusera på att ni ska arbeta i team med ett projekt. Specifika krav på projektet kommer att publiceras under kursens gång - men det kan redan nu vara idé att börja tänka på vad ni skulle vilja bygga för något. Projektet ska byggas m.h.a. ett JavaScript-ramverk, t.ex. *React*, *Angular*, *Vue*, etc.
+
+Ni hittar utförligare information om projektet [här](../projekt).

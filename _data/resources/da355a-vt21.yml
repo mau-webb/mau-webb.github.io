@@ -78,3 +78,13 @@ sidebar:
                 path: "i1"
               - label: "Inlämningsuppgift 4.b"
                 path: "i2"
+
+        - label: "6. Utvecklingsmetodik"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: Utvecklingsmetodik"
+                path: "f1"
+              - label: "Inlämningsuppgift 5"
+                path: "i1"

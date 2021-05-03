@@ -3,7 +3,7 @@ id: da355a-vt21
 title: "Introduktion"
 ---
 
-# Plannering
+# Planering
 
 Nedan kommer en snabb översikt av kursens planering.
 

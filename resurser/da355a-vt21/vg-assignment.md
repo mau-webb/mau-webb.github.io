@@ -5,7 +5,7 @@ title: "Uppgift - VG"
 
 # VG-uppgift
 
-**Observera** att denna uppgift **endast** är obligatorisk för de som siktar på betyget Väl Godkänt (VG). Siktar ni på Godkänt (G) behöver ni **inte** göra denna.
+**Observera** att denna uppgift **endast** är obligatorisk för de som siktar på betyget Väl Godkänt (VG). Siktar ni på Godkänt (G) behöver ni **inte** göra denna. Denna uppgift är **individuell**.
 {: .warn}
 
 I tidigare uppgifter har vi haft ett fokus på att skapa mindre webbapplikationer på egen hand. I arbetslivet görs detta ofta i samarbete med andra utvecklare, vilket ställer en del krav utöver programmeringen. Denna uppgift kommer att ha ett fokus på att bygga en enklare webbapplikation där vi inkluderar delar inom utvecklingsmetodik så som:

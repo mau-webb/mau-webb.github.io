@@ -12,6 +12,8 @@ sidebar:
           path: "plan"
         - label: "Projekt"
           path: "projekt"
+        - label: "VG-uppgift"
+          path: "vg-assignment"
 
         - label: "1. Kursintro & HTML/CSS/JS"
           collapsed: true

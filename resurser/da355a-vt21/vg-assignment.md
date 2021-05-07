@@ -3,7 +3,7 @@ id: da355a-vt21
 title: "Uppgift - VG"
 ---
 
-# Uppgift 3
+# VG-uppgift
 
 **Observera** att denna uppgift **endast** är obligatorisk för de som siktar på betyget Väl Godkänt (VG). Siktar ni på Godkänt (G) behöver ni **inte** göra denna.
 {: .warn}

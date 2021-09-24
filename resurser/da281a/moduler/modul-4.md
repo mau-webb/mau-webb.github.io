@@ -15,15 +15,15 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 
 ### Kurslitteratur
 
-* Kapitel 17 i boken [Eloquent JavaScript](http://eloquentjavascript.net/)
+* Kapitel 18 i boken [Eloquent JavaScript](http://eloquentjavascript.net/)
 
 ### Digitala källor
 
 * [Getting Started](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
-* [AJAX Tutorial](http://www.w3schools.com/ajax/)
+* [AJAX Tutorial](https://www.w3schools.com/whatis/whatis_ajax.asp)
 * [JSON Tutorial](http://beginnersbook.com/2015/04/json-tutorial/)
-* [What is AJAX?](https://www.youtube.com/watch?v=RDo3hBL1rfA) (video)
+* [What is AJAX?](https://youtu.be/rJesac0_Ftw) (video)
 
 ## Inlämningsuppgift
 
-* [Inlämningsuppgift 4](/{{ site.resource_path }}/da281a/uppgifter/uppgift-3/)
+* [Inlämningsuppgift 4](/{{ site.resource_path }}/da281a/uppgifter/uppgift-4/)

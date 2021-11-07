@@ -7,7 +7,14 @@ title: "Introduktion till programmering"
 
 All undervisning i kursen sker i digital form i höst p.g.a. *covid-19*. All information om vilket Zoom-rum föreläsningarna kommer att ske i, eller hur man bäst får hjälp på laborationerna i Discord kommer att presenteras på kursplats på Canvas.
 
-Varje modul är **en vecka** och introduceras varje **onsdag**. Alltså börjar den första modulen onsdagen den 11/11, den andra modulen den 18/11, den tredje moduel den 25/11, osv.
+Varje modul är **en vecka** och introduceras varje **måndag**. Alltså börjar den första modulen onsdagen den 8/11, den andra modulen den 15/11, den tredje moduel den 22/11, osv.
+
+Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadline** onsdagen veckan efter modulen påbörjades, deadlines i kursen är:
+- Modul 2: Inlämningsuppgift 1 har deadline **onsdagen den 24/11**
+- Modul 3: Inlämningsuppgift 2 har deadline **onsdagen den 1/12**
+- Modul 4: Inlämningsuppgift 3 har deadline **onsdagen den 8/12** (detta är en gruppuppgift)
+- Modul 5: Inlämningsuppgift 4 har deadline **onsdagen den 15/12**
+- Modul 6: Inlämningsuppgift 5 har deadline **söndagen den 9/1**
 
 | Förkortning | Innebörd |
 |:-----:|:-----:|

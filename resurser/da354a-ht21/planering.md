@@ -172,28 +172,28 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		</tr>
 		<tr>
             <td></td>
-			<td>9/12</td>
+			<td>8/12</td>
 			<td>08-12</td>
 			<td>L: Listor &amp; Lexikon</td>
 			<td>Anton & Lärarassistent</td>
-			<td>NI:A0314, NI:A0406</td>
+			<td>TBD</td>
 		</tr>
 		<tr class="odd">
             <td>50</td>
-			<td>13/12</td>
-			<td>10-12</td>
-			<td>F: Python &amp; Webben</td>
-			<td>Anton</td>
-			<td>G8:505</td>
-			<td rowspan="3">6</td>
-		</tr>
-		<tr class="odd">
-            <td></td>
 			<td>14/12</td>
 			<td>13-15</td>
 			<td>F: Python &amp; Webben (extra)</td>
 			<td>Anton</td>
 			<td>NI:A0306</td>
+			<td rowspan="3">6</td>
+		</tr>
+		<tr class="odd">
+            <td></td>
+			<td>15/12</td>
+			<td>10-12</td>
+			<td>F: Python &amp; Webben</td>
+			<td>Anton</td>
+			<td>TBD</td>
 		</tr>
 		<tr class="odd">
 			<td></td>

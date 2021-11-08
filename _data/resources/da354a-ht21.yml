@@ -17,8 +17,8 @@ sidebar:
           items:
               - label: "Översikt"
                 path: "overview"
-#              - label: "Kursintroduktion"
-#                path: "course"
+              - label: "Kursintroduktion"
+                path: "course"
 #              - label: "Föreläsning"
 #                path: "lecture"
               - label: "Ö.1: Python & Idle"

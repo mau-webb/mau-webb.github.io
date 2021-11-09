@@ -19,7 +19,7 @@ Denna modul syftar till att introducera många av dessa koncept, i ett (för må
 | Innehåll | Kommentar |
 | --- | --- |
 | Föreläsning | [Kursintroduktion](../course) |
-| Föreläsning | [Kommer snart...](#) |
+| Föreläsning | [Introduktion till programmering](../lecture) |
 | Ö.1: Python & Idle | En introduktion till språket Python och miljön Idle där vi skriver vår kod |
 | Ö.2: Variabler & datatyper | En introduktion till grundläggande byggstenar i programmering |
 | Ö.3: Debugging & kommentarer | En introduktion till att hitta (och åtgärda) fel i kod, samt kommentera kod |

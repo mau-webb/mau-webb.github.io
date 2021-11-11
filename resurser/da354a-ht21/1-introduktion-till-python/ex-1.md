@@ -21,7 +21,7 @@ Den officiella utvecklingsmiljön för Python heter IDLE och följer med install
 
 ### Installera Python (egen dator)
 
-Om du sitter vid en egen dator så behöver du installera Python och IDLE. Ni laddar ner Python [här](https://www.python.org), notera att det är <b>versionen 3.9.0</b> som ni ska ladda ner och installera.
+Om du sitter vid en egen dator så behöver du installera Python och IDLE. Ni laddar ner Python [här](https://www.python.org), notera att det är <b>versionen 3.10.0</b> som ni ska ladda ner och installera.
 
 ### Installera Python (datorsal)
 

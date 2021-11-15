@@ -8,13 +8,13 @@ title: "Modul 2 - Funktioner"
 ## Föreläsning - Funktioner
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/2ca9be91d5d5431db672d9b3d3e23c03" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/68272bdc57ab45b59c47d444c8565722" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
 ---
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rHP8Kt83OVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/zHm_sBNdaI0?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
 
 ---
@@ -24,33 +24,33 @@ title: "Modul 2 - Funktioner"
 #### Lunchexempel
 
 ```python
+def todays_lunch(day, lunch):
+    print(day + ": " + lunch)
+
 def heading(message):
     '''
-    Skriver ut en rubrik
+    Prints a heading
     '''
-    print("************************************")
+    print("*"*40)
     print(message)
-    print("************************************")
+    print("*"*40)
 
-def today_lunch(day, lunch):
+def weeks_lunch():
     '''
-    Skriver ut lunch för en given dag
+    Presents the lunches to the user
     '''
-    print("Lunch " + day + " is: " + lunch)
+    todays_lunch("Monday", "Pizza")
+    todays_lunch("Tuesday", "Fish and chips")
+    todays_lunch("Wednesday", "Hamburger")
+    todays_lunch("Thursday", "Soup")
+    todays_lunch("Friday", "Taco")
 
-def menu():
-    '''
-    Skriver ut veckans meny
-    '''
-    today_lunch("Monday", "Spagetti Bolognaise")
-    today_lunch("Tuesday", "Fish and chips")
-    today_lunch("Wednesday", "Hamburger")
-    today_lunch("Thursday", "Soup")
-    today_lunch("Friday", "Pizza")
+def main():
+    heading("Welcome")
+    weeks_lunch()
+    heading("Goodbye")
 
-heading("Welcome!")
-menu()
-heading("Goodbye!")
+main()
 ```
 
 #### Parametrar & argument
@@ -88,4 +88,4 @@ print(rand_nr)
 
 ---
 
-Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2020-funktioner.pdf).
+Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2021-funktioner.pdf).

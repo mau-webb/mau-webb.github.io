@@ -88,4 +88,4 @@ print(rand_nr)
 
 ---
 
-Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2021-funktioner.pdf).
+Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2021-Funktioner.pdf).

@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 2 - Funktioner"
 ---
 
@@ -13,11 +13,11 @@ Hittillls när vi gjort utskrifter i våra program så har vi skapar utskriftern
 
 ```python
 name = "Anton"
-age = 31
+age = 32
 city = "Lund"
 
 print(name + " är " + str(age) + "år och bor i " + city)
-#=> Anton är 31år och bor i Lund
+#=> Anton är 32år och bor i Lund
 ```
 
 Detta fungerar visserligen fint, men har två brister:
@@ -33,11 +33,11 @@ Istället för att slå ihop strängar vid utskrifter, så kan vi *stoppa in* v�
 
 ```python
 name = "Anton"
-age = 31
+age = 32
 city = "Lund"
 
 print("{} är {}år och bor i {}".format(name, age, city))
-#=> Anton är 31år och bor i Lund
+#=> Anton är 32år och bor i Lund
 ```
 
 Personligen tycker jag att det blir mycket enklare att se helheten för utskriften, samt att vi slipper att omvandla datatyper till strängar vid utskrifter. Tittar vi närmre på funktionen så ser vi att `{}` ersätts av ett värde. Det första argumentet till funktionen `format` hamnar ersätter den första `{}`, osv.
@@ -111,3 +111,6 @@ director = "George Lucas"
 
 #=> Star Wars släpptes 1977 och regisserades av George Lucas"
 ```
+
+Vilket sätt tycker du fungerar smidigast när man vill göra utskrifter? Tänk på att det är viktigt att ha koll på detta under resterande delar av kursen.
+{: .info}

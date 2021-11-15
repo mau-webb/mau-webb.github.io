@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 2 - Funktioner"
 ---
 
@@ -46,15 +46,18 @@ Uppgiften kan ge betyget godkänt. För att nå detta betyg behöver programmet 
 - Era funktioner ska använda sig utav parametrar där detta är lämpligt, och returnera värden där detta är lämpligt.
 - Även kvalitén på er kod kommer att bedömas.
 
+Tänk på att **alla** krav ovan ska vara uppfyllda, annars kommer uppgiften att **underkännas**.
+{: .info}
+
 ### 4. Detta testas vid rättning
 
 Det här är en kort lista över delar som kommer att testas under rättningen. Får ni rätt på det här brukar uppgiften kunna godkännas utan kompletteringar.
 
 1. Körning av programmet
-2. Gissning med negativa tal
+2. Gissning med negativa tal (programmer ska inte kraschar då)
 
 ### 5. Redovisning
 
 Redovisa genom att ladda upp programmets källkod på Canvas i en Zip-fil.
 
-Inlämningsuppgifter rättas varje vecka, med söndag som rullande deadline. Försök att hålla kursens tempo på en modul per vecka. Deadline för modul 2: senast _söndag 2020-11-29_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2020-11-24_.

@@ -25,15 +25,15 @@ Här kommer ett exempel där vi vill kontrollera om ett tal är positivt eller i
 ```python
 number = 7
 if number > 0:
-    print("Talet: {} är positivt!".format(number))
+    print(f"Talet: {number} är positivt!")
 else:
-    print("Talet: {} är negativt!".format(number))
+    print(f"Talet: {number} är negativt!")
 
 number = -2
 if number > 0:
-    print("Talet: {} är positivt!".format(number))
+    print(f"Talet: {number} är positivt!")
 else:
-    print("Talet: {} är negativt!".format(number))
+    print(f"Talet: {number} är negativt!")
 ```
 
 Vårt vilkor i if-satserna ovan är `number > 0`, där vi kontrollerar om talet `number` är större än 0. Om talet är större än 0 körs kodraden `print("Talet: " + str(number) + " är positivt!")`, i alla andra fall körs kodraden `print("Talet: " + str(number) + " är negativt!")`. En testkörning ger således följande resultat:
@@ -45,11 +45,11 @@ Det ser ju ut att fungera bra! Men vad händer om vi skriver `number = 0` och se
 ```python
 number = 0
 if number > 0:
-    print("Talet: {} är positivt!".format(number))
+    print(f"Talet: {number} är positivt!")
 elif number == 0:
     print("Talet är 0!")
 else:
-    print("Talet: {} är negativt!".format(number))
+    print(f"Talet: {number} är negativt!")
 ```
 
 Koden i exemplet ovan körs enligt följande steg:

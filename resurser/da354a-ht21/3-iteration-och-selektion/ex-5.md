@@ -58,13 +58,13 @@ Skriv funktionen `interval_sum(a, b)` (du kan anta att både a och b är heltal)
 
 Till exempel skall följande körningar ge resultatet:
 ```python
->>> print('Summan av heltalen mellan 4 och 7: {}'.format(interval_sum(4, 7)))
+>>> print(f'Summan av heltalen mellan 4 och 7: {interval_sum(4, 7)}')
 Intervallet: 4-7
 [4, 5, 6, 7]
 Summan av heltalen mellan 4 och 7 är 22
 ```
 
-**Tips**: För att skriva ut `[1, 2, 3, 4, 5, 6, 7, 8, 9]` kan man skriva ```python print(list(range(1,10))) ```
+**Tips**: För att skriva ut `[1, 2, 3, 4, 5, 6, 7, 8, 9]` kan man skriva ```print(list(range(1,10))) ```
 {: .info}
 
 ### Övning 4 - Betygsgenerator

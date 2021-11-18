@@ -19,10 +19,10 @@ Ett konkret exempel skulle kunna vara: Vi vill skriva ut alla veckor på ett år
 ```python
 weeks = range(1, 53)
 days = range(1,8)
-for i in weeks:
-    print("Vecka: " + str(i))
-    for j in days:
-        print("Dag nr: " + str(j))
+for week in weeks:
+    print(f"Vecka: {week}")
+    for day in days:
+        print(f"Dag nr: {day}")
 ```
 
 Och när man kör koden börjar de såhär (och kör alla 52 veckorna):
@@ -43,13 +43,13 @@ Er första uppgift är att komplettera koden ovan med funktionen `day_name`, som
 ```python
 weeks = range(1, 53)
 days = range(1,8)
-for i in weeks:
-    print("Vecka: " + str(i))
-    for j in days:
-        print("Dag: " + day_name(j))
+for week in weeks:
+    print(f"Vecka: {week}")
+    for day in days:
+        print(f"Dag nr: {day_name(day)}")
 ```
 
-`j` är alltså i exemplet ovan ett tal mellan 1 och 7 som representerar en veckodag (1 = Måndag, 2 = Tisdag osv.). Använd er av if-satser i funktionen `day_name` för att returnera korrekt namn på dagen. När funktionen är klar ska utskriften se ut såhär:
+`day` är alltså i exemplet ovan ett tal mellan 1 och 7 som representerar en veckodag (1 = Måndag, 2 = Tisdag osv.). Använd er av if-satser i funktionen `day_name` för att returnera korrekt namn på dagen. När funktionen är klar ska utskriften se ut såhär:
 
 ![Idle](../images/idle9.png)
 

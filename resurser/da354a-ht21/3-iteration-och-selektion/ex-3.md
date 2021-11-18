@@ -19,22 +19,22 @@ Vi kommer i denna modul titta på två olika typer av iterationer, `for` och `wh
 
 ### Iteration: for
 
-En [for-iteration](https://docs.python.org/2/tutorial/controlflow.html#for-statements) används oftast när man vet hur många gånger en vald bit kod ska upprepas. I Python används ofta for-iterationer i samband med _listor_ (t.ex. skriva ut alla saker i en lista), som vi kommer att titta närmare på i nästa modul. Syntaxen för en for-iteration är följande:
+En [for-iteration](https://docs.python.org/3.10/tutorial/controlflow.html#for-statements) används oftast när man vet hur många gånger en vald bit kod ska upprepas. I Python används ofta for-iterationer i samband med _listor_ (t.ex. skriva ut alla saker i en lista), som vi kommer att titta närmare på i nästa modul. Syntaxen för en for-iteration är följande:
 
 ```python
 for i in x:
     # Do something
 ```
 
-`x` i exmplet ovan är en mängd av något slag, t.ex. en lista, en sträng. `i` representerar vaje "sak" i listan, eller varje tecken i strängen.
+`x` i exmplet ovan är en mängd av något slag, t.ex. en lista, en sträng. `i` representerar vaje "sak" i listan/sekvensen, eller varje tecken i strängen.
 
-Bra att ha koll på (smygstart på listor) är funktionen [`range()`](https://docs.python.org/2/library/functions.html#range). Denna funktion skapar en lista med tal och är bra om man vill repetera en iteration x antal gånger. Exempel på användning av funktionen `range`:
+Bra att ha koll på (smygstart på listor/sekvenser) är funktionen [`range()`](https://docs.python.org/2/library/functions.html#range). Denna funktion skapar en sekvens med tal och är bra om man vill repetera en iteration x antal gånger. Exempel på användning av funktionen `range`:
 
 ```python
-range(1) # Ger listan: [0]
-range(10) # Ger listan: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-range(2, 5) # Ger listan: [2, 3, 4]
-range(5, 15) # Ger listan: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+range(1) # Ger sekvensen: (0)
+range(10) # Ger sekvensen: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+range(2, 5) # Ger sekvensen: (2, 3, 4)
+range(5, 15) # Ger sekvensen: (5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ```
 
 Vi kommer i denna modul att nöja oss med att använda funktionen med ett argument, t.ex. `range(10)`, där 10 kommer representera hur många gånger vår iteration kommer att upprepas. Exempel på iterationer:
@@ -47,8 +47,8 @@ for i in range(10):
 
 # Iteration som körs 5 gånger
 for i in range(5):
-    # Skriver ut aktuellt nummer från listan som genereras av funktionen "range"
-    print("{} rundan som iterationen går!".format(i))
+    # Skriver ut aktuellt nummer från sekvensen som genereras av funktionen "range"
+    print(f"{i} rundan som iterationen går!")
 ```
 
 _Tänk på att_ functionen `range` börjar räkna från 0, om inget annat anges.
@@ -70,7 +70,7 @@ while test:
 ```python
 i = 0
 while i < 10:
-    print("Kod i while-iterationen! 'i' är: {}".format(i))
+    print(f"Kod i while-iterationen! 'i' är: {i}")
     i = i + 1
 ```
 

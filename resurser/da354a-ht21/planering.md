@@ -113,10 +113,10 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr>
             <td></td>
 			<td>23/11</td>
-			<td>13-15</td>
+			<td>08-10</td>
 			<td>F: If-satser &amp; Loopar (extra)</td>
 			<td>Anton</td>
-			<td>NI:A0307,</td>
+			<td><strong><a href="https://mau-se.zoom.us/j/66538476603" target="_blank">Obs. Zoom</a></strong></td>
 		</tr>
 		<tr>
             <td></td>

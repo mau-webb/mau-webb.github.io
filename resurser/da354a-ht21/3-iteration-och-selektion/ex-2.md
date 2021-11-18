@@ -18,9 +18,9 @@ Låt säga att vi vill testa om ett tal är _större än 0 och mindre än 10_, h
 ```python
 x = 5
 if x > 0 and x < 10:
-	print("{} är mellan 0 och 10".format(x))
+	print(f"{x} är mellan 0 och 10")
 else:
-	print("{} är inte mellan 0 och 10".format(x))
+	print(f"{x} är inte mellan 0 och 10")
 ```
 
 För att vilkoret `x > 0 and x < 10` ska bli sant så behöver _både_ `x > 0` och `x < 10` vara sant. Man använder nyckelorder `and` för att kombinera fler olika test.
@@ -30,9 +30,9 @@ Men ibland vill man inte kontrollera att flera uttyck är sanna, utan kanske om 
 ```python
 x = 5
 if x > 0 or x < 0:
-	print("{} är större eller mindre än 0".format(x))
+	print(f"{x} är större eller mindre än 0")
 else:
-	print("{} är 0".format(x))
+	print(f"{x} är 0")
 ```
 
 I exemplet ovan blir vilkoret sant om antingen `x > 0` eller  `x < 0` är sant. Beroende på vad man vill testa i en if-sats kan nyckelorden `and` och `or` vara till stor hjälp.
@@ -47,11 +47,11 @@ number = input("Vilket tal vill du testa? ")
 if number.isdigit():
     # Kontrollerar om talet är positivt, negativt eller 0
     if int(number) > 0:
-        print("{} är större än 0".format(number))
+        print(f"{number} är större än 0")
     elif int(number) < 0:
-        print("{} är mindre än 0".format(number))
+        print(f"{number} är mindre än 0")
     else:
-        print("{} är 0".format(number))
+        print(f"{number} är 0")
 else:
     print("Du får endast skriva in siffror")
 ```

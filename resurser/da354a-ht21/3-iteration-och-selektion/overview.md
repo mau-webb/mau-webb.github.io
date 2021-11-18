@@ -13,6 +13,9 @@ I programmering händer det ofta att man vill repetera en viss kod *x antal gån
 
 En annan sak som ofta inträffar i programmering är att man vill att sitt program ska agera på olika sätt beroende på t.ex. vilken inmatning användaren anger, vad en beräknings resultat blir eller beroende på en sådan enkel sak som vad klockan är. Detta är selektion och i programmering löser man detta genom **if-satser**. En if-sats fungerar kort och gått att man gör ett test - och beroende på testets resultat så gör vårt program olika saker. Väldigt smidigt!
 
+**OBS** - Tänk på att det är en god idé att göra alla övningar innan man börjar på inlämningsuppgiften, så att man förstår *hur* man kan lösa den m.h.a. `loopar` och `if-satser`.
+{: .info}
+
 | Innehåll | Kommentar |
 | --- | --- |
 | Föreläsning | *Publiceras senare* |

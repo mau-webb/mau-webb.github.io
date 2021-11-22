@@ -8,12 +8,14 @@ title: "Modul 3 - Iteration & Selektion"
 ## Föreläsning
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/a641102ea36d48d69143e06850b0ce1b" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/1f6c981abe444c94a5a2fa26bfcc8e57" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/Presentation.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2021-Presentation.pdf)
 
 ---
+
+<p><strong>Eftersom att dagens ljudinspelning var horibel, så får ni istället förra årets inspelade föreläsning (typ samma)</strong></p>
 
 <div class="video-frame">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CU-MHLZ-zSU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -22,28 +24,6 @@ title: "Modul 3 - Iteration & Selektion"
 ---
 
 ## Dagens exempel
-
-### Exempel på if-satser
-
-```python
-def add(a, b):
-    result = int(a) + int(b)
-    print(f"Summan av {a} och {b} är {result}")
-
-
-nr_1 = input("Ange tal 1: ")
-if nr_1.isdigit() == False:
-    print("Du måste ange en siffra")
-
-nr_2 = input("Ange tal 2: ")
-if nr_2.isdigit() == False:
-    print("Du måste ange en siffra")
-
-if nr_1.isdigit() == True and nr_2.isdigit() == True:
-    add(nr_1, nr_2)
-else:
-    print("Du angav ju inte siffror, så jag vill inte räkna!")
-```
 
 ### Systembolagetkoll
 
@@ -78,7 +58,7 @@ while nr < 1:
 print("Snyggt jobbat!")
 ```
 
-### Exempel: Meny
+### Exempel: Meny (bonus!)
 
 ```python
 def menu():

@@ -61,8 +61,8 @@ sidebar:
           items:
               - label: "Översikt"
                 path: "overview"
-#              - label: "Föreläsning"
-#                path: "lecture"
+              - label: "Föreläsning"
+                path: "lecture"
 #              - label: "Föreläsning (extra)"
 #                path: "lecture-2"
               - label: "Ö.1: Introduktion till selektion"

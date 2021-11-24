@@ -18,7 +18,8 @@ En annan sak som ofta inträffar i programmering är att man vill att sitt progr
 
 | Innehåll | Kommentar |
 | --- | --- |
-| Föreläsning | *Publiceras senare* |
+| [Föreläsning](../lecture) | Introduktion till loopar & if-satser |
+| [Föreläsning - Extra](../lecture-2) | Sten, sax, påse |
 | Ö.1: Introduktion till selektion | Hur fungerar if-satser? |
 | Ö.2: Nästlade if-satser | If-satser i if-satser |
 | Ö.3: Introduktion till iterationer | Hur fungerar loopar? |

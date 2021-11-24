@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 4 - Listor & Lexikon"
 ---
 
@@ -48,19 +48,19 @@ Vi ska nu skapa en nästlad lista där vi sparar information om olika fotbollssp
 
 <table>
 	<tr>
-		<td>Oscar Hiljemark</td>
-		<td>28</td>
-		<td>AaB Ålborg</td>
+		<td>Viktor Claesson</td>
+		<td>29</td>
+		<td>FK Krasnodar</td>
 	</tr>
 	<tr>
-		<td>Zlatan Ibrahimovic</td>
-		<td>39</td>
-		<td>Milan</td>
+		<td>Niklas Hult</td>
+		<td>31</td>
+		<td>Hannover 96</td>
 	</tr>
 	<tr>
-		<td>John Guidetti</td>
-		<td>28</td>
-		<td>Deportivo Alavés</td>
+		<td>Jesper Karlsson</td>
+		<td>23</td>
+		<td>AZ Alkmaar</td>
 	</tr>
 </table>
 
@@ -80,9 +80,9 @@ Vore det egentligen inte smidigare att spara fotbollsspelarna ovan i lexikon - d
 
 ```python
 {
-    "name": "Oscar Hiljemark",
-    "age": 28,
-    "club": "AaB Ålborg"
+    "name": "Jesper Karlsson",
+    "age": 23,
+    "club": "AZ Alkmaar"
 }
 ```
 

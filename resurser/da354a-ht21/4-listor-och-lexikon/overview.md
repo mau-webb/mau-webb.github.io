@@ -16,7 +16,7 @@ Nu när vi lärt oss att bygga program i Python med hjälp av funktioner, loopar
 | Ö.2: Listor och strängar | Hur strängar kan användas som listor |
 | Ö.3: Nästlade listor | Listor i listor |
 | Ö.4: Introduktion till lexikon | Hur fungerar lexikon? |
-| Inlämningsuppgift | Grundläggande kunskap inom listor & lexikon |
+| Inlämningsuppgift | Grundläggande kunskap inom listor & lexikon *Publiceras senare* |
 
 ### Rekommenderad läsning
 

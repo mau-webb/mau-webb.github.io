@@ -8,15 +8,15 @@ title: "Modul 4 - Listor & Lexikon"
 ## Föreläsning
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/0e9773ea9dd8419a915698bbf3afbca1" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/63c76f062b684143857e84a26925dd42" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2020-listor.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2021-listor.pdf)
 
 ---
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1U9HyblIatg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/LE7bjJ_0zHA?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
 
 ---
@@ -66,102 +66,79 @@ get_first_and_last_character(user_text)
 ### Listor
 
 ```python
-# En lista med siffror
-numbers = [1, 5, 10, 20, 50, 2, 100, 7]
+numbers = [5, 10, 27, 85, 16, 21, 4, 3, 13, 100]
 
 total_sum = 0
 
-# Räknar ut summan av alla siffrorna i listan och sparar resultatet i "total_sum"
-for nr in numbers:
-    total_sum += nr
+numbers.append(69)
 
-# Skriver ut medelvärdet av sifforna i listan
+print(numbers)
+
+for number in numbers:
+    total_sum += number
+
 print(total_sum/len(numbers))
 ```
 
 ### En boklista
 
 ```python
-# En lista med 4st böcker
+def print_books(books):
+    print("\nBooks")
+    print("*"*30)
+    for i, book in enumerate(books, start=1):
+        print(f"{i}: {book}")
+
 books = [
-    "Dune",
-    "Name of the Wind",
-    "Think Python",
-    "Alkemisten"    
+    "12 rules of life",
+    "Vindens skugga",
+    "Wheele of time",
+    "Harry Potter",
+    "Forgotten Valentine"
 ]
 
-# Frågar användaren efter en boktitel
-new_book = input("Ange bok: ")
-# Lägger till boktiteln sist i vår lista
-books.append(new_book)
+print_books(books)
 
+books.append("Sapiens")
+books.insert(0, "Alkemisten")
 
-# Skriver ut alla böckerna i listan "books"
-for book in books:
-    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
+while input("Vill du lägga till en ny bok? ").lower() == "ja":
+    book = input("Ange en bok: ")
+    books.append(book)
 
-# Skriver ut en blank rad
-print()
+print_books(books)
 
-# Lägger till boken "Mio min Mio" sist i listan "books"
-books.append("Mio min Mio")
-# Lägger till boken "Omgiven av idioter" sist i listan "books"
-books.append("Omgiven av idioter")
+remove_book = input("Vilken bok vill du ta bort? ")
+if remove_book in books:
+    books.remove(remove_book)
+else:
+    print("Boken finns inte i listan")
 
-# Tar bort boken "Think Python" från vår lista "books"
-books.remove("Think Python")
+print_books(books)
 
-# Skriver ut alla böckerna i listan "books"
-for book in books:
-    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
-
-# Skriver ut en blank rad
-print()
-
-# Tar bort den sista bokentiteln och sparar den i variabeln "removed_book"
-removed_book = books.pop()
-# Skriver ut titeln på boken vi tog bort
-print(f"Vi tar bort boken {removed_book}")
-
-# Skriver ut alla böckerna i listan "books"
-for book in books:
-    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
 ```
 
 ### Listor & Lexikon
 
 ```python
-'''
-Ett husdjur har följande:
-    - namn
-    - djur
-    - ålder
-'''
-
-# En lista med två husdjur
 pets = [
     {
-        "name": "Doug",
-        "animal": "hund",
-        "age": 3
+        "name": "Malte",
+        "animal": "Hund",
+        "size": "Liten",
+        "age": 1,
+        "color": ["Vit"]
     },
     {
-        "name": "Pigge",
-        "animal": "fisk",
-        "age": 1
+        "name": "Tiger",
+        "animal": "Katt",
+        "size": "Stor",
+        "age": 11,
+        "color": ["Orange", "Vit"]
     }
 ]
 
-# Skapar ett nytt husdjur
-new_pet = {}
-new_pet["name"] = input("Namn: ")
-new_pet["animal"] = input("Djur: ")
-new_pet["age"] = input("Ålder: ")
-
-# Lägger till det nya husdjuret i listan "pets"
-pets.append(new_pet)
-
-# Skriver ut alla våra husdjur i listan "pets"
 for pet in pets:
-    print(f"{pet['name']} är en {pet['animal']} och är {pet['age']}år")
+    print(f"{pet['name']} är en {pet['size'].lower()} {pet['animal'].lower()} och har färgerna {', '.join(pet['color'])}")
+
 ```

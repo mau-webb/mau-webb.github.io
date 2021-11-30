@@ -8,6 +8,7 @@ title: "Modul 4 - Listor & Lexikon"
 ## Inlämningsuppgift
 
 **Viktigt** Inlämningsuppgiften görs i grupp. Grupperna kommer att skapas slumpmässigt av de studenter som anmält sig till att göra inlämningsuppgiften via Canvas - se mer information där.
+{: .info}
 
 ### 1. Introduktion
 
@@ -93,4 +94,4 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med söndag som rullande deadline. Deadline för uppgiften är _söndag , 2020-12-13_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är _onsdag , 2020-12-08_.

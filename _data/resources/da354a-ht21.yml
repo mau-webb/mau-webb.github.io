@@ -94,8 +94,8 @@ sidebar:
                 path: "ex-3"
               - label: "Ö.4: Nästlade listor"
                 path: "ex-4"
-#              - label: "Inlämningsuppgift"
-#                path: "assignment"
+              - label: "Inlämningsuppgift"
+                path: "assignment"
 #        - label: "5. Fil- och felhantering"
 #          collapsed: true
 #          items:

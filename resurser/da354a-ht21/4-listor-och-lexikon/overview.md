@@ -11,7 +11,9 @@ Nu när vi lärt oss att bygga program i Python med hjälp av funktioner, loopar
 
 | Innehåll | Kommentar |
 | --- | --- |
-| Föreläsning | *Publiceras senare* |
+| [Föreläsning](../lecture)  | Introduktion till listor |
+| [Föreläsning](../lecture-2)  | Nästlade listor & bussbokning |
+| [Föreläsning](../lecture-3)  | Nästlade listor & tre-i-rad |
 | Ö.1: Introduktion till listor | Hur fungerar listor? |
 | Ö.2: Listor och strängar | Hur strängar kan användas som listor |
 | Ö.3: Nästlade listor | Listor i listor |

@@ -7,312 +7,147 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning - Extra
 
+**Kommer när videon är färdigrenderad**
+
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tpdFCDCVxbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </div>
 
 ### Nästlade listor som tabeller
 
-![picture](../images/movies.jpg)
-
 ```python
-filmer = [
-    ["Titel", "År", "Regissör"],
-    ["Star Wars", "1977", "George Lucas"],
-    ["Inception", "2010", "Christopher Nolan"],
-    ["Fight club", "1999", "David Fincher"]
+movies = [
+    ["Star Wars", 1977, "George Lucas"],
+    ["Pulp fiction", 1994, "Quentin Tarantino"],
+    ["Alien", 1979, "Ridley Scott"],
+    ["The intouchebles", 2011, "Eric Toledans"],
+    ["Annabelle", 2019, "Gary Dauberman"]
 ]
 
-filmer.append([
-    "Titanic",
-    "1997",
-    "James Cameron"
-])
+for row in movies:
+    for col in row:
+        print(f"{col : <20}", end="")
+    print("")
 
-filmer.remove(["Inception", "2010", "Christopher Nolan"])
-
-removed_movie = filmer.pop()
-print(f"Vi tog bort filmen {removed_movie[0]}\n")
-
-for film in filmer:
-    for item in film:
-        print(f"{item:^12}", end="")
-
-    print()
 ```
 
-### 3-i-rad
-
-![picture](../images/3-i-rad-1.jpg)
-![picture](../images/3-i-rad-2.jpg)
+### Bussprogram
 
 ```python
-import random
-
-def game():
-    print("*"*11)
-    print("Tre-i-rad")
-    print("*"*11)
-
-    game_board = [
-        [" ", " ", " "],
-        [" ", " ", " "],
-        [" ", " ", " "]
+def main():
+    bus = [
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None],
+        [None, None, None, None]
     ]
 
-    turn = random.randint(0, 1)
+    user_choice = False
 
-    winner = False
+    while user_choice != "0":
+        print_menu()
+        user_choice = input("Ange val: ")
 
-    print_game_board(game_board)
+        if user_choice == "1":
+            print_bus(bus)
+        elif user_choice == "2":
+            book(bus)
+        elif user_choice == "3":
+            unbook(bus)
+        elif user_choice == "4":
+            see_booking(bus)
+        elif user_choice != "0":
+            print("Du valde ett felaktigt alternativ!")
 
-    while not winner:
-        if turn % 2 == 0:
-            # Vår tur
-            while True:
-                row = int(input("Rad: "))
-                col = int(input("Kolumn: "))
+def see_booking(bus):
+    print("\nSe detaljer om en plats")
+    print("*"*30)
+    row = get_row(bus)-1
+    col = get_seat(bus)-1
+    seat = bus[row][col]
+    if seat is None:
+        print("Platsen är ej bokad")
+    else:
+        print(f"Platsen är bokad av {seat}")
 
-                if make_guess(game_board, row, col, "X"):
-                    break
-
-                print("Du angav inte ett giltigt val, försök igen!")
-            
-        else:
-            # Datorns tur
-            print("Datorns tur...")
-            while True:
-                row = random.randint(0, 2)
-                col = random.randint(0, 2)
-
-                if make_guess(game_board, row, col, "O"):
-                    break
-
-        print_game_board(game_board)
-
-        winner = get_winner(game_board)
+def get_row(bus):
+    while True:
+        row = input("Rad: ")
+        if row.isdigit() == False:
+            print("Raden måste anges i en siffra")
+            continue
         
-        turn += 1
+        if int(row) < 0 or int(row) > len(bus):
+            print("Du måste ange en korrekt rad")
+            continue
 
-    if winner == "X":
-        print("Grattis du vann!")
-    elif winner == "O":
-        print("Datorn vann!")
-    else:
-        print("Lika!")
-
-def get_winner(board):
-    for player in ["X", "O"]:
-        # 1. Kontrollera horisontellt
-        if get_row_win(board, player):
-            return player
-        # 2. Kontrollera vertikalt
-        elif get_col_win(board, player):
-            return player
-        # 3. Kontrollera diagonalt (start uppe till vänster)
-        elif get_dia_win_1(board, player):
-            return player
-        # 4. Kontrollera diagonalt (start uppe höger)
-        elif get_dia_win_2(board, player):
-            return player
-        # 5. Om det är lika
-        else:
-            free_slots = 0
-            for row in board:
-                free_slots = row.count(" ")
-
-            if free_slots == 0:
-                return "-"
-
-    return False
-
-def get_row_win(board, player):
-    for row in board:
-        if row.count(player) == 3:
-            return True
-
-    return False
-
-def get_col_win(board, player):
-    for i in range(3):
-        win = True
-        for j in range(3):
-            if board[j][i] != player:
-                win = False
-        if win == True:
-            return True
-
-    return False
-
-def get_dia_win_1(board, player):
-    win = True
-    for x in range(3):
-        if board[x][x] != player:
-            win = False
-
-    return win
-
-def get_dia_win_2(board, player):
-    win = True
-    for x in range(3):
-        if board[x][3-(x+1)] != player:
-            win = False
+        return int(row)
     
-    return win
+def get_seat(bus):
+    while True:
+        seat = input("Säte: ")
+        if seat.isdigit() == False:
+            print("Platsen måste anges i en siffra")
+            continue
+        
+        if int(seat) < 0 or int(seat) > len(bus[0]):
+            print("Du måste ange en korrekt rad")
+            continue
 
-def make_guess(board, row, col, player):
-    if row < 0 or row > 2:
-        return False
-    elif col < 0 or col > 2:
-        return False
-    elif board[row][col] != " ":
-        return False
-    else:
-        board[row][col] = player
-        return True
+        return int(seat)
 
-def print_game_board(board):
-    print("-"*11)
-    for row in board:
-        print(" " + " | ".join(row))
-        print("-"*11)
+def book(bus):
+    print("\nBoka en plats")
+    print("*"*30)
+    while True:
+        row = get_row(bus)-1
+        col = get_seat(bus)-1
+        if bus[row][col] is None:
+            break
 
-game()
-```
+        print("Platsen är redan bokad, ange en ny plats!\n")
+    name = input("Vem bokar? ")
+    bus[row][col] = name
 
+def unbook(bus):
+    print("\nAvboka en plats")
+    print("*"*30)
+    while True:
+        row = get_row(bus)-1
+        col = get_seat(bus)-1
+        if bus[row][col] is not None:
+            break
 
-### x-i-rad (bättre (mer generell) lösning)
+        print("Platsen är inte bokad, ange en ny plats!\n")
 
-```python
-import random
+    bus[row][col] = None
 
-def game():
-    nr = int(input("Hur många i rad vill du spela? "))
-    
-    print("*"*11)
-    print("{} i rad".format(nr))
-    print("*"*11)
+def print_menu():
+    print("\nMeny")
+    print("-"*30)
+    print("1) Visa bussen")
+    print("2) Boka en plats i bussen")
+    print("3) Avboka en plats i bussen")
+    print("4) Se bokning på en plats")
+    print("0) Avsluta")
 
-    game_board = []
-    for i in range(nr):
-        game_board.append([" "]*nr)
+def print_bus(bus):
+    print("\nBussen")
+    print("-"*30)
+    for i, row in enumerate(bus, start=1):
+        print(f"{i}: ", end="")
+        for spot in row:
+            if spot is None:
+                print(f"{'-' :^3}", end="")
+            else:
+                print(f"{'x' :^3}", end="")
+        print("")
 
-    print_game_board(game_board)
-
-    turn = random.randint(0, 1)
-
-    winner = False
-
-    while not winner:
-        if turn % 2 == 0:
-            # Vår tur
-            while True:
-                row = int(input("Rad: "))
-                col = int(input("Kolumn: "))
-                
-                if make_guess(game_board, row, col, "X"):
-                    break
-
-                print("Du angav inte ett giltigt val, försök igen!")
-        else:
-            # Datorn tur
-            print("Datorns tur...")
-            while True:
-                row = random.randint(0, len(game_board)-1)
-                col = random.randint(0, len(game_board)-1)
-
-                if make_guess(game_board, row, col, "O"):
-                    break
-
-        print_game_board(game_board)
-
-        winner = get_winner(game_board, ["X", "O"])
-
-        turn += 1
-
-    if winner == "X":
-        print("Grattis! Du slog datorn!")
-    elif winner == "-":
-        print("Lika!")
-    else:
-        print("Ajdå, datorn vann...")
-
-def get_winner(board, players):
-    for player in players:
-        # 1. Kontrollera horisontellt
-        if get_row_win(board, player):
-            return player
-        # 2. Kontrollera vertikalt
-        elif get_col_win(board, player):
-            return player
-        # 3. Kontrollera diagonalt (start uppe vänster)
-        elif get_dia_win_1(board, player):
-            return player
-        # 4. Kontrollera diagonalt (start nere vänster)
-        elif get_dia_win_2(board, player):
-            return player
-        # 5. Kontrollera om det är LIKA!
-        else:
-            free_slots = 0
-            for row in board:
-                free_slots += row.count(" ")
-
-            if free_slots == 0:
-                return "-"
-
-    return False
-
-def get_row_win(board, player):
-    for row in board:
-        if row.count(player) == len(board):
-            return True
-
-    return False
-
-def get_col_win(board, player):
-    win = True
-    for x in range(len(board)):
-        for y in range(len(board)):
-            if board[y][x] != player:
-                win = False
-        if win:
-            return True
-
-    return False
-
-def get_dia_win_1(board, player):
-    win = True
-    for x in range(len(board)):
-        if board[x][x] != player:
-            win = False
-
-    return win
-
-def get_dia_win_2(board, player):
-    win = True
-    for x in range(len(board)):
-        if board[x][len(board)-(x+1)] != player:
-            win = False
-    
-    return win
-    
-def make_guess(board, row, col, player):
-    if row < 0 or row > len(board)-1:
-        return False
-    elif col < 0 or col > len(board)-1:
-        return False
-    elif board[row][col] != " ":
-        return False
-    else:
-        board[row][col] = player
-        return True
-
-def print_game_board(board):
-    game_length = (3*len(board)) + len(board)-1
-    print("-"*game_length)
-    for row in board:
-        print(" " + " | ".join(row))
-        print("-"*game_length)
-    
-game()
+main()
 ```

@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 5 - Fil- och felhantering i Python"
 ---
 
@@ -125,9 +125,11 @@ I sista övningen ska vi ge användaren möjlighet att ta bort en bok ur samling
 
 __Tips:__ En idé kan vara att läsa in alla böckerna från textfilen i en lista (m.h.a. funktionen `split()`), och sedan gå igenom listan och ta bort den titel som användaren angav. När det är klart skriver ni sedan kvarvarande böckerna i listan till filen igen.
 
+<!--
 ### Exempellösningar
 
 - [Övning 1 - Att skriva till en fil](../ex-solutions/Ö1.1.py)
 - [Övning 2 - Att läsa från fil](../ex-solutions/Ö1.2.py)
 - [Övning 3 - Att skriva ytterligare information till en fil](../ex-solutions/Ö1.3.py)
 - [Övning 4 - Att ta radera från en fil](../ex-solutions/Ö1.4.py)
+-->

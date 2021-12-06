@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 5 - Fil- och felhantering i Python"
 ---
 
@@ -92,7 +92,10 @@ Kör man koden ovan och vi *inte* skriver in ett tal (med eller utan decimaler) 
 
 ![Idle](../images/idle9.png)
 
+<!--
+
 ### Exempellösningar
 
 - [Övning 1 - Förbättra er bokhanterare](../ex-solutions/Ö2.1.py)
 - [Övning 2 - Kontrollera användarinput](../ex-solutions/Ö2.2.py)
+-->

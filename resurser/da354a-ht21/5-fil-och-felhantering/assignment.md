@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 5 - Fil- och felhantering i Python"
 ---
 
@@ -95,4 +95,7 @@ För VG:
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med söndag som rullande deadline. Deadline för uppgiften är: senast _söndag 2020-12-20_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2020-12-15_.
+
+Viktigt - Om du siktar på **VG** så skriv detta i en kommentar när du lämnar in på Canvas.
+{: .info}

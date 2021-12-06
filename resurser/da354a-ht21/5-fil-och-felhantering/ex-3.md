@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 5 - Fil- och felhantering i Python"
 ---
 
@@ -9,7 +9,7 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 ### Inledning
 
-I denna övning ska vi bygga ett program, som ska fungera som övning 1 i förra modulen - alltså en filmsamling! Det är alltså dags att leta upp koden från förra veckans modul (eller skriva ny - det är upp till er). Vad progammet ska kunna göra (med exempel) hittar ni [här](/resurser/da354a/4-listor-och-lexikon/ex-1/#övningar), men kort sammanfattat ska man:
+I denna övning ska vi bygga ett program, som ska fungera som övning 1 i förra modulen - alltså en filmsamling! Det är alltså dags att leta upp koden från förra veckans modul (eller skriva ny - det är upp till er). Vad progammet ska kunna göra (med exempel) hittar ni [här](/resurser/da354a-ht21/4-listor-och-lexikon/ex-1/#övningar), men kort sammanfattat ska man:
 
 - Kunna lista alla filmer i filmsamlingen
 - Kunna lägga till en ny film i filmsamlingen
@@ -75,6 +75,10 @@ Eller genom JSON, t.ex. på följade sätt:
 ]
 ```
 
+<!--
+
 ### Exempellösningar
 
 - [Förbättring av programmet, med ";" som separerare](../ex-solutions/Ö3.py)
+
+-->

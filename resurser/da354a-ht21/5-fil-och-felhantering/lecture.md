@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 5 - Fil- och felhantering i Python"
 ---
 
@@ -8,15 +8,15 @@ title: "Modul 5 - Fil- och felhantering i Python"
 ## Föreläsning
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/f4c6c56461d6453494114fa98eb02044" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/cff4fae3a76f42508adacffc29763862" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/Presentation.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/Presentation-2021.pdf)
 
 ---
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jF1ywDM_RM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/5ITue0swW_U?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
 
 ---

@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 5 - Fil- och felhantering i Python"
 ---
 
@@ -13,7 +13,7 @@ Något annat som är viktigt i programmering är att kunna hantera fel. Vi vill 
 
 | Innehåll | Kommentar |
 | --- | --- |
-| Föreläsning | *Publiceras senare* |
+| [Föreläsning](../lecture) | Fel- och filhantering |
 | Ö.1: Filhantering | Hur arbetar man med filer? |
 | Ö.2: Felhantering | Hur arbetar man med felhantering? |
 | Inlämningsuppgift | Grundläggande kunskap om fil- och felhantering |

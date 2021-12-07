@@ -182,7 +182,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>13-15</td>
 			<td>F: Python &amp; Webben (extra)</td>
 			<td>Anton</td>
-			<td>NI:A0306</td>
+			<td>G8:104</td>
 			<td rowspan="3">6</td>
 		</tr>
 		<tr class="odd">

@@ -7,7 +7,7 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 **OBS - dagens tillfälle spelades inte in**, detta då det var mycket ritande på tavlan och det var svårt att spela in det på ett bra och pedagogiskt sätt. Istället lägger jag upp extratillfället från förra året, där vi går igenom samma principer som vi gjorde på plats idag.
 
-Vill ni ha dagens exempelkod så hittar ni den [på denna länk](../files/extra-files.zip)
+Vill ni ha dagens exempelkod så hittar ni den [på denna länk](https://github.com/mau-webb/mau-webb.github.io/raw/master/resurser/da354a-ht21/5-fil-och-felhantering/files/extra-files.zip).
 
 ## Föreläsning - Extra
 

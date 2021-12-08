@@ -75,10 +75,6 @@ Eller genom JSON, t.ex. på följade sätt:
 ]
 ```
 
-<!--
-
 ### Exempellösningar
 
 - [Förbättring av programmet, med ";" som separerare](../ex-solutions/Ö3.py)
-
--->

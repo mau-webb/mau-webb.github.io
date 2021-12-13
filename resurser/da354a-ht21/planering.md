@@ -180,7 +180,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
             <td>50</td>
 			<td>14/12</td>
 			<td>13-15</td>
-			<td>F: Python &amp; Webben (extra)</td>
+			<td>F: Python &amp; Webben</td>
 			<td>Anton</td>
 			<td>G8:104</td>
 			<td rowspan="3">6</td>
@@ -189,7 +189,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
             <td></td>
 			<td>15/12</td>
 			<td>10-12</td>
-			<td>F: Python &amp; Webben</td>
+			<td>F: Python &amp; Webben (extra)</td>
 			<td>Anton</td>
 			<td>TBD</td>
 		</tr>

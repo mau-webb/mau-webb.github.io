@@ -103,13 +103,21 @@ def get_votes():
 		return {"empire": 0, "rebels": 0}
 
 def get_disqus():
-	'''Returns a list of comments, created from file: "staic/disqus.txt"
+	'''Returns a list of comments,  from file: "staic/disqus.json"
 	
 	Example result:
 	[
-		"The emperor;2015-11-28 22:55:00;We got cookies!",
-		"Darth Vader;2015-11-29, 19:45:56;Luke, I'm your father."
-	]
+        {
+            "name": "Darth Vader",
+            "message": "Join the dark side, we got cookies!",
+            "datetime": "2021-12-14, 18:48:43"
+        },
+        {
+            "name": "Yoda",
+            "message": "Join the light side, we got wookies!",
+            "datetime": "2021-12-14, 18:49:02"
+        }
+    ]
 	
 	Returns:
 		str : The results

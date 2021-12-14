@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 6 - Webbapplikationer"
 ---
 
@@ -26,7 +26,7 @@ Att använda en enkel databas hade passat bra - men det lämnar vi till databask
 
 Förslagsvis skapar du en undermapp som endast innehåller artikelfiler.
 
-Ett annat sätt att spara artiklarna skulle kunna vara genom `JSON`, om ni är mer bekväma med detta.
+Ett annat sätt att spara artiklarna skulle kunna vara genom `JSON`, det är upp till er hur ni vill lösa lagringen av information.
 {: .info}
 
 #### Gränssnitt och funktionalitet
@@ -37,58 +37,48 @@ Dessa URI:er är en rekommenderad grund för wikin:
 
 * `/` (startsidan): Listar alla artiklar som finns i wikin, som klickbara länkar. Plus annan passande startsideinformation (ditt namn?).
 * `/wiki/<sidans namn>/`: Varje individuell artikel - titel och brödtext presenteras. Exakt adress beror på artikelns titel, precis som på Wikipedia (t. ex. `en.wikipedia.org/wiki/Sweden`).
-* `/edit/`: Visar ett formulär som låter användaren mata in titel och brödtext för en ny eller befintlig artikel.
+* `/new/`: Visar ett formulär som låter användaren mata in titel och brödtext för en ny artikel.
+* `/edit/<sidans namn>/`: Visar ett formulär som låter användaren uppdatera en befintlig artikel.
 * `/update/`: Hit skickas formuläret, och här sker uppdateringen/skapandet av artiklar. Formulärdata ska skickas hit med HTTP-metoden POST.
+
+Notera att om du valt `JSON` som sätt att lagra dina artiklar så bör du ha två resurser / vägar in till applikationen, t.ex. `/update/` (uppdaterar en artikel) och `/save/` (sparar en artikel). Använder ni `JSON` så kan det också vara lämpligt att använda ett **id** för att identifiera era artiklar.
+{: .info}
 
 Du kan absolut lägga till fler URI:er än så. Du bör använda _templates_ för att dela upp logik och presentation.
 
 #### Exempelvideo
 
-Till denna instruktion finns [en kort video](https://www.youtube.com/watch?v=PfvNfbC3qKk). Den visar hur wikin kan se ut "in action" och är ett bra komplement till beskrivningen ovan. (Notera att du gärna får göra din wiki mer tilltalande att använda!)
-
-<div class="video-frame">
-    <iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/PfvNfbC3qKk?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
+**Exempelvideo kommer inom kort och går igenom de olika funktionerna**
 
 #### Webbramverk - Bottle
 
 [Bottle](http://bottlepy.org/) är det rekommenderade ramverket på grund av enkelheten i att installera och komma igång. Enklast: ladda hem [`bottle.py`](http://bottlepy.org/bottle.py) till din projektmapp.
 
-#### Startkod (valfritt)
-
-För att komma igång kan du använda nedanståden [startkod](https://gist.github.com/fohlin/12085142c756e611c57c). Den utgår ifrån att Bottle används, och baserar sig på rekommenderade adresserna ovan. För att använda koden är det viktigt att gå igenom den och sätta sig in hur den är uppbyggd.
-
-<script src="https://gist.github.com/fohlin/12085142c756e611c57c.js"></script>
-
 
 ### Bedömning
 
-Den grundläggande kravspecifikationen finns ovan (text+video) och uppfylls den nås också betyget G.
+Den grundläggande kravspecifikationen finns ovan (text + video) och uppfylls den nås också betyget G.
 
 #### VG
 
-Uppgiften kan ge VG - men det finns många olika förbättringar som alla kan göra wikin bättre. Implementera minst _tre_ av följande förslag:
+Uppgiften kan ge VG - men det finns många olika förbättringar som alla kan göra wikin bättre. För VG implementera följande:
 
 * Lägg till möjligheten att ta bort artiklar.
-* Modifiera hanteringen av artikeltext, så att användaren inte behöver ange `<p>` eller `<br>` för att radbrytningar ska visas på webbsidan.
-* Se till att man automatisk skickas till rätt artikel efter redigering/skapande. (Istället för att behöver klicka sig vidare, som i filmen.)
 * God felhantering: se till att både titel och brödtext krävs för att ändra/skapa en artikel (validering ska minimum ske på serversidan, d.v.s. i python). Se till att en beskrivande felsida (fel 404) visas om man försöker surfa in på en artikel som inte existerar.
 * Använd dina kunskaper i HTML/CSS för att göra ett tilltalande gränssnitt. (Exempelvideon har ingen CSS alls.)
-
 
 
 ### Tips
 
 - I ett template skriver man normalt ut en variabel såhär: <code>&#123;&#123; name &#125;&#125;</code>. För att skriva ut en variabel som innehåller HTML-kod, gör istället: <code>&#123;&#123;!name&#125;&#125;</code>.
 - Det är enkelt att utgå ifrån en mapp och få en lista med alla filnamn däri:
-    ```python
-    from os import listdir
+```python
+from os import listdir
 
-    files = listdir("wiki")
-    print files # a list of all filenames in directory wiki
-    ```
+files = listdir("wiki")
+print files # a list of all filenames in directory wiki
+```
 
 ### Redovisning
 
-Redovisa genom att ladda upp programmets källkod på Canvas. Deadline för modul 6 är söndag **2021-01-17**.
+Redovisa genom att ladda upp programmets källkod på Canvas. Deadline för modul 6 är söndag **2022-01-16**.

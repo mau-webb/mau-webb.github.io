@@ -66,6 +66,7 @@
         if (savedSection.course === course) {
             document.querySelectorAll(".sidebar-inner-container h5").forEach((element) => {
                 if (element.textContent === savedSection.section) {
+                    console.log(element.textContent);
                     element.parentElement.classList.toggle("closed");
                     element.parentElement.classList.add("open");
                 }

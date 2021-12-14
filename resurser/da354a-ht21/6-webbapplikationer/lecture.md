@@ -1,5 +1,5 @@
 ---
-id: da354a
+id: da354a-ht21
 title: "Modul 6 - Webbapplikationer"
 ---
 
@@ -8,15 +8,15 @@ title: "Modul 6 - Webbapplikationer"
 ## Föreläsning
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/9641e0877d124cb699cf5c568eec9d10" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/677ce9d2303b48d4a1d8805810f3f45b" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/Presentation.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/Episode X-2021.pdf)
 
 ---
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/v0imFcQHZVc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/_6wmXRLPWXM?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
 
 ---
@@ -28,107 +28,218 @@ title: "Modul 6 - Webbapplikationer"
 #### my_app.py
 
 ```python
-from bottle import run, route, template
+from bottle import route, run, error, template
 
-@route("/")
+@route('/')
 def index():
-    my_name = "Anton"
-    return template("index", name=my_name)
+    return template("index")
 
-@route("/about")
-def about():
-    return "Här kommer om-mig sidan att finnas"
+@route('/hello')
+def hello():
+    return "Hello there!"
 
-@route("/contact")
-def contact():
-    return "Här kommer kontakt-sidan att finnas"
+@route('/hello/<name>')
+def hello_name(name):
+    return template("hello", username=name)
+
+@error(404)
+def error404(error):
+    return "This page do not exist"
 
 run(host="127.0.0.1", port=8080)
 ```
 
-### Önskelista
+#### index.html (OBS - ska ligga i mappen "views")
+```html
+<h1>Hello World</h1>
+<p>Welcome to my website</p>
+```
 
-[Ni kan ladda ner hela exemplet här](../zip/wishes.zip)
+#### hello.html (OBS - ska ligga i mappen "views")
+```html
+<h1>Hello {{username}}</h1>
+<p>Vad kul att du ville besöka vår webbplats, {{username}}</p>
+```
+### Star Wars-sida
+
+I exemplet nedan har jag kommenterat koden lite mer utförligt för bättre förståelse av den.
+
+[Ni kan ladda ner hela exemplet här](../zip/starwars.zip)
 
 #### my_app.py
 
 ```python
+from bottle import route, get, post, run, template, error, static_file, request, response, redirect
 import json
-from bottle import run, route, template, static_file, request, redirect
+import datetime	
 
-def read_wishes_from_file():
-    '''
-    Läser in våra önskningar från filen "storage/wishes.json" och returnerar
-    en lista enligt följande struktur:
-    [
-        {
-            "title": "Nitro Snowboardboots Venture Tls Brown",
-            "link": "https://www.standtall.se/snowboard/snowboard-boots/kille/nitro-snowboardboots-venture-tls-brown",
-            "price": "2999"
-        },
-        {
-            "title": "Appertiff Sqt Goggle Goldtooth Black",
-            "link": "https://www.standtall.se/snowboard/goggles/appertiff-sqt-goggle-goldtooth-black",
-            "price": "899"
-        }
-    ]
+def get_votes():
+	'''Returns an object (dictionary) with the results from file: "staic/standings.txt"
+	
+	The result is in JSON format, ex.
+	{
+		"empire": 13,
+		"rebels": 9
+	}
+	
+	Returns:
+		str : The results
+	'''
+	try:
+		# Opens the file "static/standings.txt" in "read" mode
+		votes_file = open('static/standings.json', 'r')
+		# Reads and converts the file content (JSON) to Python datatype (dictionary)
+		votes = json.loads(votes_file.read())
+		# Closes the file
+		votes_file.close()
+		# Return the votes
+		return votes
+	except:
+		# Creates a new file called "standings.json"
+		votes_file = open("static/standings.json", "w")
+		# Writes the basic structure in JSON-format
+		votes_file.write(json.dumps({"empire": 0, "rebels": 0}))
+		# Returns the basic structure as a dictionary
+		return {"empire": 0, "rebels": 0}
 
-    Returns:
-        list : En lista med önskningar (varje önskning är ett lexikon)
-    '''
-    try:
-        my_file = open("storage/wishes.json", "r")
-        wishes = json.loads(my_file.read())
-        my_file.close()
+def get_disqus():
+	'''Returns a list of comments, created from file: "staic/disqus.txt"
+	
+	Example result:
+	[
+		"The emperor;2015-11-28 22:55:00;We got cookies!",
+		"Darth Vader;2015-11-29, 19:45:56;Luke, I'm your father."
+	]
+	
+	Returns:
+		str : The results
+	'''
+	try:
+		# Opens the file "static/disqus.txt" in "read" mode
+		disqus_file = open('static/disqus.json', 'r')
+		# Reads and converts the file content (JSON) to Python datatype (list)
+		disqusions = json.loads(disqus_file.read())
+		# Closes the file
+		disqus_file.close()
+		# Returns the list of every lines in file
+		return disqusions
+	except:
+		# Creates a new file called "disqus.json"
+		disqus_file = open("static/disqus.json", "w")
+		# Writes the basic structure in JSON-format
+		disqus_file.write(json.dumps([]))
+		# Returns the basic structure as an empty list
+		return []
 
-        return wishes
-    except:
-        my_file = open("storage/wishes.json", "w")
-        my_file.write(json.dumps([]))
-        my_file.close()
-
-        return []
-
-@route("/")
+@route('/')
 def index():
-    '''
-    Hanterar vår startsida, genom att skicka tillbaka template: index.html
+	'''Returns the start page
+	
+	Returns:
+		template : index
+	'''
+	# Creates and returns the template "index" (views/index.tpl) with the current standings (votes)
+	return template("index", votes=get_votes() )
+	
+@route('/vote', method='POST')
+def vote():
+	'''Register a vote, and returns the start page
+	
+	Notes:
+		- The vote is sent by a from (method = POST) with the key "vote"
+		- The vote is added to the file "static/standings.txt"
+	
+	Returns:
+		template : index
+	'''
+	# Recives the vote send from a from (method=POST) by the key "vote"
+	vote = request.forms.get("vote")
+	# Get the current standing (votes)
+	current_votes = get_votes()
+	# If the vote is for empire
+	if vote == "empire":
+		# Add one vote to the empire
+		current_votes["empire"] = current_votes["empire"] + 1
+	# If the vote is for rebels
+	else:
+		# Add one vote to the empire
+		current_votes["rebels"] = current_votes["rebels"] + 1
+	# Opens the file "static/standings.txt" in "write" mode
+	votes_file = open('static/standings.json', 'w')
+	# Converts the standings dictionary (current_votes) to JSON-format and saves it to text file
+	votes_file.write(json.dumps(current_votes))
+	# Closes the file
+	votes_file.close()
+	# Redirects to the start page
+	redirect("/")
 
-    Returns:
-        str : Källkoden till vår webbsida
-    '''
-    return template("index", wishes=read_wishes_from_file())
+@route('/disqus')
+def disqus():
+	'''Returns the disqus page
+	
+	Returns:
+		template : disqus
+	'''
+	return template("disqus", posts=get_disqus())
 
-@route("/new-wish", method="POST")
-def new_wish():
-    '''
-    Sparar en önskning och skickar sedan vidare användaren till startisdan
-    '''
-    wish = getattr(request.forms, "wish")
-    link = getattr(request.forms, "link")
-    price = getattr(request.forms, "price")
+@post('/disqus-post', method='POST')
+def save_post():
+	'''Register a new disqus post, and returns the disqus page
+	
+	Notes:
+		- The disqus post is sent by a from (method = POST) with following keys
+			name 	=> the author
+			message => the disqus post
+		- The disqus post is added to the file "static/disqus.json"
+		- We also add the date/time when the post is created
+	
+	Returns:
+		template : index
+	'''
+	# Recives the name send from a from (method=POST) by the key "name"
+	name = getattr(request.forms, "name")
+	# Recives the message send from a from (method=POST) by the key "message"
+	message = getattr(request.forms, "message")
+	# Create a timestamp - when the post is created (i.e. 2015-12-15 14:37:31)
+	date_time = datetime.datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
 
-    wishes = read_wishes_from_file()
-    wishes.append({
-        "title": wish,
-        "link": link,
-        "price": price
-    })
+	posts = get_disqus()
+	posts.append({
+		"name": name,
+		"message": message,
+		"datetime": date_time
+	})
 
-    my_file = open("storage/wishes.json", "w")
-    my_file.write(json.dumps(wishes, indent=4))
-    my_file.close()
+	# Opens the file "static/disqus.json" in "write" mode
+	disqus_file = open('static/disqus.json', 'w')
 
-    return redirect("/")
+	disqus_file.write(json.dumps(posts, indent=4))
+	# Closes the file
+	disqus_file.close()
+	# Creates and returns the template "disqus" (views/disqus.tpl) with the current disqus posts
+	redirect("/disqus")
 
-@route("/static/<filename>")
-def static_files(filename):
-    '''
-    Returnerar efterfrågad fil i mappen "static"
-    '''
-    return static_file(filename, "static")
+@route('/static/<filename:path>')
+def server_static(filename):
+	'''Handles the routes to our static files
+	
+	Returns:
+		file : the static file requested by URL	
+	'''
+	return static_file(filename, root='static')
 
-run(host="127.0.0.1", port=8000)
+
+@error(404)
+def error404(error):
+	'''Makes a pretty error page, when page is not found (error 404)
+	
+	Returns:
+		template : error
+	'''
+	return template("error")
+
+# Start our web server
+run(host='127.0.0.1', port=8080, debug=False, reloader=True)
 ```
 
 #### index.html
@@ -137,40 +248,121 @@ run(host="127.0.0.1", port=8000)
 <!doctype html>
 <html>
 	<head>
-		<title>Min önskelista</title>
+		<title>Vote for freedom</title>
 		<meta charset="utf-8">
-		<!-- CSS only -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<link href="/static/style.css" rel="stylesheet">
+		<link href="/static/style.css" rel="stylesheet" type="text/css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="/static/script.js"></script>
 	</head>
 	<body>
-		<main>
-			<article>
-				<img src="/static/santa.png" alt="Jultomten" id="santa">
-                <img src="/static/hat.png" alt="Tomteluva" id="hat">
-				<h1>Önskelista!</h1>
-				<ul id="wishes">
-					% for wish in wishes:
-						<li>
-							<a href="{{ wish['link'] }}" target="_blank">{{ wish['title'] }} ({{ wish['price'] }})</a>
-						</li>
-					% end
-				</ul>
-			</article>
-			<form action="/new-wish" method="POST">
-				<label for="wish">Önskning</label>
-				<input type="text" id="wish" name="wish">
-				<label for="link">Länk</label>
-				<input type="url" id="link" name="link">
-				<label for="price">Pris</label>
-				<input type="text" id="price" name="price">
-				<input type="submit" value="Spara önskning">
+		<header>
+			<h1><a href="/" class="black-link">star wars  - vote</a></h1>
+		</header>
+		<div id="content">
+			<h2>Please choose side</h2>
+			<form action="/vote" method="post">
+				<figure>
+					<h3>Empire</h3>
+					<label for="empire-radio">
+						<img src="static/empire.png" alt="The empire" id="empire-logo">
+					</label>
+					<input type="radio" name="vote" value="empire" id="empire-radio">
+				</figure>
+				<figure>
+					<h3>Rebels</h3>
+					<label for="rebels-radio">
+						<img src="static/rebels.png" alt="The rebels" id="rebels-logo">
+					</label>
+					<input type="radio" name="vote" value="rebels" id="rebels-radio">
+				</figure>
+				<input type="submit" value="Vote">
 			</form>
-		</main>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="/static/snowfall.jquery.js"></script>
+			
+			<hr>
+			
+			<h2>Current standing</h2>
+			<figure>
+				<h3>Empire</h3>
+				<div class="vote-count">
+					{{votes["empire"]}}
+				</div>
+			</figure>
+			<figure>
+				<h3>Rebels</h3>
+				<div class="vote-count">
+					{{votes["rebels"]}}
+				</div>
+			</figure>
+			<h3><a href="/disqus" class="center">Disqus the results</a></h3>
+		</div>
+		<footer>
+			Made by the force
+		</footer>
+	</body>
+</html>
+```
+
+#### disqus.html
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<title>Vote for freedom</title>
+		<meta charset="utf-8">
+		<link href="/static/style.css" rel="stylesheet" type="text/css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="/static/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1><a href="/" class="black-link">star wars  - vote</a></h1>
+		</header>
+		<div id="content">
+			<h2>Disqus the results here</h2>
+			<form action="/disqus-post" method="post" id="new-post-form">
+				<fieldset>
+					<legend>Join the disqusion!</legend>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name">
+					<label for="message">Message:</label>
+					<textarea name="message" id="message"></textarea>
+					<input type="submit" value="Submit post">
+				</fieldset>
+			</form>
+			% for post in posts:
+				<div class="post">
+					<div class="name"><strong>Name:</strong> {{ post["name"]}} <small>({{ post["datetime"] }})</small></div>
+					<div class="message"><strong>Message:</strong> {{ post["message"] }}</div>
+				</div>
+			% end
+		</div>
+		<footer>
+			Made by the force
+		</footer>
+	</body>
+</html>
+```
+
+#### error.html
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<title>Vote for freedom</title>
+		<meta charset="utf-8">
+		<link href="/static/style.css" rel="stylesheet" type="text/css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="/static/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>this is not the page you are looking for...<br><a href="/">Return to start page</a></h1>
+		</header>
 	</body>
 </html>
 ```
@@ -178,77 +370,140 @@ run(host="127.0.0.1", port=8000)
 #### style.css
 
 ```css
-body {
-    background-image: url("background.jpg");
+@font-face {
+     font-family: starwars;
+     src: url(/static/Starjedi.ttf);
+ }
+
+body{
+	margin:0px;
+	background-image:url(wall4.png);
+	font-family: cambria, arial, sans-serif;
 }
 
-main {
-    width: 500px;
-    margin: 200px auto 10px auto;
-    background-color: #fff;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0  10px #000;
+h1{
+	font-family: starwars, Arial, sans-serif;
+	font-size: 40px;
+	margin:0px;
+	padding:0px;
+	margin:auto;
 }
 
-main > article > h1 {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
+h2{
+	text-align: center;
+	font-size: 30px;
 }
 
-main > article li, main > article ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+body > header{
+	text-align: center;
+	height:200px;
+	line-height: 200px;
 }
 
-main > article a {
-    display: block;
-    padding: 10px;
-    margin: 5px;
-    box-shadow: 0 0 3px #999;
+input[type="submit"]{
+	width: 100%;
+	clear:both;
+	height: 40px;
+	margin-bottom: 20px;
+}
+input[type="radio"]{
+	text-align:center;
+	margin:auto;
+	display:block;
+	margin-top:10px;
 }
 
-main > form {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
+#content{
+	width: 600px;
+	margin:0 auto 25px auto;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.3);
+	padding: 0 50px;
+	border-radius:25px;
+	box-shadow: 0 0 10px #000;
 }
 
-main > form > input, main > form > label {
-    display: block;
-    width: 100%;
-    margin-bottom: 5px;
+#content figure{
+	width:40%;
+	padding:2.5%;
+	margin: 2.5%;
+	float:left;
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 500ms;
+	border-radius: 25px;
 }
 
-#hat {
-    position: absolute;
-    z-index: 10;
-    height: 100px;
-    margin-top: -50px;
-    margin-left: -75px;
+#content figure.chosen{
+	background-color: rgba(255, 255, 255, 1);
 }
 
-#santa {
-    position: absolute;
-	z-index: 10;
-    height: 150px;
-    margin-top: -125px;
-    margin-left: 400px;
+#content figure.chosen:hover{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+#content figure img{
+	width:80%;
+	cursor: pointer;
+}
+
+#content figure:hover{
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.vote-count{
+	font-size: 50px;
+}
+
+.black-link{
+	color: #000;
+	text-decoration:none;
+}
+
+.center{
+	text-align: center;
+	display: block;
+}
+
+footer{
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.post{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #666;
+	margin-bottom: 10px;
+}
+
+#new-post-form{
+	margin-bottom:20px;
+}
+
+#new-post-form textarea{
+	height: 50px;
+}
+
+#new-post-form label, #new-post-form input, #new-post-form textarea{
+	clear: both;
+	display: block;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 5px;
 }
 ```
 
 #### script.js
 
 ```js
-// https://github.com/loktar00/JQuery-Snowfall
-
-$(document).snowfall({
-    flakeCount : 100,
-    maxSpeed : 5,
-    maxSize: 5,
-    round: true,
-    collection: 'main'
+$(document).on("ready", function(){
+	$("input[type='radio']").on("change", function(){
+		$("input[type='radio']").parent().removeClass("chosen");
+		if($(this).prop("checked") == true){
+			$(this).parent().addClass("chosen");
+		}
+	})
 });
 ```

@@ -81,6 +81,7 @@ Exempelvideo och förtydligande av funktionalitet för betyget **VG**:
 
 - I ett template skriver man normalt ut en variabel såhär: <code>&#123;&#123; name &#125;&#125;</code>. För att skriva ut en variabel som innehåller HTML-kod, gör istället: <code>&#123;&#123;!name&#125;&#125;</code>.
 - Det är enkelt att utgå ifrån en mapp och få en lista med alla filnamn däri:
+
 ```python
 from os import listdir
 

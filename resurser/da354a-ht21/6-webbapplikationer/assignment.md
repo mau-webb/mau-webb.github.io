@@ -48,7 +48,11 @@ Du kan absolut lägga till fler URI:er än så. Du bör använda _templates_ fö
 
 #### Exempelvideo
 
-**Exempelvideo kommer inom kort och går igenom de olika funktionerna**
+Exempelvideo och förtydligande av funktionalitet för betyget **G**:
+
+<div class="video-frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/cPR-wAgrXbk?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
+</div>
 
 #### Webbramverk - Bottle
 
@@ -67,6 +71,11 @@ Uppgiften kan ge VG - men det finns många olika förbättringar som alla kan g�
 * God felhantering: se till att både titel och brödtext krävs för att ändra/skapa en artikel (validering ska minimum ske på serversidan, d.v.s. i python). Se till att en beskrivande felsida (fel 404) visas om man försöker surfa in på en artikel som inte existerar.
 * Använd dina kunskaper i HTML/CSS för att göra ett tilltalande gränssnitt. (Exempelvideon har ingen CSS alls.)
 
+Exempelvideo och förtydligande av funktionalitet för betyget **VG**:
+
+<div class="video-frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/ywaO7I6mz3s?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
+</div>
 
 ### Tips
 

@@ -12,7 +12,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 - Modul 3: Inlämningsuppgift 2 har deadline **onsdagen den 1/12**
 - Modul 4: Inlämningsuppgift 3 har deadline **onsdagen den 8/12** (detta är en gruppuppgift)
 - Modul 5: Inlämningsuppgift 4 har deadline **onsdagen den 15/12**
-- Modul 6: Inlämningsuppgift 5 har deadline **söndagen den 9/1**
+- Modul 6: Inlämningsuppgift 5 har deadline **söndagen den 16/1**
 
 | Förkortning | Innebörd |
 |:-----:|:-----:|

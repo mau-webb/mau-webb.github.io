@@ -196,7 +196,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr class="odd">
 			<td></td>
 			<td>16/12</td>
-			<td>13-17</td>
+			<td>08-12</td>
 			<td>L: Python &amp; Webben</td>
 			<td>Anton & Lärarassistent</td>
 			<td>NI:A0306, NI:A0314</td>

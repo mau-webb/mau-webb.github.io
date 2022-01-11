@@ -8,22 +8,27 @@ title: "Modul 7 - Objektorientering"
 ## Föreläsning
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/dbef7f72365341c3963a43584a620f1f" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/61b652078b074fe2867e8dafc3875a19" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/lecture.pdf)
 
 ---
 
+Videon laddas upp så fort den är färdigredigerad.
+
+<!--
 <div class="video-frame">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/rpHAU_yqtY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
+-->
 ---
 
 ## Dagens exempel
 
 ### MovieCollection.py
+
+Detta är en något utökad version av den kod som vi gick igenom på dagens föreläsning.
 
 ```python
 from Movie import Movie

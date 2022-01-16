@@ -9,7 +9,7 @@ Betyg: U/G
 
 ## Inledning
 
-I den första inlämningsuppgiften ska vi i del 1 bygga vår allra första webbplats. Innehållet på webbplatsen ska handla om er själva (tillsammans med minst en bild). Ni får väldigt fria händer vad gäller utformningen av webbplatsen - så länge ni följer den kravspecifikation som presenteras i slutet av uppgiften. Den innehåller bl.a. krav på vilka element ni måste använda (minst en gång) samt att sidan måste validera enligt standarden HTML5.
+I den första inlämningsuppgiften ska ni i del 1 bygga vår allra första webbplats. Innehållet på webbplatsen ska handla om en författare (tillsammans med minst en bild). Ni får väldigt fria händer vad gäller utformningen av webbplatsen - så länge ni följer den kravspecifikation som presenteras i slutet av uppgiften. Den innehåller bl.a. krav på vilka element ni måste använda (minst en gång) samt att sidan måste validera enligt standarden HTML5.
 
 Vi ska i del svara på några grundläggande frågor om webbutveckling. Svaren på dessa frågor ska ni presentera i form av en webbplat. Ni hittar svaren på dessa frågor antingen i kurslitteraturen eller genom att ni söker via webben.
 
@@ -23,7 +23,7 @@ Syftet med denna inlämingsuppgift är att ni ska få en bra grund samt förstå
 
 ### Del 1
 
-Som tidigare nämnt är uppgiften att skapa en webbplats där ni presenterar er själva. Webbplatsen ska innehålla en kort bakgrund om vem ni är, minst en bild på er samt några underrubriker, länkar och valfria listor. Nedan presenteras de element som måste finnas minst en gång på sidan:
+Som tidigare nämnt är uppgiften att skapa en webbplats där ni presenterar en författare. Webbplatsen ska innehålla en kort bakgrund om vem hen är, minst en bild på hen samt några underrubriker, länkar och valfria listor. Nedan presenteras de element som måste finnas minst en gång på sidan:
 
 * `<h1>`
 * `<h2>`
@@ -40,9 +40,7 @@ Sidan måste sedan valideras genom [W3Cs validator](http://validator.w3.org). De
 
 Det ska även finnas en länk till del 2 (den andra webbplatsen) av inlämningsuppgiften.
 
-I slutet av uppgiften (bilagor) finner ni ett exempel på hur en färdig webbplats kunnat se ut.
 
-[Här finner ni ett exempel på hur en färdig webbplats kunnat se ut.](../../material/assets/da280a_inl1_webbplats.png)
 
 ### Del 2
 
@@ -65,7 +63,7 @@ Nedan listas de frågor som ska besvaras på er andra webbplats:
 12. Vilka två delar består ett HTML-dokument av? Vilken sorts information finns i respektive del?
 13. Varför har vi s.k. HTML-kommentarer i vår kod?
 
-Svaren på frågorna ska vara kortfattade men heltäckande och presenteras på en egen webbplats (HTML-sida). Även denna webbplats måste valideras utan några fel. Det är alltså denna sida som ni ska länka till från del 1 av uppgiften (där ni presenterade er själva).
+Svaren på frågorna ska vara kortfattade men heltäckande och presenteras på en egen webbplats (HTML-sida). Även denna webbplats måste valideras utan några fel. Det är alltså denna sida som ni ska länka till från del 1 av uppgiften (där ni presenterade er valda författare).
 
 ## Kravspecifikation
 
@@ -92,6 +90,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas Du ska även publicera din lösning på ddwap (en [guide om detta finner du här](/{{ site.resource_path }}/da280a/material/m1_intro_dvwebb/)) - glöm inte att bifoga en länk till din sida i kommetarsfältet på Canvas.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas Du ska även publicera din lösning på webshare. En guide om detta finner du på canvas . glöm inte att bifoga en länk till din sida i kommetarsfältet på Canvas.
 
 Lycka till!

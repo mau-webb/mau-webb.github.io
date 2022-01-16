@@ -62,7 +62,7 @@ Varje del av formuläret (de delar som har en ram runt sig i bilden) ska vara i 
 
 Formuläret ska sedan skickas (när besökaren klickar på "skicka") till följande adress: `http://webshare.mah.se/tszagh/response.php` med metoden `GET`. Den sidan kommer att tolka den data som ni skickar och sedan skriva ut den. Så att ni kan se att ert formulär skickar korrekt data.
 
-[Ett exempel på hur detta ser ut kan ni ser här.]((../../material/assets/da280a_inl3_data.png))
+[Ett exempel på hur detta ser ut kan ni ser här.](../material/assets/da280a_inl3_data.png)
 
 **Tips**
 

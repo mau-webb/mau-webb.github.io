@@ -9,7 +9,7 @@ CSS3 Media Queries är en viktig del och krävs för att möjliggöra något som
 
 ## Basfallet
 
-I detta fall finns en färdig webbplats som ser OK ut i "mellanstora" webbläsare (vad gäller bredd). [Ta en titt här](../assets/da280a_ex_rwd_html.html).
+I detta fall finns en färdig webbplats som ser OK ut i "mellanstora" webbläsare (vad gäller bredd). [Ta en titt här](../material/assets/da280a_ex_rwd_html.html).
 
 Öppna webbplatsen och bekanta dig med den, testa också att dra ihop webbläsarfönstret för att simulera olika skärmstorlekar.
 
@@ -24,7 +24,7 @@ Värt att notera om webbplatsen är:
 
 Nu är det dags att börja arbeta med Media Queries. Spara ner [HTML-filen från exemplet](../material/assets/da280a_ex_rwd_html.html) och [CSS-filen från exemplet](../assets/da280a_ex_rwd_html_files/screen.css) så att du kan följa med.
 
-![RWD example 1](../assets/da280a_ex_rwd_bild1.png)
+![RWD example 1](../material/assets/da280a_ex_rwd_bild1.png)
 
 Webbplatsen är inte lättläst om webbläsaren är för smal, någonstans runt 480 pixlar i bredd verkar det lämpligt att övergå från två kolumner till en. Det viktiga beslutet är hur det ska se ut istället - dvs. hur kan vi förbättra? Ska logotyp och navigation ligga överst? Samma eller ändra utseende? Eller ska innehållet vara i fokus? Du kan själv välja vilka förändringar som passar - men för enkelhetens skull används den första varianten nedan.
 
@@ -58,7 +58,7 @@ Experimentera med ovan - pröva att dra ihop webbläsarfönstret, lägg gärna t
 
 Som bekant så kan mobila enheter använda en annan storlek på visningsytan än den faktiska skärmen. En iPhone kan exempelvis utgå från 980 pixlar.
 
-![RWD example 2](../assets/da280a_ex_rwd_bild2.jpg)
+![RWD example 2](../material/assets/da280a_ex_rwd_bild2.jpg)
 
 Vi behöver ange att vi istället föredrar en icke-skalad visningsyta (eng. viewport). Detta görs enkelt som meta-data i `<head>`:
 

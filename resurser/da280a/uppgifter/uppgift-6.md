@@ -17,15 +17,15 @@ Syftet med den sista uppgiften är att vidare utöka våra kunskaper kring layou
 
 ## Uppgift
 
-Denna uppgift går ut på att ni ska skapa en sida som [följer denna mallen](../../material/assets/da280a_inl6_bild1.jpg) (temat är dock valfritt, inget krav att ni använder just Star Wars-temat som i detta fallet).
+Denna uppgift går ut på att ni ska skapa en sida som [följer denna mallen](../material/assets/da280a_inl6_bild1.jpg) (temat är dock valfritt, inget krav att ni använder just Star Wars-temat som i detta fallet).
 
 Denna bilden visar strukturen (layouten) för er webbplats, dvs. inte exakt hur den ska se ut (dock med ett förvalt tema för att förtydliga). Det innebär att ni själva får välja vilka färger, typsnitt, m.m. som ni vill använda er av för att göra webbplatsen tilltalande - tänk på att välja ett tema så utseendet är konsekvent. **Dock** måste alla delar (komponenter) som återfinns i bilden finnas med på er webbplats.
 
-[Här finner ni en lite mer detaljerad beskrivning av de olika delarna.](../../material/assets/da280a_inl6_bild2.jpg)
+[Här finner ni en lite mer detaljerad beskrivning av de olika delarna.](../material/assets/da280a_inl6_bild2.jpg)
 
 Länkarna i menyn behöver inte leda någonstans, men de måste utformas med elementet: `<a>`.
 
-För att göra sidan mer responsiv (dvs. mobilanpassa, eller enhetsanpassa) så ska den [se ut på följande vis](../../material/assets/da280a_inl6_bild3.jpg) när vi besöker den via en mobiltelefon (tips: ni kan dra ihop webbläsar fönstret för att snabbt testa också). Som ni kan se så finns alla element förutom logotypen med i mobilversionen av vår webbplats.
+För att göra sidan mer responsiv (dvs. mobilanpassa, eller enhetsanpassa) så ska den [se ut på följande vis](../material/assets/da280a_inl6_bild3.jpg) när vi besöker den via en mobiltelefon (tips: ni kan dra ihop webbläsar fönstret för att snabbt testa också). Som ni kan se så finns alla element förutom logotypen med i mobilversionen av vår webbplats.
 
 Nedan finner ni en lista över innehållet på webbplatsen:
 
@@ -75,6 +75,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på ddwap och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på webshare och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
 
 Lycka till!

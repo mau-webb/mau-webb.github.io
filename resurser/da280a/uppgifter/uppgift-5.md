@@ -18,9 +18,9 @@ Syftet med den femte uppgiften är att fortsätta öva på CSS men även att gö
 ## Uppgift
 
 
-Uppgiften bygger på att ni ska efterlikna en redan befintlig mall som [ser ut så här](../../material/assets/da280a_inl5_bild1.png).
+Uppgiften bygger på att ni ska efterlikna en redan befintlig mall som [ser ut så här](../material/assets/da280a_inl5_bild1.png).
 
-Denna bilden visar strukturen (layouten) för webbplatsen, dvs. inte exakt hur den ser ut (utseendemässigt). Ni får därmed själva aktivt ta beslut om vilka färger, typsnitt och andra egenskaper som ni tycker passar webbplatsen. För en lite mer detaljerad [bildbeskrivning kan ni klicka här](../../material/assets/da280a_inl5_bild2.png).
+Denna bilden visar strukturen (layouten) för webbplatsen, dvs. inte exakt hur den ser ut (utseendemässigt). Ni får därmed själva aktivt ta beslut om vilka färger, typsnitt och andra egenskaper som ni tycker passar webbplatsen. För en lite mer detaljerad [bildbeskrivning kan ni klicka här](../material/assets/da280a_inl5_bild2.png).
 
 Nedan presenteras en lista över vad de olika undersidorna ska innehålla:
 
@@ -30,7 +30,7 @@ Här ska ni kort beskriva skillnaden mellan "inline" CSS och externa stilmallar 
 
 ### Om mig
 
-Här ska ni återanvända sidan om er själva från förra inlämninguppgiften.
+Här ska ni återanvända sidan om er författare från förra inlämninguppgiften.
 
 ### Om CSS
 
@@ -65,6 +65,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på ddwap och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på webshare och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
 
 Lycka till!

@@ -19,8 +19,7 @@ Syftet med den tredje uppgiften är att ni ska behärska formulär i HTML med ol
 
 Ni har fått ett uppdrag om att göra ett formulär till tidningen Blomstermålabladet. Denna tidningens anställda är nyfikna på vem som besöker deras webbplats och vad dessa tycker om webbplatsen, men även vilka delar som besöks mest. Dessutom vill de ge besökarena som svarar på formuläret möjligheten till att vinna en T-shirt om de fyller i sin epost och vad de tycker om webbplatsen.
 
-Detta innebär att er uppgift är att bygga ett formulär för detta ändamål. Hur formuläret bör se ut när det är färdigt är [något i stil med följande](../../material/assets/da280a_inl3_form.png).
-
+Detta innebär att er uppgift är att bygga ett formulär för detta ändamål. 
 **Formuläret ska bestå av följande delar:**
 
 1. Kontaktuppgifter
@@ -99,6 +98,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på dvwebb och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på webshare och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
 
 Lycka till!

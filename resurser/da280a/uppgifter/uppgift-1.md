@@ -11,7 +11,7 @@ Betyg: U/G
 
 I den första inlämningsuppgiften ska ni i del 1 bygga vår allra första webbplats. Innehållet på webbplatsen ska handla om en författare (tillsammans med minst en bild). Ni får väldigt fria händer vad gäller utformningen av webbplatsen - så länge ni följer den kravspecifikation som presenteras i slutet av uppgiften. Den innehåller bl.a. krav på vilka element ni måste använda (minst en gång) samt att sidan måste validera enligt standarden HTML5.
 
-Vi ska i del svara på några grundläggande frågor om webbutveckling. Svaren på dessa frågor ska ni presentera i form av en webbplat. Ni hittar svaren på dessa frågor antingen i kurslitteraturen eller genom att ni söker via webben.
+Vi ska i del svara på några grundläggande frågor om webbutveckling. Svaren på dessa frågor ska ni presentera i form av en webbplats. Ni hittar svaren på dessa frågor antingen i kurslitteraturen eller genom att ni söker via webben.
 
 Detta innbär att ni ska skapa **två** stycken webbplatser (dvs. två stycken HTML-dokument) - mer om inlämningen finner ni i slutet av uppgiften.
 

@@ -19,22 +19,22 @@ Syftet med den fjärde uppgiften är att ni ska formge en webbplats med CSS. Det
 
 Denna uppgift är uppdelad i tre olika sidor (dvs. tre separata HTML-dokument):
 
-1. En startsida (sidan om er själva som ni gjorde i inlämingsuppgift 1)
+1. En startsida (sidan om en författare som ni gjorde i inlämingsuppgift 1)
 2. En startsida (Om CSS)
 3. En sida som ska ha ett specifikt utseende (se beskrivningen nedan)
 
-**Sida 1 - Om er själva**
+**Sida 1 - Om en författare**
 
-Ni ska i sida 1 återanvända det innehåll som ni gjorde i inlämningsuppgift 1 (eller förbättra det, om ni vill). Sidan ska sedan förbättras genom att ni formger den eligt följande specifikation:
+Ni ska i sida 1 återanvända det innehåll som ni gjorde i inlämningsuppgift 1 (eller förbättra det, om ni vill). Sidan ska sedan förbättras genom att ni formger den enligt följande specifikation:
 
 * Ni ska ha en annan bakgrundsfärg än vit
 * Alla era rubriker ska vara centrerade
 * Er huvudrubrik, `<h1>`, ska ha typsnittet "Arial", en bakgrundsfärg som avviker från sidans bakgrundsfärg samt en förgrundsfärg (text) som gör texten läsbar
 * Era underrubriker av nivå 2, `<h2>`, ska ha ramar runt sig (valfri färg, stil och tjocklek)
 * Era underrubriker av nivå 3, `<h3>`, ska vara kursiva (genom CSS-egenskaper, dvs. inte `<i>` eller `<em>`)
-* Er bild ska ha en angiven bredd i CSS och vara centrerad
+* författarens bild ska ha en angiven bredd i CSS och vara centrerad
 
-[Här finner ni ett exempel på hur detta kan se ut.](../material/assets/da280a_inl4_bild1.png)
+
 
 **Sida 2 - Om CSS**
 
@@ -63,9 +63,9 @@ Ni ska även på denna sida presentera ert innehåll (ovanstående frågor) på 
 
 **Sida 3 - Formgivning efter en mall**
 
-I den tredje sidan ska ni utgå från [detta HTML-dokument](../../material/assets/da280a_inl4_html.html), och formge den med CSS (dvs. ni får **inte** ändra i HTML-koden). **Dock** ska ni lägga till en meny högst uppe på sidan genom HTML och CSS.
+I den tredje sidan ska ni utgå från [detta HTML-dokument](../material/assets/da280a_inl4_html.html), och formge den med CSS (dvs. ni får **inte** ändra i HTML-koden). **Dock** ska ni lägga till en meny högst uppe på sidan genom HTML och CSS.
 
-Ni ska alltså gå från [detta utseendet](../../material/assets/da280a_inl4_bild2.jpg) till [detta slutresultatet](../../material/assets/da280a_inl4_bild3.jpg).
+Ni ska alltså gå från [detta utseendet](../material/assets/da280a_inl4_bild2.jpg) till [detta slutresultatet](../material/assets/da280a_inl4_bild3.jpg).
 
 Följande CSS-egenskaper måste användas minst en gång för att efterlikna ovanstående resultat:
 
@@ -97,6 +97,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på ddwap och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på webshare och bifoga en länk till er sida i kommentarsfältet på Canvas vid inlämning.
 
 Lycka till!

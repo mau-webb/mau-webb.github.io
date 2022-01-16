@@ -45,7 +45,7 @@ Innehållet i tabellen ska vara kortfattat men heltäckande. Länk till var ni h
 
 I vanlig ordning måste sidan valideras med [W3C's validator](http://validator.w3.org).
 
-[Här finner ni ett exempel på hur en påbörjad tabell kan se ut.](../../material/assets/da280a_inl2_tabell.png)
+[Här finner ni ett exempel på hur en påbörjad tabell kan se ut.](../material/assets/da280a_inl2_tabell.png)
 
 ## Kravspecifikation
 

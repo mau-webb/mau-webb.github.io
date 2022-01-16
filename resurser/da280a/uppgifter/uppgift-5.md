@@ -28,7 +28,7 @@ Nedan presenteras en lista över vad de olika undersidorna ska innehålla:
 
 Här ska ni kort beskriva skillnaden mellan "inline" CSS och externa stilmallar samt för- och nackdelar med dessa metoder. Dessutom ska det finnas en box till höger innehållande ett formulär. Formuläret behöver inte fungera, utan se det som en prototyp.
 
-### Om mig
+### Min författare (Om mig)
 
 Här ska ni återanvända sidan om er författare från förra inlämninguppgiften.
 

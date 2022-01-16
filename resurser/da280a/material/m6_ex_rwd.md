@@ -22,7 +22,7 @@ Värt att notera om webbplatsen är:
 
 ## Brytpunkt: smal skärm
 
-Nu är det dags att börja arbeta med Media Queries. Spara ner [HTML-filen från exemplet](../assets/da280a_ex_rwd_html.html) och [CSS-filen från exemplet](../assets/da280a_ex_rwd_html_files/screen.css) så att du kan följa med.
+Nu är det dags att börja arbeta med Media Queries. Spara ner [HTML-filen från exemplet](../material/assets/da280a_ex_rwd_html.html) och [CSS-filen från exemplet](../assets/da280a_ex_rwd_html_files/screen.css) så att du kan följa med.
 
 ![RWD example 1](../assets/da280a_ex_rwd_bild1.png)
 

@@ -5,42 +5,42 @@ title: "Planering (Webbutveckling 1)"
 
 # Planering
 
-*Nedan presenteras planering för kursen gällande vårterminen 2020.*
+*Nedan presenteras planering för kursen gällande vårterminen 2022.*
 
 ## Beskrivning
 
-Kursen är uppdelad i 6 moduler som behandlar olika områden inom grundläggande webbutveckling. Nedan presenteras en kort plan över dessa och därefter en kortare beskrivning av varje modul. Deadline för inlämningsuppgifterna i de olika modulerna finns på [Canvas](https://mau.instructure.com/login/saml), oftast är detta på måndagen (08:00) för den sista veckan för modulen.
+Kursen är uppdelad i 6 moduler som behandlar olika områden inom grundläggande webbutveckling. Nedan presenteras en kort plan över dessa och därefter en kortare beskrivning av varje modul. Deadline för inlämningsuppgifterna i de olika modulerna finns på [Canvas](https://mau.instructure.com/login/saml), oftast är detta på söndagen (08:00) för den sista veckan för modulen.
 
 ### Moduler
 
 | Vecka | Moment | Deadline |
 |:-----:|:------:|:--------:|
-| 4 | [Modul 1](/{{ site.resource_path }}/da280a/moduler/modul-1/) ||
-| 5 | - ||
-| 6 | - | [Inlämningsuppgift 1](/{{ site.resource_path }}/da280a/uppgifter/uppgift-1/) |
-| 7 | [Modul 2](/{{ site.resource_path }}/da280a/moduler/modul-2/) ||
-| 8 | - ||
-| 9 | - | [Inlämningsuppgift 2](/{{ site.resource_path }}/da280a/uppgifter/uppgift-2/) |
-| 10 | [Modul 3](/{{ site.resource_path }}/da280a/moduler/modul-3/) ||
-| 11 | - ||
-| 12 | - | [Inlämningsuppgift 3](/{{ site.resource_path }}/da280a/uppgifter/uppgift-3/) |
-| 13 | [Modul 4](/{{ site.resource_path }}/da280a/moduler/modul-4/) ||
-| 14 | - ||
-| 15 | - | [Inlämningsuppgift 4](/{{ site.resource_path }}/da280a/uppgifter/uppgift-4/) |
-| 16 | [Modul 5](/{{ site.resource_path }}/da280a/moduler/modul-5/) ||
-| 17 | - ||
-| 18 | - | [Inlämningsuppgift 5](/{{ site.resource_path }}/da280a/uppgifter/uppgift-5/)|
-| 19 | [Modul 6](/{{ site.resource_path }}/da280a/moduler/modul-6/) ||
-| 20 | - ||
-| 21 | - | [Inlämningsuppgift 6](/{{ site.resource_path }}/da280a/uppgifter/uppgift-6/) |
-| 22 | Kompletteringar |
-| 23 | - |
+| 3 | [Modul 1](/{{ site.resource_path }}/da280a/moduler/modul-1/) ||
+| 4 | - ||
+| 5 | - | [Inlämningsuppgift 1](/{{ site.resource_path }}/da280a/uppgifter/uppgift-1/) |
+| 6 | [Modul 2](/{{ site.resource_path }}/da280a/moduler/modul-2/) ||
+| 7 | - ||
+| 8 | - | [Inlämningsuppgift 2](/{{ site.resource_path }}/da280a/uppgifter/uppgift-2/) |
+| 9 | [Modul 3](/{{ site.resource_path }}/da280a/moduler/modul-3/) ||
+| 10 | - ||
+| 11 | - | [Inlämningsuppgift 3](/{{ site.resource_path }}/da280a/uppgifter/uppgift-3/) |
+| 12 | [Modul 4](/{{ site.resource_path }}/da280a/moduler/modul-4/) ||
+| 13 | - ||
+| 14 | - | [Inlämningsuppgift 4](/{{ site.resource_path }}/da280a/uppgifter/uppgift-4/) |
+| 15 | [Modul 5](/{{ site.resource_path }}/da280a/moduler/modul-5/) ||
+| 16 | - ||
+| 17 | - | [Inlämningsuppgift 5](/{{ site.resource_path }}/da280a/uppgifter/uppgift-5/)|
+| 18 | [Modul 6](/{{ site.resource_path }}/da280a/moduler/modul-6/) ||
+| 19 | - ||
+| 20 | - | [Inlämningsuppgift 6](/{{ site.resource_path }}/da280a/uppgifter/uppgift-6/) |
+| 21 | Kompletteringar |
+| 22 | - |
 
 ---
 
 ## Modul 1 - Introduktion till HTML
 
-I den första modulen ligger fokus på att du ska sätta in dig i utvecklingsmiljön samt att skapa din första webbplats. Innehållet på sidan kommer att vara en presentation av dig själv och det tekinska fokuset kommer vara på att skriva korrekt HTML-kod (enligt den givna standarden).
+I den första modulen ligger fokus på att du ska sätta in dig i utvecklingsmiljön samt att skapa din första webbplats. Innehållet på sidan kommer att vara en presentation av en författare och det tekinska fokuset kommer vara på att skriva korrekt HTML-kod (enligt den givna standarden).
 
 ---
 

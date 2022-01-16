@@ -34,7 +34,7 @@ Ni ska i sida 1 återanvända det innehåll som ni gjorde i inlämningsuppgift 1
 * Era underrubriker av nivå 3, `<h3>`, ska vara kursiva (genom CSS-egenskaper, dvs. inte `<i>` eller `<em>`)
 * Er bild ska ha en angiven bredd i CSS och vara centrerad
 
-[Här finner ni ett exempel på hur detta kan se ut.](../../material/assets/da280a_inl4_bild1.png)
+[Här finner ni ett exempel på hur detta kan se ut.](../material/assets/da280a_inl4_bild1.png)
 
 **Sida 2 - Om CSS**
 

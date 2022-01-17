@@ -23,7 +23,7 @@ Vi ska även lära oss att skapa stilmallar i separata filer - så att vi kan se
 ### Övrig läsning
 
 * [Föreläsning: CSS i externt dokumet]( https://youtu.be/yfoY53QXEnI)(video)
-* [Exempel: CSS i externt dokumet] (https://youtu.be/QT_lIti-8Zk)(video)
+* [Exempel: CSS i externt dokumet]( https://youtu.be/QT_lIti-8Zk)(video)
 * [CSS i externt dokument](/{{ site.resource_path }}/da280a/material/m5_css_document/) (övning)
 * [Layout med CSS](/{{ site.resource_path }}/da280a/material/m5_css_layout/) (övning)
 * [CSS selectors (codeacademy)](https://www.codecademy.com/courses/web-beginner-en-WF0CF/0/1?curriculum_id=50579fb998b470000202dc8b) (guide)

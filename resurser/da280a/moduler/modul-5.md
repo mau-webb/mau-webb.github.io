@@ -22,7 +22,7 @@ Vi ska även lära oss att skapa stilmallar i separata filer - så att vi kan se
 
 ### Övrig läsning
 
-* [Föreläsning: CSS i externt dokumet](/{{ site.resource_path }}/da280a/material/m5_vid_lecture_css_document/) (video)
+* [Föreläsning: CSS i externt dokumet]( https://youtu.be/yfoY53QXEnI)(/{{ site.resource_path }}/da280a/material/m5_vid_lecture_css_document/) (video)
 * [Exempel: CSS i externt dokumet](/{{ site.resource_path }}/da280a/material/m5_vid_example_css_document/) (video)
 * [CSS i externt dokument](/{{ site.resource_path }}/da280a/material/m5_css_document/) (övning)
 * [Layout med CSS](/{{ site.resource_path }}/da280a/material/m5_css_layout/) (övning)

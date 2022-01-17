@@ -20,8 +20,8 @@ Dessutom ska vi nu, i enkelhet, anpassa vår webbsida så att den är mobilanpas
 
 ### Övrig läsning
 
-* [Introduktion till Media Queries](/{{ site.resource_path }}/da280a/material/m6_vid_intro_media_queries/) (video)
-* [Exempel: webbplats med Media Queries](/{{ site.resource_path }}/da280a/material/m6_vid_example_media_queries/) (video)
+* [Introduktion till Media Queries](https://youtu.be/B6l6Wzmj4pA) (video)
+* [Exempel: webbplats med Media Queries](https://youtu.be/yU7jJ3NbPdA) (video)
 * [Mobilanpassa en klar webbplats](/{{ site.resource_path }}/da280a/material/m6_ex_rwd/) (övning)
 * [The Mystery Of The CSS Float Property](https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/)
 * [Mastering CSS Coding: Getting Started](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)

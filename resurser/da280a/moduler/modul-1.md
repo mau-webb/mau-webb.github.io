@@ -38,7 +38,7 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 
 ### Övrig läsning
 
-* [Ett första HTML-dokument](/{{ site.resource_path }}/da280a/material/m1_vid_first_html_document/) (video)
+* [Ett första HTML-dokument](https://youtu.be/bupWPZdXqIA)(video)
 * [Indentering av kod](/{{ site.resource_path }}/da280a/material/m1_indentation/) (beskrivning)
 * [HTML: rubriker](/{{ site.resource_path }}/da280a/material/m1_html_headings/) (beskrivning)
 * [HTML: stycken och text](/{{ site.resource_path }}/da280a/material/m1_html_paragraphs_text/) (beskrivning)

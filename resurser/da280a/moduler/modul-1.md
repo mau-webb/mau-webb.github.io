@@ -7,17 +7,15 @@ title: "Modul 1 - Introduktion till HTML"
 
 ## Innehåll
 
-Kursen börjar med att ni ska bekanta er med den lärplatform som vi använder ([Canvas](https://mau.instructure.com/login/saml)) och dvwebb. Dvwebb är Malmö högskolas webbpubliceringssystem som kommer att användas för denna kurs. Det fungerar i praktiken som ett webbhotell där ni kan ladda upp era filer (webbplatser) för att sedan kunna besöka dessa via webben. Alla inlämningsuppgifter kräver att ni publicerar er lösning på dvwebb samt bifogar en länk till er adress vid inlämningen på Canvas.
+Kursen börjar med att ni ska bekanta er med den lärplatform som vi använder ([Canvas](https://mau.instructure.com/login/saml)) och Webshare. Webshare är Malmö universitets webbpubliceringssystem som kommer att användas för denna kurs. Det fungerar i praktiken som ett webbhotell där ni kan ladda upp era filer (webbplatser) för att sedan kunna besöka dessa via webben. Alla inlämningsuppgifter kräver att ni publicerar er lösning på Webshare samt bifogar en länk till er adress vid inlämningen på Canvas.
 
-### Kom igång med dvwebb
+### Kom igång med Webshare
 
-Instruktioner för att aktivera och använda er av dvwebb [hittar ni här](http://ddwap.mah.se/dotnet/index.aspx). Har ni några problem ed att komma igång med denna tjänst så använd kommentarsfältet längst ner på sidan (i värsta fall kan ni skicka ett mail till kursansvarig).
+Instruktioner för att aktivera och använda er av webshare hittar ni på Canvas. 
 
-Det finns även [en videoguide för hur ni aktiverar och kommer igång med dvwebb](/{{ site.resource_path }}/da280a/material/m1_intro_dvwebb/).
 
-### Kom igång med HTML
 
-När ni bekantat er med dvwebb och lyckats att ladda upp och besöka till er egen webbplats så är det dags att börja lära sig skriva HTML-kod. HTML är ett märkspråk som används för att märka upp delar av information så detta sedan kan presenteras på webben. Om du tar en titt runt på denna sida kan du säkerligen identifiera några olika delar så som:
+När ni bekantat er med webshare och lyckats att ladda upp och besöka till er egen webbplats så är det dags att börja lära sig skriva HTML-kod. HTML är ett märkspråk som används för att märka upp delar av information så detta sedan kan presenteras på webben. Om du tar en titt runt på denna sida kan du säkerligen identifiera några olika delar så som:
 
 * En meny
 * En bild

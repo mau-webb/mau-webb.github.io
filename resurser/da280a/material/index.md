@@ -89,7 +89,7 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Övrig läsning
 
-* [Intro till CSS och "inline styling"](/{{ site.resource_path }}/da280a/material/m3_vid_intro_css/) (video)
+* [Intro till CSS och "inline styling"](https://youtu.be/yfoY53QXEnI) (video)
 * [CSS Tutorial (w3schools)](http://www.w3schools.com/css/)
 * [CSS Reference (w3schools)](http://www.w3schools.com/cssref/default.asp)
 * [CSS: coding with style (codeacademy)](https://www.codecademy.com/courses/css-coding-with-style/0/1) (guide)

@@ -14,9 +14,9 @@ Det är **väldigt viktigt** att man är med i kursen från start, om man kommer
 - Måndag kl. 13.15 - **Föreläsning**: [Kursintroduktion](../f1/)
 
 ### Systemutvecklare
-- Tisdag kl. 10.15 - **Föreläsning**: Repetition HTML/CSS, frågestund via [Zoom](https://mau-se.zoom.us/j/63518888766)
+- Tisdag kl. 10.15 - **Frågestund**: Repetition HTML/CSS, frågestund via [Zoom](https://mau-se.zoom.us/j/63518888766) (**OBS** kl. 10.15 - 12.00 är enbart frågestund som komplement till videoföreläsningen nedan - som ni förväntas ha tittat på innan frågestunden).
     - [Förinspelad videoföreläsning finns här](../f2/)
-- Torsdag kl. 13.15 - **Laboration**: [Repetition HTML/CSS](../l1/)
+- Torsdag kl. 13.15 - **Laboration**: [Repetition HTML/CSS](../l1/) (**OBS** - Anton finns tillgänglig **digitalt via Discord**)
 
 ### Informationsarkitekt
 - Tisdag kl. 08.15 - **Föreläsning**: [Repetition JavaScript](../f3/)

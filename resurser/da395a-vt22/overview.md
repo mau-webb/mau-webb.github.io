@@ -5,7 +5,7 @@ title: "Introduktion"
 
 # Kursöversikt
 
-Kursen består av olika moment, vilka kort förklaras nedan. En normal veckan består av föreläsning, laboration, inlämningsuppgift & *peer reviewing* (referentgranskning). Notera att den *normala* veckan börjar kursens andra vecka (den första veckan är en introduktionsvecka).
+Kursen består av olika moment, vilka kort förklaras nedan. En normal vecka består av föreläsning, laboration, inlämningsuppgift & *peer reviewing* (referentgranskning). Notera att den *normala* veckan börjar kursens andra vecka (den första veckan är en introduktionsvecka).
 
 ## Föreläsningar
 

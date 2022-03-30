@@ -11,7 +11,7 @@ Kursen består av olika moment, vilka kort förklaras nedan. En normal veckan be
 
 Kursen består utav en föreläsningsserie, där varje föreläsning har ett specifikt fokus. Syftet med varje föreläsning är att introducera och presentera veckans *tema* - kursens olika tema kan ni se i menyn till vänster. Föreläsningarna är således en grund för att lösa kursens inlämningsuppgifter, men är inte den enda informationskällan som ni behöver ta del av. Till varje föreläsning presenteras läshänvisningar i kurslitteraturen samt tips på ytterliggare läsning genom länkar till andra informationskällor.
 
-Föreläsningarna kommer som regel att ske **på campus** och kommer *inte* att spelas in. att spelas in och publiceras på denna webbplats. Presentationerna (i form av powerpoint/PDF) samt ev. kod-exempel som förekommer på föreläsningarna kommer att publiceras på denna webbplats.
+Föreläsningarna kommer som regel att ske **på campus** och kommer *inte* att spelas in. Presentationerna (i form av powerpoint/PDF) samt ev. kod-exempel som förekommer på föreläsningarna kommer att publiceras på denna webbplats.
 
 ## Laborationer
 

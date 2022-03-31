@@ -30,4 +30,4 @@ Mobile HTML 5 = Weyl, Estelle (2013) Mobile HTML5, O’Reilly Media, Sebastopol,
 
 - [w3schools - Responsive Web Design](https://www.w3schools.com/css/css_rwd_intro.asp)
 - [Bootstrap](https://getbootstrap.com/)
-- [w3schools - Bootstrap 4 Turorial](https://www.w3schools.com/bootstrap4/default.asp)
+- [w3schools - Bootstrap 5 Turorial](https://www.w3schools.com/bootstrap5/index.php)

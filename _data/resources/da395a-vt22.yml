@@ -63,17 +63,17 @@ sidebar:
               - label: "Inlämningsuppgift 2.b"
                 path: "i2"
 
-#        - label: "4. jQuery & Ajax"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: "index-page"
-#              - label: "F: jQuery & Ajax"
-#                path: "f1"
-#              - label: "Inlämningsuppgift 3.a"
-#                path: "i1"
-#              - label: "Inlämningsuppgift 3.b"
-#                path: "i2"
+        - label: "4. jQuery & Ajax"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: jQuery & Ajax"
+                path: "f1"
+              - label: "Inlämningsuppgift 3.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 3.b"
+                path: "i2"
 
 #        - label: "5. Store and locate"
 #          collapsed: true

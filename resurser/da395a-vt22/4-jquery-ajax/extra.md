@@ -34,9 +34,9 @@ function sortByTitle(movieA, movieB) {
     let titleA = $(movieA).attr("data-title");
     let titleB = $(movieB).attr("data-title");
 
-    if (a < b) {
+    if (titleA < titleB) {
         return -1;
-    } else if (a > b) {
+    } else if (titleA > titleB) {
         return 1;
     } else {
         return 0;

@@ -12,8 +12,8 @@ sidebar:
           path: "plan"
         - label: "Projekt"
           path: "projekt"
-#        - label: "VG-uppgift"
-#          path: "vg-assignment"
+        - label: "VG-uppgift"
+          path: "vg-assignment"
 #        - label: "Kompl. M1"
 #          path: "m1"
 #        - label: "Kompl. M2"
@@ -97,12 +97,12 @@ sidebar:
               - label: "Inlämningsuppgift 5"
                 path: "i1"
 
-#        - label: "7. JS-ramverk"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: "index-page"
-#              - label: "F: JS-ramverk"
-#                path: "f1"
-#              - label: "Inlämningsuppgift 6"
-#                path: "i1"
+        - label: "7. JS-ramverk"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: JS-ramverk"
+                path: "f1"
+              - label: "Inlämningsuppgift 6"
+                path: "i1"

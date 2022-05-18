@@ -14,13 +14,13 @@ sidebar:
           path: "projekt"
         - label: "VG-uppgift"
           path: "vg-assignment"
-#        - label: "Kompl. M1"
-#          path: "m1"
-#        - label: "Kompl. M2"
-#          path: "m2"
-#        - label: "Kompl. M3"
-#         path: "m3"
-
+        - label: "Kompl. M1"
+          path: "m1"
+        - label: "Kompl. M2"
+          path: "m2"
+        - label: "Kompl. M3"
+          path: "m3"
+          
         - label: "1. Kursintro & HTML/CSS/JS"
           collapsed: true
           items:

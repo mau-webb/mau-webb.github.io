@@ -60,5 +60,5 @@ Varje projektgrupp kommer få cirka 10 minuter (plus 5 minuter för frågor) fö
 
 **På det tillfälle (förmiddag eller eftermiddag onsdag, v.22) ni redovisar så förväntas det att ni stannar hela tillfället.**
 
-Veckan innan presentationerna kommer vi att publicera en Doodle där varje projektgrupp kan anmäla sig till ett redovisningstillfälle (**glöm inte** att ange nummer för er projektgrupp).
+Nu kan ni boka projektredovisningstider i Canvas (genom kalendern)!
 {: .info}

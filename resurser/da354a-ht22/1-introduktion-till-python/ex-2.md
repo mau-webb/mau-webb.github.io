@@ -30,7 +30,7 @@ leap_year = False
 Som ni kanske noterat innehåller de tre olika variablerna ovan (`name`, `year`, `leap_year`) tre olika datatyper. De olika datatyperna finns till för att tydliggöra vilken typ av information som sparas i variabeln. Är det text, siffror eller sant/falskt värden som sparas i variabeln?
 
 1. `Anton` är av typen *sträng* (`str`)
-2. `2018` är av typen *heltal* (`int`)
+2. `2022` är av typen *heltal* (`int`)
 3. `leap_year` är av typen *boolean* (`bool`)
 
 Det finns fler datatyper i Python, men till en börjar så använder vi de tre i listan ovan.

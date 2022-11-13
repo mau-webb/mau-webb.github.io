@@ -5,8 +5,11 @@ title: "Modul 2 - Funktioner"
 
 # Modul 2 - Funktioner
 
-## Föreläsning - Funktioner (extra)
+## Föreläsning - Funktioner (2)
 
+Publiceras efter föreläsningen den 15/11.
+
+<!--
 Här kommer dagens exempelkod:
 
 ### Enkla funktioner
@@ -97,3 +100,4 @@ def main():
 # Kör vårt program
 main()
 ```
+-->

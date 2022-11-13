@@ -7,6 +7,10 @@ title: "Modul 2 - Funktioner"
 
 ## Föreläsning - Funktioner
 
+Publiceras efter föreläsningen den 14/11.
+
+<!--
+
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/68272bdc57ab45b59c47d444c8565722" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
@@ -89,3 +93,5 @@ print(rand_nr)
 ---
 
 Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2021-Funktioner.pdf).
+
+-->

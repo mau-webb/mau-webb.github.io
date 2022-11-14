@@ -65,7 +65,7 @@ För att uppnå godkänt behöver programmet uppfylla uppgiftsbeskrivningen, var
 
 #### Krav för VG
 
-Utöver att uppfylla kraven för godkänst kan man även implementera så att när man visar resultat ska man kunna sortera resultaten efter kolumnerna (fallande & stigande):
+Utöver att uppfylla kraven för godkänt kan man även implementera så att när man visar resultat ska man kunna sortera resultaten efter kolumnerna (fallande & stigande):
 
 - Namn
 - Runda 1

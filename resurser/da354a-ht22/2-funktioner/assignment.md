@@ -54,7 +54,7 @@ Tänk på att **alla** krav ovan ska vara uppfyllda, annars kommer uppgiften att
 Det här är en kort lista över delar som kommer att testas under rättningen. Får ni rätt på det här brukar uppgiften kunna godkännas utan kompletteringar.
 
 1. Körning av programmet
-2. Gissning med negativa tal (programmer ska inte kraschar då)
+2. Gissning med negativa tal (programmet ska inte krascha)
 
 ### 5. Redovisning
 

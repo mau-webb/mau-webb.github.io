@@ -93,8 +93,6 @@ print_three_times(text)
 
 ### Funktioner med datum
 ```python
-from date_functions import *
-
 from datetime import date, datetime
 
 def days_to_christmas():

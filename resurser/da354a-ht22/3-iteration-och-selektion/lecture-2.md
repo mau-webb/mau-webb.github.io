@@ -7,6 +7,8 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning - Extra
 
+Presentation & kod presenteras här efter föreläsningen.
+<!--
 ---
 
 <div class="video-frame">
@@ -144,3 +146,4 @@ def print_menu():
 
 main()
 ```
+-->

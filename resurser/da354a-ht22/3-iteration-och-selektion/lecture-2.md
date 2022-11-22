@@ -7,9 +7,7 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning - Extra
 
-Presentation & kod presenteras här efter föreläsningen.
-
-<!--
+Videoföreläsning (från tidigare år) på sten, sax, påse-spelet (+ lite extra).
 
 ---
 
@@ -148,4 +146,145 @@ def print_menu():
 
 main()
 ```
--->
+
+### Rövarspråket
+
+```python
+def is_vowel(char):
+    '''Controlls if a character is a vowel
+
+    Args:
+      char (str): The character to test
+
+    Returns:
+        bool: True if vowel, False otherwise
+    '''
+    char = char.lower()
+    if char == "a":
+        return True
+    elif char == "e":
+        return True
+    elif char == "i":
+        return True
+    elif char == "o":
+        return True
+    elif char == "u":
+        return True
+    elif char == "y":
+        return True
+    elif char == "å":
+        return True
+    elif char == "ä":
+        return True
+    elif char == "ö":
+        return True
+    else:
+        return False
+
+def get_user_text():
+    '''Asks the user for a text
+
+    Returns
+        str
+    '''
+    return input("Ange text: ")
+
+def translate_to_rovarspraket(text):
+    '''Translates a given text to "rövarspråk"
+
+    Args:
+        text (str): The string to translate
+
+    Returns:
+        str: The translated text
+    '''
+    result = ""
+
+    # Loops through every character in the variable "text"
+    for character in text:
+        if character.isalpha() and not is_vowel(character):
+            # Character is a consonant
+            result = result + character + "o" + character.lower()
+        else:
+            result =  result + character
+
+    return result
+
+
+def main():
+    print("*"*30)
+    print("Rövarspråksöversättaren")
+    print("*"*30)
+
+    # Asks the user for a text
+    text = get_user_text()
+
+    # Translates and prints the text to "rövarspråk"
+    rovarsprak = translate_to_rovarspraket(text)
+
+    # Prints the translated text
+    print(rovarsprak)
+
+main()
+```
+
+### Rövarspråket (annan lösning)
+
+```python
+def is_vowel(char):
+    '''Controlls if a character is a vowel
+
+    Args:
+      char (str): The character to test
+
+    Returns:
+        bool: True if vowel, False otherwise
+    '''
+    return char.lower() in 'aeiouyåäö'
+
+def get_user_text():
+    '''Asks the user for a text
+
+    Returns
+        str
+    '''
+    return input("Ange text: ")
+
+def translate_to_rovarspraket(text):
+    '''Translates a given text to "rövarspråk"
+
+    Args:
+        text (str): The string to translate
+
+    Returns:
+        str: The translated text
+    '''
+    result = ""
+
+    # Loops through every character in the variable "text"
+    for character in text:
+        if character.isalpha() and not is_vowel(character):
+            # Character is a consonant
+            result = result + character + "o" + character.lower()
+        else:
+            result =  result + character
+
+    return result
+
+
+def main():
+    print("*"*30)
+    print("Rövarspråksöversättaren")
+    print("*"*30)
+
+    # Asks the user for a text
+    text = get_user_text()
+
+    # Translates and prints the text to "rövarspråk"
+    rovarsprak = translate_to_rovarspraket(text)
+
+    # Prints the translated text
+    print(rovarsprak)
+
+main()
+```

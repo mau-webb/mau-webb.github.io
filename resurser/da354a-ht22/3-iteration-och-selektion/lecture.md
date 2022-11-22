@@ -9,15 +9,16 @@ title: "Modul 3 - Iteration & Selektion"
 
 Presentation & kod presenteras här efter föreläsningen.
 
-<!--
+
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/1f6c981abe444c94a5a2fa26bfcc8e57" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/493Aovdvq5D2s8" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2021-Presentation.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2022-Presentation.pdf)
 
 ---
 
+<!--
 <p><strong>Eftersom att dagens ljudinspelning var horibel, så får ni istället förra årets inspelade föreläsning (typ samma)</strong></p>
 
 <div class="video-frame">
@@ -25,42 +26,47 @@ Presentation & kod presenteras här efter föreläsningen.
 </div>
 
 ---
+-->
 
 ## Dagens exempel
 
 ### Systembolagetkoll
 
 ```python
-age = input("Hur gammal är du? ")
+user_age = input("Hur gammal är du? ")
 
-if age.isdigit():
-    if int(age) >= 20:
-        print("Välkommen in i butiken")
-    else:
-        print("Du måste vara minst 20år för att få handla här.")
+# Alt. 1 - med else if
+if user_age.isdigit() == False:
+    print("Ditt dumhuvud, hur svårt är det att skriva in en siffra egentligen?")
+elif int(user_age) < 20:
+    print("Välkommen tillbaka när du fyllt 20 år")
 else:
-    # Inte en siffra
-    print("Du måste ange en siffra!")
+    print("Välkommen in!")
+
+# Alt. 2 - med nästlade if-satset
+if user_age.isdigit():
+    if int(user_age) < 20:
+        print("Välkommen tillbaka när du fyllt 20 år")
+    else:
+        print("Välkommen in!")
+else:
+    print("Ditt dumhuvud, hur svårt är det att skriva in en siffra egentligen?")
 ```
 
 ### Exempel: while-loop
 
 ```python
-nr = 1
-while nr <= 10:
-    print(nr)
-    nr = nr + 1
+user_nr = int(input("Gissa korrekt nummer: "))
+CORRECT_NUMBER = randint(1, 20)
 
-# Asks the user to enter a positive number
-nr = int(input("Ange ett positivt tal: "))
-# Loop runs untill user enters a positive number
-while nr < 1:
-    print "Du skrev inte in ett positivt tal, försök igen!"
-    nr = int(input("Ange ett positivt tal: "))
-# Loop has finished running
+while user_nr != CORRECT_NUMBER:
+    print("FEL NUMMER! Försök igen")
+    user_nr = int(input("Gissa korrekt nummer: "))
+
 print("Snyggt jobbat!")
 ```
 
+<!--
 ### Exempel: Meny (bonus!)
 
 ```python
@@ -95,23 +101,34 @@ def menu():
               
 menu()
 ```
+-->
+
+### "Log in"-funktion
+
+```python
+print("*"*30)
+print("Logga in")
+print("*"*30)
+username = input("Epost: ")
+password = input("Lösenord: ")
+
+MASTER_USER = "anton.tibblin@mau.se"
+MASTER_PASSWORD = "Secret@123"
+
+if username == MASTER_USER and password == MASTER_PASSWORD:
+    print("Du är inloggad")
+else:
+    print("Du angav fel kombination av användarnamn & lösenord")
+```
 
 ### Exempel: for-loop
 
 ```python
-name = input("Vad heter du? ")
-times = input("Hur många gånger vill du skriva ut ditt namn? ")
-
-for i in range(int(times)):
-    print(f"{i}: {name}")
-
-for i in range(1000):
-    print("Anton är bäst!")
-
-for i in range(12): # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+for i in range(200):
     print(i)
 ```
 
+<!--
 ### Rövarspråket
 
 ```python

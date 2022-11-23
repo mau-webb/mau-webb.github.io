@@ -7,6 +7,9 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning - Extra
 
+Presentation & kod publiceras efter föreläsningen den 29/11.
+
+<!--
 **Kommer när videon är färdigrenderad**
 
 <div class="video-frame">
@@ -151,3 +154,5 @@ def print_bus(bus):
 
 main()
 ```
+
+-->

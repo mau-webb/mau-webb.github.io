@@ -94,4 +94,4 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är _onsdag , 2020-12-08_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är _onsdag , 2020-12-07_.

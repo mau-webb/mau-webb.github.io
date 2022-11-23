@@ -11,14 +11,14 @@ Nu när vi lärt oss att bygga program i Python med hjälp av funktioner, loopar
 
 | Innehåll | Kommentar |
 | --- | --- |
-| [Föreläsning](../lecture)  | Introduktion till listor |
-| [Föreläsning](../lecture-2)  | Nästlade listor & bussbokning |
-| [Föreläsning](../lecture-3)  | Nästlade listor & tre-i-rad |
+| Föreläsning  | Introduktion till listor |
+| Föreläsning  | Nästlade listor & bussbokning |
+| Föreläsning  | Nästlade listor & tre-i-rad |
 | Ö.1: Introduktion till listor | Hur fungerar listor? |
 | Ö.2: Listor och strängar | Hur strängar kan användas som listor |
 | Ö.3: Nästlade listor | Listor i listor |
 | Ö.4: Introduktion till lexikon | Hur fungerar lexikon? |
-| Inlämningsuppgift | Grundläggande kunskap inom listor & lexikon *Publiceras senare* |
+| Inlämningsuppgift | Grundläggande kunskap inom listor & lexikon |
 
 ### Rekommenderad läsning
 

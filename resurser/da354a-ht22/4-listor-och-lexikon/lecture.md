@@ -7,6 +7,9 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning
 
+Presentation & kod publiceras efter föreläsningen den 28/11.
+
+<!--
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/63c76f062b684143857e84a26925dd42" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
@@ -142,3 +145,5 @@ for pet in pets:
     print(f"{pet['name']} är en {pet['size'].lower()} {pet['animal'].lower()} och har färgerna {', '.join(pet['color'])}")
 
 ```
+
+-->

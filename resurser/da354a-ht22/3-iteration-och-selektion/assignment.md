@@ -93,6 +93,6 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 ### Redovisning
 
-Redovisa genom att ladda upp programmets källkod på Canvas i en Zip-fil.
+Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2021-12-01_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2021-11-30_.

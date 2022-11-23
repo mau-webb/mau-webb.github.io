@@ -75,8 +75,8 @@ sidebar:
                 path: "ex-4"
               - label: "Ö.5: Iteration och selektion"
                 path: "ex-5"
-#              - label: "Inlämningsuppgift"
-#                path: "assignment"
+              - label: "Inlämningsuppgift"
+                path: "assignment"
 #        - label: "4. Listor och lexikon"
 #          collapsed: true
 #          items:

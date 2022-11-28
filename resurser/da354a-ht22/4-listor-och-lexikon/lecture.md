@@ -7,22 +7,18 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning
 
-Presentation & kod publiceras efter föreläsningen den 28/11.
-
-<!--
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/63c76f062b684143857e84a26925dd42" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/14PuX1SgBjEYgm" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2021-listor.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2022-listor.pdf)
 
 ---
-
+<!--
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/LE7bjJ_0zHA?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
-
----
+-->
 
 ## Dagens exempel
 
@@ -86,37 +82,56 @@ print(total_sum/len(numbers))
 ### En boklista
 
 ```python
-def print_books(books):
-    print("\nBooks")
-    print("*"*30)
-    for i, book in enumerate(books, start=1):
+def print_books(book_list):
+    print("\nBöcker")
+    print("*"*25)
+    for i, book in enumerate(book_list, start=1):
         print(f"{i}: {book}")
 
+
 books = [
-    "12 rules of life",
-    "Vindens skugga",
-    "Wheele of time",
-    "Harry Potter",
-    "Forgotten Valentine"
+    "Ondskan",
+    "Utvandrarna",
+    "Clean code"
 ]
 
-print_books(books)
-
-books.append("Sapiens")
-books.insert(0, "Alkemisten")
-
-while input("Vill du lägga till en ny bok? ").lower() == "ja":
-    book = input("Ange en bok: ")
-    books.append(book)
-
-print_books(books)
-
-remove_book = input("Vilken bok vill du ta bort? ")
-if remove_book in books:
-    books.remove(remove_book)
+book = input("Ange boken du vill ta bort: ")
+if book in books:
+    # Boken finns
+    books.remove(book)
 else:
     print("Boken finns inte i listan")
 
+# Skriv ut alla böckerna
+print_books(books)
+
+# Fråga användaren efter en bok
+new_book = input("Ange en titel: ")
+
+# Lägg till boken sist i listan
+books.append(new_book)
+
+# Skriv ut alla böckerna
+print_books(books)
+
+# Fråga användaren efter en ny bok
+new_book_2 = input("Ang en titel som ska hamna först i listan: ")
+
+# Lägg boken först i listan
+books.insert(0, new_book_2)
+
+# Skriv ut alla böckerna
+print_books(books)
+
+# Ta bort den sista boken
+removed_book = books.pop()
+print(f"Nu tog vi bort: {removed_book}")
+
+# Be användaren om att ta bort en bok
+book_to_be_removed = input("Ange titeln på boken du vill ta bort: ")
+books.remove(book_to_be_removed)
+
+# Skriv ut alla böckerna
 print_books(books)
 
 ```
@@ -124,26 +139,25 @@ print_books(books)
 ### Listor & Lexikon
 
 ```python
-pets = [
-    {
-        "name": "Malte",
-        "animal": "Hund",
-        "size": "Liten",
-        "age": 1,
-        "color": ["Vit"]
-    },
-    {
-        "name": "Tiger",
-        "animal": "Katt",
-        "size": "Stor",
-        "age": 11,
-        "color": ["Orange", "Vit"]
+users = [{
+        "id": 1,
+        "name": "Anton",
+        "email": "anton.tibblin@mau.se"
+    },{
+        "id": 2,
+        "name": "Johan",
+        "email": "johan.holmberg@mau.se"
+    }, {
+        "id": 3,
+        "name": "Dipak",
+        "email": "dipak.surie@mau.se"
     }
 ]
 
-for pet in pets:
-    print(f"{pet['name']} är en {pet['size'].lower()} {pet['animal'].lower()} och har färgerna {', '.join(pet['color'])}")
+for user in users:
+    print(f"Id: {user['id']}")
+    print(f"Namn: {user['name']}")
+    print(f"Email: {user['email']}")
+    print("")
 
 ```
-
--->

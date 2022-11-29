@@ -7,10 +7,6 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning - Extra
 
-Extra exempel - publiceras efter att föreläsningarna är genomförda.
-
-<!--
-
 <div class="video-frame">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tpdFCDCVxbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -320,5 +316,3 @@ def print_game_board(board):
     
 game()
 ```
-
--->

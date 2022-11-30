@@ -183,20 +183,20 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		</tr>
 		<tr class="odd">
             <td>50</td>
-			<td>12/12</td>
-			<td>10-12</td>
+			<td>13/12</td>
+			<td>13-15</td>
 			<td>F: Python &amp; Webben</td>
 			<td>Anton</td>
 			<td>G8:104</td>
-			<td rowspan="3">6</td>
 		</tr>
 		<tr class="odd">
             <td></td>
-			<td>13/12</td>
-			<td>13-15</td>
+			<td>14/12</td>
+			<td>10-12</td>
 			<td>F: Python &amp; Webben (2)</td>
 			<td>Anton</td>
 			<td>G8:104</td>
+			<td rowspan="3">6</td>
 		</tr>
 		<tr class="odd">
 			<td></td>

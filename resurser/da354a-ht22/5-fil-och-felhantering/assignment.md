@@ -23,9 +23,9 @@ Vi ska i denna uppgift bygga en resultathanterare för en minigolftävling. Mini
 För att spara resultaten finns två alternativ, fria att välja mellan. _Alternativ ett_ är att spara med följande struktur:
 
 ```python
-namn;varv1;varv2;varv3;
-namn;varv1;varv2;varv3;
-namn;varv1;varv2;varv3;
+namn;varv1;varv2;varv3
+namn;varv1;varv2;varv3
+namn;varv1;varv2;varv3
 ```
 
 För alternativ ett finns en exempelfil att utgå från (med några förinlagda resultat) [här](../files/result.txt).
@@ -65,7 +65,7 @@ För att uppnå godkänt behöver programmet uppfylla uppgiftsbeskrivningen, var
 
 #### Krav för VG
 
-Utöver att uppfylla kraven för godkänt kan man även implementera så att när man visar resultat ska man kunna sortera resultaten efter kolumnerna (fallande & stigande):
+Utöver att uppfylla kraven för godkänt kan man även implementera så att när man visar resultat ska man kunna sortera resultaten efter kolumnerna (stigande, d.v.s. lägsta värdet först):
 
 - Namn
 - Runda 1
@@ -95,7 +95,7 @@ För VG:
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2020-12-15_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2020-12-14_.
 
 Viktigt - Om du siktar på **VG** så skriv detta i en kommentar när du lämnar in på Canvas.
 {: .info}

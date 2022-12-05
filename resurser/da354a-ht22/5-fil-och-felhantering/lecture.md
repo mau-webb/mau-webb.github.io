@@ -7,6 +7,10 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 ## Föreläsning
 
+Presentation & kod presenteras efter tillfället den 5:e december.
+
+<!--
+
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/cff4fae3a76f42508adacffc29763862" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
@@ -202,3 +206,4 @@ Bärbar dator
 
 ```
 
+-->

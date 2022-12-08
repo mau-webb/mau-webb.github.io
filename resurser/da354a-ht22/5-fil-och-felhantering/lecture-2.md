@@ -81,7 +81,22 @@ def save_products_to_file(file_name, products):
     my_file.close()
     print("\nProdukterna är nu sparade i filen!")
     
+def remove_product(products):
+    """
+    Tar bort en produkt (som användaren väljer genom id)
 
+    Args:
+        products (list) : En lista innehållandes listor (produkter)
+    """
+    print("\nTa bort en produkt")
+    print("-------------------")
+    product_id = input("Id: ")
+    for product in products:
+        if product[0] == product_id:
+            products.remove(product)
+            print("Produkten har tagit bort!")
+            return
+            
 def add_product(products):
     '''
     Lägger till en produkt i vår produktlista
@@ -266,7 +281,22 @@ def save_products_to_file(file_name, products):
     my_file.write(json.dumps(products, indent=4))
     my_file.close()
     print("\nProdukterna är nu sparade i filen!")
-    
+
+def remove_product(products):
+    """
+    Tar bort en produkt (som användaren väljer genom id)
+
+    Args:
+        products (list) : En lista innehållandes listor (produkter)
+    """
+    print("\nTa bort en produkt")
+    print("-------------------")
+    product_id = input("Id: ")
+    for product in products:
+        if product[0] == product_id:
+            products.remove(product)
+            print("Produkten har tagit bort!")
+            return
 
 def add_product(products):
     '''

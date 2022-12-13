@@ -131,7 +131,7 @@ def get_disqus():
 		disqusions = json.loads(disqus_file.read())
 		# Closes the file
 		disqus_file.close()
-		# Returns the list of every lines in file
+		# Returns the list of every posts in file
 		return disqusions
 	except:
 		# Creates a new file called "disqus.json"
@@ -148,7 +148,7 @@ def index():
 	Returns:
 		template : index
 	'''
-	# Creates and returns the template "index" (views/index.tpl) with the current standings (votes)
+	# Creates and returns the template "index" (views/index.html) with the current standings (votes)
 	return template("index", votes=get_votes() )
 	
 @route('/vote', method='POST')
@@ -157,7 +157,7 @@ def vote():
 	
 	Notes:
 		- The vote is sent by a from (method = POST) with the key "vote"
-		- The vote is added to the file "static/standings.txt"
+		- The vote is added to the file "static/standings.json"
 	'''
 	# Recives the vote send from a from (method=POST) by the key "vote"
 	vote = request.forms.get("vote")
@@ -220,7 +220,7 @@ def save_post():
 	disqus_file.write(json.dumps(posts, indent=4))
 	# Closes the file
 	disqus_file.close()
-	# Creates and returns the template "disqus" (views/disqus.tpl) with the current disqus posts
+	# Creates and returns the template "disqus" (views/disqus.html) with the current disqus posts
 	redirect("/disqus")
 
 @route('/static/<filename:path>')

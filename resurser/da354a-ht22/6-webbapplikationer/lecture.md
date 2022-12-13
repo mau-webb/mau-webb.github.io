@@ -7,21 +7,19 @@ title: "Modul 6 - Webbapplikationer"
 
 ## Föreläsning
 
-Publiceras efter att föreläsningen ägt rum
-
-<!--
-
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/677ce9d2303b48d4a1d8805810f3f45b" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/Episode X-2021.pdf)
 
----
+<!--
 
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/_6wmXRLPWXM?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
+
+-->
 
 ---
 
@@ -78,7 +76,7 @@ import json
 import datetime	
 
 def get_votes():
-	'''Returns an object (dictionary) with the results from file: "staic/standings.txt"
+	'''Returns an object (dictionary) with the results from file: "staic/standings.json"
 	
 	The result is in JSON format, ex.
 	{
@@ -87,10 +85,10 @@ def get_votes():
 	}
 	
 	Returns:
-		str : The results
+		dict : The results
 	'''
 	try:
-		# Opens the file "static/standings.txt" in "read" mode
+		# Opens the file "static/standings.json" in "read" mode
 		votes_file = open('static/standings.json', 'r')
 		# Reads and converts the file content (JSON) to Python datatype (dictionary)
 		votes = json.loads(votes_file.read())
@@ -124,10 +122,10 @@ def get_disqus():
     ]
 	
 	Returns:
-		str : The results
+		list : The results
 	'''
 	try:
-		# Opens the file "static/disqus.txt" in "read" mode
+		# Opens the file "static/disqus.json" in "read" mode
 		disqus_file = open('static/disqus.json', 'r')
 		# Reads and converts the file content (JSON) to Python datatype (list)
 		disqusions = json.loads(disqus_file.read())
@@ -155,14 +153,11 @@ def index():
 	
 @route('/vote', method='POST')
 def vote():
-	'''Register a vote, and returns the start page
+	'''Register a vote, and then redirects to the start page
 	
 	Notes:
 		- The vote is sent by a from (method = POST) with the key "vote"
 		- The vote is added to the file "static/standings.txt"
-	
-	Returns:
-		template : index
 	'''
 	# Recives the vote send from a from (method=POST) by the key "vote"
 	vote = request.forms.get("vote")
@@ -196,7 +191,7 @@ def disqus():
 
 @post('/disqus-post', method='POST')
 def save_post():
-	'''Register a new disqus post, and returns the disqus page
+	'''Register a new disqus post, and then redirects to the disqus route
 	
 	Notes:
 		- The disqus post is sent by a from (method = POST) with following keys
@@ -204,9 +199,6 @@ def save_post():
 			message => the disqus post
 		- The disqus post is added to the file "static/disqus.json"
 		- We also add the date/time when the post is created
-	
-	Returns:
-		template : index
 	'''
 	# Recives the name send from a from (method=POST) by the key "name"
 	name = getattr(request.forms, "name")
@@ -519,5 +511,3 @@ $(document).on("ready", function(){
 	})
 });
 ```
-
--->

@@ -91,4 +91,4 @@ print files # a list of all filenames in directory wiki
 
 ### Redovisning
 
-Redovisa genom att ladda upp programmets källkod på Canvas. Deadline för modul 6 är söndag **2022-01-16**.
+Redovisa genom att ladda upp programmets källkod på Canvas. Deadline för modul 6 är söndag **2022-01-15**.

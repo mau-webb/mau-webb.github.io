@@ -7,6 +7,10 @@ title: "Modul 6 - Webbapplikationer"
 
 ## Föreläsning
 
+Publiceras efter att föreläsningen ägt rum
+
+<!--
+
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/677ce9d2303b48d4a1d8805810f3f45b" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
@@ -515,3 +519,5 @@ $(document).on("ready", function(){
 	})
 });
 ```
+
+-->

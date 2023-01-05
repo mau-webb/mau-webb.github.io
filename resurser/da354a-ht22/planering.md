@@ -212,7 +212,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>13-15</td>
 			<td>F: Objektorienterad programmering</td>
 			<td>Anton</td>
-			<td>Zoom</td>
+			<td>Digital inspelning</td>
 			<td rowspan="2">7</td>
 		</tr>
 		<tr class="odd">
@@ -220,8 +220,8 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>12/1</td>
 			<td>08-12</td>
 			<td>L: Objektorienterad programmering</td>
-			<td>Anton</td>
-			<td>Zoom</td>
+			<td>Teodor</td>
+			<td>NI:A0307, NI:A0318</td>
 		</tr>
 	</tbody>
 </table>

@@ -188,6 +188,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>F: Python &amp; Webben</td>
 			<td>Anton</td>
 			<td>G8:104</td>
+			<td rowspan="3">6</td>
 		</tr>
 		<tr class="odd">
             <td></td>
@@ -196,7 +197,6 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>F: Python &amp; Webben (2)</td>
 			<td>Anton</td>
 			<td>G8:104</td>
-			<td rowspan="3">6</td>
 		</tr>
 		<tr class="odd">
 			<td></td>

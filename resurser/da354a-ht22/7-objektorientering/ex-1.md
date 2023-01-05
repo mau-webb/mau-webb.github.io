@@ -1,6 +1,6 @@
 ---
-id: da354a
-title: "Modul 7 - Objektorientering"
+id: da354a-ht22
+title: "Modul 6 - Webbapplikationer"
 ---
 
 # Modul 7 - Objektorientering

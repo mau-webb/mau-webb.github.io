@@ -13,9 +13,9 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Kurslitteratur
 
+* Kapitel 4- 7,  Learning Web Design, A beginner's guide to html, css, javascript, and web graphics
 * Kapitel 1 - 4,  HTML och CSS-boken
-* Kapitel 1 - 2,  Build your own website the right way using HTML & CSS
-
+ 
 ### Övrig läsning
 
 * [Ett första HTML-dokument](https://youtu.be/bupWPZdXqIA) (video)
@@ -43,9 +43,9 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Kurslitteratur
 
+* Kapitel 8, Learning Web Design, A beginner's guide to html, css, javascript, and web graphics
 * Kapitel om tabeller och bilder, HTML och CSS-boken
-* Kapitel 5 - 6, Build your own website the right way using HTML & CSS
-
+ 
 ### Övrig läsning
 
 * [Om tabeller (mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
@@ -62,7 +62,9 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Kurslitteratur
 
+* kapitel 9, Learning Web Design, A beginner's guide to html, css, javascript, and web graphics
 * Kapitel 9, HTML och CSS-boken
+ 
 
 ### Övrig läsning
 
@@ -84,8 +86,8 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Kurslitteratur
 
+* Kapitel 11-13: Learning Web Design, A beginner's guide to html, css, javascript, and web graphics
 * Kapitel 5: Formatmallar, HTML och CSS-boken
-* Kapitel 3: Adding some style, Build your own website the right way using HTML & CSS
 
 ### Övrig läsning
 
@@ -104,9 +106,8 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Kurslitteratur
 
+* Kapitel 14-15: Learning Web Design, A beginner's guide to html, css, javascript, and web graphics
 * Kapitel 5, 6 och 10, HTML och CSS-boken
-* Kapitel 4: Shaping up using CSS, Build your own website the right way using HTML & CSS
-
 ### Övrig läsning
 
 * [Föreläsning: CSS i externt dokumet](/{{ site.resource_path }}/da280a/material/m5_vid_lecture_css_document/) (video)
@@ -133,8 +134,8 @@ Nedan presenteras en sammanfattning av allt material till varje modul.
 
 ### Kurslitteratur
 
-* Kapitel 5, 6 och 10, HTML och CSS-boken
-* Kapitel 4 - 5, Build your own website the right way using HTML & CSS
+* Kapitel 16- 18, Learning Web Design, A beginner's guide to html, css, javascript, and web graphics 
+* Kapitel 5, 6 och 10, HTML och CSS-boken 
 
 ### Övrig läsning
 

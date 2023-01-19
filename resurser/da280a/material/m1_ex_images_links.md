@@ -9,12 +9,12 @@ title: "Övning 3 - Bilder och länkar"
 
 Vegano har besämt sig för att göra webbplatsen mer tilltalande och därför önskar de ha en smakfull bild på restaurangen samt ett par länkar till de vanligaste sociala medierna som de använder: facebook, twitter och instagram. De skulle även vilja ha en länk som går till en del av hemsidan som visar deras öppettider.
 
-Vi ska i denna övning utgå från föregående kod som vi redan knåpat ihop. Resultatet efter våra tillägg bör rimligen [se ut på detta vis](../assets/da280a_ex3_bild2.png).
+Vi ska i denna övning utgå från föregående kod som vi redan knåpat ihop. Resultatet efter våra tillägg bör rimligen [se ut på detta vis](../assets/da280a_ex3_bild2.jpg).
 
 
 ## Huvudbild - absolut sökväg
 
-Det första vi kan börja med är att leta upp en trevlig bild på en restaurang. Har du ingen bild [kan du ta denna bilden](../assets/da280a_ex3_bild2.jpg). Använd hela länkens adress och stoppa in den som din sökväg (absolut). Vegano önskar ha bilden precis under sina huvudrubriker - något i stil med det här:
+Det första vi kan börja med är att leta upp en trevlig bild på en restaurang. Har du ingen bild [kan du ta denna bild](../assets/da280a_ex3_bild2.jpg). Använd hela länkens adress och stoppa in den som din sökväg (absolut). Vegano önskar ha bilden precis under sina huvudrubriker - något i stil med det här:
 
 ``` html
 <!doctype html>

@@ -1,0 +1,108 @@
+id: da395a-vt23
+title: "Flerplattformsapplikationer med webbtekniker"
+tags: ["VT23", "Kurs", "Grundnivå", "7.5 hp", "DA395A"]
+
+sidebar:
+    items:
+        - label: "Introduktion"
+          root: true
+        - label: "Kursöversikt"
+          path: "overview"
+        - label: "Planering"
+          path: "plan"
+        - label: "Projekt"
+          path: "projekt"
+        - label: "VG-uppgift"
+          path: "vg-assignment"
+#        - label: "Kompl. M1"
+#          path: "m1"
+#        - label: "Kompl. M2"
+#          path: "m2"
+#        - label: "Kompl. M3"
+#          path: "m3"
+          
+        - label: "1. Kursintro & HTML/CSS/JS"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: Kursintroduktion"
+                path: "f1"
+              - label: "F: HTML/CSS"
+                path: "f2"
+              - label: "F: JavaScript"
+                path: "f3"
+              - label: "L: HTML/CSS"
+                path: "l1"
+              - label: "L: JavaScript"
+                path: "l2"
+
+        - label: "2. JavaScript & DOM"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: JavaScript & DOM"
+                path: "f1"
+              - label: "Inlämningsuppgift 1.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 1.b"
+                path: "i2"
+              - label: "Extra övningar"
+                path: "extra"
+          
+        - label: "3. RWD & CSS-ramverk"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: RWD & CSS-ramverk"
+                path: "f1"
+              - label: "Inlämningsuppgift 2.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 2.b"
+                path: "i2"
+
+        - label: "4. jQuery & Ajax"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: jQuery & Ajax"
+                path: "f1"
+              - label: "Inlämningsuppgift 3.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 3.b"
+                path: "i2"
+                
+        - label: "5. Store and locate"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: Store & locate"
+                path: "f1"
+              - label: "Inlämningsuppgift 4.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 4.b"
+                path: "i2"
+
+#        - label: "6. Utvecklingsmetodik"
+#          collapsed: true
+#          items:
+#              - label: "Översikt"
+#                path: "index-page"
+#              - label: "F: Utvecklingsmetodik"
+#                path: "f1"
+#              - label: "Inlämningsuppgift 5"
+#                path: "i1"
+
+#        - label: "7. JS-ramverk"
+#          collapsed: true
+#          items:
+#              - label: "Översikt"
+#                path: "index-page"
+#              - label: "F: JS-ramverk"
+#                path: "f1"
+#              - label: "Inlämningsuppgift 6"
+#               path: "i1"

@@ -4,7 +4,7 @@ title: "Repetition HTML/CSS/JS"
 ---
 
 # 1. Repetition HTML/CSS/JS
-
+ 
 Den första veckan i kursen har fokus på att introducera kursen och uppdatera er kunskap inom HTML, CSS & JavaScript. Då denna kurs samläses mellan två program (Informationsarkitekt & Systemutvecklare) så kommer de olika studentgrupperna in med olika förkunskaper. För att alla studenter ska få en gemensam grund att stå på inför kommande delar av kursen, så kommer både informationsarkitekter och systemutvecklare att repetera HTML/CSS och JavaScript den första veckan. Det är viktigt att man fräschar upp sina kunskaper inom dessa områden, då vi senare i kursen förutsätter att man besitter denna grundläggande kunskap kring HTML/CSS/JS.
 
 Det är **väldigt viktigt** att man är med i kursen från start, om man kommer efter i kursen från början är det väldigt svårt att hinna ikapp senare - detta då alla moment bygger på varandra.

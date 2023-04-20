@@ -12,11 +12,6 @@ Denna vecka ska vi titta lite på utvecklingsmetodik, och mer specifikt hur vi a
 - Onsdag kl. 10.15 - **Föreläsning**: [Utvecklingsmetodik](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 5](../i1/)
 
-## Deadlines
-
-- Tisdag kl. 23.59 - **Peer reviewing:** [Inlämningsuppgift 4.b.](../../5-store-and-locate/i2/)
-- Söndag kl. 23:59 - [**Inlämningsuppgift 5**](../i1/)
-
 ## Läshänvisningar
 
 - [Sitepoint - A Beginner's Guide to npm, the Node Package Manager](https://www.sitepoint.com/npm-guide/)

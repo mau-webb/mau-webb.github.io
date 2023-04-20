@@ -14,16 +14,10 @@ Vi kommer även att titta på [Ajax](https://sv.wikipedia.org/wiki/AJAX) (*Async
 - Måndag kl. 13.15 - **Föreläsning**: [jQuery & Ajax](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 3.a.](../i1/) & [Inlämningsuppgift 3.b.](../i2/)
 
-## Deadlines
-
-- Tisdag kl. 23.59 - **Peer reviewing:** [Inlämningsuppgift 2.b.](../../3-rwd-css-ramverk/i2/)
-- Söndag kl. 23:59 - [**Inlämningsuppgift 3.a.**](../i1/) & [**Inlämningsuppgift 3.b.**](../i2/)
-
 ## Läshänvisningar
 
 - [w3schools - Learn jQuery](https://www.w3schools.com/jquery/default.asp)
 - [w3schools - jQuery & Ajax](https://www.w3schools.com/jquery/jquery_ajax_intro.asp)
-
 
 ## Bra resurser
 

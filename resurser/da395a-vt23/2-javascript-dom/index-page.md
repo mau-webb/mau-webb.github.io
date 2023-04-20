@@ -14,11 +14,6 @@ Dessutom kommer vi att gå igenom vad som menas med **peer reviewing** (kamratgr
 - Måndag kl. 13.15 - **Föreläsning**: [JavaScript & DOM](../f1/)
 - Onsdag kl. 08.15 - **Laboration**: [Inlämningsuppgift 1.a.](../i1/) & [Inlämningsuppgift 1.b.](../i2/)
 
-## Deadlines
-
-- Tisdag kl. 23:59 - [**Repetitionsuppgift HTML/CSS**](../../1-kursintro-html-css-js/l1/) & [**Repetitionsuppgift JS**](../../1-kursintro-html-css-js/l2/)
-- Söndag kl. 23:59 - [**Inlämningsuppgift 1.a.**](../i1/) & [**Inlämningsuppgift 1.b.**](../i2/).
-
 ## Läshänvisningar
 
 - [w3schools - JavaScript Tutorial](https://www.w3schools.com/js/default.asp)

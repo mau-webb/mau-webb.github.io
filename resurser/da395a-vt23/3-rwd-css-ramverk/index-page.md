@@ -12,11 +12,6 @@ Denna vecka ska vi fokusera på [responsiv webbdesign](https://sv.wikipedia.org/
 - Onsdag kl. 10.15 - **Föreläsning**: [RWD & CSS-ramverk](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 2.a.](../i1/) & [Inlämningsuppgift 2.b.](../i2/)
 
-## Deadlines
-
-- Tisdag kl. 23.59 - **Peer reviewing:** [Inlämningsuppgift 1.b.](../../2-javascript-dom/i2/)
-- Söndag kl. 23:59 - **[Inlämningsuppgift 2.a.](../i1/)** & **[Inlämningsuppgift 2.b.](../i2/)**.
-
 ## Läshänvisningar
 
 Mobile HTML 5 = Weyl, Estelle (2013) Mobile HTML5, O’Reilly Media, Sebastopol, ISBN 13: 9781449311414

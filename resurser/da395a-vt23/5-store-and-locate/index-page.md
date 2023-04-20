@@ -17,11 +17,6 @@ Vi ska alltså bygga webbapplikationer som inte länge har minne som en guldfisk
 - Måndag kl. 13.15 - **Föreläsning**: [Lagring och positionering](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 4.a.](../i1/) & [Inlämningsuppgift 4.b.](../i2/)
 
-## Deadlines
-
-- Tisdag kl. 23.59 - **Peer reviewing:** [Inlämningsuppgift 3.b.](../../4-jquery-ajax/i2/)
-- Söndag kl. 23:59 - [**Inlämningsuppgift 4.a.**](../i1/) & [**Inlämningsuppgift 4.b.**](../i2/)
-
 ## Läshänvisningar
 
 - [w3schools - HTML Web Storage API](https://www.w3schools.com/html/html5_webstorage.asp)

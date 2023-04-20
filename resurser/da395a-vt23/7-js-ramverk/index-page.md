@@ -12,10 +12,6 @@ Denna vecka ska vi orientera oss lite snabbt i världen av JavaScript-ramverk. D
 - Måndag - **Digital föreläsning**: [JS-ramverk](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 6](../i1/)
 
-## Deadlines
-
-- Söndag kl. 23:59 - [**Inlämningsuppgift 6**](../i1/)
-
 ## Läshänvisningar
 
 En bra start när det kommer till JavaScript-ramverk är att surfa till deras webbplats och gå igenom deras dokumentaion (ofta har de även guider för hur man kommer igång på ett bra sätt). T.ex.

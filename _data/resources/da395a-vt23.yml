@@ -97,12 +97,12 @@ sidebar:
               - label: "Inlämningsuppgift 5"
                 path: "i1"
 
-#        - label: "7. JS-ramverk"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: "index-page"
-#              - label: "F: JS-ramverk"
-#                path: "f1"
-#              - label: "Inlämningsuppgift 6"
-#               path: "i1"
+        - label: "7. JS-ramverk"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: JS-ramverk"
+                path: "f1"
+              - label: "Inlämningsuppgift 6"
+               path: "i1"

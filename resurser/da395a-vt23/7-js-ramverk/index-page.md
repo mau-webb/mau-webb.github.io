@@ -9,7 +9,7 @@ Denna vecka ska vi orientera oss lite snabbt i världen av JavaScript-ramverk. D
 
 ## Veckans kurstillfälle
 
-- Måndag - **Digital föreläsning**: [JS-ramverk](../f1/)
+- Måndag - **Föreläsning**: [JS-ramverk](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 6](../i1/)
 
 ## Läshänvisningar

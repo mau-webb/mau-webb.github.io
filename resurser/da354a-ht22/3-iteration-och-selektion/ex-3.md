@@ -123,7 +123,8 @@ Exempelkörning kan se ut såhär:
 
 #### Övning 4 - Räkna Bokstäver
 
-SBli en bokstavsdetektiv med funktionen `count_letters(word)`! Den här hemliga agenten tar emot ett mystiskt ord som sitt uppdrag och avslöjar hur många bokstavsledtrådar det innehåller. Låt oss knäcka koden och räkna bokstäverna!
+Bli en bokstavsdetektiv med funktionen `count_letters(word)`! Den här hemliga agenten tar emot ett mystiskt ord som sitt uppdrag och avslöjar hur många bokstavsledtrådar det innehåller. Låt oss knäcka koden och räkna bokstäverna!
+
 
 Exempelkörning kan se ut såhär:
 

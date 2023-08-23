@@ -77,7 +77,8 @@ Förväntad körning för anropet `print rovarsprak("hej på dig")` skulle kunna
 I denna övning ska vi skapa en funktion som tar en sträng som input och avgör om strängen är ett palindrom eller inte. Ett palindrom är en sträng som läses likadant både framifrån och bakifrån, exempelvis "anna" och "madam". Funktionen ska returnera True om strängen är ett palindrom och False annars.
 
 **Uppgift:**
-Skapa en funktion `is_palindrome(string)`` som utför följande steg:
+
+Skapa en funktion `is_palindrome(string)` som utför följande steg:
 
 1. Konvertera hela strängen till gemener (gemener och versaler ska vara likvärdiga i ett palindrom).
 2. Ta bort alla mellanslag från strängen för att ignorera dem vid jämförelsen.

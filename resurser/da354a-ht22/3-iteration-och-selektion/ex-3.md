@@ -120,3 +120,16 @@ print_num_times(content, times)
 Exempelkörning kan se ut såhär:
 
 ![Idle](../images/idle4.png)
+
+#### Övning 4 - Räkna Bokstäver
+
+Bli en bokstavsdetektiv med funktionen `count_letters(word)`! Den här hemliga agenten tar emot ett mystiskt ord som sitt uppdrag och avslöjar hur många bokstavsledtrådar det innehåller. Låt oss knäcka koden och räkna bokstäverna!
+
+
+Exempelkörning kan se ut såhär:
+
+```python
+Antal hemliga bokstavsledtrådar i 'chokladkaka42' är: 11
+Antal hemliga bokstavsledtrådar i 'axels32_katter_åt' är: 13
+Antal hemliga bokstavsledtrådar i 'piano2' är: 5
+```

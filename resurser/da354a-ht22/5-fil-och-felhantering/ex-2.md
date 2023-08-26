@@ -98,6 +98,10 @@ Skriv en funktion `divide_numbers` som tar två tal som parametrar och returnera
 
 Exempelkörning kan se ut såhär:
 ```python
+Ange täljaren: 3
+Ange nämnaren: 5
+Resultatet av divisionen är: 0.6
+
 Ange täljaren: 10
 Ange nämnaren: 0
 Du kan inte dela med noll. Försök igen.

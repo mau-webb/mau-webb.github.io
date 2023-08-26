@@ -19,7 +19,7 @@ def main():
         numerator = float(input("Ange täljaren: "))
         denominator = float(input("Ange nämnaren: "))
         result = divide_numbers(numerator, denominator)
-        print("Resultatet av divisionen är:", result)
+        print("Resultatet av divisionen är:", result, "\n")
 
 
 main()

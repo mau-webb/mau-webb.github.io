@@ -13,6 +13,7 @@ def get_fahrenheit():
             print("Du måste mata in siffror")
             continue
 
+
 def fahrenheit_to_celcius():
     '''
     Konverterar fahrenheit till celcius
@@ -20,6 +21,7 @@ def fahrenheit_to_celcius():
     fahrenheit = get_fahrenheit()
     celcius = (fahrenheit - 32.0) * 5.0 / 9.0
     print(f"Det är : {celcius} grader i celcius")
+
 
 # Kör programmet
 fahrenheit_to_celcius()

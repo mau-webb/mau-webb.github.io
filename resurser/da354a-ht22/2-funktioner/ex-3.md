@@ -9,7 +9,7 @@ title: "Modul 2 - Funktioner"
 
 #### Rekommenderad läsning
 
-- [Think Python - Chapter 3  Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
+- [Think Python - Chapter 3 Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
 
 ### Inledning
 
@@ -73,3 +73,18 @@ Resultatet kan se ut såhär:
 Vi ska nu bygga en funktion som omvandlar yards till meter. En yard är 0,9144 meter. Funktionen ska heta `yards_to_meters` ha en parameter: `yards`. Funktionen ska returnera antalet meter. Ni ska (på samma sätt som övning 2) fråga användaren efter antalet yards som ska omvandlas och sedan använda er av funktion `yards_to_meters` för att göra själva omvandlingen. Resultatet ska se ut såhär:
 
 ![](../images/idle9.png)
+
+### Övning 4 - Skapa din egna e-postadress
+
+Här ska vi skapa en enkel e-postadress genom att använda en funktion. För att komma igång behöver du skicka med ditt förnamn och efternamn som parametrar till funktionen `create_email`.
+
+Skriv funktionen `create_email` som tar emot ditt förnamn (`first_name`) och efternamn (`last_name`) som parametrar. Funktionen kommer att kombinera dessa två delar och lägga till domänen "@example.com". Funktionen ska returnera en sträng med den nya e-postadressen. Det är som att skapa en anpassad e-postadress med hjälp av att kombinera strängarna.
+
+Exemeplkörning:
+
+```python
+Förnamn: Alice
+Efternamn: Johnson
+
+Din e-postadress: alice.johnson@example.com
+```

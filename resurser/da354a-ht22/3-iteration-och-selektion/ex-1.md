@@ -95,3 +95,32 @@ def max_3(num_1, num_2, num_3):
 ```
 
 Använd funktionen `max_2` när du skapar den andra funktionen.
+
+#### Övning 3 - Betygsberäknare
+
+I denna övning ska du skapa två funktioner som samverkar för att beräkna betyg utifrån poäng. Du kommer att bygga funktionen `calculate_grade` som tar emot en poängsumma och returnerar ett betyg baserat på följande tabell:
+
+- Poäng över eller lika med **90** ger betyget **A**
+- Poäng över eller lika med **80** ger betyget **B**
+- Poäng över eller lika med **70** ger betyget **C**
+- Poäng över eller lika med **60** ger betyget **D**
+- Poäng över eller lika med **50** ger betyget **E**
+- Poäng under **50** ger betyget **F**
+
+`grade_report()`: Skriv en funktion som inte tar några parametrar. Funktionen ska be användaren att ange en poängsumma och sedan använda funktionen calculate_grade för att beräkna betyget. Funktionen ska sedan skriva ut betyget.
+
+`calculate_grade(points)`: Skriv en funktion som tar emot en poängsumma som parameter. Funktionen ska använda ovanstående tabell för att bestämma och returnera det motsvarande betyget.
+
+
+Exempel på körning:
+
+```python
+Ange poängsumma: 85
+Betyg: B
+```
+
+**Tips:** Du kan använda funktionen `int()` för att konvertera en sträng till ett heltal.
+
+### Exempellösningar
+
+- [Övning 3 - Betygsberäknare](../ex-solutions/Ö1.3.py)

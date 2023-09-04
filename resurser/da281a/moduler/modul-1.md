@@ -7,7 +7,7 @@ title: "Modul 1 - Programmeringsmiljö"
 
 ## Beskrivning
 
-Den första modulen handlar om att komma igång med JavaScript och programmering. Det är en kombination av att experimentera och att utforska. Börja med övningen [komma igång](/re/da281a_da265a/material/getting_started.html) och gå sedan vidare med [boken](http://eloquentjavascript.net/) (kap. 1 och 2). Gå igenom de digitala källorna och när ni väl börjar med uppgiften kan ni alltid gå tillbaka när ni känner er osäkra på någonting.
+Den första modulen handlar om att komma igång med JavaScript och programmering. Det är en kombination av att experimentera och att utforska. Börja med övningen [komma igång](/{{ site.resource_path }}/da281a/material/getting_started/) och gå sedan vidare med [boken](http://eloquentjavascript.net/) (kap. 1 och 2). Gå igenom de digitala källorna och när ni väl börjar med uppgiften kan ni alltid gå tillbaka när ni känner er osäkra på någonting.
 
 ## Material
 

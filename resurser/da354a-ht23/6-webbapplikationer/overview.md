@@ -1,0 +1,40 @@
+---
+id: da354a-ht23
+title: "Modul 6 - Webbapplikationer"
+---
+
+# Modul 6 - Webbapplikationer
+
+## Översikt av modul 6
+
+Webbprogrammering är en av de mest populära tillämpningarna för Python. Det passar bra som fördjupning efter att ha gått igenom den grundläggande programmeringen i modul 1-5.
+
+### Webbramverk
+
+Det finns många konkurrerande ramverk och bibliotek webbprogrammering med Python. Alla delar det grundläggande målet i att förenkla vanliga uppgifter samt att ge en struktur att bygga sitt program efter.
+
+#### Rekommenderat: Bottle
+
+[Bottle](http://bottlepy.org/) är det rekommenderade ramverket på grund av enkelheten i att installera och komma igång. Det snabbaste alternativet är att ladda hem bottle genom deras [webbplats](http://bottlepy.org/docs/stable/) till din projektmapp. Därefter kan du använda Bottle fullt ut.
+
+Bottle, likt de flesta andra pythonprojekt, kan även installeras globalt på systemet med hjälp av så kallade pakethanterare (`pip` eller `easy_install`).
+
+Ni kan ladda ner bottle-filen för hand här: [https://bottlepy.org/bottle.py](https://bottlepy.org/bottle.py)
+
+#### Andra ramverk
+
+- [Flask](http://flask.pocoo.org) är i princip lika enkelt att använda som Bottle - båda kan kallas "mikroramverk". Flask är värt att nämna här på grund as dess popularitet, är vanligt att använda även för webbapplikationer i produktion. Flask bör installeras via `pip` eller `easy_install`.
+- [Django](https://www.djangoproject.com) är kanske det mest kända webbramverket för Python, och används av några av nätets största webbplatser. Bra att känna till - och värt att titta vidare på för mer avancerade, databasdrivna webbplatser.
+
+
+### Komma igång med Bottle
+
+Istället för egna påhittade övningar rekommenderas den [tutorial som finns på bottle.org](http://bottlepy.org/docs/dev/tutorial.html#quickstart-hello-world). Den visar viktiga koncept med korta exempel för varje. För [uppgiften](/resurser/da354a/6-webbapplikationer/assignment/) kommer du bara behöva vissa av delarna, men det skadar inte att titta igenom all dokumentation.
+
+#### Exempelprojekt
+
+Viktiga delar av funktionaliteten i Bottle visas även i [detta exempelprojekt](https://github.com/Tibbelit/Example-bottle-app). Du kan även ladda hem koden via den länken (som t.ex. en ZIP-fil).
+
+### Uppgift
+
+[Uppgift: bygg din egen wiki](/resurser/da354a/6-webbapplikationer/assignment/)!

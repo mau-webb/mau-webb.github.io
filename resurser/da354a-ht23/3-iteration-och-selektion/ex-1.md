@@ -121,6 +121,9 @@ Betyg: B
 
 **Tips:** Du kan använda funktionen `int()` för att konvertera en sträng till ett heltal.
 
+
+<!--
 ### Exempellösningar
 
 - [Övning 3 - Betygsberäknare](../ex-solutions/Ö1.3.py)
+- -->

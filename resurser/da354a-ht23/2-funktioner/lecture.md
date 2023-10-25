@@ -5,12 +5,16 @@ title: "Modul 2 - Funktioner"
 
 # Modul 2 - Funktioner
 
+Publiceras efter att föreläsningen ägt rum.
+
+<!--
+
 ## Föreläsning - Funktioner
 
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/qS3BJ1XTMPEldJ" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
-
+-->
 <!--
 
 <div class="video-frame">
@@ -18,7 +22,7 @@ title: "Modul 2 - Funktioner"
 </div>
 
 -->
-
+<!--
 ### Dagens exempel
 
 #### Lunchexempel
@@ -91,3 +95,4 @@ print(rand_nr)
 ---
 
 Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2022-Funktioner.pdf).
+-->

@@ -7,6 +7,9 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning - Extra
 
+Publiceras efter att föreläsningen ägt rum.
+
+<!--
 Videoföreläsning (från tidigare år) på sten, sax, påse-spelet (+ lite extra).
 
 ---
@@ -288,3 +291,4 @@ def main():
 
 main()
 ```
+-->

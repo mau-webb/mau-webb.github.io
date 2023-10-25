@@ -18,14 +18,14 @@ En annan sak som ofta inträffar i programmering är att man vill att sitt progr
 
 | Innehåll | Kommentar |
 | --- | --- |
-| Föreläsning | Introduktion till loopar & if-satser |
-| Föreläsning(2) | Sten, sax, påse |
-| Ö.1: Introduktion till selektion | Hur fungerar if-satser? |
-| Ö.2: Nästlade if-satser | If-satser i if-satser |
-| Ö.3: Introduktion till iterationer | Hur fungerar loopar? |
-| Ö.4: Nästlade iterationer | Loopar i loopar |
-| Ö.5: Iteration och selection | Att kombinera if-satser & loopar |
-| Inlämningsuppgift | Grundläggande kunskap inom iteration & selektion |
+| [Föreläsning](../lecture) | Introduktion till loopar & if-satser |
+| [Föreläsning(2)](../lecture-2) | Sten, sax, påse |
+| [Ö.1: Introduktion till selektion](../ex-1) | Hur fungerar if-satser? |
+| Ö.2: [Nästlade if-satser](../ex-2) | If-satser i if-satser |
+| Ö.3: [Introduktion till iterationer](../ex-3) | Hur fungerar loopar? |
+| Ö.4: [Nästlade iterationer](../ex-4) | Loopar i loopar |
+| Ö.5: [Iteration och selection](../ex-5) | Att kombinera if-satser & loopar |
+| [Inlämningsuppgift](../assignment) | Grundläggande kunskap inom iteration & selektion |
 
 ### Rekommenderad läsning
 

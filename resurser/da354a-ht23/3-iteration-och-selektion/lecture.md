@@ -7,7 +7,9 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning
 
-Presentation & kod presenteras här efter föreläsningen.
+Publiceras efter att föreläsningen ägt rum.
+
+<!--
 
 
 <div class="frame">
@@ -17,7 +19,7 @@ Presentation & kod presenteras här efter föreläsningen.
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/2022-Presentation.pdf)
 
 ---
-
+-->
 <!--
 <p><strong>Eftersom att dagens ljudinspelning var horibel, så får ni istället förra årets inspelade föreläsning (typ samma)</strong></p>
 
@@ -26,7 +28,7 @@ Presentation & kod presenteras här efter föreläsningen.
 </div>
 
 ---
--->
+
 
 ## Dagens exempel
 
@@ -101,7 +103,6 @@ def menu():
               
 menu()
 ```
--->
 
 ### "Log in"-funktion
 
@@ -128,7 +129,7 @@ for i in range(200):
     print(i)
 ```
 
-<!--
+
 ### Rövarspråket
 
 ```python

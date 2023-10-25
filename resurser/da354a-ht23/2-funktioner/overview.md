@@ -17,15 +17,15 @@ Denna modul syftar till att introducera funktioner, med övningarna uppdelade i 
 
 | Innehåll | Kommentar |
 | --- | --- |
-| Föreläsning | Se menyn till vänster |
-| Föreläsning (2) | Se menyn till vänster |
-| Ö.1: Introduktion till funktioner | Hur skapar man en funktion? |
-| Ö.2: Argument och parametrar | Hur skickar vi med data till en funktion? |
-| Ö.3: Att returnera värden | Hur returneras värden från funktioner? |
-| Ö.4: Struktur av program | Hur skapar man en bra programstruktur? |
-| Ö.5: Moduler i Python | Hur använder man sig utav Pythons moduler? |
-| Ö.6: Utskriftsfunktioner | Smidigare sätt att hantera utskrifter |
-| Inlämningsuppgift | Grundläggande kunskap inom funktioner |
+| [Föreläsning](../lecture) | Se menyn till vänster |
+| [Föreläsning (2)](../lecture-2) | Se menyn till vänster |
+| Ö.1: [Introduktion till funktioner](../ex-1) | Hur skapar man en funktion? |
+| Ö.2: [Argument och parametrar](../ex-2) | Hur skickar vi med data till en funktion? |
+| Ö.3: [Att returnera värden](../ex-3) | Hur returneras värden från funktioner? |
+| Ö.4: [Struktur av program](../ex-4) | Hur skapar man en bra programstruktur? |
+| Ö.5: [Moduler i Python](../ex-5) | Hur använder man sig utav Pythons moduler? |
+| Ö.6: [Utskriftsfunktioner](../ex-6) | Smidigare sätt att hantera utskrifter |
+| [Inlämningsuppgift](../assignment) | Grundläggande kunskap inom funktioner |
 
 ### Rekommenderad läsning
 

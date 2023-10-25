@@ -7,6 +7,9 @@ title: "Modul 2 - Funktioner"
 
 ## Föreläsning - Funktioner (2)
 
+Publiceras efter att föreläsningen ägt rum.
+
+<!--
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/LRxlOex9DYwwyL" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
@@ -210,3 +213,4 @@ def vers_6():
     print("Mother Mary comes to me")
     print("Speaking words of wisdom, let it be")
 ```
+-->

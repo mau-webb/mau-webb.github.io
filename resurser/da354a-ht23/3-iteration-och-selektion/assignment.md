@@ -14,6 +14,9 @@ Denna inlämningsuppgift har som syfte att examinera modul 3 som har fokus på i
 Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
 {: .warn}
 
+Det är förbjudet att använda hjälpmedel för att skapa/generera kod och/eller lösningar (eller delar av lösning) för uppgiften genom verktyg som t.ex. *ChatGPT*, *Github Copilot*, eller liknande/motsvarande verktyg, på exeminerande uppgifter (som denna) i denna kurs. Skulle detta ske betraktas det som *misstanke om fusk*, vilket kommer leda till en anmälan till disciplinnämnden och ev. avstängning från studier.
+{: .warn}
+
 ### 2. Uppgiftsbeskrivning
 
 Uppgiften går ut på att ni ska bygga ett frågespel, där användaren får svara på frågor som ni (som programmerare av programmet) har skapat. Det ska även finnas en liten statistikdel där man man se hur många frågor man svarat på och hur många gånger man svarat fel.

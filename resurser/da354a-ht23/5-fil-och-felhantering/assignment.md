@@ -16,6 +16,9 @@ Denna inlämningsuppgift har som syfte att examinera modul 5 som har fokus på f
 Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
 {: .warn}
 
+Det är förbjudet att använda hjälpmedel för att skapa/generera kod och/eller lösningar (eller delar av lösning) för uppgiften genom verktyg som t.ex. *ChatGPT*, *Github Copilot*, eller liknande/motsvarande verktyg, på exeminerande uppgifter (som denna) i denna kurs. Skulle detta ske betraktas det som *misstanke om fusk*, vilket kommer leda till en anmälan till disciplinnämnden och ev. avstängning från studier.
+{: .warn}
+
 ### 2. Uppgiftsbeskrivning
 
 Vi ska i denna uppgift bygga en resultathanterare för en minigolftävling. Minigolftävlingen går ut på att varje person spelar tre varv (rundor) och det totala antalet slag avgör vem som vinner. Programmet ska kunna spara registrerade resultat till en textfil, och läsa in tidigare resultat från filer som följer samma format.

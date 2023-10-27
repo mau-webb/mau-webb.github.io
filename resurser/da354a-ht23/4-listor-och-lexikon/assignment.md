@@ -17,6 +17,9 @@ Denna inlämningsuppgift har som syfte att examinera modul 4 som har fokus på l
 Inlämningsuppgiften är individuell genom grupper. Det betyder att varje student enskilt ska kunna redogöra för alla delar av inlämningsuppgiften.
 {: .info}
 
+Det är förbjudet att använda hjälpmedel för att skapa/generera kod och/eller lösningar (eller delar av lösning) för uppgiften genom verktyg som t.ex. *ChatGPT*, *Github Copilot*, eller liknande/motsvarande verktyg, på exeminerande uppgifter (som denna) i denna kurs. Skulle detta ske betraktas det som *misstanke om fusk*, vilket kommer leda till en anmälan till disciplinnämnden och ev. avstängning från studier.
+{: .warn}
+
 ### 2. Uppgiftsbeskrivning
 
 Uppgiften går ut på att vi ska bygga ett spel, likt Keno, fast i en lite mindre variant. Spelet ska ha följande struktur:

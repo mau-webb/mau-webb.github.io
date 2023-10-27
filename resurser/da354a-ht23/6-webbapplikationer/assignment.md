@@ -14,6 +14,9 @@ Denna uppgift går ut på att skapa en enkel webbapplikation, i form av en wiki.
 Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
 {: .warn}
 
+Det är förbjudet att använda hjälpmedel för att skapa/generera kod och/eller lösningar (eller delar av lösning) för uppgiften genom verktyg som t.ex. *ChatGPT*, *Github Copilot*, eller liknande/motsvarande verktyg, på exeminerande uppgifter (som denna) i denna kurs. Skulle detta ske betraktas det som *misstanke om fusk*, vilket kommer leda till en anmälan till disciplinnämnden och ev. avstängning från studier.
+{: .warn}
+
 ### Din wiki
 
 I den minimala wikin kan man skapa, ändra och läsa artiklar. Detta är också problemet som du ska lösa.

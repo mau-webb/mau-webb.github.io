@@ -7,25 +7,15 @@ title: "Modul 1 - Introduktion till Python"
 
 ## Introduktion till programmering
 
-Publiceras efter att föreläsningen ägt rum.
-
-<!--
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/m9yZZeiFqAJ0Ck" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/91516b7ad6794f70a134975a7ceb611f" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
--->
-<!--
+
 
 <div class="video-frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/r1036kyvkhI?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/sWT6SBbBArw?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
-<p><strong>OBS - Ljudet kommer igång vid 2:30</strong>, oklart varför det inte fungerade innan dess.</p>
-
--->
-
-<!--
 
 ### Dagens exempel
 
@@ -33,29 +23,44 @@ Publiceras efter att föreläsningen ägt rum.
 
 ```python
 # Skriver ut en rubrik till vårt program
-print("----------------")
+print("-------------")
 print("Miniräknare")
-print("----------------")
+print("-------------")
 
-# 1. Fråga användaren efter deras namn (spara det i en variabel)
-name = input("Ange ditt namn: ")
+# Frågar efter användarens namn, sparar det i variabeln "name"
+name = input("Vad heter du? ")
 
-print("Ange nu de två nummerna som du vill addera med varandra")
+# Skriver ut en beskrivning av vad som kommer att ske
+print("Vi kommer ni att göra en beräkning, vänligen ange tal nedan")
+# Frågar efter det första talet, sparar det i variabeln "nr_1"
+nr_1 = input("Ange tal 1: ")
+# Frågar efter det andra talet, sparar det i variabeln "nr_2"
+nr_2 = input("Ange tal 2: ")
 
-# 2. Fråga användaren efter tal 1 som ska adderas (spara det i en variabel)
-nr_1 = input("Nr 1: ")
+# Beräknar summan av talen (gör både talen till datatypen nummer)
+result = float(nr_1) + float(nr_2)
 
-# 3. Fråga användaren efter tal 2 som ska adderas (spara det i en variabel)
-nr_2 = input("Nr 2: ")
+# Skriver ut resultatet till användaren
+print(name + ", summan blir: " + str(result))
+```
 
-# 4. Räkna ut summan av talen (spara resultatet i en variabel)
-result = int(nr_1) + int(nr_2)
+#### En moms-räknare
 
-# 5. Skriv ut resultatet till användaren
-print(name + ", resultatet är: " + str(result))
+```python
+print("-------------")
+print("Momsberäknare")
+print("-------------")
+
+moms = 0.3
+
+user_money = input("Vilken summa vill du räkna moms på? ")
+
+result = float(user_money) * moms
+
+print("Momsen på " + str(user_money) + " är " + str(result))
+
 ```
 
 ---
 
-Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/introduktion-till-programmering-ht22.pdf).
--->
+Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/introduktion-till-programmering.pdf).

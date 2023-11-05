@@ -18,7 +18,6 @@ Denna modul syftar till att introducera funktioner, med övningarna uppdelade i 
 | Innehåll | Kommentar |
 | --- | --- |
 | [Föreläsning](../lecture) | Se menyn till vänster |
-| [Föreläsning (2)](../lecture-2) | Se menyn till vänster |
 | Ö.1: [Introduktion till funktioner](../ex-1) | Hur skapar man en funktion? |
 | Ö.2: [Argument och parametrar](../ex-2) | Hur skickar vi med data till en funktion? |
 | Ö.3: [Att returnera värden](../ex-3) | Hur returneras värden från funktioner? |

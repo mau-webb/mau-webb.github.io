@@ -7,69 +7,78 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning
 
-Publiceras efter att föreläsningen ägt rum.
-
-<!--
-
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/493Aovdvq5D2s8" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/a641102ea36d48d69143e06850b0ce1b" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2022-Presentation.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/Presentation.pdf)
 
 ---
--->
-<!--
-<p><strong>Eftersom att dagens ljudinspelning var horibel, så får ni istället förra årets inspelade föreläsning (typ samma)</strong></p>
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CU-MHLZ-zSU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/eThWwiyfN_A?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ---
 
-
 ## Dagens exempel
+
+### Exempel på if-satser
+
+```python
+def add(a, b):
+    result = int(a) + int(b)
+    print(f"Summan av {a} och {b} är {result}")
+
+
+nr_1 = input("Ange tal 1: ")
+if nr_1.isdigit() == False:
+    print("Du måste ange en siffra")
+
+nr_2 = input("Ange tal 2: ")
+if nr_2.isdigit() == False:
+    print("Du måste ange en siffra")
+
+if nr_1.isdigit() == True and nr_2.isdigit() == True:
+    add(nr_1, nr_2)
+else:
+    print("Du angav ju inte siffror, så jag vill inte räkna!")
+```
 
 ### Systembolagetkoll
 
 ```python
-user_age = input("Hur gammal är du? ")
+age = input("Hur gammal är du? ")
 
-# Alt. 1 - med else if
-if user_age.isdigit() == False:
-    print("Ditt dumhuvud, hur svårt är det att skriva in en siffra egentligen?")
-elif int(user_age) < 20:
-    print("Välkommen tillbaka när du fyllt 20 år")
-else:
-    print("Välkommen in!")
-
-# Alt. 2 - med nästlade if-satset
-if user_age.isdigit():
-    if int(user_age) < 20:
-        print("Välkommen tillbaka när du fyllt 20 år")
+if age.isdigit():
+    if int(age) >= 20:
+        print("Välkommen in i butiken")
     else:
-        print("Välkommen in!")
+        print("Du måste vara minst 20år för att få handla här.")
 else:
-    print("Ditt dumhuvud, hur svårt är det att skriva in en siffra egentligen?")
+    # Inte en siffra
+    print("Du måste ange en siffra!")
 ```
 
 ### Exempel: while-loop
 
 ```python
-user_nr = int(input("Gissa korrekt nummer: "))
-CORRECT_NUMBER = randint(1, 20)
+nr = 1
+while nr <= 10:
+    print(nr)
+    nr = nr + 1
 
-while user_nr != CORRECT_NUMBER:
-    print("FEL NUMMER! Försök igen")
-    user_nr = int(input("Gissa korrekt nummer: "))
-
+# Asks the user to enter a positive number
+nr = int(input("Ange ett positivt tal: "))
+# Loop runs untill user enters a positive number
+while nr < 1:
+    print "Du skrev inte in ett positivt tal, försök igen!"
+    nr = int(input("Ange ett positivt tal: "))
+# Loop has finished running
 print("Snyggt jobbat!")
 ```
 
-<!--
-### Exempel: Meny (bonus!)
+### Exempel: Meny
 
 ```python
 def menu():
@@ -104,31 +113,21 @@ def menu():
 menu()
 ```
 
-### "Log in"-funktion
-
-```python
-print("*"*30)
-print("Logga in")
-print("*"*30)
-username = input("Epost: ")
-password = input("Lösenord: ")
-
-MASTER_USER = "anton.tibblin@mau.se"
-MASTER_PASSWORD = "Secret@123"
-
-if username == MASTER_USER and password == MASTER_PASSWORD:
-    print("Du är inloggad")
-else:
-    print("Du angav fel kombination av användarnamn & lösenord")
-```
-
 ### Exempel: for-loop
 
 ```python
-for i in range(200):
+name = input("Vad heter du? ")
+times = input("Hur många gånger vill du skriva ut ditt namn? ")
+
+for i in range(int(times)):
+    print(f"{i}: {name}")
+
+for i in range(1000):
+    print("Anton är bäst!")
+
+for i in range(12): # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     print(i)
 ```
-
 
 ### Rövarspråket
 
@@ -271,5 +270,3 @@ def main():
 
 main()
 ```
-
--->

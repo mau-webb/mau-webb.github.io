@@ -87,18 +87,16 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>F: Funktioner i Python</td>
 			<td>Anton (inspelad föreläsning)</td>
 			<td>NI:A0406</td>
-            <td rowspan="2">2</td>
+            <td rowspan="3">2</td>
 		</tr>
-		<!--
 		<tr class="odd">
             <td></td>
 			<td>14/11</td>
 			<td>13-15</td>
-			<td>F: Funktioner i Python (2)</td>
-			<td>Anton</td>
+			<td>Övrig tid i klassrum</td>
+			<td>-</td>
 			<td>NI:A0406</td>
 		</tr>
-		-->
 		<tr class="odd">
 			<td></td>
 			<td>16/11</td>

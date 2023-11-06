@@ -69,7 +69,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>7/11</td>
 			<td>13-15</td>
 			<td>F: Introduktion till programmering</td>
-			<td>Anton</td>
+			<td>Anton (inspelad föreläsning)</td>
 			<td>NI:A0406</td>
 		</tr>
 		<tr>
@@ -85,10 +85,11 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>13/11</td>
 			<td>10-12</td>
 			<td>F: Funktioner i Python</td>
-			<td>Anton</td>
+			<td>Anton (inspelad föreläsning)</td>
 			<td>NI:A0406</td>
-            <td rowspan="3">2</td>
+            <td rowspan="2">2</td>
 		</tr>
+		<!--
 		<tr class="odd">
             <td></td>
 			<td>14/11</td>
@@ -97,6 +98,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>Anton</td>
 			<td>NI:A0406</td>
 		</tr>
+		-->
 		<tr class="odd">
 			<td></td>
 			<td>16/11</td>
@@ -110,7 +112,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>21/11</td>
 			<td>13-15</td>
 			<td>F: If-satser &amp; Loopar</td>
-			<td>Anton</td>
+			<td>Anton (inspelad föreläsning)</td>
 			<td>NI:A0406</td>
 			<td rowspan="3">3</td>
 		</tr>

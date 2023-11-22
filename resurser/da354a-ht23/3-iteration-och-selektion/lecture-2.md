@@ -25,7 +25,6 @@ Videoföreläsning (från tidigare år) på sten, sax, påse-spelet (+ lite extr
 ### Sten, sax, påse (eller grävskopa)
 
 ```python
-
 import random
 
 win = 0
@@ -154,3 +153,4 @@ def cheat():
     win = 200
 
 main()
+```

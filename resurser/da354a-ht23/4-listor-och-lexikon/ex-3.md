@@ -9,7 +9,7 @@ title: "Modul 4 - Listor & Lexikon"
 
 ### Inledning
 
-I [introduktionen till listor](..//ex-1) gick vi igenom hur man kunde spara data i listor, iterera över dessa listor och på så sätt underlätta hantering av större datamängder. Ett problem som ni kanske upptäckt i listor är att det inte alltid är så enkelt att plocka ut ett värde ut en lista, om man inte vet vad värdet är, eller den exakta platsen i listan som värdet har. Detta är ett av de problem som lexikon löser.
+I [introduktionen till listor](../ex-1) gick vi igenom hur man kunde spara data i listor, iterera över dessa listor och på så sätt underlätta hantering av större datamängder. Ett problem som ni kanske upptäckt i listor är att det inte alltid är så enkelt att plocka ut ett värde ut en lista, om man inte vet vad värdet är, eller den exakta platsen i listan som värdet har. Detta är ett av de problem som lexikon löser.
 
 Ett lexikon är kort och gott en samling av *nycklar* och *värden*, där varje nyckel har ett värde. Ett bra och enkelt exempel är en telefonbok. I en telefonbok har man (simplifierat) ett namn (nyckel) som är kopplat till ett telefonnummer (värde). Skulle vi skapa en enkelt telefonbok (i form att ett lexikon) i Python skulle det kunna se ut såhär:
 

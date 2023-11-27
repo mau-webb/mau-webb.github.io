@@ -10,6 +10,12 @@ title: "Modul 4 - Listor & Lexikon"
 **Viktigt** Inlämningsuppgiften görs i grupp. Grupperna kommer att skapas slumpmässigt av de studenter som anmält sig till att göra inlämningsuppgiften via Canvas - se mer information där.
 {: .info}
 
+Inlämningsuppgiften är en gruppuppgift. Det betyder att gruppen enskilt ska utforma och skriva sin inlämning samt att alla studenter i gruppen ska kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar gruppens egna arbete.
+{: .warn}
+
+Det är förbjudet att använda hjälpmedel för att skapa/generera kod och/eller lösningar (eller delar av lösning) för uppgiften genom verktyg som t.ex. *ChatGPT*, *Github Copilot*, eller liknande/motsvarande verktyg, på exeminerande uppgifter (som denna) i denna kurs. Skulle detta ske betraktas det som *misstanke om fusk*, vilket kommer leda till en anmälan till disciplinnämnden och ev. avstängning från studier.
+{: .warn}
+
 ### 1. Introduktion
 
 Denna inlämningsuppgift har som syfte att examinera modul 4 som har fokus på listor.
@@ -70,7 +76,7 @@ För att nå betyget godkänt behöver programmet uppfylla uppgiftsbeskrivningen
 
 - Koden ska vara strukturerad med ett antal funktioner, där varje funktion har begränsat syfte och omfattning
 - Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer.
-- Alla funktion som inte är självförklarande ska ha en beskrivning i form av _docstrings_ (`''' Kommentar för funktionen '''`-kommentarer) där funktionens syfte, ev. parametrar & ev. returvärden finns beskrivet. Se t.ex. exemplet [Sten, sax, påse](http://localhost:4000/resurser/da354a/3-iteration-och-selektion/lecture-2/#sten-sax-p%C3%A5se-eller-gr%C3%A4vskopa) för att se **hur** man skriver denna typ av dokumentation.
+- Alla funktion som inte är självförklarande ska ha en beskrivning i form av _docstrings_ (`''' Kommentar för funktionen '''`-kommentarer) där funktionens syfte, ev. parametrar & ev. returvärden finns beskrivet. Se t.ex. exemplet [Sten, sax, påse](https://mau-webb.github.io/resurser/da354a-ht23/3-iteration-och-selektion/lecture-2/) för att se **hur** man skriver denna typ av dokumentation.
 
 #### Specifika krav för uppgiften
 
@@ -97,4 +103,4 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är _onsdag , 2022-12-07_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är _onsdag , 2023-12-06_.

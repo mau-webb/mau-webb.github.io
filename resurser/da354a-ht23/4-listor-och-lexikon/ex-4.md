@@ -49,18 +49,18 @@ Vi ska nu skapa en nästlad lista där vi sparar information om olika fotbollssp
 <table>
 	<tr>
 		<td>Viktor Claesson</td>
-		<td>29</td>
-		<td>FK Krasnodar</td>
+		<td>31</td>
+		<td>FC Köpenhamn</td>
 	</tr>
 	<tr>
 		<td>Niklas Hult</td>
-		<td>31</td>
-		<td>Hannover 96</td>
+		<td>33</td>
+		<td>Elfsborg</td>
 	</tr>
 	<tr>
 		<td>Jesper Karlsson</td>
-		<td>23</td>
-		<td>AZ Alkmaar</td>
+		<td>25</td>
+		<td>Bologna FC</td>
 	</tr>
 </table>
 
@@ -81,8 +81,8 @@ Vore det egentligen inte smidigare att spara fotbollsspelarna ovan i lexikon - d
 ```python
 {
     "name": "Jesper Karlsson",
-    "age": 23,
-    "club": "AZ Alkmaar"
+    "age": 25,
+    "club": "Bologna FC"
 }
 ```
 

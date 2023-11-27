@@ -9,19 +9,20 @@ title: "Modul 4 - Listor & Lexikon"
 
 Publiceras efter att föreläsningen ägt rum.
 
-<!--
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/14PuX1SgBjEYgm" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/HEz8QScQLRdQgA" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2022-listor.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2023-listor.pdf)
 
 ---
 
+<!--
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/LE7bjJ_0zHA?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
+-->
 
 ## Dagens exempel
 
@@ -86,82 +87,91 @@ print(total_sum/len(numbers))
 
 ```python
 def print_books(book_list):
-    print("\nBöcker")
-    print("*"*25)
-    for i, book in enumerate(book_list, start=1):
-        print(f"{i}: {book}")
+    """Skriver ut böckerna från en given lista
+    
+    Args
+        book_list (list): En lista med strängar som representerar boktitlar
+    """
+    print("\nBöcker:")
+    print("--------")
+    for book in book_list:
+        print(f"- {book}")
 
+def main():
+    # Skapar en lista, och lägger till två böcker i den
+    books = ["Harry Potter och de vises sten", "Sagan om ringen"]
+    # Lägger till boken "Liftarens guide till galaxen" sist i listan
+    books.append("Liftarens guide till galaxen")
 
-books = [
-    "Ondskan",
-    "Utvandrarna",
-    "Clean code"
-]
+    # Frågar användaren om en boktitel
+    new_book = input("Vilken bok vill du lägga till? ")
+    # Frågar användaren efter vilken plats i listan den ska läggas på
+    new_book_position = int(input("På vilken plats vill du att boken ska ligga? "))
+    # Lägger in boken på angiven plats
+    books.insert(new_book_position, new_book)
 
-book = input("Ange boken du vill ta bort: ")
-if book in books:
-    # Boken finns
-    books.remove(book)
-else:
-    print("Boken finns inte i listan")
+    # Skriver ut listan på böcker
+    print_books(books)
 
-# Skriv ut alla böckerna
-print_books(books)
+    # Frågar användaren om en boktitel som ska tas bort
+    remove_book_title = input("Ange titeln på den bok du vill ta bort: ")
 
-# Fråga användaren efter en bok
-new_book = input("Ange en titel: ")
+    # Kontrollerar om angiven boktitel finns listan
+    if remove_book_title in books:
+        # Om ja: Ta bort boktiteln
+        books.remove(remove_book_title)
+    else:
+        # Om nej: Skriv ut att boktiteln inte fanns med i listan
+        print(f"Boken: {remove_book_title} finns inte i listan av böcker!")
+    
+    # Skriver ut listan på böcker
+    print_books(books)
 
-# Lägg till boken sist i listan
-books.append(new_book)
+    # Tar bort den sista boken i listan, och sparar den i variabeln "last_book"
+    last_book = books.pop()
+    print(f"Vi har tagit bort boken {last_book}")
 
-# Skriv ut alla böckerna
-print_books(books)
+    # Sorterar listan i alfabetisk ordning
+    books.sort()
 
-# Fråga användaren efter en ny bok
-new_book_2 = input("Ang en titel som ska hamna först i listan: ")
+    # Skriver ut listan på böcker
+    print_books(books)
 
-# Lägg boken först i listan
-books.insert(0, new_book_2)
-
-# Skriv ut alla böckerna
-print_books(books)
-
-# Ta bort den sista boken
-removed_book = books.pop()
-print(f"Nu tog vi bort: {removed_book}")
-
-# Be användaren om att ta bort en bok
-book_to_be_removed = input("Ange titeln på boken du vill ta bort: ")
-books.remove(book_to_be_removed)
-
-# Skriv ut alla böckerna
-print_books(books)
+# Kör huvudfunktionen
+main()
 
 ```
 
 ### Listor & Lexikon
 
 ```python
-users = [{
-        "id": 1,
-        "name": "Anton",
-        "email": "anton.tibblin@mau.se"
-    },{
-        "id": 2,
-        "name": "Johan",
-        "email": "johan.holmberg@mau.se"
-    }, {
-        "id": 3,
-        "name": "Dipak",
-        "email": "dipak.surie@mau.se"
-    }
-]
+teachers = [{
+    "id": 2,
+    "name": "Johan",
+    "email": "johan.holmberg@mau.se"
+}, {
+    "id": 3,
+    "name": "Dipak",
+    "email": "dipak.surie@mau.se"
+}]
 
-for user in users:
-    print(f"Id: {user['id']}")
-    print(f"Namn: {user['name']}")
-    print(f"Email: {user['email']}")
-    print("")
+person = {}
+person["id"] = 1
+person["name"] = "Anton"
+person["email"] = "anton.tibblin@mau.se"
+
+teachers.append(person)
+
+# Bonus: Sortera lärarna efter deras id (stigande)
+teachers.sort(key=lambda teacher: teacher["id"])
+
+
+for teacher in teachers:
+    id = teacher["id"]
+    name = teacher["name"]
+    email = teacher["email"]
+    print(f"{id}: {name} ({email})")
+
 
 ```
 

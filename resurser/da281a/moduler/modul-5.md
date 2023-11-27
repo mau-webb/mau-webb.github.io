@@ -22,7 +22,7 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 * [React videos](https://egghead.io/courses/react-fundamentals) (videos)
 * [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 * [Getting started - React](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-* [Reacts startsida](https://facebook.github.io/react/index.html)
+* [Den officiella React-sidan som innehåller bland annat en Quick-start](https://react.dev/learn)
 * [ES6](http://coenraets.org/present/es6/#22) (den nya syntaxen för JavaScript)
 
 ### Övningar

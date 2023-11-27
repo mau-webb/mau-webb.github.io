@@ -16,11 +16,11 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 ### Digitala källor
 
 * [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
-* [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ)) (videos)
-* [Learn React In 30 Minutes] (https://www.youtube.com/watch?v=hQAHSlTtcmY)
+* [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (videos)
+* [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)
 (Obs: startfielrna är lite annorlunda men koden är fortfarande aktuell.)
 * [Den officiella React-sidan som innehåller bland annat en Quick-start](https://react.dev/learn)
-* [Spara strängar, objekt och en array av objekt med hjälp av en inbyggd JavaScript-objekt som kallas LocalStorage] (https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+* [Spara strängar, objekt och en array av objekt med hjälp av en inbyggd JavaScript-objekt som kallas LocalStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
 
 ### Övningar
 

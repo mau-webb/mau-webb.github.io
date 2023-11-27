@@ -18,12 +18,13 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 * [Understand JavaScripts this with clarity and master it](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 * [Nyckelordet: this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 * [7 min videointroduktion till React](https://egghead.io/lessons/react-react-in-7-minutes#/tab-discuss) (video)
-* [React tutorial](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/) (lång men väldigt bra)
-* [React videos](https://egghead.io/courses/react-fundamentals) (videos)
-* [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Allt om React](https://coenraets.org/react-js-tutorial-example/)
+* [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ)) (videos)
+* [Thinking in React]
+
 * [Getting started - React](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
 * [Den officiella React-sidan som innehåller bland annat en Quick-start](https://react.dev/learn)
-* [ES6](http://coenraets.org/present/es6/#22) (den nya syntaxen för JavaScript)
+* [ES6](http://coenraets.org/present/es6/#22) (Den nya syntaxen för JavaScript, valfritt)
 
 ### Övningar
 

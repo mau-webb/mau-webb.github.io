@@ -15,16 +15,12 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 
 ### Digitala källor
 
-* [Understand JavaScripts this with clarity and master it](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-* [Nyckelordet: this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
-* [7 min videointroduktion till React](https://egghead.io/lessons/react-react-in-7-minutes#/tab-discuss) (video)
-* [Allt om React](https://coenraets.org/react-js-tutorial-example/)
+* [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
 * [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ)) (videos)
-* [Thinking in React]
-
-* [Getting started - React](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+* [Learn React In 30 Minutes] (https://www.youtube.com/watch?v=hQAHSlTtcmY)
+(Obs: startfielrna är lite annorlunda men koden är fortfarande aktuell.)
 * [Den officiella React-sidan som innehåller bland annat en Quick-start](https://react.dev/learn)
-* [ES6](http://coenraets.org/present/es6/#22) (Den nya syntaxen för JavaScript, valfritt)
+* [Spara strängar, objekt och en array av objekt med hjälp av en inbyggd JavaScript-objekt som kallas LocalStorage] (https://www.w3schools.com/jsref/prop_win_localstorage.asp)
 
 ### Övningar
 

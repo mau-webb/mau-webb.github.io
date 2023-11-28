@@ -7,7 +7,7 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning - Extra
 
-Publiceras efter att tidigare föreläsningar ägt rum.
+Bingospelet börjar cikra **28 minuter** in i videon. Innan dess är det repetion kring listor.
 
 <div class="video-frame">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tpdFCDCVxbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

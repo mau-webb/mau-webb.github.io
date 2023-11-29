@@ -15,11 +15,12 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 
 ### Digitala källor
 
-* [Programmable Web](http://www.programmableweb.com/apis)
+* [Sammanställningar över publika API:er](https://github.com/public-apis/public-apis)
+* [Fler API:er](https://any-api.com/)
 * [8 Awesome Mashups Made Possible by APIs](http://mashable.com/2009/10/08/top-mashups/#PnAdCaK_4PqE)
-* [good APIs for mashups](https://gist.github.com/afeld/4952991)
-* [Load Initial Data via AJAX](https://facebook.github.io/react/tips/initial-ajax.html)
-* [5 Practical Examples For Learning The React Framework](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
+* [Use the JavaScript Fetch API to Get Data](https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/)
+* [Asynchronous JavaScript and XML (AJAX)](https://www.codecademy.com/resources/docs/javascript/ajax)
+* [Practical Examples For Learning The React Framework](https://react.dev/learn/tutorial-tic-tac-toe)
 * [50 Most Useful APIs for Developers](http://www.computersciencezone.org/50-most-useful-apis-for-developers/)
 
 ## Inlämningsuppgift

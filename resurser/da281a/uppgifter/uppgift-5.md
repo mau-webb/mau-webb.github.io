@@ -9,7 +9,7 @@ Betyg: U/G
 
 ## Syfte
 
-Syftet med den femte inlämningen är att använda sig av ett tredjepartsbibliotek - i detta fallet det populära biblioteket [React](https://facebook.github.io/react/index.html) (av Facebook). Detta bibliotek används för att skapa användargränssnitt. Tanken är att ni ska lära er använda ett bibliotek skrivet av någon annan samt förhålla er till hur detta bibliotek ska användas.
+Syftet med den femte inlämningen är att använda sig av ett tredjepartsbibliotek - i detta fallet det populära biblioteket [React](https://react.dev/) (av Facebook). Detta bibliotek används för att skapa användargränssnitt. Tanken är att ni ska lära er använda ett bibliotek skrivet av någon annan samt förhålla er till hur detta bibliotek ska användas.
 
 Inför denna uppgiften bör ni gå igenom följande två övningar:
 

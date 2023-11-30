@@ -25,7 +25,7 @@ Nyckelordet `this` används mycket i dessa sammanhang och därför är det vikti
 
 **React**
 
-* [Reacts startsida](https://react.dev/learn)
+* [Reacts startsida med quick start](https://react.dev/learn)
 * [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)(Obs: startfielrna är lite annorlunda men koden är fortfarande aktuell)
 * [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (video)
 * [React videos](https://egghead.io/courses/react-fundamentals)

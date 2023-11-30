@@ -13,7 +13,7 @@ Syftet med den sista inlämningen är att försöka knyta samman alla de delar s
 
 ## Uppgiften
 
-Tanken med denna uppgift är att ni ska göra en API-mashup, dvs. att ni kombinerar användningen av minst 2 stycken API:er. För att välja dessa kan ni ta en titt på [Samling of publika API:er](https://github.com/public-apis/public-apis). Utöver API:erna så är det andra kravet att användargränssnittet och interaktionen görs med React (som i föregående uppgift).
+Tanken med denna uppgift är att ni ska göra en API-mashup, dvs. att ni kombinerar användningen av minst 2 stycken API:er. För att välja dessa kan ni ta en titt på [samling of publika API:er](https://github.com/public-apis/public-apis). Utöver API:erna så är det andra kravet att användargränssnittet och interaktionen görs med React (som i föregående uppgift).
 
 Exempel till idéer för er mashup:
 

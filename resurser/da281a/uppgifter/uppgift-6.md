@@ -42,6 +42,6 @@ Möjligheterna är nästan oändliga och det svåra med detta är givetvis att k
 
 **Glöm inte kontrollera att ni skickat med svar på alla uppgifter och att ni följt kravspecifikationen.**
 
-När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på Canvas. Döp denna enligt formatet `inl6_Förnamn_Efternamn.zip`. DU ska även ladda upp dessa filer på webbshare och därefter ska du även inkludera länken dit.
+När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på Canvas. Döp denna enligt formatet `inl6_Förnamn_Efternamn.zip`. DU ska även ladda upp dessa filer på webshare och därefter ska du även inkludera länken dit.
 
 Lycka till!

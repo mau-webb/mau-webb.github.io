@@ -25,11 +25,11 @@ Nyckelordet `this` används mycket i dessa sammanhang och därför är det vikti
 
 **React**
 
-* [Reacts startsida](https://facebook.github.io/react/index.html)
-* [7 min videointroduktion till React](https://egghead.io/lessons/react-react-in-7-minutes#/tab-discuss)
-* [React tutorial](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/) (lång men väldigt bra)
+* [Reacts startsida](https://react.dev/learn)
+* [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)(Obs: startfielrna är lite annorlunda men koden är fortfarande aktuell)
+* [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (video)
 * [React videos](https://egghead.io/courses/react-fundamentals)
-* [Getting started - React](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+* [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
 * [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 
 **Extra**

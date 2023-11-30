@@ -30,7 +30,7 @@ Nyckelordet `this` används mycket i dessa sammanhang och därför är det vikti
 * [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (video)
 * [React videos](https://egghead.io/courses/react-fundamentals)
 * [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
-* [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+
 
 **Extra**
 

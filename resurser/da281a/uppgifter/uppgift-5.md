@@ -9,7 +9,7 @@ Betyg: U/G
 
 ## Syfte
 
-Syftet med den femte inlämningen är att använda sig av ett tredjepartsbibliotek - i detta fallet det populära biblioteket [React](https://facebook.github.io/react/index.html) (av Facebook). Detta bibliotek används för att skapa användargränssnitt. Tanken är att ni ska lära er använda ett bibliotek skrivet av någon annan samt förhålla er till hur detta bibliotek ska användas.
+Syftet med den femte inlämningen är att använda sig av ett tredjepartsbibliotek - i detta fallet det populära biblioteket [React](https://react.dev/) (av Facebook). Detta bibliotek används för att skapa användargränssnitt. Tanken är att ni ska lära er använda ett bibliotek skrivet av någon annan samt förhålla er till hur detta bibliotek ska användas.
 
 Inför denna uppgiften bör ni gå igenom följande två övningar:
 
@@ -25,12 +25,12 @@ Nyckelordet `this` används mycket i dessa sammanhang och därför är det vikti
 
 **React**
 
-* [Reacts startsida](https://facebook.github.io/react/index.html)
-* [7 min videointroduktion till React](https://egghead.io/lessons/react-react-in-7-minutes#/tab-discuss)
-* [React tutorial](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/) (lång men väldigt bra)
+* [Reacts startsida med quick start](https://react.dev/learn)
+* [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)(Obs: startfielrna är lite annorlunda men koden är fortfarande aktuell)
+* [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (video)
 * [React videos](https://egghead.io/courses/react-fundamentals)
-* [Getting started - React](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-* [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+* [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
+
 
 **Extra**
 

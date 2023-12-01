@@ -167,17 +167,17 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr>
 			<td></td>
 			<td>6/12</td>
-			<td>10-12</td>
-			<td>F: Fil- &amp; Felhantering (2)</td>
+			<td>08-10 + 10-12</td>
+			<td>F: Fil- &amp; Felhantering (2) + Labb</td>
 			<td>Anton</td>
-			<td>NI:B0E15</td>
+			<td>NI:A0307 + OR:D326 & OR:D377</td>
 		</tr>
 		<tr>
             <td></td>
 			<td>7/12</td>
 			<td>08-12</td>
 			<td>L: Listor &amp; Lexikon</td>
-			<td>Anton & Hussan</td>
+			<td>Hussan</td>
 			<td>NI:A0314, NI:A0318, NI:B0314</td>
 		</tr>
 		<tr class="odd">

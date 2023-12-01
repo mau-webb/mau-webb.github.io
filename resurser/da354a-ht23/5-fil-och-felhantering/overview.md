@@ -13,11 +13,12 @@ Något annat som är viktigt i programmering är att kunna hantera fel. Vi vill 
 
 | Innehåll | Kommentar |
 | --- | --- |
-| Föreläsning | Fel- och filhantering |
-| Föreläsning (2) | Fel- och filhantering |
-| Ö.1: Filhantering | Hur arbetar man med filer? |
-| Ö.2: Felhantering | Hur arbetar man med felhantering? |
-| Inlämningsuppgift | Grundläggande kunskap om fil- och felhantering |
+| [Föreläsning](../lecture) | Fel- och filhantering |
+| [Föreläsning (2)](../lecture-2) | Fel- och filhantering |
+| [Ö.1: Filhantering](../ex-1) | Hur arbetar man med filer? |
+| [Ö.2: Felhantering](../ex-2) | Hur arbetar man med felhantering? |
+| [Ö.2: Felhantering](../ex-3) | Hur arbetar man med fil- och felhantering i program? |
+| [Inlämningsuppgift](../assignment) | Grundläggande kunskap om fil- och felhantering |
 
 ### Rekommenderad läsning
 

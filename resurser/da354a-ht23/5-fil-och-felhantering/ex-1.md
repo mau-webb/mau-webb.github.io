@@ -127,7 +127,11 @@ __Tips:__ En idé kan vara att läsa in alla böckerna från textfilen i en list
 
 ### Exempellösningar
 
+Publiceras efter labben slut
+
+<!--
 - [Övning 1 - Att skriva till en fil](../ex-solutions/Ö1.1.py)
 - [Övning 2 - Att läsa från fil](../ex-solutions/Ö1.2.py)
 - [Övning 3 - Att skriva ytterligare information till en fil](../ex-solutions/Ö1.3.py)
 - [Övning 4 - Att ta radera från en fil](../ex-solutions/Ö1.4.py)
+-->

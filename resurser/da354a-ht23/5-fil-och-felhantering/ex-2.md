@@ -176,8 +176,12 @@ Lycka till med att räkna ut rätt tid och hantera tidsmaskinens konstigheter! O
 
 ### Exempellösningar
 
+Exempellösningar publiceras efter laborationens slut
+
+<!--
 - [Övning 1 - Förbättra er bokhanterare](../ex-solutions/Ö2.1.py)
 - [Övning 2 - Kontrollera användarinput](../ex-solutions/Ö2.2.py)
 - [Övning 3 - Nolldivision](../ex-solutions/Ö2.3.py)
 - [Övning 4 - Trasig kalkylator](../ex-solutions/Ö2.4.py)
 - [Övning 4 - Fångad i tiden](../ex-solutions/Ö2.5.py)
+-->

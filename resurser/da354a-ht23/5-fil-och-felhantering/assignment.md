@@ -33,7 +33,9 @@ namn;varv1;varv2;varv3
 
 För alternativ ett finns en exempelfil att utgå från (med några förinlagda resultat) [här](../files/result.txt).
 
+<!--
 _Det andra tillåtna alternativet_ är att använda något av de inbyggda biblioteken för serialisering, i form av `pickle` eller `json`.
+-->
 
 Programmet i sig ska ha tre funktioner:
 
@@ -98,7 +100,7 @@ För VG:
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2020-12-14_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2023-12-13_.
 
 Viktigt - Om du siktar på **VG** så skriv detta i en kommentar när du lämnar in på Canvas.
 {: .info}

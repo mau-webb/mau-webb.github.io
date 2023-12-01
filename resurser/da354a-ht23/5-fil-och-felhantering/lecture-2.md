@@ -5,11 +5,14 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 # Modul 5 - Fil- och felhantering i Python
 
+Presentation & kod presenteras efter tillfället den 6:e december.
+
+<!--
+
 Dagens föreläsning hade ingen presentation. Se bild och kod nedan.
 
 ![Bild på tabeller](../images/20221206_151422.jpg)
 
-<!--
 
 **OBS - dagens tillfälle spelades inte in**, detta då det var mycket ritande på tavlan och det var svårt att spela in det på ett bra och pedagogiskt sätt. Istället lägger jag upp extratillfället från förra året, där vi går igenom samma principer som vi gjorde på plats idag.
 

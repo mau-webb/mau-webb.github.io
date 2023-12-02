@@ -176,7 +176,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
             <td></td>
 			<td>7/12</td>
 			<td>08-12</td>
-			<td>L: Listor &amp; Lexikon</td>
+			<td>L: Fil- &amp; Felhantering</td>
 			<td>Hussan</td>
 			<td>NI:A0314, NI:A0318, NI:B0314</td>
 		</tr>
@@ -184,7 +184,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>50</td>
 			<td>14/12</td>
 			<td>08-12</td>
-			<td>L: Python &amp; Webben</td>
+			<td>L: Fil- &amp; Felhantering, m.m.</td>
 			<td>Anton & Hussan</td>
 			<td>NI:A0314, NI:A0318, NI:B0314</td>
 			<td rowspan="2">6</td>

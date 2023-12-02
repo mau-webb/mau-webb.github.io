@@ -30,8 +30,6 @@ Vill ni ha dagens exempelkod så hittar ni den [på denna länk](https://github.
 
 ---
 
--->
-
 ## Dagens exempel
 
 ### Shop - CSV-format

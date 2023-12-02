@@ -115,25 +115,25 @@ sidebar:
                 path: "ex-3"
               - label: "Inlämningsuppgift"
                 path: "assignment"
-#        - label: "6. Webbapplikationer"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: "overview"
-#              - label: "Föreläsning"
-#                path: "lecture"
-#              - label: "Föreläsning (extra)"
-#                path: "lecture-3"
-#              - label: "Extra videoförläsningar"
-#                path: "lecture-2"
-#              - label: "Inlämningsuppgift"
-#                path: "assignment"
-#        - label: "7. Objektorientering"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: overview"
-#              - label: "Föreläsning"
-#                path: "lecture"
-#              - label: "Övningar"
-#                path: "ex-1"
+        - label: "6. Webbapplikationer"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "overview"
+              - label: "Föreläsning"
+                path: "lecture"
+              - label: "Föreläsning (extra)"
+                path: "lecture-3"
+              - label: "Extra videoförläsningar"
+                path: "lecture-2"
+              - label: "Inlämningsuppgift"
+                path: "assignment"
+        - label: "7. Objektorientering"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: overview"
+              - label: "Föreläsning"
+                path: "lecture"
+              - label: "Övningar"
+                path: "ex-1"

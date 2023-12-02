@@ -5,6 +5,10 @@ title: "Modul 6 - Webbapplikationer"
 
 # Modul 6 - Webbapplikationer
 
+Publiceras efter att modulen presenterats.
+
+<!--
+
 ## Föreläsning (extra)
 
 <div class="video-frame">
@@ -218,3 +222,4 @@ run(host="127.0.0.1", port=8080, reloader=True)
     }
 ]
 ```
+-->

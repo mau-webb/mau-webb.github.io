@@ -181,35 +181,27 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>NI:A0314, NI:A0318, NI:B0314</td>
 		</tr>
 		<tr class="odd">
-            <td>50</td>
-			<td>11/12</td>
-			<td>13-15</td>
-			<td>F: Python &amp; Webben</td>
-			<td>Anton</td>
-			<td>NI:A0607</td>
-			<td rowspan="3">6</td>
-		</tr>
-		<tr class="odd">
-            <td></td>
-			<td>12/12</td>
-			<td>13-15</td>
-			<td>F: Python &amp; Webben (2)</td>
-			<td>Anton</td>
-			<td>NI:A0406</td>
-		</tr>
-		<tr class="odd">
-			<td></td>
+			<td>50</td>
 			<td>14/12</td>
 			<td>08-12</td>
 			<td>L: Python &amp; Webben</td>
 			<td>Anton & Hussan</td>
 			<td>NI:A0314, NI:A0318, NI:B0314</td>
+			<td rowspan="2">6</td>
+		</tr>
+		<tr class="odd">
+            <td></td>
+			<td>14/12</td>
+			<td>13-15</td>
+			<td>F: Python &amp; Webben</td>
+			<td>Anton</td>
+			<td>NI:C0E11</td>
 		</tr>
 		<tr>
             <td>51</td>
 			<td>19/12</td>
-			<td>13-15</td>
-			<td>F: Extra</td>
+			<td>13-17</td>
+			<td>L: Python &amp; Webben</td>
 			<td>Anton</td>
 			<td>NI:A0406</td>
 			<td></td>
@@ -228,7 +220,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>11/1</td>
 			<td>08-12</td>
 			<td>L: Objektorienterad programmering</td>
-			<td>Hussan</td>
+			<td>Anton (digitalt)</td>
 			<td>NI:A0314, NI:A0318, NI:B0314</td>
 		</tr>
 	</tbody>

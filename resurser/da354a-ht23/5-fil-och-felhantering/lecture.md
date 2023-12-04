@@ -7,14 +7,11 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 ## Föreläsning
 
-Presentation & kod presenteras efter tillfället den 4:e december.
-
-<!--
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/jDT907hVDRywmw" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/hirERMEmv9NPKK" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/Lecture-2022.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/Lecture-2023.pdf)
 
 ---
 <!--
@@ -22,6 +19,7 @@ Presentation & kod presenteras efter tillfället den 4:e december.
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/5ITue0swW_U?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
+-->
 
 ---
 
@@ -37,27 +35,30 @@ movies = ["Star Wars", "Titanic", "Fight club"]
 index = input("Ange index: ")
 
 if index.isdigit():
+    # Användaren angett en siffra
     index_as_int = int(index)
 
     if index_as_int >= 0 and index_as_int < len(movies):
         print(movies[index_as_int])
     else:
-        print("Du valde ett index som inte finns")
+        print("Du valde ett index som inte finns!")
 else:
-    print("Du angav ej en siffra")
+    print("Du angav inte en siffra!")
 
 
 # Alt 2.
-try:
-    index = int(input("Index: "))
-    print(movies[index])
-except IndexError:
-    print("Du valde ett index som inte finns")
-except ValueError:
-    print("Du angav ej en siffra")
+while True:
+    try:
+        index = int(input("Ange index: "))
+        print(movies[index])
+        break
+    except IndexError:
+        print("Du valde ett index som inte finns!")
+    except ValueError:
+        print("Du angav inte en siffra!")
 
 
-# Fråga efter ett nummer (tills användaren anger ett nummer)
+# Bonus: Fråga efter ett nummer (tills användaren anger ett nummer)
 while True:
     try:
         number = int(input("Ange ett nummer: "))
@@ -71,16 +72,16 @@ print(f"Du valde: {number}")
 ### Läsa in en fil och skirv ut innehållet
 
 ```python
-try:
-    my_file = open("lyrics/Laleh-Goliat.txt", "r")
-    content = my_file.readlines()
-    my_file.close()
-
-    for i, row in enumerate(content, start=1):
-        print(f"{i}: {row}", end="")
-
-except:
-    print("Filen finns inte!")
+# Öppna filen
+my_file = open("lyrics/goliat.txt")
+# Läs in innehållet till en lista (varje rad i textfilen är en sak i listan)
+lyric = my_file.readlines()
+# Gå igenom listan med alla rader text
+for i, line in enumerate(lyric, start=1):
+    # Skriv ut aktuell rad, tillsammans med radnummer
+    print(f"{i:<2}: {line}", end="")
+# Stäng filen
+my_file.close()
 ```
 
 Filen som användes i exemplet ovan hittar ni [här](../files/Laleh-Goliat.txt)
@@ -116,12 +117,12 @@ my_file.write("\nKaffe är gott")
 my_file.close()
 ```
 
-### Önskelista genom att skriva till fil genom *append*
+### Önskelista genom att skriva till fil genom *append* och *write*
 
 ```python
 def main():
-
-    wishes = get_wishes_from_file("wishes.txt")
+    FILE_NAME = "wishes.txt"
+    wishes = get_wishes_from_file(FILE_NAME)
 
     print("*"*30)
     print("Önskelista")
@@ -130,58 +131,77 @@ def main():
     while True:
         print_menu()
 
-        choice = input("Val: ")
+        choice = input("Ange val: ")
 
         if choice == "1":
             print_wish_list(wishes)
         elif choice == "2":
-            add_wish(wishes, "wishes.txt")
+            add_wish(wishes, FILE_NAME)
         elif choice == "3":
-            break
+            remove_wish(wishes, FILE_NAME)
+        elif choice == "4":
+            break # Avsluta programmet
         else:
-            print("Du angav inte ett giltigt val, försök igen")
+            print("Du valde ett felaktigt alternativ, försök igen.")
+
+def remove_wish(wish_list, filename):
+    print("\nTa bort en önskning")
+    print("---------------")
+    remove_item = input("Ange önskning att ta bort: ")
+    try:
+        wish_list.remove(remove_item)
+
+        my_file = open(filename, "w")
+        for wish in wish_list:
+            my_file.write(f"{wish}\n")
+        my_file.close()
+    except ValueError:
+        print("Saken du försökte ta bort finns inte i önskelistan")
 
 def add_wish(wish_list, filename):
     print("\nNy önskning")
-    print("-----------")
+    print("---------------")
     new_item = input("Ange ny önskning: ")
-    # Lägg till i programmet lista över önskningar
     wish_list.append(new_item)
-    # Lägg till i filen
+    # Lägg till önskningen i textfilen
     my_file = open(filename, "a")
-    my_file.write(F"{new_item}\n")
+    my_file.write(f"{new_item}\n")
     my_file.close()
-    
 
 def print_wish_list(wish_list):
     print("\nÖnskelista")
-    print("-----------")
-    for item in wish_list:
-        print(item, end="")
+    print("---------------")
+    for wish in wish_list:
+        print(f"- {wish}")
 
 def print_menu():
     print("\nMeny")
-    print("----")
     print("1) Visa önskelista")
-    print("2) Lägg till sak")
-    print("3) Avsluta programmet")
+    print("2) Lägg till en sak i önskelistan")
+    print("3) Ta bort en önskning")
+    print("4) Avsluta")
 
 def get_wishes_from_file(filename):
     try:
         my_file = open(filename, "r")
-        data = my_file.readlines()
+        wishes = []
+        file_data = my_file.read()
+        for wish in file_data.split("\n"):
+            if wish != "":
+                wishes.append(wish)
         my_file.close()
-        return data
-    except:
-        print("Filen finns inte, men jag är ett snällt program, så jag skapar den till dig =)")
+
+        return wishes
+    except FileNotFoundError:
+        print("Filen finns inte, men oroa dig inte - vi skapar den till dig! =)")
         my_file = open(filename, "w")
         my_file.close()
         return []
-        
-
-
+    
 main()
 ```
+
+<!--
 
 ### Önskelista genom att skriva till fil genom *write*
 
@@ -260,7 +280,6 @@ def get_wishes_from_file(filename):
 
 main()
 ```
-<!--
 
 ### Ett program som hanterar produkter
 

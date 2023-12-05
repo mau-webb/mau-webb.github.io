@@ -15,6 +15,7 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 
 ### Digitala källor
 
+* [React course](https://www.codecademy.com/resources/docs/react) (Bra länk trots äldre version)
 * [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
 * [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (videos)
 * [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)

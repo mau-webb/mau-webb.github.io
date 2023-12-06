@@ -5,9 +5,6 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 # Modul 5 - Fil- och felhantering i Python
 
-Presentation & kod presenteras efter tillfället den 6:e december.
-
-
 Dagens föreläsning hade ingen presentation. Se bild och kod nedan.
 
 ![Bild på tabeller](https://lh3.googleusercontent.com/pw/ADCreHeHNyWwP4uig9-XJ30WvVm4J4H_YedopfRUxoyFU1USDwSKmeo_NmFi07POjfEpa5mIxRl5YmniudhYjh21m-46WG434SusqZOBe2ATlCwAzQ3xlydXNc778YsnWC9GQ-_DnuqM0uNxFWqumPrRJnMWE-KFyUhLQBQ-eLEz6ZTR_kbqNekMK9S6AalTrFMjVEXb55PUtFQTMEhgAC8wigYAqHNK_-cS8oVYRD4TzopNle5LQH7JvWXahUPxUiTV3Pk8YAQR-P-bLBGKxA0FBSkY6BtoFY3nvui8f0mI2Mb1Bm6UGfi8PnjdwxDp_6avJNWwdPiN1-dp6fRu7NCMKdB221sZSlwadiUWi-EHvw3eObfOKm9smpW7KnL6_CW_Y6DpdQdPxstCrNIrOWZD-9mZCQPDzAJPWsWr-x2UvmehkYbohNlSYurrKtg_rhVdED4R-nK595BJZXIvRKvi4xqq9KA16PWEiBElMtMBAMVpb7-PRo2UyvBeurw_B0AJWTvaA8hSTtu0j2cPonacxJt0KRyf4XazYecD3dMghDu6myeyqyAcjNKAtNKppQeQPZo3O5BILljMmhjpiRMbqqzsOpQ2c-N7-FF_aYtktzNnbtEsoFLNyldlE-y0hsZJUw729T5zlYw8JAs1kVmGK-hJVHSX1QgtdCFQN9N8I-N0utOE1pJ0c7IL0FB6eJ5IDeBhuXZa9G4XTeOKCwc2ABrMTJkFQn3wZPmv9Wa7QExL9IenfPekWlOVKoP-73Qnygfal50K-ODS9QHhAGoR22RdzD07BryNL3B_UtP6z6zzlkYAHUt-vn-VqX2qhCuP3BRS-Y0LtCVivxgJt0B2HxsOWWZYM4oXYYc0mmJMDgV1kBgAKTy3RSQa3280H9-AZZtdES992xJpOBOe4BF_L1rR6mvcrjNmZEw9qoLtmg=w1696-h955-s-no-gm?authuser=0)
@@ -234,7 +231,7 @@ main()
 6;Active 7;Jabra;1800
 
 ```
--->
+
 <!--
 ### Shop - JSON-format
 

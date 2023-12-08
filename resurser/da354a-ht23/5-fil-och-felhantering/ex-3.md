@@ -77,8 +77,4 @@ Eller genom JSON, t.ex. på följade sätt:
 
 ### Exempellösningar
 
-Exempellösningar publiceras efter laborationens slut
-
-<!--
 - [Förbättring av programmet, med ";" som separerare](../ex-solutions/Ö3.py)
--->

@@ -5,10 +5,6 @@ title: "Modul 6 - Webbapplikationer"
 
 # Modul 6 - Webbapplikationer
 
-Publiceras efter att modulen presenterats.
-
-<!--
-
 ## Föreläsning (Extra)
 
 Denna föreläsningen ersätts av inspelade videos som grundligt går igenom hur man kan bygga en webbapplikation med python & bottle - en bra grund inför inlämningsuppgiften. Ett starkt tips är att se de i ordning (då de bygger vidare på varandra). Slutresultatet (i form av kod) kan ni se [här](https://github.com/Tibbelit/Example-bottle-app).
@@ -50,5 +46,3 @@ Denna föreläsningen ersätts av inspelade videos som grundligt går igenom hur
 ### 5. Ladda ner källkoden till exemplet ovan
 
 [Det gör ni på Github genom denna länk](https://github.com/Tibbelit/Example-bottle-app)
-
--->

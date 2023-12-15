@@ -7,19 +7,20 @@ title: "Modul 6 - Webbapplikationer"
 
 ## Föreläsning
 
-Publiceras när föreläsningen ägt rum.
 
-<!--
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/677ce9d2303b48d4a1d8805810f3f45b" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/mrb9DSWY6RN4Nq" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
+
+<!--
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/Episode X-2021.pdf)
 
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/_6wmXRLPWXM?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
+-->
 
 ---
 
@@ -511,4 +512,3 @@ $(document).on("ready", function(){
 	})
 });
 ```
--->

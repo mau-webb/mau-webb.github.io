@@ -22,14 +22,14 @@ I denna modul kommer vi börja med alternativ 1, "inline styling", och i nästko
 ### Kurslitteratur
 
 * Kapitel 5: Formatmallar, HTML och CSS-boken
-* Kapitel 3: Adding some style, Build your own website the right way using HTML & CSS
+* Kapitel 11-13, Learning Web Design
 
 ### Övrig läsning
 
-* [Intro till CSS och "inline styling"](/{{ site.resource_path }}/da280a/material/m3_vid_intro_css/) (video)
+* [Intro till CSS och "inline styling"](https://youtu.be/yfoY53QXEnI?si=rFkdeXCRJk1Pawmw) (video)
 * [CSS Tutorial (w3schools)](http://www.w3schools.com/css/)
 * [CSS Reference (w3schools)](http://www.w3schools.com/cssref/default.asp)
-* [CSS: coding with style (codeacademy)](https://www.codecademy.com/courses/css-coding-with-style/0/1) (guide)
+* [CSS: coding with style (codeacademy)](https://www.codecademy.com/resources/docs/css) (guide)
 
 ### Inlämningsuppgift
 

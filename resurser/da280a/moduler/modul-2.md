@@ -22,7 +22,7 @@ Tabeller kan vara allt ifrån väldigt grundläggande till mer avancerade. Tänk
 
 * [Om tabeller (mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 * [Om tabeller (w3schools)](http://www.w3schools.com/tags/tag_table.asp)
-* [Tabellövningar i CodeAcademy](https://www.codecademy.com/courses/web-beginner-en-f8mcL/0/1) (guide)
+* [Tabell i CodeAcademy](https://www.codecademy.com/resources/docs/html/elements/table) (guide)
 
 ### Inlämningsuppgift
 

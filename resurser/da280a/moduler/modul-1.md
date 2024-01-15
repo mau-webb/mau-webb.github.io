@@ -34,7 +34,8 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 ### Kurslitteratur
 
 * Kapitel 1 - 4, HTML och CSS-boken
-* Kapitel 1 - 2, Build your own website the right way using HTML & CSS
+* Kapitel 4 - 7, Learning Web Design
+
 
 ### Övrig läsning
 

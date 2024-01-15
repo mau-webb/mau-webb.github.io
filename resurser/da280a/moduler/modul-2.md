@@ -16,7 +16,8 @@ Tabeller kan vara allt ifrån väldigt grundläggande till mer avancerade. Tänk
 ### Kurslitteratur
 
 * Kapitel 4 och 7, HTML och CSS-boken
-* Kapitel 5 - 6, Build your own website the right way using HTML & CSS
+* Kapitel 8, Learning Web Design
+
 
 ### Övrig läsning
 

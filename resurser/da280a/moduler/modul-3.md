@@ -16,6 +16,8 @@ I denna modul ska vi i inlämningsuppgiften bygga ett formulär som innehåller 
 ### Kurslitteratur
 
 * Kapitel 9, HTML och CSS-boken
+* Kapitel 9, Learning Web Design
+
 
 ### Övrig läsning
 
@@ -25,7 +27,7 @@ I denna modul ska vi i inlämningsuppgiften bygga ett formulär som innehåller 
 * [HTML Form Elements (w3schools)](http://www.w3schools.com/html/html_form_elements.asp)
 * [HTML Input Types (w3schools)](http://www.w3schools.com/html/html_form_input_types.asp)
 * [HTML Input Attributes (w3schools)](http://www.w3schools.com/html/html_form_attributes.asp)
-* [Formulärsövningar i CodeAcademy](https://www.codecademy.com/courses/web-beginner-en-Vfmnp/0/2)
+* [Formulärexempel i CodeAcademy](https://www.codecademy.com/resources/docs/html/forms)
 
 ### Inlämningsuppgift
 

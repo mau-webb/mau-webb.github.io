@@ -51,7 +51,7 @@ _Det rekommenderas att gå igenom allt de material som anges nedan samt att sök
 * [Indentering](/{{ site.resource_path }}/da280a/material/m1_ex_indentation/) (övning)
 * [Att validera HTML](/{{ site.resource_path }}/da280a/material/m1_ex_validate_html/) (övning)
 * [w3schools: en guidad introduktion till HTML](http://www.w3schools.com/htmL/html_intro.asp) (guide)
-* [Codeacademy: en interaktiv introduktion till HTML](https://www.codecademy.com/courses/html-one-o-one/0/1) (guide)
+* [Codeacademy: en interaktiv introduktion till HTML](https://www.codecademy.com/resources/docs/html)) (guide)
 
 ### Inlämningsuppgift
 

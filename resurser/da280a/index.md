@@ -27,7 +27,7 @@ Det rekommenderas att läsa igenom den kompletta [kursplanen](https://edu.mah.se
 
 ### Kurslitteratur
 
-* *Learning Web Design, A beginner's guide to html, css, javascript, and web graphics. Niederst Robbins, Jennifer. (2018) ISBN: **9781491960202**
+* *Learning Web Design, A beginner's guide to html, css, javascript, and web graphics*. Niederst Robbins, Jennifer. (2018) ISBN: **9781491960202**
 * *HTML 5: HTML och CSS-boken*. Staflin, Rolf (2011). ISBN: **9789163609947**
 
 Kurslitteraturen används i samband med en mängd elektroniska källor och övrigt material för att ge en stor bredd på den information du kan ta till dig. Det innebär att utöver att följa de hänvisningar som ges så rekommenderas det starkt att du aktivt själv söker information.

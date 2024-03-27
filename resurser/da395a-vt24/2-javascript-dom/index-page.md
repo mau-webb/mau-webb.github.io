@@ -11,8 +11,8 @@ Dessutom kommer vi att gå igenom vad som menas med **peer reviewing** (kamratgr
 
 ## Veckans kurstillfälle
 
-- Måndag kl. 13.15 - **Föreläsning**: [JavaScript & DOM](../f1/)
-- Onsdag kl. 08.15 - **Laboration**: [Inlämningsuppgift 1.a.](../i1/) & [Inlämningsuppgift 1.b.](../i2/)
+- Onsdag kl. 08.15 - **Föreläsning**: [JavaScript & DOM](../f1/)
+- Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 1.a.](../i1/) & [Inlämningsuppgift 1.b.](../i2/)
 
 ## Läshänvisningar
 

@@ -51,17 +51,17 @@ sidebar:
               - label: "Extra övningar"
                 path: "extra"
           
-#        - label: "3. RWD & CSS-ramverk"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: "index-page"
-#              - label: "F: RWD & CSS-ramverk"
-#                path: "f1"
-#              - label: "Inlämningsuppgift 2.a"
-#                path: "i1"
-#              - label: "Inlämningsuppgift 2.b"
-#                path: "i2"
+        - label: "3. RWD & CSS-ramverk"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "index-page"
+              - label: "F: RWD & CSS-ramverk"
+                path: "f1"
+              - label: "Inlämningsuppgift 2.a"
+                path: "i1"
+              - label: "Inlämningsuppgift 2.b"
+                path: "i2"
 
 #        - label: "4. jQuery & Ajax"
 #          collapsed: true

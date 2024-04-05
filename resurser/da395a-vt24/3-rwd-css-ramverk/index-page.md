@@ -9,7 +9,7 @@ Denna vecka ska vi fokusera på [responsiv webbdesign](https://sv.wikipedia.org/
 
 ## Veckans kurstillfälle
 
-- Onsdag kl. 10.15 - **Föreläsning**: [RWD & CSS-ramverk](../f1/)
+- Måndag kl. 13.15 - **Föreläsning**: [RWD & CSS-ramverk](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 2.a.](../i1/) & [Inlämningsuppgift 2.b.](../i2/)
 
 ## Läshänvisningar

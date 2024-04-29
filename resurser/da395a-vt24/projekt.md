@@ -26,7 +26,7 @@ Skulle ni inte lyckas att skapa en grupp innan deadline så **skapa en grupp med
 * Ni ska bygga en webbapplikation baserat på ett ramverk/bibliotek (t.ex. React, Vue, Angular, etc.).
 * Ni ska motivera ert val av detta ramverk/bibliotek genom en jämförelse med två andra (t.ex. om ni valt React, varför valde ni inte Vue eller Angular?).
 * Er webbapplikation ska använda sig av **minst** ett externt API (som tidigare **inte** använts i laborationerna eller uppgifterna).
-	* Anrop till det externa webb-API:t ska göras med hjälp av det valda ramverkets funktioner för webbanrop.
+	* Anrop till det externa webb-API:t ska göras med hjälp av för ramverket lämpliga funktioner för webbanrop.
 * Er webbapplikation ska antingen göra det möjligt för en användare att kunna spara data, eller att webbapplikationen sparar data på egen hand, i relation till det valda API:et.
     * Till exempel ett filmbibliotek genom ett API för filmer.
     * Till exempel en lista över de senaste vädersökningarna genom ett API för väderdata.

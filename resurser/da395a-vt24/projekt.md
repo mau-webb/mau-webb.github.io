@@ -7,17 +7,12 @@ title: "Projekt"
 
 Projektet ska göras i grupper om **tre (3) personer**.
 
-Information om hur projektgrupperna skapas publiceras när projektdelen av kursen närmar sig.
-{: .info}
+Ni anmäler er projektgrupp via [Canvas](https://mau.instructure.com/courses/16101/groups#tab-16101). Anmäl er grupp **senast den 7:e Maj (23:59)** - det är **superviktigt** att ni gör detta i tid, så att ni får redovisa projektet vid redovisningstillfällena i slutet av kursen.
 
-<!--
-Ni anmäler er projektgrupp via Canvas på den här länken: [https://mau.instructure.com/courses/12971/assignments/92559](). Anmäl er grupp **senast den 10:e Maj (23:59)** - det är **superviktigt** att ni gör detta i tid, så att ni får redovisa projektet vid redovisningstillfällena i slutet av kursen
+Hittar ni ingen projektgrupp så skriv (i god tid) i kanalen `#hitta-projektgrupp` på Discord för att hitta andra studenter som också vill hitta en projektgrupp.
 
-Hittar ni ingen projektgrupp så skriv (i god tid) i kanalen `#hitta-projektgrupp` på Discord för att hitta andra studenter som också vill hitat en projektgrupp.
+Skulle ni inte lyckas att skapa en grupp (med 3 studenter i) innan deadline så **skapa en grupp med bara en person i (du)** - så kommer vi att slå ihop alla "en"- och "två"-grupper till "tre"-grupper den 8:e maj (dubbelkolla då den slutgiltiga gruppindelningen).
 
-Skulle ni inte lyckas att skapa en grupp innan deadline så **skapa en grupp med bara en person i (du)** - så kommer vi att slå ihop alla "en"- och "två"-grupper till "tre"-grupper senast den 12:e maj.
-
--->
 
 ---
 

@@ -9,7 +9,7 @@ Denna vecka ska vi titta lite på utvecklingsmetodik, och mer specifikt hur vi a
 
 ## Veckans kurstillfälle
 
-- Onsdag kl. 10.15 - **Föreläsning**: [Utvecklingsmetodik](../f1/)
+- Måndag kl. 13.15 - **Föreläsning**: [Utvecklingsmetodik](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 5](../i1/)
 
 ## Läshänvisningar

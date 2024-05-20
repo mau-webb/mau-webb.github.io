@@ -64,7 +64,7 @@ Varje projektgrupp kommer få cirka 10 minuter (plus 5 minuter för frågor) fö
 * En kort demonstration av er webbapplikation.
 * En kort reflektion över hur arbetet har gått och vilka lärdomar ni tar med er från detta.
 
-**På det tillfälle (onsdag förmiddag eller torsdag eftermiddag, v.22) ni redovisar så förväntas det att ni stannar hela tillfället.**
+**På det tillfälle (torsdag förmiddag eller torsdag eftermiddag, v.22) ni redovisar så förväntas det att ni stannar hela tillfället.**
 
-Information om hur man bokar in en redovisningstid kommer i god tid innan presentationerna.
+Redovisningstid är **torsdagen den 30/5**. Ni bokar in er på en tid via Canvas kalender.
 {: .info}

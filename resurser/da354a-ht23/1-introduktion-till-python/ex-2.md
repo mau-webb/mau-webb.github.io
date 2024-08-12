@@ -158,3 +158,20 @@ first_number = int(input("Tal 1: "))
 ```
 
 I övrigt är det upp till er hur ni konstruerar programmet, så länge resultatet liknar utskriftsbilden ovan.
+
+### Övningsuppgift 3 - extra utmaning
+
+Vi ska nu skapa ett program som multiplicerar ett tal med sig självt (kvadrerar talet). Programmet ska fråga använderen om **ett tal** och sedan skriva ut kvadraten av talet.
+
+Exempel på hur resultatet kan se ut såhär:
+```python
+Tal: 5
+5 * 5 = 25
+```
+eller såhär:
+```python
+Tal: 5
+5^2 = 25
+```
+
+Om du löste uppgiften med att använda `variabel * variablen`, testa att använda [`**`-operatorn](https://www.geeksforgeeks.org/what-does-the-double-star-operator-mean-in-python/) istället (använd `number ** 2` istället för `number * number`). Vad händer? 

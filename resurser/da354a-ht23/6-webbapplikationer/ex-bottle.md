@@ -36,7 +36,7 @@ Kom igång med Bottle genom att installera ramverket och skapa en enkel webbsida
 
 4. Kör din applikation genom att köra följande kommando:
    ```bash
-    python app.py
+   python app.py
    ```
 5. Öppna din webbläsare och navigera till [`http://localhost:8080`](http://localhost:8080). Du borde nu se texten "Välkommen till din första Bottle-app!".
 
@@ -76,8 +76,7 @@ Lär dig att hantera användarinmatning genom att skapa ett enkelt formulär och
 ### Instruktioner
 
 1. Lägg till följande rutt i din app.py-fil för att skapa ett formulär:
-
-   ```python
+```python
    from bottle import request
 
    @route("/form")
@@ -112,8 +111,7 @@ Lär dig att hantera fel genom att skapa en enkel 404-sida.
 ### Instruktioner
 
 1. Lägg till följande kod för att fånga upp icke-existerande sidor:
-
-   ```python
+```python
    from bottle import error
 
    @error(404)
@@ -142,30 +140,30 @@ Lär dig att använda Jinja2-templates för att skapa dynamiska HTML-sidor.
 2. Skapa en ny mapp i din projektmapp som heter `views`.
 3. Inuti `views`-mappen, skapa en fil som heter `good_morning_template.html` med följande innehåll:
    ```html
-    <!DOCTYPE html>
-    <html lang="sv">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Godmorgon!</title>
-    </head>
-    <body>
-        <h1>Godmorgon!</h1>
-        <p>Kul att du ville titta in.</p>
-    </body>
-    </html>
-    ```
+   <!DOCTYPE html>
+   <html lang="sv">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Godmorgon!</title>
+   </head>
+   <body>
+       <h1>Godmorgon!</h1>
+       <p>Kul att du ville titta in.</p>
+   </body>
+   </html>
+   ```
 4. Uppdatera din app.py för att använda detta template med Jinja2:
    ```python
-    from bottle import jinja2_template as template, TEMPLATE_PATH
+   from bottle import jinja2_template as template, TEMPLATE_PATH
 
-    # Ställ in relativ väg för templates
-    template_path = os.path.join(os.path.dirname(__file__), "views")
-    TEMPLATE_PATH.insert(0, template_path)
+   # Ställ in relativ väg för templates
+   template_path = os.path.join(os.path.dirname(__file__), "views")
+   TEMPLATE_PATH.insert(0, template_path)
 
-    @route("/good-morning")
-    def good_morning():
-        return template("good_morning_template.html")
+   @route("/good-morning")
+   def good_morning():
+       return template("good_morning_template.html")
 
     ```
 5. Spara filen och starta om din server.
@@ -181,23 +179,23 @@ Lär dig att skicka variabler till Jinja2-templates för att skapa dynamiska sid
 
 1. Skapa en ny fil i `views`-mappen som heter `goodbye_template.html` med följande innehåll:
    ```html
-    <!DOCTYPE html>
-    <html lang="sv">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hej då, {{ name }}!</title>
-    </head>
-    <body>
-        <h1>Hej då, {{ name }}!</h1>
-    </body>
-    </html>
-    ```
+   <!DOCTYPE html>
+   <html lang="sv">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Hej då, {{ name }}!</title>
+   </head>
+   <body>
+       <h1>Hej då, {{ name }}!</h1>
+   </body>
+   </html>
+   ```
 2. Uppdatera din app.py-fil för att skicka en variabel till ditt template:
    ```python
-    @route("/goodbye/<name>")
-    def goodbye(name):
-        return template("goodbye_template.html", name=name)
+   @route("/goodbye/<name>")
+   def goodbye(name):
+       return template("goodbye_template.html", name=name)
    ```
 3. Spara filen och starta om din server.
 4. Gå till [`http://localhost:8080/goodbye/DittNamn`](http://localhost:8080/goodbye/DittNamn) och se hur variabeln `name` används i HTML-templaten.

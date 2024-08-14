@@ -23,20 +23,19 @@ Kom igång med FastAPI genom att installera ramverket och skapa en enkel endpoin
    pip install fastapi uvicorn
    ```
 3. Skapa en ny Python-fil som du kan kalla `main.py` och lägg in följande kod:
-
    ```python
-    from fastapi import FastAPI
+   from fastapi import FastAPI
 
-    app = FastAPI()
+   app = FastAPI()
 
-    @app.get("/")
-    def root():
-        return "Välkommen till din första FastAPI-app!"
+   @app.get("/")
+   def root():
+       return "Välkommen till din första FastAPI-app!"
    ```
 
 4. Kör din applikation genom att köra följande kommando:
    ```bash
-    uvicorn main:app --reload
+   uvicorn main:app --reload
    ```
 5. Öppna din webbläsare och navigera till [`http://localhost:8000`](http://localhost:8000). Du borde nu se texten `"Välkommen till din första FastAPI-app!"`.
 
@@ -56,9 +55,9 @@ Lär dig att hantera dynamiska URL genom att lägga till en route som tar emot e
 1. Utöka din `main.py`-fil med följande kod:
 
    ```python
-     @app.get("/hello/{name}")
-    def hello(name: str):
-        return f"Hej {name}!"
+   @app.get("/hello/{name}")
+   def hello(name: str):
+       return f"Hej {name}!"
    ```
 
 2. Spara filen. Servern uppdateras automatiskt om du körde kommmandot `uvicorn main:app --reload`. (Det är `--reload` som gör att servern uppdateras automatiskt när du sparar filen.)
@@ -77,33 +76,31 @@ Lär dig att hantera användarinmatning genom att skapa en route som tar emot da
 
 ### Instruktioner
 
-1. Installera det nödvändiga biblioteket för att hantera formulärdata:
-
+1. Installera det nödvändiga biblioteket för att hantera formulärdata i FastAPI:
    ```bash
    pip install python-multipart
    ```
 
 2. Lägg till följande kod i din main.py-fil för att skapa ett enkelt formulär:
-
    ```python
    from fastapi import Request
    from fastapi.responses import HTMLResponse
 
-    @app.get("/form", response_class=HTMLResponse)
-    def form():
-      return """
-        <form action="/form" method="post">
-          <label for="name">Skriv ditt namn:</label>
-          <input id="name" name="name" type="text" required />
-          <button type="submit">Skicka</button>
-        </form>
-      """
+   @app.get("/form", response_class=HTMLResponse)
+   def form():
+       return """
+         <form action="/form" method="post">
+           <label for="name">Skriv ditt namn:</label>
+           <input id="name" name="name" type="text" required />
+           <button type="submit">Skicka</button>
+         </form>
+       """
 
-    @app.post("/form", response_class=HTMLResponse)
-    async def form_submit(request: Request):
-      form_data = await request.form()
-      name = form_data.get("name")
-      return f"Hej {name}"
+   @app.post("/form", response_class=HTMLResponse)
+   async def form_submit(request: Request):
+       form_data = await request.form()
+       name = form_data.get("name")
+       return f"Hej {name}"
    ```
 
 3. Spara filen.
@@ -124,13 +121,12 @@ Lär dig att hantera fel genom att skapa en anpassad 404-sida för att visa ett 
 ### Instruktioner
 
 1. Använd FastAPI inbyggda funktion för att hantera icke-existerande routes genom att lägga till följande kod i din main.py-fil:
-
    ```python
    from fastapi.responses import PlainTextResponse
 
    @app.exception_handler(404)
    async def custom_404_handler(request, exc):
-     return PlainTextResponse("404 - Sidan kunde inte hittas.", status_code=404)
+       return PlainTextResponse("404 - Sidan kunde inte hittas.", status_code=404)
    ```
 
 2. Spara filen.
@@ -169,7 +165,6 @@ Lär dig att leverera HTML-sidor med FastAPI genom att använda templates.
    </html>
    ```
 4. Uppdatera din `main.py` för att använda detta template med FastAPI:
-
    ```python
    from fastapi.templating import Jinja2Templates
    from fastapi import Request

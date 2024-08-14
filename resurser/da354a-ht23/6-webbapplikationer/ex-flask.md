@@ -22,27 +22,27 @@ Kom igång med Flask genom att installera ramverket och skapa en enkel webbsida.
    ```bash
    pip install Flask
    ```
-   OBS! Det ska vara `Flask`, och inte `flask`.
+   **OBS!** Det ska vara `Flask`, och inte `flask`.
+
 3. Skapa en ny Python-fil som du kan kalla `app.py` och lägg in följande kod:
+```python
+   from flask import Flask
 
-   ```python
-    from flask import Flask
+   app = Flask(__name__)
 
-    app = Flask(__name__)
+   @app.route("/")
+   def index():
+       return "Välkommen till din första Flask-app!"
 
-    @app.route("/")
-    def index():
-        return "Välkommen till din första Flask-app!"
-
-    if __name__ == "__main__":
-        app.run(debug=True)
+   if __name__ == "__main__":
+       app.run(debug=True)
    ```
 
-4. Kör din applikation genom att köra följande kommando:
+3. Kör din applikation genom att köra följande kommando:
    ```bash
-    python app.py
+   python app.py
    ```
-5. Öppna din webbläsare och navigera till [`http://localhost:5000`](http://localhost:5000). Du borde nu se texten "Välkommen till din första Flask-app!".
+4. Öppna din webbläsare och navigera till [`http://localhost:5000`](http://localhost:5000). Du borde nu se texten "Välkommen till din första Flask-app!".
 
 ### Utmaningar
 
@@ -59,9 +59,9 @@ Lär dig att hantera dynamiska URL genom att lägga till en route som tar emot e
 
 1. Utöka din app.py-fil med följande kod:
    ```python
-    @app.route("/hello/<name>")
-    def hello(name):
-        return f"Hej {name}!"
+   @app.route("/hello/<name>")
+   def hello(name):
+       return f"Hej {name}!"
    ```
 2. Spara filen. Om servern har krashat kan du behöva starta den igen.
 3. Gå till [`http://localhost:5000/hello/DittNamn`](http://localhost:5000/hello/DittNamn)) i din webbläsare och ersätt DittNamn med ditt namn.
@@ -80,24 +80,23 @@ Lär dig att hantera användarinmatning genom att skapa ett enkelt formulär och
 ### Instruktioner
 
 1. Lägg till följande rutt i din app.py-fil för att skapa ett formulär:
+```python
+   from flask import request
 
-   ```python
-    from flask import request
-
-    @app.route("/form")
-    def form():
-        return """
-            <form action="/form" method="post">
+   @app.route("/form")
+   def form():
+       return """
+          <form action="/form" method="post">
                 <label for="name">Skriv ditt namn:</label>
                 <input id="name" name="name" type="text" required />
                 <button type="submit">Skicka</button>
-            </form>
-        """
+          </form>
+       """
 
-    @app.route("/form", methods=["POST"])
-    def form_submit():
-        name = request.form.get("name")
-        return f"Hej, {name}!"
+   @app.route("/form", methods=["POST"])
+   def form_submit():
+       name = request.form.get("name")
+       return f"Hej, {name}!"
    ```
 
 2. Spara filen. Om servern har krashat kan du behöva starta den igen.
@@ -116,12 +115,11 @@ Lär dig att hantera fel genom att skapa en enkel 404-sida.
 ### Instruktioner
 
 1. Lägg till följande kod för att fånga upp icke-existerande sidor:
-
-   ```python
+```python
    @app.errorhandler(404)
    def page_not_found(e):
-      return "404 - Sidan kunde inte hittas.", 404
-   ```
+       return "404 - Sidan kunde inte hittas.", 404
+```
 
 2. Spara filen, starta servern vid behov.
 3. Testa att besöka en sida som inte finns, till exempel [`http://localhost:5000/ingensida`](http://localhost:5000/ingensida).
@@ -157,13 +155,12 @@ _Flask kommer med Jinja2 som standard, så du behöver inte installera det separ
    </html>
    ```
 3. Uppdatera din app.py för att använda detta template med Flask:
+```python
+   from flask import render_template
 
-   ```python
-    from flask import render_template
-
-    @app.route('/good-morning')
-    def good_morning():
-        return render_template('good_morning.html')
+   @app.route('/good-morning')
+   def good_morning():
+       return render_template('good_morning.html')
    ```
 
 4. Spara filen, starta servern vid behov.
@@ -192,11 +189,10 @@ Lär dig att skicka variabler till Jinja2-templates för att skapa dynamiska sid
    </html>
    ```
 2. Uppdatera din app.py-fil för att skicka en variabel till ditt template:
-
    ```python
-     @app.route("/goodbye/<name>")
-    def goodbye(name):
-        return render_template("goodbye.html", name=name)
+   @app.route("/goodbye/<name>")
+   def goodbye(name):
+       return render_template("goodbye.html", name=name)
    ```
 
 3. Spara filerna.
@@ -208,3 +204,5 @@ Lär dig att skicka variabler till Jinja2-templates för att skapa dynamiska sid
 - Prova även att använd variabler för att skicka olika meddelanden beroende på användarens inmatning.
 
 ## Avslutning
+
+Grattis! Du har nu kommit igång med att bygga en enkel webbapplikation med Flask. Genom att experimentera med olika rutter/routes, formulär och templates har du fått en bra grundförståelse för hur du kan skapa dynamiska webbsidor med hjälp av Flask. Fortsätt att experimentera och bygg vidare på dina kunskaper för att skapa mer avancerade applikationer.

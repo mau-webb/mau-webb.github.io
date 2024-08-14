@@ -20,7 +20,7 @@ cd mau-webb.github.io
 2. Install dependencies
 
 ```bash
-gem install bundle  # ignore if bundle is already installed
+gem install bundle -v 2.4.22 # ignore if bundle is already installed
 bundle install
 ```
 
@@ -29,28 +29,26 @@ bundle install
 ```bash
 bundle exec jekyll serve
 ```
+or with automatic rebuilds
+```bash
+bundle exec jekyll serve --incremental
+```
 
 You should now be up and running locally!
 
-## Documentation
-
-TODO
-
-### Configuration
-
-TODO
+## Structure
 
 ### The `_data` directory
 
-TODO
+In the `_data` directory you will find a `resources` folder containing a lot of YAML files that contain data connected to a specific course. This is where you can add and remove courses from being displayed on the site. This is also where sidebar navigation is defined for each course.
 
-### Example: markdown
+### The `resurser` directory
 
-TODO
+In the `resurser` directory you will find a folder for each course. Each course folder contains a `index.md` file that is the main page for that course. This is also where all the course material is stored such as exercises, lectures, and other resources.
 
 ## Contributing
 
-TODO
+If you want to contribute to this project, please do so by forking the repository and submitting a pull request. If you have any questions, feel free to open an issue.
 
 ## License
 

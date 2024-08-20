@@ -33,7 +33,7 @@ Lycka till! =)
 ---
 
 
-### Ytterliggare en övning
+### Cirkelövning - Radie till Omkrets och Area
 Gör ett program som beräknar arean och omkretsen för en cirkel, när användaren anger radien.
 1. Fråga användaren efter cirkels radie
 2. Skriv ut cirkelns diameter
@@ -42,3 +42,25 @@ Gör ett program som beräknar arean och omkretsen för en cirkel, när använda
 För att göra steg 3 & 4 behöver ni använda er utav pi. Detta har Python en funktion för, läs mer hur man använder modulen `math` i Python [här](https://docs.python.org/3/library/math.html#math.pi).
 #### Bonus
 5. Kontrollera att användare gör anger siffror, annars kommer ju programmet att krascha!
+
+### Tidsskillnadsövning - Skillnad mellan två tider
+Gör ett program som beräknar skillnaden mellan två tidpunkter på samma dag. Användaren anger först starttiden och sedan sluttiden.
+
+Instruktioner:
+1. Fråga användaren efter timmar och minuter för starttiden.
+2. Fråga användaren efter timmar och minuter för sluttiden.
+3. Beräkna skillnaden mellan dessa två tider i sekunder.
+4. Skriv ut den beräknade tidsskillnaden i sekunder.
+
+Exempel på hur resultatet kan se ut:
+Om användaren anger starttiden 12:30 och sluttiden 14:45, ska programmet skriva ut skillnaden i sekunder, t.ex.:
+
+```python
+Starttid (timmar): 12
+Starttid (minuter): 30
+
+Sluttid (timmar): 14
+Sluttid (minuter): 45
+
+Skillnad i sekunder: 8100
+```

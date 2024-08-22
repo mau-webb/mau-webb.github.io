@@ -91,3 +91,108 @@ print(is_palindrome("level"))  # Borde ge True
 print(is_palindrome("python"))  # Borde ge False
 print(is_palindrome("A man a plan a canal Panama"))  # Borde ge True
 ```
+
+#### Övning 4 - Konvertera strängar till olika format
+I denna övning ska du skapa en funktion som konverterar en sträng till olika format, som till exempel [camel case](https://en.wikipedia.org/wiki/Camel_case), [snake case](https://en.wikipedia.org/wiki/Snake_case), och [kebab case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case). Funktionen ska ta en sträng som input och returnera den i de olika formaten.
+
+**Uppgift**:
+
+Skapa en funktion `convert_case(text)` som utför följande konverteringar:
+
+- **Camel Case**: Börjar med liten bokstav och varje nytt ord börjar med stor bokstav. Mellanslag och andra icke-bokstäver tas bort. Exempel: "hello world" blir "helloWorld".
+- **Snake Case**: Alla bokstäver är små och ord separeras med understreck (_). Exempel: "hello world" blir "hello_world".
+- **Kebab Case**: Alla bokstäver är små och ord separeras med bindestreck (-). Exempel: "hello world" blir "hello-world".
+- **Titel Case**: Varje ord börjar med stor bokstav, och alla andra bokstäver är små. Exempel: "hello world" blir "Hello World".
+
+Funktionen ska returnera en lista med de olika konverterade strängarna i ordning: `[camel_case, snake_case, kebab_case, title_case]`.
+
+Exempelkörning:
+```python
+print(convert_case("hello world"))
+# Borde ge ['helloWorld', 'hello_world', 'hello-world', 'Hello World']
+
+print(convert_case("Convert THIS to different Cases"))
+# Borde ge ['convertThisToDifferentCases', 'convert_this_to_different_cases', 'convert-this-to-different-cases', 'Convert This To Different Cases']
+```
+
+#### Övning 5 - Rensa bort tomma strängar
+I denna övning ska du skapa en funktion som tar en lista av strängar och returnerar en ny lista där alla tomma strängar har tagits bort. Funktionen ska också trimma bort eventuella mellanslag i början och slutet av varje sträng.
+
+**Uppgift**:
+
+Skapa en funktion `clean_list(strings)` som utför följande steg:
+
+1. Iterera över varje sträng i listan.
+2. Trima bort eventuella mellanslag i början och slutet av varje sträng.
+3. Om strängen inte är tom, lägg till den i en ny lista.
+4. Returnera den nya listan.
+
+Exempelkörning:
+```python
+print(clean_list(["  hello  ", "", " world ", "  ", "python"]))
+# Borde ge ['hello', 'world', 'python']
+
+print(clean_list(["", "   ", "clean", "this", "   list"]))
+# Borde ge ['clean', 'this', 'list']
+```
+
+#### Övning 6 - Ordbyte i meningar
+I denna övning ska du skapa en funktion som tar en mening och två ord som input. Funktionen ska byta ut alla förekomster av det första ordet med det andra ordet i meningen.
+
+**Uppgift**:
+
+Skapa en funktion `replace_word(sentence, old_word, new_word)` som utför följande steg:
+
+1. Dela upp meningen i en lista av ord.
+2. Iterera över listan och ersätt alla förekomster av `old_word` med `new_word`.
+3. Sätt ihop listan till en ny sträng och returnera den.
+
+Exempelkörning:
+```python
+print(replace_word("hello world, welcome to the world", "world", "universe"))
+# Borde ge "hello universe, welcome to the universe"
+
+print(replace_word("this is a test", "is", "was"))
+# Borde ge "this was a test"
+```
+
+#### Övning 7 - Hitta unika ord i en mening
+I denna övning ska du skapa en funktion som tar en mening som input och returnerar en lista med alla unika ord i meningen. Listan ska vara sorterad i alfabetisk ordning.
+
+**Uppgift**:
+
+Skapa en funktion `unique_words(sentence)` som utför följande steg:
+
+1. Dela upp meningen i en lista av ord.
+2. Lägg till varje unikt ord i en ny lista.
+3. Sortera listan i alfabetisk ordning.
+4. Returnera den sorterade listan med unika ord.
+
+Exempelkörning:
+```python
+print(unique_words("the quick brown fox jumps over the lazy dog"))
+# Borde ge ['brown', 'dog', 'fox', 'jumps', 'lazy', 'over', 'quick', 'the']
+
+print(unique_words("hello hello world"))
+# Borde ge ['hello', 'world']
+```
+
+#### Övning 8 - Ord och deras längd
+I denna övning ska du skapa en funktion som tar en lista av ord och returnerar en lista av tupler, där varje tuppel innehåller ett ord och dess längd. Listan ska vara sorterad i fallande ordning baserat på ordets längd.
+
+**Uppgift**:
+
+Skapa en funktion `word_length_counter(words)` som utför följande steg:
+
+1. Iterera över listan av ord och skapa en tuppel för varje ord innehållande ordet och dess längd.
+2. Sortera listan av tupler i fallande ordning baserat på ordets längd.
+3. Returnera den sorterade listan.
+
+Exempelkörning:
+```python
+print(word_length_counter(["hello", "world", "Python", "is", "great"]))
+# Borde ge [('Python', 6), ('hello', 5), ('world', 5), ('great', 5), ('is', 2)]
+
+print(word_length_counter(["a", "list", "of", "words"]))
+# Borde ge [('words', 5), ('list', 4), ('of', 2), ('a', 1)]
+```

@@ -91,3 +91,65 @@ print(is_palindrome("level"))  # Borde ge True
 print(is_palindrome("python"))  # Borde ge False
 print(is_palindrome("A man a plan a canal Panama"))  # Borde ge True
 ```
+
+#### Övning 4 - Rensa bort tomma strängar
+I denna övning ska du skapa en funktion som tar en lista av strängar och returnerar en ny lista där alla tomma strängar har tagits bort. Funktionen ska också trimma bort eventuella mellanslag i början och slutet av varje sträng.
+
+**Uppgift**:
+
+Skapa en funktion `clean_list(strings)` som utför följande steg:
+
+1. Iterera över varje sträng i listan.
+2. Trima bort eventuella mellanslag i början och slutet av varje sträng.
+3. Om strängen inte är tom, lägg till den i en ny lista.
+4. Returnera den nya listan.
+
+Exempelkörning:
+```python
+print(clean_list(["  hello  ", "", " world ", "  ", "python"]))
+# Borde ge ['hello', 'world', 'python']
+
+print(clean_list(["", "   ", "clean", "this", "   list"]))
+# Borde ge ['clean', 'this', 'list']
+```
+
+#### Övning 5 - Ordbyte i meningar
+I denna övning ska du skapa en funktion som tar en mening och två ord som input. Funktionen ska byta ut alla förekomster av det första ordet med det andra ordet i meningen.
+
+**Uppgift**:
+
+Skapa en funktion `replace_word(sentence, old_word, new_word)` som utför följande steg:
+
+1. Dela upp meningen i en lista av ord.
+2. Iterera över listan och ersätt alla förekomster av `old_word` med `new_word`.
+3. Sätt ihop listan till en ny sträng och returnera den.
+
+Exempelkörning:
+```python
+print(replace_word("hello world, welcome to the world", "world", "universe"))
+# Borde ge "hello universe, welcome to the universe"
+
+print(replace_word("this is a test", "is", "was"))
+# Borde ge "this was a test"
+```
+
+#### Övning 6 - Hitta unika ord i en mening
+I denna övning ska du skapa en funktion som tar en mening som input och returnerar en lista med alla unika ord i meningen. Listan ska vara sorterad i alfabetisk ordning.
+
+**Uppgift**:
+
+Skapa en funktion `unique_words(sentence)` som utför följande steg:
+
+1. Dela upp meningen i en lista av ord.
+2. Lägg till varje unikt ord i en ny lista.
+3. Sortera listan i alfabetisk ordning.
+4. Returnera den sorterade listan med unika ord.
+
+Exempelkörning:
+```python
+print(unique_words("the quick brown fox jumps over the lazy dog"))
+# Borde ge ['brown', 'dog', 'fox', 'jumps', 'lazy', 'over', 'quick', 'the']
+
+print(unique_words("hello hello world"))
+# Borde ge ['hello', 'world']
+```

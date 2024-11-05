@@ -76,7 +76,7 @@ För att nå betyget godkänt behöver programmet uppfylla uppgiftsbeskrivningen
 
 - Koden ska vara strukturerad med ett antal funktioner, där varje funktion har begränsat syfte och omfattning
 - Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer.
-- Alla funktion som inte är självförklarande ska ha en beskrivning i form av _docstrings_ (`''' Kommentar för funktionen '''`-kommentarer) där funktionens syfte, ev. parametrar & ev. returvärden finns beskrivet. Se t.ex. exemplet [Sten, sax, påse](https://mau-webb.github.io/resurser/da354a-ht23/3-iteration-och-selektion/lecture-2/) för att se **hur** man skriver denna typ av dokumentation.
+- Alla funktion som inte är självförklarande ska ha en beskrivning i form av _docstrings_ (`""" Kommentar för funktionen """`-kommentarer) där funktionens syfte, ev. parametrar & ev. returvärden finns beskrivet. Se t.ex. exemplet [Sten, sax, påse](https://mau-webb.github.io/resurser/da354a-ht23/3-iteration-och-selektion/lecture-2/) för att se **hur** man skriver denna typ av dokumentation.
 
 #### Specifika krav för uppgiften
 

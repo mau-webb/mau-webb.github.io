@@ -47,16 +47,16 @@ När man programmerar så är det viktigt att man förstår sin egen kod, ännu 
 I Python kan man kommentera sin kod på två olika sätt:
 
 1. Genom `#` om man vill göra en kommentar som endast är på en rad
-2. Genom `'''` om man vill göra en kommentar som sträcker sig över flera rader
+2. Genom `"""` om man vill göra en kommentar som sträcker sig över flera rader
 
 Såhär kan det t.ex. se ut, tillsammans med lite kod:
 
 ```python
-'''
+"""
 Detta är ett program som frågar användaren efter tre tal. När
 användaren har angivit dessa tre tal, så multipliceras de med
 varandra och resultatet skrivs ut till användaren.
-'''
+"""
 
 # Välkomnar användaren till vårt program genom en trevlig utskrift
 print("----------------------------")
@@ -86,7 +86,7 @@ Tänk på att det för din egen skulle är bra att kommentera din egen kod. Dels
 
 ### Övning 1
 
-Din uppgift är att läsa koden nedan - och sedan kommentera vad koden gör. Kommentera högst upp i dokumentet en beskrivning av själva programmet genom en `'''`-kommentar och kommentera sedan vad de olika raderna kod gör genom `#`-kommentarer.
+Din uppgift är att läsa koden nedan - och sedan kommentera vad koden gör. Kommentera högst upp i dokumentet en beskrivning av själva programmet genom en `"""`-kommentar och kommentera sedan vad de olika raderna kod gör genom `#`-kommentarer.
 
 ```python
 print("------------------")

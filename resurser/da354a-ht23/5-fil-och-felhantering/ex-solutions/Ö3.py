@@ -1,8 +1,6 @@
 def main():
-    '''
-    Huvudfunktionen i programmet som hantera välkomnande av användaren,
-    inläsning av filmer från vår textfil "movies.text" samt menyn i programmet.
-    '''
+    """Huvudfunktionen i programmet som hantera välkomnande av användaren,
+    inläsning av filmer från vår textfil "movies.text" samt menyn i programmet."""
     # 1. Skriva ut en välkomstfras
     welcome()
 
@@ -30,13 +28,12 @@ def main():
             print("Du valde inte ett giltigt alternativ, försök igen.")
 
 def save_movies_to_file(file_name, movies):
-    '''
-    Sparar våra filmer till given fil
+    """Sparar våra filmer till given fil
 
     Args:
         file_name (str) : Sökvägen till den fil som ska användas
         movies (list) : En lista innehållandes lexikon (filmer) som ska sparas
-    '''
+    """
     my_file = open(file_name, "w")
     for movie in movies:
         my_file.write(f"{movie['title']};{movie['year']};{movie['director']}\n")
@@ -44,12 +41,11 @@ def save_movies_to_file(file_name, movies):
     print("\nFilmnerna är nu sparade i filen!")
 
 def search_movie(movies):
-    '''
-    Söker efter filmer i vår filmsamling
+    """Söker efter filmer i vår filmsamling
 
     Args:
         movies (list) : En lista innehållandes lexikon (filmer) som ska sparas
-    '''
+    """
     search_movie_title = input("\nAnge söksträng: ")
 
     result = []
@@ -63,12 +59,11 @@ def search_movie(movies):
         print("Ingen film i samlingen matchade din söksträng")
 
 def delete_movie(movies):
-    '''
-    Tar bort en film från vår filmlista
+    """Tar bort en film från vår filmlista
 
     Args:
         movies (list) : En lista innehållandes lexikon (filmer)
-    '''
+    """
     while True:
         title_to_delete = input("\nVilken film vill du ta bort? ")
         for movie in movies:
@@ -82,12 +77,11 @@ def delete_movie(movies):
             break
 
 def add_movie(movies):
-    '''
-    Lägger till en film i vår filmlista
+    """Lägger till en film i vår filmlista
 
     Args:
         movies (list) : En lista innehållandes lexikon (filmer)
-    '''
+    """
     print("\nLägg till en film")
     print("-"*40)
     movie = {}
@@ -99,21 +93,18 @@ def add_movie(movies):
 
 
 def print_movies(movies):
-    '''
-    Skriver ut alla filmerna i vår filmslista
+    """Skriver ut alla filmerna i vår filmslista
 
     Args:
         movies (list) : En lista innehållandes lexikon (filmer)
-    '''
+    """
     print("\n{:<20}{:<6}{:<15}".format("Titel", "År", "Regissör"))
     print("-"*40)
     for movie in movies:
         print(f"{movie['title']:<20}{movie['year']:<6}{movie['director']:<15}")
 
 def print_menu():
-    '''
-    Skriver ut programmets meny
-    '''
+    """Skriver ut programmets meny"""
     print("\nMenu")
     print("-"*40)
     print("1) Skriv ut alla filmer")
@@ -124,8 +115,7 @@ def print_menu():
     print("0) Avsluta")
 
 def read_movies_from_file(file_name):
-    '''
-    Läsa in filen (file_name) och returnera filmerna som en lista:
+    """Läsa in filen (file_name) och returnera filmerna som en lista:
     t.ex.
     [
         {
@@ -145,7 +135,7 @@ def read_movies_from_file(file_name):
 
     Return:
         list : En lista på filmerna som finns i filen
-    '''
+    """
     try:
         my_file = open(file_name, "r")
         data = my_file.read().split("\n")
@@ -170,9 +160,7 @@ def read_movies_from_file(file_name):
     
 
 def welcome():
-    '''
-    Skriver ut välkomstmeddelande
-    '''
+    """Skriver ut välkomstmeddelande"""
     print("-"*40)
     print("Antons filmsamling")
     print("-"*40)

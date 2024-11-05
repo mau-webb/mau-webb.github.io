@@ -73,7 +73,7 @@ Uppgiften kan ge betyget godkänt. För att nå detta betyg behöver programmet 
 
 1. Koden ska vara strukturerad med ett antal funktioner, där varje funktion har begränsat syfte och omfattning
 2. Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer.
-3. Funktioner ska ha en beskrivning i form av _docstrings_ (`''' Kommentar för funktionen '''`-kommentarer).
+3. Funktioner ska ha en beskrivning i form av _docstrings_ (`""" Kommentar för funktionen """`-kommentarer).
 
 #### Specifika krav för uppgiften
 

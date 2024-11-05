@@ -1,7 +1,5 @@
 def calculate_grade(points):
-    '''
-    Funktionen beräknar och returnerar betyget baserat på poängsumman
-    '''
+    """Funktionen beräknar och returnerar betyget baserat på poängsumman"""
     if points >= 90:
         return "A"
     elif points >= 80:
@@ -17,9 +15,7 @@ def calculate_grade(points):
 
 
 def grade_report():
-    '''
-    Funktionen beräknar och skriver ut betyget baserat på inmatad poängsumma
-    '''
+    """Funktionen beräknar och skriver ut betyget baserat på inmatad poängsumma"""
     entered_points = int(input("Ange poängsumma: "))
     grade = calculate_grade(entered_points)
     print("Betyg:", grade)

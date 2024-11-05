@@ -35,7 +35,7 @@ Detta program skulle vi kunna dela upp i mindre bitar - för att få en bättre 
 
 ```python
 def multiply_program():
-    ''' Huvudfunktionen för multiplikationsprogrammet '''
+    """Huvudfunktionen för multiplikationsprogrammet"""
     name = get_name()
     welcome(name)
     num_1 = get_number(1)
@@ -45,25 +45,25 @@ def multiply_program():
     print_result(result)
 
 def get_name():
-    ''' Frågar besökaren efter namn '''
+    """Frågar besökaren efter namn"""
     return input("Vad heter du? ")
 
 def welcome(name):
-    ''' Välkomnar besökaren och berättar programmets funktion '''
+    """Välkomnar besökaren och berättar programmets funktion"""
     print("Välkommen " + name + "!")
     print("I detta program kan du mulitplicera tre tal med varandra - så beräknar vi produkten åt dig.")
     print("Du kommer nu att får mata in de tre tal som du vill multiplicera med")
 
 def get_number(number):
-    ''' Frågar användaren efter ett tal '''
+    """Frågar användaren efter ett tal"""
     return input("Vilket är tal nr." + str(number) + ": ")
 
 def multiply_three_numbers(number_1, number_2, number_3):
-    ''' Beräknar produkten av tre tal '''
+    """Beräknar produkten av tre tal"""
     return int(number_1) * int(number_2) * int(number_3)
 
 def print_result(result):
-    ''' Skriver ut resultatet och tackar användaren '''
+    """Skriver ut resultatet och tackar användaren"""
     print("Produkten av dina valda tal är: " + str(result))
     print("*"*30)
 
@@ -74,7 +74,9 @@ Själva programmet ovan styrs av funktionen `multiply_program` (som sedan använ
 
 ```python
 def multiply_program():
-    ''' Huvudfunktionen för multiplikationsprogrammet '''
+    """
+    Huvudfunktionen för multiplikationsprogrammet
+    """
     welcome(get_name())
     print_result(multiply_three_numbers(get_number(1), get_number(2), get_number(3)))
 ```

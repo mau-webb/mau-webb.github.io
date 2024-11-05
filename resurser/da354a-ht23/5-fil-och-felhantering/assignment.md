@@ -61,7 +61,7 @@ Uppgiften kan ge betyget väl godkänt.
 För att uppnå godkänt behöver programmet uppfylla uppgiftsbeskrivningen, vara välstrukturerat och väldokumenterat. **Extra viktiga** punkter är:
 
 - Koden ska vara strukturerad med ett antal funktioner, där varje funktion har begränsat syfte och omfattning.
-- Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer. Funktioner ska ha en beskrivning i form av _docstrings_ (`""" Kommentar för funktionen """`-kommentarer).
+- Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer. Funktioner ska ha en beskrivning i form av _docstrings_ (`"""Kommentar för funktionen"""`-kommentarer).
 - Ni ska använda er av `try` och `except` för filhantering, t.ex. om filen inte skulle finnas, eller innehåller fel struktur ska lämpligt felmeddelande visas (och programmet ska inte krascha). Ni får gärna använda felhantering vid andra ställen som ni anser lämpliga.
 - Filens innehåll ska:
   - följa angiven struktur (som beskrivs i uppgiftsbeskrivningen)

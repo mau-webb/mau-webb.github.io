@@ -5,7 +5,7 @@ title: "Visual Studio Code"
 
 # Visual Studio Code
 
-Visual Studio Code är en textredigerare från Microsoft, som är gratis och öppen källkod. Den är kraftfull och har många funktioner, kanske lite för många i början. Vi har därför satt ihop en liten guide för att komma igång.
+[Visual Studio Code](https://code.visualstudio.com/) är en textredigerare från [Microsoft](https://www.microsoft.com/sv-se), som är gratis och öppen källkod. Den är kraftfull och har många funktioner, kanske lite för många i början. Vi har därför satt ihop en liten guide för att komma igång.
 
 ## Installation
 

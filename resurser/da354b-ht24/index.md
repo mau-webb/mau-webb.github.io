@@ -9,6 +9,8 @@ Denna webbplats innehåller material från en grundkurs i webbutveckling. De som
 
 **Kurslitteratur** i denna kurs är boken *Think Python* av *Allen B. Downey*. Ni kan den finns gratis på nätet antingen som [webbsida](http://greenteapress.com/thinkpython/html/index.html) eller som [PDF](http://greenteapress.com/thinkpython/thinkpython.pdf). Föredrar du en fysisk kopia av boken kan du hitta en återförsäljare [här](https://www.bokfynd.nu/9781491939369/think-python/).
 
+Om man föredrar en kursbok på svenska så kan vi rekommendera [Python från början](https://www.studentlitteratur.se/kurslitteratur/teknik/programmering/python-fran-borjan-40543-02?gad_source=1&gclid=Cj0KCQiAire5BhCNARIsAM53K1hB3ejOH8UCl6j5F60omjIE-Z3xfZROoElPY0mvijSPyzW-yQJ-6YkaAvL-EALw_wcB), den kommer att fungera lika bra i denna kursen.
+
 ## Syfte
 
 I den bakomliggande kursplanen beskrivs syfte och mål:

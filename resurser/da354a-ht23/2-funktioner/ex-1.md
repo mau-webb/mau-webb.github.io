@@ -42,13 +42,13 @@ __Övning:__ Testa att kopiera in koden ovan i en egen Python-fil och kör sedan
 
 ### Dokumentera sina funktioner
 
-Det är ofta bra att dokumentera sin kod i form utav kommentarer, så att man har koll på vad en viss del kod gör i sitt program. I Python kan man även dokumentera vad en funktion gör, vilket är smidigt när man snabbt behöver kolla upp en funktion (utan att behöva gå igenom koden). Detta gör man genom tre enkla citat-tecken `'''` följt av en kommentar och avslutar sedan med ytterliggare `'''`. Skulle vi kommentera vår funktion som vi skrev ovan skulle det kunna se ut såhär:
+Det är ofta bra att dokumentera sin kod i form utav kommentarer, så att man har koll på vad en viss del kod gör i sitt program. I Python kan man även dokumentera vad en funktion gör, vilket är smidigt när man snabbt behöver kolla upp en funktion (utan att behöva gå igenom koden). Detta gör man genom tre dubbla citat-tecken `"""` följt av en kommentar och avslutar sedan med ytterliggare `"""`. Skulle vi kommentera vår funktion som vi skrev ovan skulle det kunna se ut såhär:
 
 ```python
 def welcome():
-    '''
-        Funktionen skriver ut ett välkomstmeddelande till besökaren
-    '''
+    """
+    Funktionen skriver ut ett välkomstmeddelande till besökaren
+    """
     print("--------------------------------")
     print("  Välkommen till mitt program!  ")
     print("--------------------------------")
@@ -79,7 +79,7 @@ print("Produkten av " + str(num_1) + " och " + str(num_2) + " är: " + str(produ
 print("--------------------------------")
 ```
 
-När ni skrivit klart funktionen så ska den köras __tre__ gånger. Funktionen ska även dokumenteras enligt beskrivningen ovan (genom `''' dina kommentarer '''`). __Tänk på__ att vara noga med indenteringen för funktionen.
+När ni skrivit klart funktionen så ska den köras __tre__ gånger. Funktionen ska även dokumenteras enligt beskrivningen ovan (genom `""" dina kommentarer """`). __Tänk på__ att vara noga med indenteringen för funktionen.
 
 Fungerar det som förväntat när du kör funktionen `help` för din funktion? Skrivs funktionens beskrivning ut på ett tydligt sätt?
 {: .info}

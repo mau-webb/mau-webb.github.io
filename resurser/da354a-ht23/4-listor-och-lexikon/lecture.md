@@ -51,12 +51,11 @@ print(text.upper())
 print(text.lower())
 
 def get_first_and_last_character(text):
-    '''
-    Funktionen skriver ut den första & sista bokstaven i en sträng
+    """Funktionen skriver ut den första & sista bokstaven i en sträng
 
     Args:
         text (str) : Texten som vi använder i funktionen
-    '''
+    """
     print(f"Texten: {text} börjar på {text[0]} och slutar på {text[-1]}")
 
 # Frågar användaren efter hens namn

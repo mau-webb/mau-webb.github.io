@@ -25,23 +25,17 @@ title: "Modul 2 - Funktioner"
 
 ```python
 def heading(message):
-    '''
-    Skriver ut en rubrik
-    '''
+    """Skriver ut en rubrik"""
     print("************************************")
     print(message)
     print("************************************")
 
 def today_lunch(day, lunch):
-    '''
-    Skriver ut lunch för en given dag
-    '''
+    """Skriver ut lunch för en given dag"""
     print("Lunch " + day + " is: " + lunch)
 
 def menu():
-    '''
-    Skriver ut veckans meny
-    '''
+    """Skriver ut veckans meny"""
     today_lunch("Monday", "Spagetti Bolognaise")
     today_lunch("Tuesday", "Fish and chips")
     today_lunch("Wednesday", "Hamburger")

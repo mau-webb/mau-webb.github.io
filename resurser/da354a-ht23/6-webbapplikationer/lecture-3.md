@@ -24,8 +24,7 @@ from bottle import run, template, route, request, redirect, static_file
 import json
 
 def read_wishes_from_file():
-    '''
-    Returns a list of wishes,  from file: "wishes.json"
+    """Returns a list of wishes, from file: "wishes.json"
 	
 	Example result:
 	[
@@ -47,7 +46,7 @@ def read_wishes_from_file():
 
 	Returns:
 		list : The wishes
-	'''
+	"""
     try:
         my_file = open("wishes.json", "r")
         wishes = json.loads(my_file.read())
@@ -62,8 +61,7 @@ def read_wishes_from_file():
         return []
 
 def create_id(wishes):
-    """
-    Returns an integer representing the current highest id + 1
+    """Returns an integer representing the current highest id + 1
     
     Returns
         int : the current highest id + 1
@@ -77,19 +75,17 @@ def create_id(wishes):
 
 @route("/")
 def index():
-    '''Returns the start page
+    """Returns the start page
 	
 	Returns:
 		template : index
-	'''
+	"""
     wishes = read_wishes_from_file()
     return template("index", wishes= wishes)
 
 @route("/new-wish", method="post")
 def new_wish():
-    '''
-    Registers a new wish, then redirects the user to the start page
-	'''
+    """Registers a new wish, then redirects the user to the start page"""
     name = getattr(request.forms, "name")
     price = getattr(request.forms, "price")
     link = getattr(request.forms, "link")
@@ -114,12 +110,11 @@ def new_wish():
 
 @route("/static/<filename>")
 def static_files(filename):
-    '''
-    Handles the routes to our static files
+    """Handles the routes to our static files
 	
 	Returns:
 		file : the static file requested by URL	
-	'''
+	"""
     return static_file(filename, root="static")
 
 # Start our web server

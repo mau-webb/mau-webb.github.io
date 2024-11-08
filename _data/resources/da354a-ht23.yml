@@ -11,6 +11,8 @@ sidebar:
           url: "https://edu.mah.se/sv/Course/DA354A#Syllabus"
         - label: "Canvas"
           url: "https://mau.instructure.com/login/saml"
+        - label: "VS-Code"
+          path: "vs-code"
 
         - label: "1. Introduktion till Python"
           collapsed: true

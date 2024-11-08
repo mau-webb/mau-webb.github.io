@@ -1,6 +1,5 @@
 def calculate_time(hours, minutes):
-    """
-    Räknar ut rätt tid utifrån antal timmar och minuter.
+    """Räknar ut rätt tid utifrån antal timmar och minuter.
 
     Parametrar:
     hours (str): Antal timmar.
@@ -18,9 +17,7 @@ def calculate_time(hours, minutes):
 
 
 def main():
-    """
-    Huvudprogrammet som hanterar användarinteraktion och anropar calculate_time.
-    """
+    """Huvudprogrammet som hanterar användarinteraktion och anropar calculate_time."""
     print("Välkommen till Fångad i tid!")
 
     while True:

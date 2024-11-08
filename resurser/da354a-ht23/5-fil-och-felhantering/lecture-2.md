@@ -37,10 +37,8 @@ Vill ni ha dagens exempelkod så hittar ni den [på denna länk](https://github.
 
 ```python
 def main():
-    '''
-    Huvudfunktionen i programmet som hantera välkomnande av användaren,
-    inläsning av produkter från vår fil "products.csv" samt menyn i programmet.
-    '''
+    """Huvudfunktionen i programmet som hantera välkomnande av användaren,
+    inläsning av produkter från vår fil "products.csv" samt menyn i programmet."""
     FILE_NAME = "products.csv"
     # 1. Läsa in alla produkter från en csv-fil
     products = read_products_from_file(FILE_NAME)
@@ -71,12 +69,11 @@ def main():
             print("Du valde inte ett giltigt alternativ, försök igen!")
 
 def search_for_product(product_list):
-    '''
-    Frågar efter en söksträng och skriver ut sökresultaten för given söksträng
+    """Frågar efter en söksträng och skriver ut sökresultaten för given söksträng
 
     Args:
         products (list) : En lista innehållandes listor (produkter)
-    '''
+    """
     print("\nSök efter en produkt")
     print("-"*30)
     search_string = input("Söksträng: ")
@@ -92,8 +89,7 @@ def search_for_product(product_list):
         print_products(search_results, "Sökresultat")
 
 def remove_product(product_list):
-    """
-    Tar bort en produkt (som användaren väljer genom id)
+    """Tar bort en produkt (som användaren väljer genom id)
 
     Args:
         product_list (list) : En lista innehållandes listor (produkter)
@@ -114,13 +110,12 @@ def remove_product(product_list):
         print("Det finns ingen produkt med det id:t")
 
 def save_products_to_file(filename, product_list):
-    '''
-    Sparar våra produkter till given fil
+    """Sparar våra produkter till given fil
 
     Args:
         filename (str) : Sökvägen till den fil som ska användas
         products (list) : En lista innehållandes listor (produkter) som ska sparas
-    '''
+    """
     my_file = open(filename, "w")
     for product in product_list:
         product_as_string = ";".join(product)
@@ -128,12 +123,11 @@ def save_products_to_file(filename, product_list):
     my_file.close()
 
 def add_product(product_list):
-    '''
-    Lägger till en produkt i vår produktlista
+    """Lägger till en produkt i vår produktlista
 
     Args:
         product_list (list) : En lista innehållandes listor (produkter)
-    '''
+    """
     print("\nLägg till en produkt")
     print("-"*30)
     id = input("Id: ")
@@ -145,13 +139,12 @@ def add_product(product_list):
     product_list.append(product)
 
 def print_products(product_list, title):
-    '''
-    Skriver ut alla produkterna i vår produktlista
+    """Skriver ut alla produkterna i vår produktlista
 
     Args:
         products (list) : En lista innehållandes listor (produkter)
         title (str) : Rubriken för tabellen
-    '''
+    """
     print(f"\n{title}")
     print("-"*60)
     print(f"{'Id':<15}{'Produkt':<15}{'Tillverkare':<15}{'Pris':<15}")
@@ -162,9 +155,7 @@ def print_products(product_list, title):
         print("")
 
 def print_menu():
-    '''
-    Skriver ut programmets meny
-    '''
+    """Skriver ut programmets meny"""
     print("\nMeny")
     print("----")
     print("1) Visa produkter")
@@ -239,10 +230,8 @@ main()
 
 ```python
 def main():
-    '''
-    Huvudfunktionen i programmet som hantera välkomnande av användaren,
-    inläsning av produkter från vår json-fil "products.json" samt menyn i programmet.
-    '''
+    """Huvudfunktionen i programmet som hantera välkomnande av användaren,
+    inläsning av produkter från vår json-fil "products.json" samt menyn i programmet."""
     # 1. Skriva ut en välkomstfras
     welcome()
 
@@ -270,21 +259,19 @@ def main():
             print("Du valde inte ett giltigt alternativ, försök igen.")
 
 def save_products_to_file(file_name, products):
-    '''
-    Sparar våra produkter till given fil
+    """Sparar våra produkter till given fil
 
     Args:
         file_name (str) : Sökvägen till den fil som ska användas
         products (list) : En lista innehållandes listor (produkter) som ska sparas
-    '''
+    """
     my_file = open(file_name, "w")
     my_file.write(json.dumps(products, indent=4))
     my_file.close()
     print("\nProdukterna är nu sparade i filen!")
 
 def remove_product(products):
-    """
-    Tar bort en produkt (som användaren väljer genom id)
+    """Tar bort en produkt (som användaren väljer genom id)
 
     Args:
         products (list) : En lista innehållandes listor (produkter)
@@ -299,12 +286,11 @@ def remove_product(products):
             return
 
 def add_product(products):
-    '''
-    Lägger till en produkt i vår produktlista
+    """Lägger till en produkt i vår produktlista
 
     Args:
         products (list) : En lista innehållandes listor (produkter)
-    '''
+    """
     print("\nLägg till en produkt")
     print("-"*40)
     product_id = input("Ange id: ")
@@ -320,12 +306,11 @@ def add_product(products):
     ])
 
 def search_product(products):
-    '''
-    Frågar efter en söksträng och skriver ut sökresultaten för given söksträng
+    """Frågar efter en söksträng och skriver ut sökresultaten för given söksträng
 
     Args:
         products (list) : En lista innehållandes listor (produkter)
-    '''
+    """
     print("\nSök efter en produkt")
     print("-------------------")
     product_name = input("Produktnamn: ")
@@ -338,12 +323,11 @@ def search_product(products):
 
 
 def print_products(products):
-    '''
-    Skriver ut alla produkterna i vår produktlista
+    """Skriver ut alla produkterna i vår produktlista
 
     Args:
         products (list) : En lista innehållandes listor (produkter)
-    '''
+    """
     print("\nProdukter")
     print("{:<10}{:<10}{:<10}{:<10}".format("Id", "Produkt", "Märke", "Pris"))
     print("-"*40)
@@ -355,9 +339,7 @@ def print_products(products):
           
 
 def print_menu():
-    '''
-    Skriver ut programmets meny
-    '''
+    """Skriver ut programmets meny"""
     print("\nMenu")
     print("-"*40)
     print("1) Skriv ut alla produkter")
@@ -368,8 +350,7 @@ def print_menu():
     print("0) Avsluta")
 
 def read_products_from_file(file_name):
-    '''
-    Läsa in filen (file_name) och returnera produkterna som en lista:
+    """Läsa in filen (file_name) och returnera produkterna som en lista:
     t.ex.
     [
         [
@@ -391,7 +372,7 @@ def read_products_from_file(file_name):
 
     Return:
         list : En lista på produkterna (listor) som finns i filen
-    '''
+    """
     try:
         my_file = open(file_name, "r")
         data = my_file.read()
@@ -406,9 +387,7 @@ def read_products_from_file(file_name):
     
 
 def welcome():
-    '''
-    Skriver ut välkomstmeddelande
-    '''
+    """Skriver ut välkomstmeddelande"""
     print("-"*40)
     print("Antons teknikbutik")
     print("-"*40)

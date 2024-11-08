@@ -1,7 +1,5 @@
 def divide_numbers(numerator, denominator):
-    '''
-    Funktionen delar två tal och returnerar resultatet
-    '''
+    """Funktionen delar två tal och returnerar resultatet"""
     while True:
         try:
             result = numerator / denominator
@@ -12,9 +10,7 @@ def divide_numbers(numerator, denominator):
 
 
 def main():
-    '''
-    Huvudfunktionen i programmet.
-    '''
+    """Huvudfunktionen i programmet."""
     while True:
         numerator = float(input("Ange täljaren: "))
         denominator = float(input("Ange nämnaren: "))

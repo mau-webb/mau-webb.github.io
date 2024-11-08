@@ -133,14 +133,14 @@ for i in range(12): # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 ```python
 def is_vowel(char):
-    '''Controlls if a character is a vowel
+    """Controlls if a character is a vowel
 
     Args:
       char (str): The character to test
 
     Returns:
         bool: True if vowel, False otherwise
-    '''
+    """
     char = char.lower()
     if char == "a":
         return True
@@ -164,22 +164,22 @@ def is_vowel(char):
         return False
 
 def get_user_text():
-    '''Asks the user for a text
+    """Asks the user for a text
 
     Returns
         str
-    '''
+    """
     return input("Ange text: ")
 
 def translate_to_rovarspraket(text):
-    '''Translates a given text to "rövarspråk"
+    """Translates a given text to "rövarspråk"
 
     Args:
         text (str): The string to translate
 
     Returns:
         str: The translated text
-    '''
+    """
     result = ""
 
     # Loops through every character in the variable "text"
@@ -214,33 +214,33 @@ main()
 
 ```python
 def is_vowel(char):
-    '''Controlls if a character is a vowel
+    """Controlls if a character is a vowel
 
     Args:
-      char (str): The character to test
+        char (str): The character to test
 
     Returns:
         bool: True if vowel, False otherwise
-    '''
+    """
     return char.lower() in 'aeiouyåäö'
 
 def get_user_text():
-    '''Asks the user for a text
+    """Asks the user for a text
 
     Returns
         str
-    '''
+    """
     return input("Ange text: ")
 
 def translate_to_rovarspraket(text):
-    '''Translates a given text to "rövarspråk"
+    """Translates a given text to 'rövarspråk'
 
     Args:
         text (str): The string to translate
 
     Returns:
         str: The translated text
-    '''
+    """
     result = ""
 
     # Loops through every character in the variable "text"

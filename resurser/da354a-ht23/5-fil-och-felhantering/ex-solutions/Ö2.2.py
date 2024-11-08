@@ -1,10 +1,9 @@
 def get_fahrenheit():
-    '''
-    Hämtar antal fahrenheit från användaren
+    """Hämtar antal fahrenheit från användaren
 
     Returns:
         float : Antal grader i fahrenheit
-    '''
+    """
     while True:
         try:
             fahrenheit = float(input('Antal grader i fahrenheit: '))
@@ -15,9 +14,7 @@ def get_fahrenheit():
 
 
 def fahrenheit_to_celcius():
-    '''
-    Konverterar fahrenheit till celcius
-    '''
+    """Konverterar fahrenheit till celcius"""
     fahrenheit = get_fahrenheit()
     celcius = (fahrenheit - 32.0) * 5.0 / 9.0
     print(f"Det är : {celcius} grader i celcius")

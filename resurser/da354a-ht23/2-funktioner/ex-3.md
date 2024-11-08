@@ -19,9 +19,7 @@ Exempel: låt säga att vi vill låta användaren beräkna arean av en rektangel
 
 ```python
 def area(height, width):
-    '''
-		Funktionen returnerar arean för en rektangel
-     '''
+    """Funktionen returnerar arean för en rektangel"""
     return height * width
 
 print("-" * 20)

@@ -40,7 +40,7 @@ Här finns en bild som tydliggör stegen ovan som ska utföras:
 Uppgiften kan ge betyget godkänt. För att nå detta betyg behöver programmet uppfylla uppgiftsbeskrivningen, vara välstrukturerat och väldokumenterat. Extra viktiga punkter är:
 
 - Koden ska vara strukturerad med ett antal funktioner, där varje funktion har begränsat syfte och omfattning
-- Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer. Funktioner som inte är självförklarande ska ha en beskrivning i form av _docstrings_ (`''' Kommentar för funktionen '''`-kommentarer).
+- Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer. Funktioner som inte är självförklarande ska ha en beskrivning i form av _docstrings_ (`"""Kommentar för funktionen"""`-kommentarer).
 
 #### Specifika krav för uppgiften
 

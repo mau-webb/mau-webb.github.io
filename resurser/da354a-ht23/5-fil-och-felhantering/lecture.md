@@ -285,10 +285,8 @@ main()
 
 ```python
 def main():
-    '''
-    Huvudfunktionen i programmet som hantera välkomnande av användaren,
-    inläsning av produkter från vår textfil "products.text" samt menyn i programmet.
-    '''
+    """Huvudfunktionen i programmet som hantera välkomnande av användaren,
+    inläsning av produkter från vår textfil "products.text" samt menyn i programmet."""
     # 1. Skriva ut en välkomstfras
     welcome()
 
@@ -314,13 +312,12 @@ def main():
             print("Du valde inte ett giltigt alternativ, försök igen.")
 
 def save_products_to_file(file_name, products):
-    '''
-    Sparar våra produkter till given fil
+    """Sparar våra produkter till given fil
 
     Args:
         file_name (str) : Sökvägen till den fil som ska användas
         products (list) : En lista innehållandes strängar (produkter) som ska sparas
-    '''
+    """
     my_file = open(file_name, "w")
     for product in products:
         my_file.write(f"{product}\n")
@@ -329,12 +326,11 @@ def save_products_to_file(file_name, products):
     
 
 def add_product(products):
-    '''
-    Lägger till en produkt i vår produktlista
+    """Lägger till en produkt i vår produktlista
 
     Args:
         products (list) : En lista innehållandes strängar (produkter)
-    '''
+    """
     print("\nLägg till en produkt")
     print("-"*40)
     product = input("Ange produkt: ")
@@ -342,12 +338,11 @@ def add_product(products):
 
 
 def print_products(products):
-    '''
-    Skriver ut alla produkterna i vår produktlista
+    """Skriver ut alla produkterna i vår produktlista
 
     Args:
         products (list) : En lista innehållandes strängar (produkter)
-    '''
+    """
     print("\nProdukter")
     print("-"*40)
     for i, product in enumerate(products, start=1):
@@ -356,9 +351,7 @@ def print_products(products):
           
 
 def print_menu():
-    '''
-    Skriver ut programmets meny
-    '''
+    """Skriver ut programmets meny"""
     print("\nMenu")
     print("-"*40)
     print("1) Skriv ut alla produkter")
@@ -368,8 +361,7 @@ def print_menu():
     print("0) Avsluta")
 
 def read_products_from_file(file_name):
-    '''
-    Läsa in filen (file_name) och returnera produkterna som en lista:
+    """Läsa in filen (file_name) och returnera produkterna som en lista:
     t.ex. ["iPhone", "Kabelsamlare", "iPad", "Tangentbord"]
 
     Args:
@@ -377,7 +369,7 @@ def read_products_from_file(file_name):
 
     Return:
         list : En lista på produkterna som finns i filen
-    '''
+    """
     try:
         my_file = open(file_name, "r")
         products = my_file.read().split("\n")
@@ -391,9 +383,7 @@ def read_products_from_file(file_name):
     
 
 def welcome():
-    '''
-    Skriver ut välkomstmeddelande
-    '''
+    """Skriver ut välkomstmeddelande"""
     print("-"*40)
     print("Antons teknikbutik")
     print("-"*40)

@@ -19,9 +19,7 @@ Vi ska i denna övningen titta på hur vi kan göra de funktioner som vi bygger 
 
 ```python
 def shout_out(text):
-    '''
-        Tar en sträng som input och skriver ut den i versaler
-    '''
+    """Tar en sträng som input och skriver ut den i versaler"""
     print(text.upper())
 
 shout_out("Vi testar!")
@@ -40,9 +38,7 @@ Vi ska nu bygga en funktion som räknar ut arean för en rektangel. Funktionen h
 
 ```python
 def area(width, height):
-    '''
-        Funktionen beräknar och skriver ut arean för en rektangel
-    '''
+    """Funktionen beräknar och skriver ut arean för en rektangel"""
     # Er kod här
 
 area(4, 5)

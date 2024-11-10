@@ -21,7 +21,7 @@ Den officiella utvecklingsmiljön för Python heter IDLE och följer med install
 
 ### Installera Python (egen dator)
 
-Om du sitter vid en egen dator så behöver du installera Python och IDLE. Ni laddar ner Python [här](https://www.python.org), notera att det är <b>versionen 3.12.*</b> (eller den senaste versionen som släppts) som ni ska ladda ner och installera.
+Om du sitter vid en egen dator så behöver du installera Python och IDLE. Ni laddar ner Python [här](https://www.python.org), notera att det är <b>versionen 3.13.*</b> (eller den senaste versionen som släppts) som ni ska ladda ner och installera.
 
 När du installerar python, var noga med att **kryssa i rutan** för *Add python to PATH*
 {: .info}
@@ -30,12 +30,20 @@ När du installerar python, var noga med att **kryssa i rutan** för *Add python
 
 Python är installerat i datorsalarna, det bara att starta IDLE.
 
-### IDLE - utvecklingsmiljön
+### Visual Studio Code - utvecklingsmiljön
 
-När python och IDLE är installerade så ska ni bekanta er med IDLE då det är här som ni kommer att skriva och köra er Python-kod. Börja med att öppna IDLE - då kommer ni att mötas av ett fönster som ser ut såhär:
+När Python är installerat så ska ni bekanta er med Visual Studio Code (VS Code) då det är här som ni kommer att skriva och köra er Python-kod. VS Code är en modern och kraftfull kodeditor som används av många professionella utvecklare. 
 
-![Idle](../images/idle.png)
-I IDLE kan man antingen direkt skriva in Python-kod, eller köra Python-kod (eller program) som man sparat i separata filer. För att se så att IDLE fungerar som det ska kan ni börja med att skriva in följande python-kod (föjt av ett enterslag efter varje rad):
+1. Ladda ner och installera VS Code från [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. Installera Python-tillägget i VS Code:
+   - Öppna VS Code
+   - Klicka på Extensions-ikonen i sidomenyn (eller tryck Ctrl+Shift+X, alternativt Cmd+Shift+X på Mac)
+   - Sök efter "Python"
+   - Installera tillägget från Microsoft
+
+![VS Code med Python-tillägget](../images/vscode-python-extension.png)
+
+För att testa att allt fungerar, skapa en ny fil och spara den med ändelsen `.py`. Skriv sedan följande kod:
 
 ```python
 print("My first line of Python code!")
@@ -44,36 +52,74 @@ print(5 > 4)
 print("The sum of 5 & 2 is: ", 5 + 2)
 ```
 
-Har ni skrivit av koden <i>exakt</i> som det står ovan, så borde det se ut på följande sätt:
+För att köra koden kan du:
+- Klicka på "play"-knappen i övre högra hörnet
+- Högerklicka i editorn och välja "Run Python File in Terminal"
+- Använda kortkommandot Ctrl+F5
 
-![Idle](../images/idle2.png)
+![VS Code med Python-kod och körningsresultat](../images/vscode-running-python.png)
 
-Skulle ni få upp ett felmeddelande (en röd text, se bild nedan) så har ni antagligen missat en bokstav/tecken någonstans (t.ex. ett citat-tecken). Dubbelkolla då vad ni skrivit in och försök igen (vi kommera att titta mer på felmeddelanden senare).
+Skulle ni få upp ett felmeddelande så har ni antagligen missat en bokstav/tecken någonstans (t.ex. ett citat-tecken). VS Code hjälper er genom att markera fel direkt i koden med röda understrykningar.
 
-![Idle](../images/idle3.png)
+![VS Code felmeddelande](../images/vscode-error-example.png)
 
----
+### Att skriva Python-kod i VS Code
 
-### 1.b. Att skriva Python-kod i egna filer
+VS Code erbjuder många användbara funktioner för Python-utveckling:
+- Automatisk kodkomplettering
+- Felmarkering i realtid
+- Inbyggd debugger
+- Integrerad terminal
 
-Väljer du *New Window* i *File*-menyn får du ett nytt fönster som är Pythons egen editor. Här kan du skriva Python-kod och exekvera den. Trycker du på F5-tangenten eller väljer *Run Module* i fönstrets *Run*-meny kommer programmet att exekveras (efter att först ha frågat ifall du vill spara det). Resultatet ser du i IDLEs exekveringsfönster (eftersom Python-filer är ren text så är du självklart fri att använda vilket annat textredigeringsprogram som du vill, t.ex. [VS Code](https://code.visualstudio.com/)).
+### Organisera ditt arbete
 
-Vill du komma åt Pythons dokumentation kan du trycka på F1-tangenten. Då får du upp Python-dokumentationen antingen i ett eget dokumentfönster eller via nätet i en webbläsare (beroende på vilken datormiljö du använder). Under Tutorial hittar du kortare exempel och förklaringar på hur du skriver Python-kod. Under Python Library Reference finner du mer detaljerad information om nyckelord, inbyggda datatyper och standardbibliotek.
+Innan du börjar koda är det bra att skapa en dedikerad mapp för kursen:
+
+1. Skapa en mapp på din dator (t.ex. "python-programmering")
+2. Öppna VS Code och välj "File > Open Folder" (eller Ctrl+K Ctrl+O)
+3. Välj den mapp du just skapade
+4. Nu kan du se mappstrukturen i VS Codes filutforskare (sidopanelen till vänster)
+
+Det rekommenderas att du skapar undermappar för varje modul eller tema, till exempel:
+```
+python-programmering/
+    modul-1/
+        program.py
+        ovning1.py
+    modul-2/
+        ...
+```
+
+Detta gör det enklare att:
+- Hitta dina filer senare
+- Hålla ordning på olika övningar
+- Arbeta med flera filer samtidigt
+- Återkomma till tidigare kod för repetition
+
+För att skapa en ny Python-fil:
+1. Högerklicka på önskad mapp i filutforskaren
+2. Välj "New File"
+3. Ge filen ett namn med ändelsen `.py`
+
+
+### Mer information om VS Code
+
+Läs mer om VS Code i [denna guiden](../../vs-code).
 
 ### Övningsuppgift
 
-* Börja med att skapa en ny Python-fil (välj du *New Window* i *File*-menyn) och spara den som *program.py*
+* Skapa en ny Python-fil i VS Code och spara den som `program.py`
 * I din fil skriv följande:
 ```python
 print("Hej och välkommen till mitt program!")
 print("-" * 25)
 print("Summan av 5 & 2 är: ", 5 + 2)
 ```
-* Spara filen & kör den sedan (F5)
+* Spara filen (Ctrl+S) och kör den genom att klicka på play-knappen eller använda Ctrl+F5
 
-När du trycker på F5 (och kör din kod i IDLE) så ser du att alla kod i din fil *program.py* körs, i den ordning som koden är skriven i. Det borde se ut såhär:
+När du kör din kod ska resultatet visas i den integrerade terminalen, ungefär såhär:
 
-![idle](../images/idle4.png)
+![VS Code körning av övningsuppgift](../images/vscode-exercise-example.png)
 
 Tänk på att det är viktigt att filen slutar på **py**, t.ex. *program.py*
 {: .info}
@@ -81,15 +127,15 @@ Tänk på att det är viktigt att filen slutar på **py**, t.ex. *program.py*
 
 ### Funktionen "print"
 
-Funktionen **print** skriver ut valda *saker* i IDLE (det som visas blått i fönsterna ovan). *Sakerna* som skrivs ut kan vara av olika datatyper, t.ex. text (strängar), siffror (tal) eller true/false (booleans). Vi väljer alltså vad som ska visas för användaren i IDLE när filen körs genom funktionen **print**.
+Funktionen **print** skriver ut valda *saker* i terminalfönstret. *Sakerna* som skrivs ut kan vara av olika datatyper, t.ex. text (strängar), siffror (tal) eller true/false (booleans). Vi väljer alltså vad som ska visas för användaren i terminalen när filen körs genom funktionen **print**.
 
-Testa att skriv i din fil:
+Testa att skriva i din fil:
 
 ```python
 2 + 5
 print(2 + 5)
 ```
 
-**Vad är skillnaderna i exmeplen ovan - och vad händer på respektive kodrad?**
-
-Testa gärna att skriva ut lite fler strängar och beräkningar i IDLE. När ni tycker att detta fungerar bra så gå vidare till nästa del av laborationen.
+**Vad är skillnaden i exemplen ovan - och vad händer på respektive kodrad?**
+- På första raden utförs beräkningen men inget visas i terminalen
+- På andra raden utförs beräkningen och resultatet skrivs ut i terminalen med hjälp av print-funktionen

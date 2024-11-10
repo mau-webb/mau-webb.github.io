@@ -39,14 +39,14 @@ Det finns fler datatyper i Python, men till en börjar så använder vi de tre i
 
 #### En första övning i att använda variabler:
 
-1. Skapa en ny Python-fil och skriv in följande kod
+1. Skapa en ny Python-fil i mappen för modul 1 och skriv in följande kod:
 ```python
 name = "Anton"
 print("Hej " + name + "!")
 ```
-2. Kör koden i IDLE och se så att den fungerar
+2. Kör koden genom att klicka på play-knappen eller använd Ctrl+F5
 3. Ändra värdet för variabeln `name` till ditt eget namn
-4. Kör koden i IDLE och kontrollera så att ditt namn nu skrivs ut
+4. Kör koden igen och se hur utskriften i terminalen uppdateras med ditt namn
 
 <p class="info">
     Det som händer ovan är att vi <strong>slår ihop</strong> tre strängar till en genom <code class="highlighter-rouge">+</code>. Vi kan allså läsa ut:
@@ -80,11 +80,11 @@ price = 100
 print("Produkten: " + product + " kostar " + str(price) + "SEK")
 ```
 
-### En andra övnng i att använda variabler:
+### En andra övning i att använda variabler:
 
-Vi ska nu göra ett enkelt program som beräknar summan av två tal. De två talen ska anges i vars en variabel och summan ska sedan skrivas ut genom att använda "print"-funktionen, resultatet ska se ut såhär (fast med valfria tal):
+Vi ska nu göra ett enkelt program som beräknar summan av två tal. De två talen ska anges i vars en variabel och summan ska sedan skrivas ut genom att använda "print"-funktionen. När du kör programmet ska det se ut såhär i terminalen:
 
-![Idle](../images/idle5.png)
+![Exempel på körning av programmet](../images/vscode-exemple-of-using-vars.png)
 
 1. Skapa en ny Python-fil som vi ska jobba i
 2. Kopiera in koden nedan till er Python-fil (och spara filen på lämplig plats)
@@ -98,14 +98,16 @@ Ni behöver nu skapa variablerna `first_number` och "second_number" för att ert
 
 ### Tips
 
-Man kan alltid fråga pythontolken om vilken datatyp ett värde har. Till exempel:
+Man kan alltid kontrollera datatypen för ett värde direkt i VS Code genom att skriva följande i din fil:
 
 ```python
->>> x = 10
->>> type(x)
-<type 'int'>
+x = 10
+print(type(x))
 ```
 
+```sh
+<class 'int'>
+```
 ---
 
 ## 2.b. Användarinput
@@ -127,29 +129,30 @@ name = input("Vad heter du? ")
 print("Hej " + name + "!")
 ```
 
-Det bör se ut något i stil med:
+När du kör programmet kommer det se ut något i stil med:
 
-![Idle](../images/idle6.png)
+![Idle](../images/vscode-name-input.png)
 
 ### Övningsuppgift 1
 
 Vi ska nu utöka programmet ovan som hälsar personen välkommen. Vi ska, förutom att fråga efter personens namn, även fråga var personen bor och personens ålder. När vi är klara så ska det se ut något i denna stilen:
 
-![IDLE](../images/idle7.png)
+![Exempel på körning av programmet](../images/2-1.png)
 
 Tillvägagångssätt:
 
 1. Förutom att hämta in namnet från besökaren till ert program, ska vi nu skapa två variabler till där vi ska spara besökarens hemstad och ålder
 2. Utgå från koden ovan, men modifiera den enligt:
-   1. Skapa variabeln `location` och använd funktionen `input` för att hämta in svaret från användaren
-   2. Skapa variabeln `age` och använd funktionen `input` för att hämta in svaret från användaren
-   3. Uppdatera "print"-raden så att den även skriver ut besökarens hemstad och ålder (så att det ser ut som på bilden ovan)
+   1. Skapa en variabel `name` och använd funktionen `input` för att hämta in svaret från användaren
+   2. Skapa variabeln `location` och använd funktionen `input` för att hämta in svaret från användaren
+   3. Skapa variabeln `age` och använd funktionen `input` för att hämta in svaret från användaren
+   4. Uppdatera "print"-raden så att den även skriver ut besökarens hemstad och ålder (så att det ser ut som på bilden ovan)
 
 ### Övningsuppgift 2
 
-Vi ska nu bygga ett enkelt multiplikationsprogram. Programmet ska fråga användaren efter två tal, sedan visa produkten av dessa talen (se resultatet på bilden nedan). Programmets kod bör följa en struktur som liknar den ni använde vid övningsuppgift 1.
+Vi ska nu bygga ett enkelt multiplikationsprogram. Programmet ska fråga användaren efter två tal, sedan visa produkten av dessa talen (se resultatet på bilden nedan). Programmets kod bör följa en struktur som liknar den ni använde vid [övningsuppgift 1](#%C3%B6vningsuppgift-1).
 
-![IDLE](../images/idle10.png)
+![Exempel på körning av programmet](../images/2-2.png)
 
 * Tänk på att den input som man får från användaren genom funktionen `input` är av datatypen sträng. Alltså - för att räkna med de tal som användaren skriver in behöver vi göra om numret till ett tal (till exempel genom att använda `int()`), t.ex. såhär:
 

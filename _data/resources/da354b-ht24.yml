@@ -11,6 +11,8 @@ sidebar:
           url: "https://utbildningsinfo.mau.se/kurs/kursplan/DA354B/20242"
         - label: "Canvas"
           url: "https://mau.instructure.com/login/saml"
+        - label: "VS Code"
+          path: "vs-code"
 
         - label: "1. Introduktion till Python"
           collapsed: true

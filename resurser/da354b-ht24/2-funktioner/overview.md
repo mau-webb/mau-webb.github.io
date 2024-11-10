@@ -7,7 +7,7 @@ title: "Modul 2 - Funktioner"
 
 ## Översikt av modul 2
 
-Nu när vi bekantat oss med Python och utvecklingsmiljön IDLE ska vi fortsätta att utveckla våra programmeringsfärdigheter. Detta genom att titta på funktioner och hur vi kan effektivisera vår kod genom just funktioner.
+Nu när vi bekantat oss med Python och utvecklingsmiljön VS Code ska vi fortsätta att utveckla våra programmeringsfärdigheter. Detta genom att titta på funktioner och hur vi kan effektivisera vår kod genom just funktioner.
 
 Modulen börjar med att gå igenom syntaxen för funktioner, hur skriver man funktioner i Python? Och hur använder man sedan de funktioner som man skrivit? Sedan fortsätter vi att titta på funktioner med argument/parametrar och funktioner som returnerar värden.
 

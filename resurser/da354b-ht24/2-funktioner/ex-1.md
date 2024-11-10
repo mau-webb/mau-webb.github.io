@@ -38,7 +38,7 @@ När man vill köra en funktion i Python skriver man namnet på den funktion som
 welcome()
 ```
 
-__Övning:__ Testa att kopiera in koden ovan i en egen Python-fil och kör sedan programmet i IDLE för att se så att funktionen körs som förväntat.
+__Övning:__ Testa att kopiera in koden ovan i en egen Python-fil och kör sedan programmet i VS Code för att se så att funktionen körs som förväntat.
 
 ### Dokumentera sina funktioner
 
@@ -52,7 +52,7 @@ def welcome():
     print("--------------------------------")
 ```
 
-Vill vi sedan (när vi kör programmet i IDLE) ta reda på vad vi skrivt för kommentar för vår funktion `welcome` så skriver vi:
+Vill vi sedan (när vi kör programmet i VS Code) ta reda på vad vi skrivt för kommentar för vår funktion `welcome` så skriver vi:
 
 ```python
 help(welcome)

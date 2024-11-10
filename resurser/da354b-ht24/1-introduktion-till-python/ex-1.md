@@ -5,7 +5,7 @@ title: "Modul 1 - Introduktion till Python"
 
 # Modul 1 - Introduktion till Python
 
-## 1.a. Bekanta dig med Python & IDLE
+## 1.a. Bekanta dig med Python & VS Code
 
 #### Rekommenderad läsning
 
@@ -13,22 +13,20 @@ title: "Modul 1 - Introduktion till Python"
 
 ### Bakgrund
 
-Python är ett plattformsoberoende, dynamiskt, objektorienterat skriptspråk — lämpligt för såväl prototyputveckling som "tyngre" applikationer (Google, Nasa, Sun Microsystems och Spotify är några av användarna). Det finns tillgängligt för fri nedladdning på [https://python.org/](https://python.org/) och är förinstallerat på Mac OS X, liksom de flesta distributioner av Linux.
+Python är ett plattformsoberoende, dynamiskt, objektorienterat skriptspråk — lämpligt för såväl prototyputveckling som "tyngre" applikationer. Det används av många stora företag och organisationer som Google, NASA, och Spotify. Python finns tillgängligt för fri nedladdning på [https://python.org/](https://python.org/) och är förinstallerat på Mac OS X, liksom de flesta distributioner av Linux.
 
-Vi kommer i denna kurs att använda oss utav Python 3.x, istället för Python 2.x. Python 2.x används fortfarande utbrett, men eftersom utvecklingen går framåt rör sig allt fler utvecklare mot Python 3.x, varav vi kommer att använda det i denna kurs. Python 2 &amp; 3 liknar varandra väldigt mycket i många aspekter, men Python 3 bröt bakåtkompabilitet vilket gör att en "spricka" har bildats mellan Python 2 &amp; 3.
-
-Den officiella utvecklingsmiljön för Python heter IDLE och följer med installationspaketet. För att köra Python och IDLE behöver vi först installera det.
+För att skriva och köra Python-kod kommer vi att använda Visual Studio Code (VS Code), en modern och kraftfull kodeditor som är populär bland utvecklare världen över. VS Code erbjuder många användbara funktioner som underlättar Python-utveckling, som kodkomplettering och felmarkering i realtid.
 
 ### Installera Python (egen dator)
 
-Om du sitter vid en egen dator så behöver du installera Python och IDLE. Ni laddar ner Python [här](https://www.python.org), notera att det är <b>versionen 3.13.*</b> (eller den senaste versionen som släppts) som ni ska ladda ner och installera.
+Om du sitter vid en egen dator så behöver du installera Python. Ni laddar ner Python [här](https://www.python.org), notera att det är <b>versionen 3.13.*</b> (eller den senaste versionen som släppts) som ni ska ladda ner och installera.
 
 När du installerar python, var noga med att **kryssa i rutan** för *Add python to PATH*
 {: .info}
 
 ### Installera Python (datorsal)
 
-Python är installerat i datorsalarna, det bara att starta IDLE.
+Python är installerat i datorsalarna, det bara att starta Visual Studio Code.
 
 ### Visual Studio Code - utvecklingsmiljön
 

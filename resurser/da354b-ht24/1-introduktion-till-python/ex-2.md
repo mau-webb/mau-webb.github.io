@@ -120,7 +120,7 @@ Vill vi fråga användaren efter dennes namn (och spara det som användaren skri
 name = input("Vad heter du? ")
 ```
 
-Variabeln `name` kommer då att innehålla det namn som användaren angett i IDLE när programmet körs.
+Variabeln `name` kommer då att innehålla det namn som användaren angett i terminalen när programmet körs.
 
 Vill vi sedan välkomna användaren, så kan vi helt enkelt skriva ut det namn som användaren skrev in, genom att använda oss utav variabeln `namn`.
 

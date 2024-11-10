@@ -20,7 +20,7 @@ Denna modul syftar till att introducera många av dessa koncept, i ett (för må
 | --- | --- |
 | [Kursintroduktion](../course) | Kursens innehåll, struktur & upplägg |
 | [Föreläsning](../lecture) | Introduktion till programmering |
-| [Ö.1: Python & Idle](../ex-1) | En introduktion till språket Python och miljön Idle där vi skriver vår kod |
+| [Ö.1: Python & VS Code](../ex-1) | En introduktion till språket Python och miljön VS Code där vi skriver vår kod |
 | [Ö.2: Variabler & datatyper](../ex-2) | En introduktion till grundläggande byggstenar i programmering |
 | [Ö.3: Debugging & kommentarer](../ex-3) | En introduktion till att hitta (och åtgärda) fel i kod, samt kommentera kod |
 | [Ö.4: Case (1) - Valutakonverterare](../ex-4) | En något större uppgift att träna på |

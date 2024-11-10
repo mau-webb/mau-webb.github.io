@@ -13,7 +13,8 @@ title: "Modul 1 - Introduktion till Python"
 
 ### Inledning
 
-När man programmerar och skriver kod, blir det ibland fel. Det är lätt hänt att ett citat-tecken missas, koden indenteras lite fel eller att man har en paratens för mycket/lite. När man sedan försöker köra sin (felaktiga) kod så fungerar den inte och ett felmeddelande visas. Det är då viktigt att man lär sig tyda det felmeddelande som IDLE visar på ett så bra sätt som möjligt, så att man snabbt kan identifiera och åtgärda felet. Felsökning kan vara en riktig tidstjuv, så här kommer tre övningar med vanliga fel som det är bra att känna till.
+När man programmerar och skriver kod, blir det ibland fel. Det är lätt hänt att ett citat-tecken missas, koden indenteras lite fel eller att man har en parentes för mycket/lite. När man sedan försöker köra sin (felaktiga) kod så fungerar den inte och ett felmeddelande visas. Det är då viktigt att man lär sig tyda det felmeddelande som visas på ett så bra sätt som möjligt, så att man snabbt kan identifiera och åtgärda felet. Felsökning kan vara en riktig tidstjuv, så här kommer tre övningar med vanliga fel som det är bra att känna till.
+
 
 Visste du att ordet *bug* faktiskt kommer från att en insekt (närare bestämt en nattfjäril) hittats död bland reläerna i en av de tidigare datorerna. Läs gärna mer på wikipedia om detta: [https://en.wikipedia.org/wiki/Software_bug](https://en.wikipedia.org/wiki/Software_bug)
 {: .info}
@@ -22,19 +23,20 @@ Visste du att ordet *bug* faktiskt kommer från att en insekt (närare bestämt 
 
 ### Övning 1
 
-I denna övning finns det *ett* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som IDLE ger er, där ni del får en beskrivning av felet och del vilken rad felet framkallas på.
+I denna övning finns det *ett* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som visas i terminalen, där ni dels får en beskrivning av felet och dels vilken rad felet framkallas på.
+
 
 [Länk till filen](../files/py1.py)
 
 ### Övning 2
 
-I denna övning finns det *två* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som IDLE ger er, där ni del får en beskrivning av felet och del vilken rad felet framkallas på.
+I denna övning finns det *två* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som visas i terminalen, där ni dels får en beskrivning av felet och dels vilken rad felet framkallas på.
 
 [Länk till filen](../files/py2.py)
 
 ### Övning 3
 
-I denna övning finns det *två* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som IDLE ger er, där ni del får en beskrivning av felet och del vilken rad felet framkallas på.
+I denna övning finns det *två* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som visas i terminalen, där ni dels får en beskrivning av felet och dels vilken rad felet framkallas på.
 
 [Länk till filen](../files/py3.py)
 

@@ -23,7 +23,7 @@ sidebar:
                 path: "course"
               - label: "Föreläsning"
                 path: "lecture"
-              - label: "Ö.1: Python & Idle"
+              - label: "Ö.1: Python & VS Code"
                 path: "ex-1"
               - label: "Ö.2: Variabler & datatyper"
                 path: "ex-2"

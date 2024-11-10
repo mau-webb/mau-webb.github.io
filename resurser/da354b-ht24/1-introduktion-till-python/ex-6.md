@@ -28,7 +28,7 @@ utskrift finns med.)
 Oavsett inriktning så är det viktigast att källkoden är välstrukturerad, med avseende
 på namngivning. Se även till att kommentera, i de fall där koden inte talar för sig själv.
 
-Lycka till! =)
+Lycka till! 😊
 
 ---
 
@@ -40,7 +40,9 @@ Gör ett program som beräknar arean och omkretsen för en cirkel, när använda
 3. Skriv ut cirkelns area
 4. Skriv ut cirkens omkrets
 För att göra steg 3 & 4 behöver ni använda er utav pi. Detta har Python en funktion för, läs mer hur man använder modulen `math` i Python [här](https://docs.python.org/3/library/math.html#math.pi).
+
 #### Bonus
+
 5. Kontrollera att användare gör anger siffror, annars kommer ju programmet att krascha!
 
 ### Tidsskillnadsövning - Skillnad mellan två tider

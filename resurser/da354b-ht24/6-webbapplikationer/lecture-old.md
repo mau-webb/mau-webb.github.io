@@ -57,8 +57,7 @@ import json
 from bottle import run, route, template, static_file, request, redirect
 
 def read_wishes_from_file():
-    '''
-    Läser in våra önskningar från filen "storage/wishes.json" och returnerar
+    """Läser in våra önskningar från filen "storage/wishes.json" och returnerar
     en lista enligt följande struktur:
     [
         {
@@ -75,7 +74,7 @@ def read_wishes_from_file():
 
     Returns:
         list : En lista med önskningar (varje önskning är ett lexikon)
-    '''
+    """
     try:
         my_file = open("storage/wishes.json", "r")
         wishes = json.loads(my_file.read())
@@ -91,19 +90,16 @@ def read_wishes_from_file():
 
 @route("/")
 def index():
-    '''
-    Hanterar vår startsida, genom att skicka tillbaka template: index.html
+    """Hanterar vår startsida, genom att skicka tillbaka template: index.html
 
     Returns:
         str : Källkoden till vår webbsida
-    '''
+    """
     return template("index", wishes=read_wishes_from_file())
 
 @route("/new-wish", method="POST")
 def new_wish():
-    '''
-    Sparar en önskning och skickar sedan vidare användaren till startisdan
-    '''
+    """Sparar en önskning och skickar sedan vidare användaren till startisdan"""
     wish = getattr(request.forms, "wish")
     link = getattr(request.forms, "link")
     price = getattr(request.forms, "price")
@@ -123,9 +119,7 @@ def new_wish():
 
 @route("/static/<filename>")
 def static_files(filename):
-    '''
-    Returnerar efterfrågad fil i mappen "static"
-    '''
+    """Returnerar efterfrågad fil i mappen "static""""
     return static_file(filename, "static")
 
 run(host="127.0.0.1", port=8000)

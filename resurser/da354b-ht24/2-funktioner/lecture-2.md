@@ -36,22 +36,16 @@ print_three_times("Så mycket kul det är idag!")
 
 
 def goodmorning():
-    """
-    Funktion som säger god morgon
-    """
+    """Funktion som säger god morgon"""
     print("Godmorgon!")
 
 
 def get_teacher_name():
-    """
-    Funktion som returnerar kursens lärare
-    """
+    """Funktion som returnerar kursens lärare"""
     return "Anton", "Johan"
 
 def get_nrs():
-    """
-    Frågar användaren efter två nummer och returnerar dessa
-    """
+    """Frågar användaren efter två nummer och returnerar dessa"""
     nr_1 = int(input("Ange tal 1: "))
     nr_2 = int(input("Ange tal 2: "))
     return nr_1, nr_2
@@ -67,23 +61,19 @@ print(f"{teacher_1} & {teacher_2}")
 
 ```python
 def print_three_times(x):
-    '''
-    Skriver ut x tre gånger
-
+    """Skriver ut x tre gånger
     Args:
         x (str): Strängen som ska skrivas ut
-    '''
+    """
     print(x)
     print(x)
     print(x)
 
 def hej(name):
-    '''
-    Välkomnar en användare
-
+    """Välkomnar en användare
     Args:
         name (str) : Namnet på användaren
-    '''
+    """
     print(f"Hej {name}!")
 
 # Kör funktionerna
@@ -140,14 +130,10 @@ let_it_be.song()
 
 #### let_it_be.py
 ```py
-'''
-This module presents the lyrics to the song: Let it be, by Beatles
-'''
+"""This module presents the lyrics to the song: Let it be, by Beatles"""
 
 def song():
-    '''
-        Prints the full song
-    '''
+    """Prints the full song"""
     vers_1()
     print("")
     vers_2()

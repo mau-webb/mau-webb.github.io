@@ -114,3 +114,7 @@ Implementera programmet nedan genom att läsa kommentarerna (kopiera kommentarer
 
 # 4. Skriv ut resultatet för användaren
 ```
+
+### Vill du veta mer om docstrings?
+
+Läs [PEP 257](../../pep257) för mer information om hur man skriver docstrings i Python.

@@ -52,8 +52,7 @@ I Python kan man kommentera sin kod på två olika sätt:
 Såhär kan det t.ex. se ut, tillsammans med lite kod:
 
 ```python
-"""
-Detta är ett program som frågar användaren efter tre tal. När
+"""Detta är ett program som frågar användaren efter tre tal. När
 användaren har angivit dessa tre tal, så multipliceras de med
 varandra och resultatet skrivs ut till användaren.
 """

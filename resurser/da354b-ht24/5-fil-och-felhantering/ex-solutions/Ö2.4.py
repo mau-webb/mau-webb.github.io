@@ -1,6 +1,5 @@
 def add_numbers(num_1, num_2):
-    """
-    Adderar två tal och returnerar resultatet.
+    """Adderar två tal och returnerar resultatet.
 
     Parametrar:
     num_1 (str): Det första talet.
@@ -18,9 +17,7 @@ def add_numbers(num_1, num_2):
 
 
 def main():
-    '''
-    Huvudfunktionen som hanterar inmatning och anropar funktionen add_numbers.
-    '''
+    """Huvudfunktionen som hanterar inmatning och anropar funktionen add_numbers."""
     print("Välkommen till Slarviga Kalkylatorn!")
 
     while True:

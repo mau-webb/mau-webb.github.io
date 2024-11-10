@@ -77,7 +77,7 @@ import json
 import datetime	
 
 def get_votes():
-	'''Returns an object (dictionary) with the results from file: "staic/standings.json"
+	"""Returns an object (dictionary) with the results from file: "staic/standings.json"
 	
 	The result is in JSON format, ex.
 	{
@@ -87,7 +87,7 @@ def get_votes():
 	
 	Returns:
 		dict : The results
-	'''
+	"""
 	try:
 		# Opens the file "static/standings.json" in "read" mode
 		votes_file = open('static/standings.json', 'r')
@@ -106,7 +106,7 @@ def get_votes():
 		return {"empire": 0, "rebels": 0}
 
 def get_disqus():
-	'''Returns a list of comments,  from file: "staic/disqus.json"
+	"""Returns a list of comments, from file: "staic/disqus.json"
 	
 	Example result:
 	[
@@ -124,7 +124,7 @@ def get_disqus():
 	
 	Returns:
 		list : The results
-	'''
+	"""
 	try:
 		# Opens the file "static/disqus.json" in "read" mode
 		disqus_file = open('static/disqus.json', 'r')
@@ -144,22 +144,22 @@ def get_disqus():
 
 @route('/')
 def index():
-	'''Returns the start page
+	"""Returns the start page
 	
 	Returns:
 		template : index
-	'''
+	"""
 	# Creates and returns the template "index" (views/index.html) with the current standings (votes)
 	return template("index", votes=get_votes() )
 	
 @route('/vote', method='POST')
 def vote():
-	'''Register a vote, and then redirects to the start page
+	"""Register a vote, and then redirects to the start page
 	
 	Notes:
 		- The vote is sent by a from (method = POST) with the key "vote"
 		- The vote is added to the file "static/standings.json"
-	'''
+	"""
 	# Recives the vote send from a from (method=POST) by the key "vote"
 	vote = request.forms.get("vote")
 	# Get the current standing (votes)
@@ -183,16 +183,16 @@ def vote():
 
 @route('/disqus')
 def disqus():
-	'''Returns the disqus page
+	"""Returns the disqus page
 	
 	Returns:
 		template : disqus
-	'''
+	"""
 	return template("disqus", posts=get_disqus())
 
 @post('/disqus-post', method='POST')
 def save_post():
-	'''Register a new disqus post, and then redirects to the disqus route
+	"""Register a new disqus post, and then redirects to the disqus route
 	
 	Notes:
 		- The disqus post is sent by a from (method = POST) with following keys
@@ -200,7 +200,7 @@ def save_post():
 			message => the disqus post
 		- The disqus post is added to the file "static/disqus.json"
 		- We also add the date/time when the post is created
-	'''
+	"""
 	# Recives the name send from a from (method=POST) by the key "name"
 	name = getattr(request.forms, "name")
 	# Recives the message send from a from (method=POST) by the key "message"
@@ -226,21 +226,21 @@ def save_post():
 
 @route('/static/<filename:path>')
 def server_static(filename):
-	'''Handles the routes to our static files
+	"""Handles the routes to our static files
 	
 	Returns:
 		file : the static file requested by URL	
-	'''
+	"""
 	return static_file(filename, root='static')
 
 
 @error(404)
 def error404(error):
-	'''Makes a pretty error page, when page is not found (error 404)
+	"""Makes a pretty error page, when page is not found (error 404)
 	
 	Returns:
 		template : error
-	'''
+	"""
 	return template("error")
 
 # Start our web server

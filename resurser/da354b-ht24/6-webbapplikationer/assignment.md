@@ -61,6 +61,9 @@ Exempelvideo och förtydligande av funktionalitet för betyget **G**:
 
 [Bottle](http://bottlepy.org/) är det rekommenderade ramverket på grund av enkelheten i att installera och komma igång. Enklast: ladda hem [`bottle.py`](http://bottlepy.org/bottle.py) till din projektmapp.
 
+#### Dokumentation
+
+Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer. Funktioner ska ha en beskrivning i form av _docstrings_ (`"""Kommentar för funktionen"""`-kommentarer). För att få lite svar på vanliga frågor om docstrings, se [PEP 257](../../pep257).
 
 ### Bedömning
 

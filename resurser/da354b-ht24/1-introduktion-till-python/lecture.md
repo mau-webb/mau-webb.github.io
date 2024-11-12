@@ -9,21 +9,33 @@ title: "Modul 1 - Introduktion till Python"
 
 Publiceras när tillfället varit.
 
-<!--
+
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/91516b7ad6794f70a134975a7ceb611f" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/HTU9WmsnMMLwDN" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
-
+<!--
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/sWT6SBbBArw?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
-
+-->
 
 ### Dagens exempel
 
-#### En miniräknare
+#### En miniräknade
+
+```python
+x = input("Tal 1: ")
+y = input("Tal 2: ")
+
+result = int(x) + int(y)
+
+print("Summan av " + x + " och " + y + " är: " + str(result))
+```
+
+
+#### En miniräknare (lite större program)
 
 ```python
 # Skriver ut en rubrik till vårt program
@@ -48,6 +60,8 @@ result = float(nr_1) + float(nr_2)
 print(name + ", summan blir: " + str(result))
 ```
 
+<!--
+
 #### En moms-räknare
 
 ```python
@@ -65,8 +79,8 @@ print("Momsen på " + str(user_money) + " är " + str(result))
 
 ```
 
+-->
+
 ---
 
-Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/introduktion-till-programmering.pdf).
-
--->
+Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/ht24-intro.pdf).

@@ -112,15 +112,23 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>F: If-satser &amp; Loopar (inspelad)</td>
 			<td>-</td>
 			<td>NI:A0407</td>
-			<td rowspan="3">3</td>
+			<td rowspan="4">3</td>
 		</tr>
 		<tr>
             <td></td>
 			<td>26/11</td>
 			<td>13-15</td>
-			<td>F: If-satser &amp; Loopar (2)</td>
-			<td>Anton</td>
+			<td>F: If-satser &amp; Loopar 2 (inspelad)</td>
+			<td>-</td>
 			<td>NI:A0407</td>
+		</tr>
+		<tr>
+            <td></td>
+			<td>27/11</td>
+			<td>10-12</td>
+			<td>Code-along & övningar</td>
+			<td>Arvid & Teo</td>
+			<td>OR:C402, OR:D326</td>
 		</tr>
 		<tr>
             <td></td>
@@ -137,14 +145,22 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>F: Listor &amp; Lexikon (inspelad)</td>
 			<td>-</td>
 			<td>OR:D328</td>
-			<td rowspan="3">4</td>
+			<td rowspan="4">4</td>
+		</tr>
+		<tr class="odd">
+            <td></td>
+			<td>2/12</td>
+			<td>13-17</td>
+			<td>F: Listor &amp; Lexikon 2 (inspelad)</td>
+			<td>-</td>
+			<td>-</td>
 		</tr>
 		<tr class="odd">
             <td></td>
 			<td>3/12</td>
 			<td>15-17</td>
-			<td>F: Listor &amp; Lexikon (2)</td>
-			<td>Anton</td>
+			<td>Drop-in (frågestund)</td>
+			<td>Arvid & Teo</td>
 			<td>NI:A0306</td>
 		</tr>
 		<tr class="odd">
@@ -152,7 +168,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>5/12</td>
 			<td>08-12</td>
 			<td>L: Listor &amp; Lexikon</td>
-			<td>Teo</td>
+			<td>Arvid & Teo</td>
 			<td>OR:D326 & OR:E323</td>
 		</tr>
 		<tr>

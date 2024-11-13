@@ -33,7 +33,7 @@ sidebar:
                 path: "ex-4"
               - label: "Ö.5: Case (2) - Budgetberäknare"
                 path: "ex-5"
-              - label: "Ö.6: Case (3) - Valfritt"
+              - label: "Ö.6: Case (3) - Fler övningar"
                 path: "ex-6"
 #        - label: "2. Funktioner"
 #          collapsed: true

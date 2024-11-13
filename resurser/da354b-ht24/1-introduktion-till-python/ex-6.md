@@ -5,7 +5,7 @@ title: "Modul 1 - Introduktion till Python"
 
 # Modul 1 - Introduktion till Python
 
-## Case (3) - Valfritt
+## Case (3) - Fler övningar
 
 
 ### Inledning

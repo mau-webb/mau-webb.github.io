@@ -29,7 +29,7 @@ Uppgiften går ut på att bygga ett enkelt tärningsspel där:
 
 Här finns en bild som tydliggör stegen ovan som ska utföras:
 
-![Idle](../images/assignment.png)
+![Idle](../images/vscode-assignment-1.png)
 
 #### Tips
 

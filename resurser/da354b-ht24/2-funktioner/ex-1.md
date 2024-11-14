@@ -55,12 +55,12 @@ def welcome():
 Vill vi sedan (när vi kör programmet i VS Code) ta reda på vad vi skrivt för kommentar för vår funktion `welcome` så skriver vi:
 
 ```python
-help(welcome)
+print(welcome.__doc__)
 ```
 
 Då visas vår dokumentation kring funktionen att visas på detta sätt:
 
-![IDLE](../images/idle1.png)
+![IDLE](../images/vscode-using-doc.png)
 
 ## Övningar
 
@@ -79,7 +79,7 @@ print("--------------------------------")
 
 När ni skrivit klart funktionen så ska den köras __tre__ gånger. Funktionen ska även dokumenteras enligt beskrivningen ovan (genom `"""dina kommentarer""" __Tänk på__ att vara noga med indenteringen för funktionen.
 
-Fungerar det som förväntat när du kör funktionen `help` för din funktion? Skrivs funktionens beskrivning ut på ett tydligt sätt?
+Fungerar det som förväntat när du kör `print(multiply.__doc__)` för din funktion? Skrivs funktionens beskrivning ut på ett tydligt sätt?
 {: .info}
 
 ### Övning 2
@@ -98,15 +98,15 @@ multiply()
 
 Funktionsanropen ska i detta läget ligga _efter_ att funktionerna är definierade. Annars kommer ni få ett meddelande som säger att funktionerna som ni försöker köra inte är definierade (tänk på att datorn läser koden uppifrån och ner). Om allt fungerar som det ska bör resultatet se ut något i stil med:
 
-![](../images/idle2.png)
+![](../images/vscode-multiply.png)
 
 Testa även så att din dokumentation fungerar som förväntat till dina funktioner:
 
 ```python
-help(welcome)
-help(multiply)
+print(welcome.__doc__)
+print(multiply.__doc__)
 ```
 
 Resultatet bör bli liknande:
 
-![](../images/idle3.png)
+![](../images/vscode-using-doc-2.png)

@@ -28,7 +28,7 @@ shout_out("En gång till!")
 
 I exemplet ovan så är `text` parametern till funktionen `shout_out` och `Vi testar` är argumentet när funktionen anropas. Variabeln/parametern `text`i funktionen representerar alltså det som skickas som argument till funktionen. Vi kör funktionen två gånger, första gången representerar `text` i funktionen strängen `"Vi testar!"` och andra gången strängen `"En gång till!"`. Kör vi koden ovan så ser det ut såhär:
 
-![](../images/idle4.png)
+![Exempel på funktionen shout_out](../images/vscode-shout-out.png)
 
 ## Övningar
 
@@ -38,8 +38,7 @@ Vi ska nu bygga en funktion som räknar ut arean för en rektangel. Funktionen h
 
 ```python
 def area(width, height):
-    """Funktionen beräknar och skriver ut arean för en rektangel
-    """
+    """Funktionen beräknar och skriver ut arean för en rektangel"""
     # Er kod här
 
 area(4, 5)
@@ -49,7 +48,7 @@ area(32, 23)
 
 När ni skrivit klart funktionen ska resultatet vara:
 
-![](../images/idle5.png)
+![Exempel på funktionen area](../images/vscode-area.png)
 
 ### Övning 2 - Celcius till Fahrenheit
 
@@ -63,4 +62,4 @@ celcius_to_fahrenheit(30)
 
 Och funktionens utskrifter ska se ut på följande sätt:
 
-![](../images/idle6.png)
+![Exempel på funktionen celcius_to_fahrenheit](../images/vscode-celcius-to-fahrenheit.png)

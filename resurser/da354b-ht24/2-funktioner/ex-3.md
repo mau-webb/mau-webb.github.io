@@ -48,7 +48,7 @@ print("Vad kul att du vill köra mitt program!")
 
 Resultatet kan se ut såhär:
 
-![](../images/idle10.png)
+![Exempel på funktionen get_name](../images/vscode-get-name.png)
 
 ### Övning 2 - Fahrenheit till Celcius
 
@@ -64,13 +64,13 @@ print(str(fahrenheit) + "° Fahrenheit är " + str(fahrenheit_to_celcius(fahrenh
 
 Resultatet kan se ut såhär:
 
-![](../images/idle8.png)
+![](../images/vscode-fahrenheit-to-celcius.png)
 
 ### Övning 3 - Yards till meter
 
 Vi ska nu bygga en funktion som omvandlar yards till meter. En yard är 0,9144 meter. Funktionen ska heta `yards_to_meters` ha en parameter: `yards`. Funktionen ska returnera antalet meter. Ni ska (på samma sätt som övning 2) fråga användaren efter antalet yards som ska omvandlas och sedan använda er av funktion `yards_to_meters` för att göra själva omvandlingen. Resultatet ska se ut såhär:
 
-![](../images/idle9.png)
+![](../images/vscode-yards-to-meters.png)
 
 ### Övning 4 - Skapa din egna e-postadress
 

@@ -90,7 +90,7 @@ Nu har vi skapat en modul - och använt den i ett litet program. Nu är det er t
 
 I den första övningen ska vi titta närmre på standardmodulen `math` och funktionen [`math.floor`](https://docs.python.org/3/library/math.html#math.floor). Vi ska skriva en funktion som avrundar ett decimaltal neråt, till närmsta heltal. Funktionen ska ta en parameter (det tal vi vill avrunda) och returnera det avrundade talet. Resultatet ska se ut följande:
 
-![](../images/idle13.png)
+![Exempel på hur det kan se ut](../images/vscode-floor-number.png)
 
 _Obs._ Glöm inte att importera `math`-modulen.
 
@@ -98,7 +98,7 @@ _Obs._ Glöm inte att importera `math`-modulen.
 
 Ni ska nu skriva ut dagens datum genom att använda er utav Pythons standardmodul [`time`](https://docs.python.org/3/library/time.html) och funktionen [`strftime`](https://docs.python.org/3/library/time.html#time.strftime). Det är er uppgift att i [dokumentationen](https://docs.python.org/3/library/time.html#time.strftime) för funktionen lista ut hur man använder den. Resultatet ska se ut på detta vis (fast med dagens datum):
 
-![](../images/idle12.png)
+![](../images/vscode-today-date.png)
 
 ## Övning 3
 
@@ -115,6 +115,6 @@ Funktionerna ska returnera antalet dollar/euro/danska kronor. Modulen ska heta _
 
 Ni kommer då att ha två filer _currencies.py_ och _currency_converter.py_. Resultatet ska se ut på detta sätt:
 
-![](../images/idle14.png)
+![](../images/vscode-large-currency-converter.png)
 
 __Bonus:__ Använd funktionen [round](https://docs.python.org/3/library/functions.html#round) för att avrunda antal dollar/euro/danska kronor till två decimaler.

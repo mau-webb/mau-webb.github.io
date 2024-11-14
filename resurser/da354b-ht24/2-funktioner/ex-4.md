@@ -99,4 +99,4 @@ I denna övningen ska vi göra strukturera upp ett valutakonverteringsprogram, e
 
 Resultatet av ert program ska vara följande:
 
-![](../images/idle11.png)
+![](../images/vscode-currency-converter.png)

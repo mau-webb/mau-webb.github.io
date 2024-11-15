@@ -168,7 +168,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>5/12</td>
 			<td>08-12</td>
 			<td>L: Listor &amp; Lexikon</td>
-			<td>Arvid & Teo</td>
+			<td>Teo & Ines</td>
 			<td>OR:D326 & OR:E323</td>
 		</tr>
 		<tr>

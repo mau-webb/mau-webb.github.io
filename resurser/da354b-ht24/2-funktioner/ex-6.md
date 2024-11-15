@@ -13,11 +13,11 @@ Hittillls när vi gjort utskrifter i våra program så har vi skapar utskriftern
 
 ```python
 name = "Anton"
-age = 34
+age = 35
 city = "Lund"
 
 print(name + " är " + str(age) + "år och bor i " + city)
-#=> Anton är 34år och bor i Lund
+#=> Anton är 35år och bor i Lund
 ```
 
 Detta fungerar visserligen fint, men har två brister:
@@ -33,11 +33,11 @@ Istället för att slå ihop strängar vid utskrifter, så kan vi *stoppa in* v�
 
 ```python
 name = "Anton"
-age = 34
+age = 35
 city = "Lund"
 
 print("{} är {}år och bor i {}".format(name, age, city))
-#=> Anton är 34år och bor i Lund
+#=> Anton är 35år och bor i Lund
 ```
 
 Personligen tycker jag att det blir mycket enklare att se helheten för utskriften, samt att vi slipper att omvandla datatyper till strängar vid utskrifter. Tittar vi närmre på funktionen så ser vi att `{}` ersätts av ett värde. Det första argumentet till funktionen `format` hamnar ersätter den första `{}`, osv.
@@ -48,11 +48,11 @@ Vill man kan man även namnge platserna på följande sätt:
 
 ```python
 name = "Anton"
-age = 34
+age = 35
 city = "Lund"
 
 print("{n} är {a}år och bor i {c}".format(n=name, a=age, c=city))
-#=> Anton är 34år och bor i Lund
+#=> Anton är 35år och bor i Lund
 ```
 
 #### Övningar
@@ -83,11 +83,11 @@ Sedan Python version 3.6 så kan man även använda s.k. *Formatted string liter
 
 ```python
 name = "Anton"
-age = 34
+age = 35
 city = "Lund"
 
 print(f"{name} är {age}år och bor i {city}")
-#=> Anton är 34år och bor i Lund
+#=> Anton är 35år och bor i Lund
 ```
 
 #### Övningar

@@ -38,7 +38,7 @@ else:
 
 Vårt vilkor i if-satserna ovan är `number > 0`, där vi kontrollerar om talet `number` är större än 0. Om talet är större än 0 körs kodraden `print("Talet: " + str(number) + " är positivt!")`, i alla andra fall körs kodraden `print("Talet: " + str(number) + " är negativt!")`. En testkörning ger således följande resultat:
 
-![Idle](../images/idle5.png)
+![Idle](../images/positive-or-negative.png)
 
 Det ser ju ut att fungera bra! Men vad händer om vi skriver `number = 0` och sedan kör if-satsen? Då kommer ju vårt program att säga att talet är negativt (eftersom det _inte_ är positivt, vilket vi testar). Detta löser vi genom att lägga till ytterliggare ett alternativ i vår if-sats genom `elif vilkor:` (förkortning för _else if_). Alltså kommer koden att se ut såhär:
 

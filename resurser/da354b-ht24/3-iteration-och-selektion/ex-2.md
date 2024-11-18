@@ -88,7 +88,7 @@ Din uppgift är att skriva ett enkel miniräknare som:
 
 Såhär kan slutresultatet se ut:
 
-![Idle](../images/idle6.png)
+![Idle](../images/calculator.png)
 
 #### Övning 2 - Jämföra tärningsslag
 
@@ -105,4 +105,4 @@ Denna uppgift ska ni lösa på två olika sätt:
 
 Slutresultatet ska bli detsamma får båda era lösningar och se ut på följande sätt:
 
-![Idle](../images/idle7.png)
+![Idle](../images/dice-rolls.png)

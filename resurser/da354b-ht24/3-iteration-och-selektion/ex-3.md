@@ -87,7 +87,7 @@ print("Slut på det roliga")
 
 I exemplet ovan kommer vi att skriva ut `Ett varv i while-iterationen!` så länge användaren svara `Ja` på frågan "Vill du köra en gång till?" (då vårt vilkor blir sant). När vi inte svarar `Ja` blir vilkoret falskt och iterationen avslutas. Se exempelkörning av koden ovan:
 
-![Idle](../images/idle1.png)
+![Example of while-loop](../images/test-while-loop.png)
 
 __Övning:__ Testkör de två kodexemplen ovan - se så att de fungerar. För kodexempel ett, ändra så att iterationen körs 15 gånger istället för 10. För kodexempel två, byt ut frågan och svaret i while-vilkoret till valfri ny fråga/svar.
 
@@ -97,13 +97,13 @@ __Övning:__ Testkör de två kodexemplen ovan - se så att de fungerar. För ko
 
 Använd en for-iteration för att skriva ut strängen `Iterationen 'for' sparar massor med arbete!` 15 gånger. Gör sedan samma sak fast med en while-iteration och strängen `Iterationen 'while' sparar massor med arbete!`. Utskriften ska se ut såhär:
 
-![Idle](../images/idle2.png)
+![Example of for- and while-loops](../images/for-and-while-loops.png)
 
 #### Övning 2 - Upprepning (igen)
 
 Emma har varit elak i klassen och har därför fått som hemuppgift att skriva meningen "Jag ska inte kasta suddgummin på Kalle!" 500 gånger. Hjälp Emma med hemuppgiften genom att skriva en funktion som skriver ut meningen 500 gånger. Kalla funktionen `def emma():`. Resultatet ser ut på följande sätt:
 
-![Idle](../images/idle3.png)
+![Idle](../images/elaka-emma.png)
 
 osv.
 
@@ -119,7 +119,7 @@ print_num_times(content, times)
 
 Exempelkörning kan se ut såhär:
 
-![Idle](../images/idle4.png)
+![Idle](../images/hej-hopp.png)
 
 #### Övning 4 - Räkna Bokstäver
 

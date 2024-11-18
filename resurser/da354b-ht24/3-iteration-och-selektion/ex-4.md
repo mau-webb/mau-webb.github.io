@@ -27,7 +27,7 @@ for week in weeks:
 
 Och när man kör koden börjar de såhär (och kör alla 52 veckorna):
 
-![Idle](../images/idle8.png)
+![Idle](../images/days-with-num.png)
 
 (Vi antar här (för enkelhetens skull) att årets första dag är "dag 1", d.v.s. en måndag, och att året har exakt 52 veckor)
 
@@ -51,7 +51,7 @@ for week in weeks:
 
 `day` är alltså i exemplet ovan ett tal mellan 1 och 7 som representerar en veckodag (1 = Måndag, 2 = Tisdag osv.). Använd er av if-satser i funktionen `day_name` för att returnera korrekt namn på dagen. När funktionen är klar ska utskriften se ut såhär:
 
-![Idle](../images/idle9.png)
+![Idle](../images/days-with-name.png)
 
 #### Övning 2 - Klockan
 
@@ -63,7 +63,7 @@ I denna övning ska vi skriva ut ett dygn i timmar, minuter och sekunder. Detta 
 
 Resultatet ska se ut enligt följande:
 
-![Idle](../images/idle11.png)
+![Idle](../images/the-clock.png)
 
 osv.
 
@@ -71,4 +71,4 @@ osv.
 
 Nu ska bi bygga en pyramid av stjärnor genom nästlade iterationer. Den yttre iterationen ska representera varje rad (total 10st) och den inre ska representera varje rads stjärnor. Resultatet ska se ut på följande vis:
 
-![Idle](../images/idle10.png)
+![Idle](../images/pyramid.png)

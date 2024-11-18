@@ -65,7 +65,7 @@ Statistikdelen ska berätta för användaren hur många frågor man besvarat och
 
 #### Exempelkörning
 
-![Idle](../images/idle15.png)
+![Idle](../images/assignment-2.png)
 
 ### Bedömning
 

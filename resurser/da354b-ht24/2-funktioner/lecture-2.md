@@ -9,14 +9,242 @@ title: "Modul 2 - Funktioner"
 
 Publiceras efter att föreläsningen ägt rum.
 
-<!--
+
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/LRxlOex9DYwwyL" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/bqsN1Gwr1JRbI" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
 Här kommer dagens exempelkod:
 
-### Enkla funktioner
+### Moduler i Python
+
+```python
+from random import randint
+
+# Skriv ut ett slumptal mellan 0 och 100
+print(randint(0,100))
+```
+
+### Moduler - Låtar
+
+#### main.py
+```python
+import mr_brightside
+import let_it_be
+
+# Skriv ut låttexten till sången Mr. Brightside
+mr_brightside.song()
+```
+
+#### mr_brightside.py
+```python
+def song():
+    verse()
+    print("")
+    chours()
+    print("")
+    verse()
+    print("")
+    chours()
+    print("")
+    outro()
+
+def verse():
+    print("I'm coming out of my cage")
+    print("And I've been doing just fine")
+    print("Gotta gotta be down")
+    print("Because I want it all")
+    print("It started out with a kiss")
+    print("How did it end up like this")
+    print("It was only a kiss, it was only a kiss")
+    print("Now I'm falling asleep")
+    print("And she's calling a cab")
+    print("While he's having a smoke")
+    print("And she's taking a drag")
+    print("Now they're going to bed")
+    print("And my stomach is sick")
+    print("And it's all in my head")
+    print("But she's touching his-chest")
+    print("Now, he takes off her dress")
+    print("Now, letting me go")
+    print("Cause I can't look its killing me")
+
+def chours():
+    print("And taking control")
+    print("Jealousy, turning saints into the sea")
+    print("Swimming through sick lullabies")
+    print("Choking on your alibis")
+    print("But it's just the price I pay")
+    print("Destiny is calling me")
+    print("Open up my eager eyes")
+    print("'Cause I'm Mr Brightside")
+
+def outro():
+    for i in range(5):
+        print("I never...")
+
+if __name__ == "__main__":
+    song()
+```
+
+
+#### let_it_be.py
+```py
+'''
+This module presents the lyrics to the song: Let it be, by Beatles
+'''
+
+def song():
+    '''
+        Prints the full song
+    '''
+    verse_1()
+    print("")
+    verse_2()
+    print("")
+    chours()
+    print("")
+    verse_3()
+    print("")
+    verse_4()
+    print("")
+    chours_2()
+    print("")
+    chours()
+    print("")
+    chours()
+    print("")
+    verse_5()
+    print("")
+    verse_6()
+    print("")
+    chours_2()
+    print("")
+    chours()
+
+def chours():
+    print("Let it be, let it be")
+    print("Let it be, let it be")
+    print("Whisper words of wisdom")
+    print("Let it be")
+
+def chours_2():
+    print("Let it be, let it be")
+    print("Let it be, let it be")
+    print("Yeah, there will be an answer let it be")
+
+def verse_1():
+    print("When I find myself in times of trouble")
+    print("Mother Mary comes to me")
+    print("Speaking words of wisdom, let it be")
+
+def verse_2():
+    print("And in my hour of darkness")
+    print("She is standing right in front of me")
+    print("Speaking words of wisdom, let it be")
+
+def verse_3():
+    print("And when all the brokenhearted people")
+    print("Living in the world agree")
+    print("There will be an answer, let it be")
+
+def verse_4():
+    print("For though they may be parted")
+    print("There is still a chance that they will see")
+    print("There will be an answer, let it be")
+
+def verse_5():
+    print("And when the night is cloudy")
+    print("There is still a light that shines on me")
+    print("Shine on until tomorrow, let it be")
+
+def verse_6():
+    print("I wake up to the sound of music")
+    print("Mother Mary comes to me")
+    print("Speaking words of wisdom, let it be")
+
+
+if __name__=="__main__":
+    song()
+```
+
+### Fler funktioner (i exten modul)
+
+#### my_functions.py
+```py
+from datetime import date, datetime
+
+def get_users_name():
+    """Hämtar användarens namn
+    
+    Returns:
+        str: Användarens namn
+    """
+    user_name = input("Vad heter du? ")
+    return user_name
+
+def calculate_sum_of_two_numbers(first_number, second_number):
+    """Räknar ut summan av två tal
+    
+    Args:
+        first_number: Det första talet vi vill räkna med
+        second_number: Det andra talet vi vill räkna med
+        
+    Returns:
+        int: Summan av de två talen
+    """
+    sum_of_numbers = first_number + second_number
+    return sum_of_numbers
+
+def get_int_from_user():
+    """Frågar användaren efter ett heltal, och returnerar sedan detta som datatypen heltal
+    
+    Returns:
+        int: Det heltal som användaren angivit
+    """
+    number = input("Ange ett heltal: ")
+    return int(number)
+
+def days_to_christmas():
+    """Beräknar tid till julafton
+    
+    Returns:
+        datetime: Tid kvar till julafton
+    """
+    today = datetime.now()
+    christmas_date = datetime(2024, 12, 24)
+    days_left = christmas_date - today
+    return days_left
+```
+
+#### demo.py
+```py
+from my_functions import get_users_name, calculate_sum_of_two_numbers, get_int_from_user
+
+def main():
+    name = get_users_name()
+    number_1 = get_int_from_user()
+    number_2 = get_int_from_user()
+
+    result = calculate_sum_of_two_numbers(number_1, number_2)
+
+    print(name + " Summan blir: " + str(result))
+
+    print("{}, summan blir {}".format(name, result))
+    print(f"{name}, summan blir {result}")
+
+main()
+```
+
+#### demo_2.py
+```py
+from my_functions import days_to_christmas
+
+print(days_to_christmas())
+```
+
+
+<!--
 
 ```python
 def print_three_times(x):

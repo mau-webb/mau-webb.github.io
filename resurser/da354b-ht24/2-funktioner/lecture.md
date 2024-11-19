@@ -7,21 +7,20 @@ title: "Modul 2 - Funktioner"
 
 ## Föreläsning - Funktioner
 
-Publiceras efter att föreläsningen ägt rum.
-
-<!--
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/2ca9be91d5d5431db672d9b3d3e23c03" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/JjfudWDsepck6o" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
 ---
 
+<!--
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/rcOXDhwLc4Y?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ---
+-->
 
 ### Dagens exempel
 
@@ -29,50 +28,65 @@ Publiceras efter att föreläsningen ägt rum.
 
 ```python
 def heading(message):
-    """Skriver ut en rubrik"""
-    print("************************************")
+    """Skriver ut en rubrik
+    
+    Args:
+        message: Titeln i rubriken som ska skrivas ut
+    """
+    print("="*40)
     print(message)
-    print("************************************")
+    print("="*40)
 
-def today_lunch(day, lunch):
-    """Skriver ut lunch för en given dag"""
-    print("Lunch " + day + " is: " + lunch)
+def lunch_day(day, dish):
+    """Skriver ut lunch för en given dag
+    
+    Args:
+        day: Dagen (t.ex. måndag)
+        dish: Maträtten (t.ex. Spagetti Bolognaise)
+    """
+    print(day + ": " + dish)
 
-def menu():
-    """Skriver ut veckans meny"""
-    today_lunch("Monday", "Spagetti Bolognaise")
-    today_lunch("Tuesday", "Fish and chips")
-    today_lunch("Wednesday", "Hamburger")
-    today_lunch("Thursday", "Soup")
-    today_lunch("Friday", "Pizza")
+def weeks_lunch():
+    """Skriver ut veckans luncher"""
+    lunch_day("Monday", "Spagetti Bolognaise")
+    lunch_day("Tuesday", "Fish and chips")
+    lunch_day("Wednesday", "Hamburger")
+    lunch_day("Thursday", "Soup")
+    lunch_day("Friday", "Pizza")
+    lunch_day("Saturday", "Tacos")
 
-heading("Welcome!")
-menu()
-heading("Goodbye!")
+
+def main():
+    heading("Welcome!")
+    weeks_lunch()
+    heading("Goodbye!")
+
+main()
 ```
 
 #### Parametrar & argument
 
 ```python
-def calculate(a, b):
-    return a + b
+def shout(text):
+    """
+    Gör om en textsträng till stora bokstäver, och skriver ut strängen
 
+    Args:
+        text: Den sträng som ska göras om till stora bokstäver och skrivas ut
+    """
+    result = text.upper()
+    print(result)
 
-nr_1 = input("Ange tal 1: ")
-nr_2 = input("Ange tal 2: ")
-result = calculate(int(nr_1), int(nr_2))
+shout("Anton är bäst!")
+shout("Python är roligt!")
+input_text = input("Ange text du vill skriva ut i stora bokstäver: ")
+shout(input_text)
 
-
-def meters_to_yards(meters):
-    yards_per_meter = 0.9144
-    result = meters/yards_per_meter
-    return result
-
-m = input("Hur många meter vill du omvandla till yards? ")
-x = meters_to_yards(int(m))
-print(x)
+name = input("Vad heter du? ")
+print(name + " innehåller " + str(len(name)) + " tecken")
 ```
 
+<!--
 #### Använda modulen random
 
 ```python

@@ -5,12 +5,12 @@ title: "Modul 4 - Listor & Lexikon"
 
 # Modul 4 - Listor & Lexikon
 
-## Föreläsning - Extra
+## Föreläsning - Mer om listor & Tre-i-rad
 
-Bingospelet börjar cikra **28 minuter** in i videon. Innan dess är det repetion kring listor.
+Tre-i-rad börjar cikra **28 minuter** in i videon. Innan dess är det repetion kring listor.
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tpdFCDCVxbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/tpdFCDCVxbA?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ### Nästlade listor som tabeller

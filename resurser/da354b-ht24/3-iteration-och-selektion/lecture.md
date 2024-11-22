@@ -7,17 +7,19 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning
 
+Videoföreläsning (från tidigare år).
+
+<div class="video-frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/eThWwiyfN_A?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
+</div>
+
+---
+
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/a641102ea36d48d69143e06850b0ce1b" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
 
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/Presentation.pdf)
-
----
-
-<div class="video-frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/eThWwiyfN_A?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
-</div>
 
 ---
 

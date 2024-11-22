@@ -7,22 +7,20 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning
 
-Publiceras efter att föreläsningen ägt rum.
+Inspelad föreläsning (från föregående år).
 
+<div class="video-frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/ts1OZoalLMM?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
+</div>
+
+
+## Föreläsning
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/HEz8QScQLRdQgA" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/0e9773ea9dd8419a915698bbf3afbca1" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2023-listor.pdf)
-
----
-
-<!--
-<div class="video-frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/LE7bjJ_0zHA?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
-</div>
--->
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2020-listor.pdf)
 
 ## Dagens exempel
 
@@ -51,11 +49,12 @@ print(text.upper())
 print(text.lower())
 
 def get_first_and_last_character(text):
-    """Funktionen skriver ut den första & sista bokstaven i en sträng
+    '''
+    Funktionen skriver ut den första & sista bokstaven i en sträng
 
     Args:
         text (str) : Texten som vi använder i funktionen
-    """
+    '''
     print(f"Texten: {text} börjar på {text[0]} och slutar på {text[-1]}")
 
 # Frågar användaren efter hens namn
@@ -68,110 +67,102 @@ get_first_and_last_character(user_text)
 ### Listor
 
 ```python
-numbers = [5, 10, 27, 85, 16, 21, 4, 3, 13, 100]
+# En lista med siffror
+numbers = [1, 5, 10, 20, 50, 2, 100, 7]
 
 total_sum = 0
 
-numbers.append(69)
+# Räknar ut summan av alla siffrorna i listan och sparar resultatet i "total_sum"
+for nr in numbers:
+    total_sum += nr
 
-print(numbers)
-
-for number in numbers:
-    total_sum += number
-
+# Skriver ut medelvärdet av sifforna i listan
 print(total_sum/len(numbers))
 ```
 
 ### En boklista
 
 ```python
-def print_books(book_list):
-    """Skriver ut böckerna från en given lista
-    
-    Args
-        book_list (list): En lista med strängar som representerar boktitlar
-    """
-    print("\nBöcker:")
-    print("--------")
-    for book in book_list:
-        print(f"- {book}")
+# En lista med 4st böcker
+books = [
+    "Dune",
+    "Name of the Wind",
+    "Think Python",
+    "Alkemisten"    
+]
 
-def main():
-    # Skapar en lista, och lägger till två böcker i den
-    books = ["Harry Potter och de vises sten", "Sagan om ringen"]
-    # Lägger till boken "Liftarens guide till galaxen" sist i listan
-    books.append("Liftarens guide till galaxen")
+# Frågar användaren efter en boktitel
+new_book = input("Ange bok: ")
+# Lägger till boktiteln sist i vår lista
+books.append(new_book)
 
-    # Frågar användaren om en boktitel
-    new_book = input("Vilken bok vill du lägga till? ")
-    # Frågar användaren efter vilken plats i listan den ska läggas på
-    new_book_position = int(input("På vilken plats vill du att boken ska ligga? "))
-    # Lägger in boken på angiven plats
-    books.insert(new_book_position, new_book)
 
-    # Skriver ut listan på böcker
-    print_books(books)
+# Skriver ut alla böckerna i listan "books"
+for book in books:
+    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
 
-    # Frågar användaren om en boktitel som ska tas bort
-    remove_book_title = input("Ange titeln på den bok du vill ta bort: ")
+# Skriver ut en blank rad
+print()
 
-    # Kontrollerar om angiven boktitel finns listan
-    if remove_book_title in books:
-        # Om ja: Ta bort boktiteln
-        books.remove(remove_book_title)
-    else:
-        # Om nej: Skriv ut att boktiteln inte fanns med i listan
-        print(f"Boken: {remove_book_title} finns inte i listan av böcker!")
-    
-    # Skriver ut listan på böcker
-    print_books(books)
+# Lägger till boken "Mio min Mio" sist i listan "books"
+books.append("Mio min Mio")
+# Lägger till boken "Omgiven av idioter" sist i listan "books"
+books.append("Omgiven av idioter")
 
-    # Tar bort den sista boken i listan, och sparar den i variabeln "last_book"
-    last_book = books.pop()
-    print(f"Vi har tagit bort boken {last_book}")
+# Tar bort boken "Think Python" från vår lista "books"
+books.remove("Think Python")
 
-    # Sorterar listan i alfabetisk ordning
-    books.sort()
+# Skriver ut alla böckerna i listan "books"
+for book in books:
+    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
 
-    # Skriver ut listan på böcker
-    print_books(books)
+# Skriver ut en blank rad
+print()
 
-# Kör huvudfunktionen
-main()
+# Tar bort den sista bokentiteln och sparar den i variabeln "removed_book"
+removed_book = books.pop()
+# Skriver ut titeln på boken vi tog bort
+print(f"Vi tar bort boken {removed_book}")
 
+# Skriver ut alla böckerna i listan "books"
+for book in books:
+    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
 ```
 
 ### Listor & Lexikon
 
 ```python
-teachers = [{
-    "id": 2,
-    "name": "Johan",
-    "email": "johan.holmberg@mau.se"
-}, {
-    "id": 3,
-    "name": "Dipak",
-    "email": "dipak.surie@mau.se"
-}]
+'''
+Ett husdjur har följande:
+    - namn
+    - djur
+    - ålder
+'''
 
-person = {}
-person["id"] = 1
-person["name"] = "Anton"
-person["email"] = "anton.tibblin@mau.se"
+# En lista med två husdjur
+pets = [
+    {
+        "name": "Doug",
+        "animal": "hund",
+        "age": 3
+    },
+    {
+        "name": "Pigge",
+        "animal": "fisk",
+        "age": 1
+    }
+]
 
-teachers.append(person)
+# Skapar ett nytt husdjur
+new_pet = {}
+new_pet["name"] = input("Namn: ")
+new_pet["animal"] = input("Djur: ")
+new_pet["age"] = input("Ålder: ")
 
-# Bonus: Sortera lärarna efter deras id (stigande)
-teachers.sort(key=lambda teacher: teacher["id"])
+# Lägger till det nya husdjuret i listan "pets"
+pets.append(new_pet)
 
-
-for teacher in teachers:
-    id = teacher["id"]
-    name = teacher["name"]
-    email = teacher["email"]
-    print(f"{id}: {name} ({email})")
-
-
+# Skriver ut alla våra husdjur i listan "pets"
+for pet in pets:
+    print(f"{pet['name']} är en {pet['animal']} och är {pet['age']}år")
 ```
-
--->

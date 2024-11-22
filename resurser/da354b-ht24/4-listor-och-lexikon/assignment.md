@@ -76,7 +76,7 @@ För att nå betyget godkänt behöver programmet uppfylla uppgiftsbeskrivningen
 
 - Koden ska vara strukturerad med ett antal funktioner, där varje funktion har begränsat syfte och omfattning
 - Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer.
-- Alla funktion som inte är självförklarande ska ha en beskrivning i form av _docstrings_ (`"""Kommentar för funktionen"""`-kommentarer) där funktionens syfte, ev. parametrar & ev. returvärden finns beskrivet. Se t.ex. exemplet [Sten, sax, påse](https://mau-webb.github.io/resurser/da354b-ht24/3-iteration-och-selektion/lecture-2/) för att se **hur** man skriver denna typ av dokumentation. För att få lite svar på vanliga frågor om docstrings, se [PEP 257](../../pep257).
+- **Alla** funktioner ska ha en beskrivning i form av _docstrings_ (`"""Kommentar för funktionen"""`-kommentarer) där funktionens syfte, ev. parametrar & ev. returvärden finns beskrivet. Se t.ex. exemplet [Sten, sax, påse](../lecture-3) för att se **hur** man skriver denna typ av dokumentation. För att få lite svar på vanliga frågor om docstrings, se [PEP 257](../../pep257).
 
 #### Specifika krav för uppgiften
 
@@ -103,4 +103,4 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är _onsdag , 2023-12-06_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är _onsdag , 2024-12-11_.

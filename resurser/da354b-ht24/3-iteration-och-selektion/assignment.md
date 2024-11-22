@@ -73,7 +73,7 @@ Uppgiften kan ge betyget godkänt. För att nå detta betyg behöver programmet 
 
 1. Koden ska vara strukturerad med ett antal funktioner, där varje funktion har begränsat syfte och omfattning
 2. Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer.
-3. Funktioner ska ha en beskrivning i form av _docstrings_ (`''' Kommentar för funktionen '''`-kommentarer). För att få lite svar på vanliga frågor om docstrings, se [PEP 257](../../pep257).
+3. - Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering och kommentarer. Funktioner ska ha en beskrivning i form av _docstrings_ (`"""Kommentar för funktionen"""`-kommentarer). För att få lite svar på vanliga frågor om docstrings, se [PEP 257](../../pep257).
 
 #### Specifika krav för uppgiften
 
@@ -98,4 +98,4 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2023-11-29_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2024-12-04_.

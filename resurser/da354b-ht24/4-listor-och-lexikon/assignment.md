@@ -44,9 +44,9 @@ Uppgiften går ut på att vi ska bygga ett spel, likt Keno, fast i en lite mindr
 
 #### Exempelkörning
 
-![Idle](../images/a-idle.png)
+![Idle](../images/bingo-1.png)
 
-![Idle](../images/a-idle2.png)
+![Idle](../images/bingo-2.png)
 
 ### Tips
 

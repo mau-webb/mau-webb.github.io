@@ -64,7 +64,7 @@ print(translate(["May", "the force", "be", "with", "you"]))
 
 Ge följande resultat:
 
-![Idle](../images/idle4.png)
+![Idle](../images/may-the-force-be-with-you.png)
 
 #### Övning 2 - En filmsamling med betyg!
 

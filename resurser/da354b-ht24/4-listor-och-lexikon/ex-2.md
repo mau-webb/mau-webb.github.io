@@ -55,7 +55,7 @@ Notera att de tecken som man väljer att splittra strängen vid *inte* returnera
 
 Den första uppgiften går ut på att ni ska räkna antalet ord i en mening genom funktionen `count_words(text)`. Funktionen ska som parameter ta emot en sträng (en mening förslagsvis) och funktionen ska sedan genom funktionen `split()` dela upp strängen till en lista med alla ord, och därefter returnera längden på listan. En exempelkörning skulle kunna se ut såhär:
 
-![Ilde](../images/idle5.png)
+![Idle](../images/count-words-in-sentence.png)
 
 #### Övning 2 - Rövarspråket
 
@@ -70,7 +70,7 @@ def isVowel(char):
 
 Förväntad körning för anropet `print rovarsprak("hej på dig")` skulle kunna se ut såhär:
 
-![Idle](../images/idle6.png)
+![Idle](../images/rovarsprak.png)
 
 #### Övning 3 - Palindromkoll
 

@@ -185,7 +185,7 @@ Det kommer här att finnas fyra övningar som bygger på varandra, som till slut
 
 Den första övningen går ut på att ni ska skapa en lista med filmer. Börja med att skapa en lista där ni lägger in fem filmtitlar. Ni ska sedan göra en funktion, `print_movies`, som som skriver ut alla filmer som ni har i er filmsamling. Utskriften ska se ut på följande sätt:
 
-![Idle](../images/idle1.png)
+![Idle](../images/en-filmsamling.png)
 
 #### Del 2 - Lägga/Ta bort till filmer
 
@@ -203,7 +203,7 @@ Nu ska vi ge användaren möjlighet att lägga till/ta bort filmer i listan. Det
 
 Exempelkörning:
 
-![Idle](../images/idle2.png)
+![Idle](../images/till-och-fran-filmsamlingen.png)
 
 #### Del 3 - Sortera utskrifen av filmerna alfabetiskt
 
@@ -217,7 +217,7 @@ Det kan vara bra att läsa på om Pythons funktion [sort()](https://wiki.python.
 
 Exempelkörning:
 
-![Idle](../images/idle3.png)
+![Idle](../images/sortera-filmsamling.png)
 
 #### Del 4 - Förbättrad "Lägga till film"-funktion
 

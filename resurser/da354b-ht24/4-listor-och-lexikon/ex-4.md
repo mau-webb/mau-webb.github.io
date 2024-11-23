@@ -72,7 +72,7 @@ Utgå från den lista ni skapade i förra övningen och bygg ny funktionalitet t
 
 #### Exempelkörning för övning 1 och 2
 
-![Idle](../images/idle7.png)
+![Idle](../images/football-database.png)
 
 #### Övning 3 - Bonusövning till 1 och 2!
 

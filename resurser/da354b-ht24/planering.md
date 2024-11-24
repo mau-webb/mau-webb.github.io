@@ -151,7 +151,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
             <td></td>
 			<td>2/12</td>
 			<td>13-17</td>
-			<td>F: Listor &amp; Lexikon 2 (inspelad)</td>
+			<td>F: Listor &amp; Lexikon 2 & 3 (inspelad)</td>
 			<td>-</td>
 			<td>-</td>
 		</tr>

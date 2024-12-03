@@ -173,20 +173,20 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		</tr>
 		<tr>
             <td>50</td>
-			<td>9/12</td>
-			<td>10-12</td>
+			<td>10/12</td>
+			<td>13-15</td>
 			<td>F: Fil- &amp; Felhantering</td>
 			<td>Anton</td>
-			<td>NI:A0306</td>
+			<td>NI:A0406</td>			
 			<td rowspan="3">5</td>
 		</tr>
 		<tr>
 			<td></td>
-			<td>10/12</td>
-			<td>13-15</td>
+			<td>11/12</td>
+			<td>10-12</td>
 			<td>F: Fil- &amp; Felhantering (2)</td>
 			<td>Anton</td>
-			<td>NI:A0406</td>
+			<td>NI:A0506</td>
 		</tr>
 		<tr>
             <td></td>

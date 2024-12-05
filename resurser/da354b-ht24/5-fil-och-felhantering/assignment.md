@@ -50,7 +50,7 @@ Ni får själva avgöra om ni vill läsa/skriva till filen varje gång ni kör n
 
 #### Exempelkörning
 
-![Idle](../images/a-idle.png)
+![Idle](../images/assignment-4.png)
 
 ### Bedömning
 

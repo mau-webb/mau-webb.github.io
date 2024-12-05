@@ -52,7 +52,7 @@ except:
 
 Detta ser i konsolen, när koden ovan körs, ut såhär:
 
-![Idle](../images/idle6.png)
+![Idle](../images/error-exc-info.png)
 
 Ovan ser vi att felet var av typen `TypeError` och beskrivningen av *TypeError* var `cannot concatenate 'str' and 'int' objects`.
 
@@ -69,11 +69,11 @@ Utgå ifrån koden ovan, och skriv en felhanterare `try`/`except` för att öppn
 
 Om filen *inte finns* ska det se ut såhär:
 
-![Idle](../images/idle7.png)
+![Idle](../images/do-the-file-exist.png)
 
 Om filen *finns* ska det se ut såhär:
 
-![Idle](../images/idle8.png)
+![Idle](../images/3-movies.png)
 
 Ni kan utgå från [denna fil](../files/movies.txt) (om ni inte vill skapa en egen).
 
@@ -90,7 +90,7 @@ print(celcius)
 
 Kör man koden ovan och vi *inte* skriver in ett tal (med eller utan decimaler) så kommer programmet att krascha (testa att skriv in `hej` för att bekräfta detta). Er uppgift är att skriva en felhantering (m.h.a.`try`/`except`) för att kontrollera så att användaren matar in siffror/decimaltal. Ni ska dessutom göra en iteration som körs till det att användaren har matat in korrekt information. En exempelkörning kan se ut såhär:
 
-![Idle](../images/idle9.png)
+![Idle](../images/verify-user-input.png)
 
 #### Övning 3 - Nolldivision
 

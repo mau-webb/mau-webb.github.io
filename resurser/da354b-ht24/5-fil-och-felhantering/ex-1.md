@@ -83,11 +83,11 @@ text_file.close()
 
 Ni ska nu göra ett program som frågar användaren efter fem bra böcker. Ni ska spara titlarna för dessa fem böckerna i en fil där varje titel hamnar på en ny rad. Text-filen ska nollställas varje gång som programmet körs. Text-filen ska heta `books.txt`. Programmet ska fungera såhär:
 
-![Idle](../images/idle.png)
+![Idle](../images/book-to-file.png)
 
 Och er textfil ska se ut så såhär (med era angivna böcker) efter att ni kört programmet:
 
-![Notepad](../images/notepad.png)
+![Notepad](../images/books-in-file.png)
 
 Kör sedan programmet några gånger och notera hur innehållet varje gång nollställs - innan ni skriver in era böcker.
 
@@ -95,11 +95,11 @@ Kör sedan programmet några gånger och notera hur innehållet varje gång noll
 
 Vi ska nu bygga ett program som läser från filen som ni skapade ovan. Alltså ska ni skriva ett program som skriver ut innehållet från filen `books.txt`. Det ska se ut på följande sätt:
 
-![Idle](../images/idle2.png)
+![Idle](../images/books-in-file.png)
 
 När ni lyckats med att skriva ut allt innehåll i filen så vill vi specificera utskriften till:
 
-![Idle](../images/idle3.png)
+![Idle](../images/get-books-from-file.png)
 
 Vi vill alltså skriva ut nummer för varje bok (varje rad i filen) för att snygga till utskriften.
 
@@ -115,13 +115,13 @@ books =  text_file.read().split("\n")
 
 Vi ska nu skriva ett program som användare sig utav samma textfil som tidigare (`books.txt`), men nu ger användaren att lägga till en film i taget. Programmet ska genom en `while`-iteration fråga användaren (när användaren lagt till en bok) om denna vill lägga till ytterligare en bok. Detta tills användaren svarar "nej".
 
-![Idle](../images/idle4.png)
+![Idle](../images/write-additional-information-to-file.png)
 
 #### Övning 4 - Att ta radera från en fil
 
 I sista övningen ska vi ge användaren möjlighet att ta bort en bok ur samlingen - alltså ta bort en rad från filen. Det ska fungera på följande sätt:
 
-![Idle](../images/idle5.png)
+![Idle](../images/remove-book-from-file.png)
 
 __Tips:__ En idé kan vara att läsa in alla böckerna från textfilen i en lista (m.h.a. funktionen `split()`), och sedan gå igenom listan och ta bort den titel som användaren angav. När det är klart skriver ni sedan kvarvarande böckerna i listan till filen igen.
 

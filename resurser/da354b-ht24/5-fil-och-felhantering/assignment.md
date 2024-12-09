@@ -99,7 +99,7 @@ För VG:
 
 Redovisa genom att på Canvas ladda upp programmets källkod, **samt** en videoinspelning där ni går igenom och förklarar er kod.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2024-12-18_.
+Inlämningsuppgifter rättas varje vecka. Deadline för uppgiften är: senast _onsdag 2024-12-22_.
 
 Viktigt - Om du siktar på **VG** så skriv detta i en kommentar när du lämnar in på Canvas.
 {: .info}

@@ -7,6 +7,10 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 ## Föreläsning
 
+Publiceras efter att föreläsningen ägt rum.
+
+<!--
+
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/hirERMEmv9NPKK" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
@@ -14,12 +18,12 @@ title: "Modul 5 - Fil- och felhantering i Python"
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/Lecture-2023.pdf)
 
 ---
-<!--
+
 
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/5ITue0swW_U?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
--->
+
 
 ---
 

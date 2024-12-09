@@ -11,6 +11,8 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 Denna inlämningsuppgift har som syfte att examinera modul 5 som har fokus på fil- och felhantering. Denna uppgift kan ge **VG** som betyg, se mer om detta under rubriken *bedömning*.
 
+Denna uppgift ska redovisas genom källkod (lösningen) till uppgiften, **samt en videoinspelning där ni går igenom och förklarar er kod**. Har ni inte gjort videoinspelningar tidigare rekommenderar jag att ni använder Zoom, där ni delar er skärm, och spelar in mötet. Ni har alla som studenter en Zoom-licens för detta. Har ni frågor kring detta så hojta till på en laboration så visar vi hur man gör detta.
+
 **Läs uppgiften noga innan du börjar med den.**
 
 Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
@@ -32,10 +34,6 @@ namn;varv1;varv2;varv3
 ```
 
 För alternativ ett finns en exempelfil att utgå från (med några förinlagda resultat) [här](../files/result.txt).
-
-<!--
-_Det andra tillåtna alternativet_ är att använda något av de inbyggda biblioteken för serialisering, i form av `pickle` eller `json`.
--->
 
 Programmet i sig ska ha tre funktioner:
 
@@ -67,6 +65,7 @@ För att uppnå godkänt behöver programmet uppfylla uppgiftsbeskrivningen, var
   - följa angiven struktur (som beskrivs i uppgiftsbeskrivningen)
   - alternativt vara kompatibel med `pickle` eller `json`.
  - Även kvalitén på er kod kommer att bedömas.
+ - **En tydlig och välgrundad genomgång av er kod, genom en videoinspelning**
 
 #### Krav för VG
 
@@ -98,9 +97,9 @@ För VG:
 
 ### Redovisning
 
-Redovisa genom att ladda upp programmets källkod på Canvas.
+Redovisa genom att på Canvas ladda upp programmets källkod, **samt** en videoinspelning där ni går igenom och förklarar er kod.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2023-12-17_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Deadline för uppgiften är: senast _onsdag 2024-12-18_.
 
 Viktigt - Om du siktar på **VG** så skriv detta i en kommentar när du lämnar in på Canvas.
 {: .info}

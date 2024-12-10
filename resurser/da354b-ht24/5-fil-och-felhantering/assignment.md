@@ -25,7 +25,7 @@ Det är förbjudet att använda hjälpmedel för att skapa/generera kod och/elle
 
 Vi ska i denna uppgift bygga en resultathanterare för en minigolftävling. Minigolftävlingen går ut på att varje person spelar tre varv (rundor) och det totala antalet slag avgör vem som vinner. Programmet ska kunna spara registrerade resultat till en textfil, och läsa in tidigare resultat från filer som följer samma format.
 
-För att spara resultaten finns två alternativ, fria att välja mellan. _Alternativ ett_ är att spara med följande struktur:
+För att spara resultaten ska ni följa denna struktur:
 
 ```python
 namn;varv1;varv2;varv3

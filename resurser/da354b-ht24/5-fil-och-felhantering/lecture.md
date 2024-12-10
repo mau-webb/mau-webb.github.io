@@ -374,7 +374,9 @@ def get_wishes_from_file(filename):
 main()
 ```
 
-### Ett program som hanterar produkter
+-->
+
+### Exempel från videoinspelningen: Ett program som hanterar produkter
 
 ```python
 def main():
@@ -495,5 +497,3 @@ Tangentbord
 Bärbar dator
 
 ```
-
--->

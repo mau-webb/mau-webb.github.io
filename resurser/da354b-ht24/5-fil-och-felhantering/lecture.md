@@ -7,18 +7,17 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 ## Föreläsning
 
-Publiceras efter att föreläsningen ägt rum.
-
-<!--
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/hirERMEmv9NPKK" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/CTVbLIArSDCXKr" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/Lecture-2023.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2024-try-except.pdf)
 
 ---
 
+## Föreläsning från tidigare år
+
+**OM NI TITTAR PÅ FÖRELÄSNINGEN NEDAN** Tänk på att det är från tidigare version av kursen och att ev. kursinfor **INTE ÄR AKTUELL** (t.ex. deadlines, information om inlämningsuppgifter, etc.).
 
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/5ITue0swW_U?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
@@ -121,7 +120,97 @@ my_file.write("\nKaffe är gott")
 my_file.close()
 ```
 
-### Önskelista genom att skriva till fil genom *append* och *write*
+### Önskelista genom att skriva till fil genom *append*
+
+```py
+def main():
+    """Huvudfunktion som styr vår önskelista"""
+
+    # Vilken fil vi ska använda för att spara våra önskningar
+    FILE_NAME = "wishes.txt"
+
+    wishes = get_wishes_from_file(FILE_NAME)
+
+    print("*"*30)
+    print("Önskelista")
+    print("*"*30)
+
+    while True:
+        print_menu()
+
+        choice = input("Val: ")
+
+        if choice == "1":
+            print_wish_list(wishes)
+        elif choice == "2":
+            add_wish(wishes, FILE_NAME)
+        elif choice == "3":
+            break
+        else:
+            print("Du angav inte ett giltligt alternativ, försök igen")
+
+def print_menu():
+    """Skriver ut programmets menu"""
+    print("\nMeny")
+    print("----")
+    print("1) Visa önskelista")
+    print("2) Lägg till en önskning")
+    print("3) Avsluta programmet")
+
+def print_wish_list(wish_list):
+    """Skriver ut önskelistan
+    
+    Args:
+        wish_list: lista med önskningar
+    """
+    print("\nÖnskelista")
+    print("--------------")
+    for wish in wish_list:
+        print(f"- {wish}", end="")
+
+def add_wish(wish_list, file_name):
+    """Skapar en ny önskning och sparar den i filen
+    
+    Args:
+        wish_list: Lista med önskningar
+        file_name: Namnet på filen där önskningen ska läggas till
+    """
+    print("\nNy önskning")
+    print("---------------")
+    new_item = input("Vad önskar du dig? ")
+    # Lägger till den nya önskningen i listan som används i programmet
+    wish_list.append(new_item)
+
+    # Lägger till önskningen sist i text-filen 
+    my_file = open(file_name, "a")
+    my_file.write(f"{new_item}\n")
+    my_file.close()
+
+
+def get_wishes_from_file(file_name):
+    """Hämtar önskningarna från angiven fil, om filen inte finns så skapar vi den
+    
+    Args:
+        file_name: Namnet på filen som ska läsas in
+
+    Returns:
+        Lista med önskningar
+    """
+    try:
+        my_file = open(file_name, "r")
+        content = my_file.readlines()
+        my_file.close()
+        return content
+    except FileNotFoundError:
+        print("Filen finns inte, så jag är supersnäll och skapar den till dig =)")
+        my_file = open(file_name, "w")
+        my_file.close()
+        return []
+
+main()
+```
+
+<!--
 
 ```python
 def main():
@@ -205,7 +294,7 @@ def get_wishes_from_file(filename):
 main()
 ```
 
-<!--
+
 
 ### Önskelista genom att skriva till fil genom *write*
 

@@ -5,14 +5,15 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 # Modul 5 - Fil- och felhantering i Python
 
-Publiceras efter att föreläsningen ägt rum.
-
-<!--
-
 Dagens föreläsning hade ingen presentation. Se bild och kod nedan.
 
-![Bild på tabeller](https://lh3.googleusercontent.com/pw/ADCreHeHNyWwP4uig9-XJ30WvVm4J4H_YedopfRUxoyFU1USDwSKmeo_NmFi07POjfEpa5mIxRl5YmniudhYjh21m-46WG434SusqZOBe2ATlCwAzQ3xlydXNc778YsnWC9GQ-_DnuqM0uNxFWqumPrRJnMWE-KFyUhLQBQ-eLEz6ZTR_kbqNekMK9S6AalTrFMjVEXb55PUtFQTMEhgAC8wigYAqHNK_-cS8oVYRD4TzopNle5LQH7JvWXahUPxUiTV3Pk8YAQR-P-bLBGKxA0FBSkY6BtoFY3nvui8f0mI2Mb1Bm6UGfi8PnjdwxDp_6avJNWwdPiN1-dp6fRu7NCMKdB221sZSlwadiUWi-EHvw3eObfOKm9smpW7KnL6_CW_Y6DpdQdPxstCrNIrOWZD-9mZCQPDzAJPWsWr-x2UvmehkYbohNlSYurrKtg_rhVdED4R-nK595BJZXIvRKvi4xqq9KA16PWEiBElMtMBAMVpb7-PRo2UyvBeurw_B0AJWTvaA8hSTtu0j2cPonacxJt0KRyf4XazYecD3dMghDu6myeyqyAcjNKAtNKppQeQPZo3O5BILljMmhjpiRMbqqzsOpQ2c-N7-FF_aYtktzNnbtEsoFLNyldlE-y0hsZJUw729T5zlYw8JAs1kVmGK-hJVHSX1QgtdCFQN9N8I-N0utOE1pJ0c7IL0FB6eJ5IDeBhuXZa9G4XTeOKCwc2ABrMTJkFQn3wZPmv9Wa7QExL9IenfPekWlOVKoP-73Qnygfal50K-ODS9QHhAGoR22RdzD07BryNL3B_UtP6z6zzlkYAHUt-vn-VqX2qhCuP3BRS-Y0LtCVivxgJt0B2HxsOWWZYM4oXYYc0mmJMDgV1kBgAKTy3RSQa3280H9-AZZtdES992xJpOBOe4BF_L1rR6mvcrjNmZEw9qoLtmg=w1696-h955-s-no-gm?authuser=0)
+![Bild på tabell](../images/20241211_120416.jpg)
+![Bild på tabell](../images/20241211_120428.jpg)
+![Bild på tabell](../images/20241211_120433.jpg)
 
+<!--
+![Bild på tabeller](https://lh3.googleusercontent.com/pw/ADCreHeHNyWwP4uig9-XJ30WvVm4J4H_YedopfRUxoyFU1USDwSKmeo_NmFi07POjfEpa5mIxRl5YmniudhYjh21m-46WG434SusqZOBe2ATlCwAzQ3xlydXNc778YsnWC9GQ-_DnuqM0uNxFWqumPrRJnMWE-KFyUhLQBQ-eLEz6ZTR_kbqNekMK9S6AalTrFMjVEXb55PUtFQTMEhgAC8wigYAqHNK_-cS8oVYRD4TzopNle5LQH7JvWXahUPxUiTV3Pk8YAQR-P-bLBGKxA0FBSkY6BtoFY3nvui8f0mI2Mb1Bm6UGfi8PnjdwxDp_6avJNWwdPiN1-dp6fRu7NCMKdB221sZSlwadiUWi-EHvw3eObfOKm9smpW7KnL6_CW_Y6DpdQdPxstCrNIrOWZD-9mZCQPDzAJPWsWr-x2UvmehkYbohNlSYurrKtg_rhVdED4R-nK595BJZXIvRKvi4xqq9KA16PWEiBElMtMBAMVpb7-PRo2UyvBeurw_B0AJWTvaA8hSTtu0j2cPonacxJt0KRyf4XazYecD3dMghDu6myeyqyAcjNKAtNKppQeQPZo3O5BILljMmhjpiRMbqqzsOpQ2c-N7-FF_aYtktzNnbtEsoFLNyldlE-y0hsZJUw729T5zlYw8JAs1kVmGK-hJVHSX1QgtdCFQN9N8I-N0utOE1pJ0c7IL0FB6eJ5IDeBhuXZa9G4XTeOKCwc2ABrMTJkFQn3wZPmv9Wa7QExL9IenfPekWlOVKoP-73Qnygfal50K-ODS9QHhAGoR22RdzD07BryNL3B_UtP6z6zzlkYAHUt-vn-VqX2qhCuP3BRS-Y0LtCVivxgJt0B2HxsOWWZYM4oXYYc0mmJMDgV1kBgAKTy3RSQa3280H9-AZZtdES992xJpOBOe4BF_L1rR6mvcrjNmZEw9qoLtmg=w1696-h955-s-no-gm?authuser=0)
+-->
 
 **OBS - dagens tillfälle spelades inte in**, detta då det var mycket ritande på tavlan och det var svårt att spela in det på ett bra och pedagogiskt sätt. Istället lägger jag upp extratillfället från förra året, där vi går igenom samma principer som vi gjorde på plats idag.
 
@@ -20,8 +21,10 @@ Vill ni ha dagens exempelkod så hittar ni den [på denna länk](https://github.
 
 ## Föreläsning - Extra
 
+**OM NI TITTAR PÅ FÖRELÄSNINGEN NEDAN** Tänk på att det är från tidigare version av kursen och att ev. kursinfor **INTE ÄR AKTUELL** (t.ex. deadlines, information om inlämningsuppgifter, etc.).
+
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/j0h_zr0ecos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/j0h_zr0ecos?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ---
@@ -39,67 +42,66 @@ Vill ni ha dagens exempelkod så hittar ni den [på denna länk](https://github.
 
 ```python
 def main():
-    """Huvudfunktionen i programmet som hantera välkomnande av användaren,
-    inläsning av produkter från vår fil "products.csv" samt menyn i programmet.
-    """
+    """Vår huvudfunktion som startar upp och kör vårt program"""
+
     FILE_NAME = "products.csv"
-    # 1. Läsa in alla produkter från en csv-fil
+
     products = read_products_from_file(FILE_NAME)
 
-    # 2. Skriva ut en välkomstfras
-    print("Min diversebutik")
-    print("----------------")
-
-    # 3. Skriver ut menyn - och beroende på vad användaren väljer - visar/lägger till/tar bort produkter (eller avslutar programmet)
+    print(products)
+    
     while True:
+
         print_menu()
 
-        user_choice = input("Val: ")
+        choice = input("Val: ")
 
-        if user_choice == "1":
-            print_products(products, "Produkter")
-        elif user_choice == "2":
+        if choice == "1":
+            print_products(products)
+        elif choice == "2":
             add_product(products)
-        elif user_choice == "3":
+        elif choice == "3":
             remove_product(products)
-        elif user_choice == "4":
-            search_for_product(products)
-        elif user_choice == "5":
-            save_products_to_file(FILE_NAME, products)
-        elif user_choice == "0":
-            break
+        elif choice == "4":
+            search_for_products(products)
+        elif choice == "5":
+            save_products_to_file(products, FILE_NAME)
+        elif choice == "0":
+            break # Avsluta programmet
         else:
-            print("Du valde inte ett giltigt alternativ, försök igen!")
+            print("Du valde inte ett giltligt alternativ, försök igen")
 
-def search_for_product(product_list):
-    """Frågar efter en söksträng och skriver ut sökresultaten för given söksträng
-
+def search_for_products(product_list):
+    """Söker efter produkter
+    
     Args:
-        products (list) : En lista innehållandes listor (produkter)
+        product_list (list): Lista på produkterna
     """
-    print("\nSök efter en produkt")
-    print("-"*30)
+    print("="*50)
+    print("Sök efter produkter")
+    print("="*50)
     search_string = input("Söksträng: ")
     search_results = []
 
     for product in product_list:
-        if search_string in product[1] or search_string in product[2]:
+        if search_string in product[1]:
             search_results.append(product)
 
     if len(search_results) == 0:
-        print("Inga sökträffar")
+        print("Det finns inga produkter för den söksträngen")
     else:
-        print_products(search_results, "Sökresultat")
+        print_products(search_results)
+
 
 def remove_product(product_list):
-    """
-    Tar bort en produkt (som användaren väljer genom id)
-
+    """Tar bort en product
+    
     Args:
-        product_list (list) : En lista innehållandes listor (produkter)
+        product_list (list): Lista på produkterna
     """
-    print("\nTa bort en produkt")
-    print("-"*30)
+    print("="*50)
+    print("Ta bort en product")
+    print("="*50)
     remove_id = input("Id: ")
     product_removed = False
 
@@ -108,51 +110,59 @@ def remove_product(product_list):
             product_list.remove(product)
             product_removed = True
 
-    if product_removed:
+    if product_removed == True:
         print("Produkt borttagen!")
     else:
         print("Det finns ingen produkt med det id:t")
 
-def save_products_to_file(filename, product_list):
-    """Sparar våra produkter till given fil
-
+def save_products_to_file(product_list, file_name):
+    """Sparar producterna i angiven fil
+    
     Args:
-        filename (str) : Sökvägen till den fil som ska användas
-        products (list) : En lista innehållandes listor (produkter) som ska sparas
+        product_list (list): Lista på produkterna
+        file_name (str): Namnet på filen
     """
-    my_file = open(filename, "w")
+    # Öppnar filen i skrivläge (write)
+    my_file = open(file_name, "w")
+    # Går igenom varje produkt i produktlistan (för varje produkt i listan av produkter)
     for product in product_list:
-        product_as_string = ";".join(product)
-        my_file.write(f"{product_as_string}\n")
+        # Slår ihop listan av en produkt till en sträng, t.ex. ["1", "iPhone 15",  "Apple", "15000"] till "1;iPhone 15;Apple;15000"
+        product_as_a_string = ";".join(product)
+        # Skriver nuvarande produkt (t.ex. "1;iPhone 15;Apple;15000") till filen
+        my_file.write(f"{product_as_a_string}\n")
+    # Stänger filen
     my_file.close()
+    
 
 def add_product(product_list):
-    """Lägger till en produkt i vår produktlista
-
+    """Lägger till en produkt i listan
+    
     Args:
-        product_list (list) : En lista innehållandes listor (produkter)
+        product_list (list): Lista på produkterna
     """
-    print("\nLägg till en produkt")
-    print("-"*30)
-    id = input("Id: ")
+    print("="*50)
+    print("Lägg till en product")
+    print("="*50)
+    product_id = input("Id: ")
     title = input("Titel: ")
     brand = input("Tillverkare: ")
     price = input("Pris: ")
 
-    product = [id, title, brand, price]
+    product = [product_id, title, brand, price]
     product_list.append(product)
+    
 
-def print_products(product_list, title):
-    """Skriver ut alla produkterna i vår produktlista
-
+def print_products(product_list):
+    """Skriver ut produkterna
+    
     Args:
-        products (list) : En lista innehållandes listor (produkter)
-        title (str) : Rubriken för tabellen
+        product_list (list): Lista på produkterna
     """
-    print(f"\n{title}")
-    print("-"*60)
+    print("="*50)
+    print("Produkter")
+    print("="*50)
     print(f"{'Id':<15}{'Produkt':<15}{'Tillverkare':<15}{'Pris':<15}")
-    print("-"*60)
+    print("-"*50)
     for product in product_list:
         for item in product:
             print(f"{item:<15}", end="")
@@ -160,70 +170,70 @@ def print_products(product_list, title):
 
 def print_menu():
     """Skriver ut programmets meny"""
-    print("\nMeny")
-    print("----")
+    print("="*25)
+    print("Meny")
+    print("="*25)
     print("1) Visa produkter")
     print("2) Lägg till en produkt")
     print("3) Ta bort en produkt")
     print("4) Sök efter en produkt")
-    print("5) Spara produkter till filen")
-    print("0) Avsluta programmet")
+    print("5) Spara produkter till fil")
+    print("0) Avsluta")
 
-def read_products_from_file(filename):
-    """Läsa in filen (file_name) och returnera produkterna som en lista:
-    t.ex.
+def read_products_from_file(file_name):
+    """Läser in en fil och returnerar produkterna som en nästlad lista, t.ex.
+    
     [
         [
             "1",
-            "iPhone 15",
+            "iPhone 16",
             "Apple",
-            "15000"
+            "16000"
         ],
         [
             "2",
-            "Pixel 7",
+            "Pixel 9",
             "Google",
-            "6900"
+            "10000"
         ]
     ]
-
-    Args
-        filename(str) : Namnet på filen där produkterna är sparade
     
-    Return
-        list : En nästlad lista med alla produkterna
+    Args:   
+        file_name (str): Namnet på filen där produkterna finns sparade i CSV
+
+    Returns
+        list: En nästlad lista på våra produkter
     """
     try:
-        my_file = open(filename, "r")
+        my_file = open(file_name, "r")
         data = my_file.read()
         my_file.close()
 
         products = []
-        for row in data.split("\n"):
-            item = row.split(";")
-            if len(item) > 1:
+
+        for product in data.split("\n"):
+            item = product.split(";")
+            if len(item) == 4:
                 products.append(item)
 
-        print(products)
         return products
-
     except FileNotFoundError:
-        my_file = open(filename, "w")
+        my_file = open(file_name, "w")
         my_file.close()
 
         return []
-    
+
+
 main()
 ```
 
 #### products.csv
 
 ```
-1;iPhone 14;Apple;14000
-3;AX-3000;Asus;1900
-4;WH1000XM3;Sony;3000
-5;Pixel 7;Google;7900
-6;Active 7;Jabra;1800
+1;iPhone 16;Apple;16000
+2;Pixel 9;Google;10000
+4;Apple;Bonderna;5
+5;Penna;Bic;100
 
 ```
 

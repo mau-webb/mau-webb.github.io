@@ -117,19 +117,25 @@ sidebar:
                 path: "ex-3"
               - label: "Inlämningsuppgift"
                 path: "assignment"
-#        - label: "6. Webbapplikationer"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: "overview"
-#             - label: "Föreläsning"
-#                path: "lecture"
-#              - label: "Föreläsning - Bottle"
-#                path: "lecture-2"
-#              - label: "Föreläsning - Önskelista"
-#                path: "lecture-3"
-#              - label: "Inlämningsuppgift"
-#                path: "assignment"
+        - label: "6. Webbapplikationer"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: "overview"
+              - label: "Föreläsning"
+                path: "lecture"
+              - label: "Föreläsning - Genomgång: Bottle"
+                path: "lecture-2"
+              - label: "Föreläsning - Önskelista"
+                path: "lecture-3"
+              - label: "Övning - Bottle"
+                path: "ex-bottle"
+              - label: "Övning - Flask"
+                path: "ex-flask"
+              - label: "Övning - FastAPI"
+                path: "ex-fastapi"
+              - label: "Inlämningsuppgift"
+                path: "assignment"
 #        - label: "7. Objektorientering"
 #          collapsed: true
 #          items:

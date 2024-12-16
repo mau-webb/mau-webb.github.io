@@ -14,7 +14,7 @@ Denna föreläsningen ersätts av inspelade videos som grundligt går igenom hur
 ### 1. Introduktion till Bottle
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eDjfWwURvJA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/eDjfWwURvJA?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ---
@@ -22,7 +22,7 @@ Denna föreläsningen ersätts av inspelade videos som grundligt går igenom hur
 ### 2. En första webbapplikation med Bottle
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/LB0WCbJ1yCQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/LB0WCbJ1yCQ?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ---
@@ -30,7 +30,7 @@ Denna föreläsningen ersätts av inspelade videos som grundligt går igenom hur
 ### 3. Templates och statiska filer
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Gud8gkNg9AI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/Gud8gkNg9AI?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ---
@@ -38,7 +38,7 @@ Denna föreläsningen ersätts av inspelade videos som grundligt går igenom hur
 ### 4. Filhantering
 
 <div class="video-frame">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bZLYuDGbPzI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/bZLYuDGbPzI?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
 </div>
 
 ---

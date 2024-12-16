@@ -9,6 +9,18 @@ title: "Modul 6 - Webbapplikationer"
 
 Webbprogrammering är en av de mest populära tillämpningarna för Python. Det passar bra som fördjupning efter att ha gått igenom den grundläggande programmeringen i modul 1-5.
 
+| Innehåll | Kommentar |
+| --- | --- |
+| [Föreläsning - Star Wars](../lecture) | Introduktion till webbapplikationer med Star Wars-tema |
+| [Föreläsning - Genomgång: Bottle](../lecture-2) | Videoinspelningar - Introduktion till Bottle |
+| [Föreläsning - Önskelista](../lecture-2) | Vi bygger en önskelista som webbapplikation med Bottle |
+| [Övning: Webbapplikation med Bottle](../ex-bottle) | Att skapa en första webbapplikation med Bottle |
+| [Övning: Webbapplikation med Flask](../ex-flask) | Att skapa en första webbapplikation med Flask |
+| [Övning: Webbapplikation med FastAPI](../ex-fastapi) | Att skapa en första webbapplikation med FastAPI |
+| [Inlämningsuppgift](../assignment) | Bygg din egen Wiki! |
+
+**OBS** - När det kommer till övningarna ovan så räcker det med att ni väljer **ett** av ramverken (`Bottle`, `Flask`, eller `FastAPI`). Vet ni inte vilket ni vill välja, så rekommenderar vi `Bottle`.
+
 ### Webbramverk
 
 Det finns många konkurrerande ramverk och bibliotek webbprogrammering med Python. Alla delar det grundläggande målet i att förenkla vanliga uppgifter samt att ge en struktur att bygga sitt program efter.

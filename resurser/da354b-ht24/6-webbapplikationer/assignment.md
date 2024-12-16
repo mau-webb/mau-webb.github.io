@@ -11,6 +11,8 @@ title: "Modul 6 - Webbapplikationer"
 
 Denna uppgift går ut på att skapa en enkel webbapplikation, i form av en wiki. Just wiki passar bra, eftersom även en enkel sådan fångar in många viktiga koncept genom att skapa, spara och redigera innehåll.
 
+Denna uppgift ska redovisas genom källkod (lösningen) till uppgiften, **samt en videoinspelning där ni går igenom och förklarar er kod**. Har ni inte gjort videoinspelningar tidigare rekommenderar jag att ni använder Zoom, där ni delar er skärm, och spelar in mötet. Ni har alla som studenter en Zoom-licens för detta. Har ni frågor kring detta så hojta till på en laboration så visar vi hur man gör detta.
+
 Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
 {: .warn}
 
@@ -67,7 +69,10 @@ Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering
 
 ### Bedömning
 
-Den grundläggande kravspecifikationen finns ovan (text + video) och uppfylls den nås också betyget G.
+Följande krävs för godkänt på uppgiften:
+
+- Den grundläggande kravspecifikationen finns ovan (text + video) ska implementeras.
+- **En tydlig och välgrundad genomgång av er kod, genom en videoinspelning**.
 
 #### VG
 
@@ -97,4 +102,4 @@ print files # a list of all filenames in directory wiki
 
 ### Redovisning
 
-Redovisa genom att ladda upp programmets källkod på Canvas. Deadline för modul 6 är söndag **2024-01-14**.
+Redovisa genom att på Cavnas laddar upp programmets källkod, **samt** en videoinspelning där ni går igenom och förklarar er kod. Deadline för modul 6 är söndag **2024-01-19**.

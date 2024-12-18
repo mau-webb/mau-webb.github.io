@@ -60,8 +60,8 @@ run(host="127.0.0.1", port=8080)
 
 #### hello.html (OBS - ska ligga i mappen "views")
 ```html
-<h1>Hello {{username}}</h1>
-<p>Vad kul att du ville besöka vår webbplats, {{username}}</p>
+<h1>Hello {% raw %}{{username}}{% endraw %}</h1>
+<p>Vad kul att du ville besöka vår webbplats, {% raw %}{{username}}{% endraw %}</p>
 ```
 ### Star Wars-sida
 
@@ -290,13 +290,13 @@ run(host='127.0.0.1', port=8080, debug=False, reloader=True)
 			<figure>
 				<h3>Empire</h3>
 				<div class="vote-count">
-					{{votes["empire"]}}
+					{% raw %}votes["empire"]}}{% endraw %}
 				</div>
 			</figure>
 			<figure>
 				<h3>Rebels</h3>
 				<div class="vote-count">
-					{{votes["rebels"]}}
+					{% raw %}{{votes["rebels"]}}{% endraw %}
 				</div>
 			</figure>
 			<h3><a href="/disqus" class="center">Disqus the results</a></h3>
@@ -339,8 +339,8 @@ run(host='127.0.0.1', port=8080, debug=False, reloader=True)
 			</form>
 			% for post in posts:
 				<div class="post">
-					<div class="name"><strong>Name:</strong> {{ post["name"]}} <small>({{ post["datetime"] }})</small></div>
-					<div class="message"><strong>Message:</strong> {{ post["message"] }}</div>
+					<div class="name"><strong>Name:</strong> {% raw %}{{ post["name"]}}{% endraw %} <small>({% raw %}{{ post["datetime"] }}{% endraw %})</small></div>
+					<div class="message"><strong>Message:</strong> {% raw %}{{ post["message"] }}{% endraw %}</div>
 				</div>
 			% end
 		</div>

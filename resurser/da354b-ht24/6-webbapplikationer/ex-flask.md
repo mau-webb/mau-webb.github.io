@@ -181,10 +181,10 @@ Lär dig att skicka variabler till Jinja2-templates för att skapa dynamiska sid
      <head>
        <meta charset="UTF-8" />
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <title>Hej då, {{ name }}!</title>
+       <title>Hej då,{% raw %}{{name}}{% endraw %}!</title>
      </head>
      <body>
-       <h1>Hej då, {{ name }}!</h1>
+       <h1>Hej då,{% raw %}{{name}}{% endraw %}!</h1>
      </body>
    </html>
    ```

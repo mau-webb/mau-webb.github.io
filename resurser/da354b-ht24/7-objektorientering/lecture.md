@@ -8,9 +8,10 @@ title: "Modul 7 - Objektorientering"
 ## Föreläsning
 
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/61b652078b074fe2867e8dafc3875a19" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/pr7OHLMp4to8h4" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
+<!--
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/lecture.pdf)
 
 ---
@@ -19,6 +20,7 @@ title: "Modul 7 - Objektorientering"
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/fnxHLnkCXSg?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
+-->
 
 ---
 
@@ -60,7 +62,8 @@ class MovieCollection:
         print("\nLägg till en ny film")
         title = input("Ange titel: ")
         year = input("Ange år: ")
-        self.movies.append(Movie(title, year))
+        new_movie = Movie(title, year)
+        self.movies.append(new_movie)
 
     def print_movies(self):
         print("\nFilmer")
@@ -85,8 +88,13 @@ class Movie:
     def add_actor(self, actor):
         self.actors.append(actor)
 
-    def get_actor(self):
-        return self.actors
+    def print_full_info(self):
+        print(self.title)
+        print("="*12)
+        print(f"År: {self.year}")
+        print("> Skådespelare")
+        for actor in self.actors:
+            print(f"- {actor}")
 
     def __str__(self):
         return f"{self.title} ({self.year})"

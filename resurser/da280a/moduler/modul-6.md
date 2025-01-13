@@ -20,14 +20,12 @@ Dessutom ska vi nu, i enkelhet, anpassa vår webbsida så att den är mobilanpas
 
 ### Övrig läsning
 
-* [Introduktion till Media Queries](https://youtu.be/B6l6Wzmj4pA) (video)
+* [Flexbox Tutorials](https://www.youtube.com/watch?v=phWxA89Dy94&list=WL&index=1)
 * [Exempel: webbplats med Media Queries](https://youtu.be/yU7jJ3NbPdA) (video)
 * [Mobilanpassa en klar webbplats](/{{ site.resource_path }}/da280a/material/m6_ex_rwd/) (övning)
-* [The Mystery Of The CSS Float Property](https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/)
 * [Mastering CSS Coding: Getting Started](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)
-* [Mastering CSS Principles: A Comprehensive Guide](https://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
 * [CSS3 @media Rule (w3schools)](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
-* [CSS Layout - float and clear (w3schools)](http://www.w3schools.com/css/css_float.asp)
+  
 
 ### Inlämningsuppgift
 

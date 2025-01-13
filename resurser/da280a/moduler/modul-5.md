@@ -26,7 +26,7 @@ Vi ska även lära oss att skapa stilmallar i separata filer - så att vi kan se
 * [Exempel: CSS i externt dokumet]( https://youtu.be/QT_lIti-8Zk)(video)
 * [CSS i externt dokument](/{{ site.resource_path }}/da280a/material/m5_css_document/) (övning)
 * [Layout med CSS](/{{ site.resource_path }}/da280a/material/m5_css_layout/) (övning)
-* [CSS selectors (codeacademy)](https://www.codecademy.com/courses/web-beginner-en-WF0CF/0/1?curriculum_id=50579fb998b470000202dc8b) (guide)
+* [CSS selectors (codeacademy)](https://www.w3schools.com/cssref/css_selectors.php) (guide)
 * [The Mystery Of The CSS Float Property](https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/)
 * [Mastering CSS Coding: Getting Started](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)
 * [Mastering CSS Principles: A Comprehensive Guide](https://www.smashingmagazine.com/2009/10/mastering-css-coding-getting-started/)

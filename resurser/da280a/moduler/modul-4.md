@@ -27,6 +27,7 @@ I denna modul kommer vi börja med alternativ 1, "inline styling", och i nästko
 ### Övrig läsning
 
 * [Intro till CSS och "inline styling"](https://youtu.be/yfoY53QXEnI?si=rFkdeXCRJk1Pawmw) (video)
+* [CSS 3 olika sätt att lägga till CSS (w3schools)](https://www.w3schools.com/css/css_howto.asp))
 * [CSS Tutorial (w3schools)](http://www.w3schools.com/css/)
 * [CSS Reference (w3schools)](http://www.w3schools.com/cssref/default.asp)
 * [CSS: coding with style (codeacademy)](https://www.codecademy.com/resources/docs/css) (guide)

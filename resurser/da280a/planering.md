@@ -15,26 +15,26 @@ Kursen är uppdelad i 6 moduler som behandlar olika områden inom grundläggande
 
 | Vecka | Moment | Deadline |
 |:-----:|:------:|:--------:|
-| 3 | [Modul 1](/{{ site.resource_path }}/da280a/moduler/modul-1/) ||
-| 4 | - ||
-| 5 | - | [Inlämningsuppgift 1](/{{ site.resource_path }}/da280a/uppgifter/uppgift-1/) |
-| 6 | [Modul 2](/{{ site.resource_path }}/da280a/moduler/modul-2/) ||
-| 7 | - ||
-| 8 | - | [Inlämningsuppgift 2](/{{ site.resource_path }}/da280a/uppgifter/uppgift-2/) |
-| 9 | [Modul 3](/{{ site.resource_path }}/da280a/moduler/modul-3/) ||
-| 10 | - ||
-| 11 | - | [Inlämningsuppgift 3](/{{ site.resource_path }}/da280a/uppgifter/uppgift-3/) |
-| 12 | [Modul 4](/{{ site.resource_path }}/da280a/moduler/modul-4/) ||
-| 13 | - ||
-| 14 | - | [Inlämningsuppgift 4](/{{ site.resource_path }}/da280a/uppgifter/uppgift-4/) |
-| 15 | [Modul 5](/{{ site.resource_path }}/da280a/moduler/modul-5/) ||
-| 16 | - ||
-| 17 | - | [Inlämningsuppgift 5](/{{ site.resource_path }}/da280a/uppgifter/uppgift-5/)|
-| 18 | [Modul 6](/{{ site.resource_path }}/da280a/moduler/modul-6/) ||
-| 19 | - ||
-| 20 | - | [Inlämningsuppgift 6](/{{ site.resource_path }}/da280a/uppgifter/uppgift-6/) |
-| 21 | Kompletteringar |
-| 22 | - |
+| 4 | [Modul 1](/{{ site.resource_path }}/da280a/moduler/modul-1/) ||
+| 5 | - ||
+| 6 | - | [Inlämningsuppgift 1](/{{ site.resource_path }}/da280a/uppgifter/uppgift-1/) |
+| 7 | [Modul 2](/{{ site.resource_path }}/da280a/moduler/modul-2/) ||
+| 8 | - ||
+| 9 | - | [Inlämningsuppgift 2](/{{ site.resource_path }}/da280a/uppgifter/uppgift-2/) |
+| 10 | [Modul 3](/{{ site.resource_path }}/da280a/moduler/modul-3/) ||
+| 11 | - ||
+| 12 | - | [Inlämningsuppgift 3](/{{ site.resource_path }}/da280a/uppgifter/uppgift-3/) |
+| 13 | [Modul 4](/{{ site.resource_path }}/da280a/moduler/modul-4/) ||
+| 14 | - ||
+| 15 | - | [Inlämningsuppgift 4](/{{ site.resource_path }}/da280a/uppgifter/uppgift-4/) |
+| 16 | [Modul 5](/{{ site.resource_path }}/da280a/moduler/modul-5/) ||
+| 17 | - ||
+| 18 | - | [Inlämningsuppgift 5](/{{ site.resource_path }}/da280a/uppgifter/uppgift-5/)|
+| 19 | [Modul 6](/{{ site.resource_path }}/da280a/moduler/modul-6/) ||
+| 20 | - ||
+| 21 | - | [Inlämningsuppgift 6](/{{ site.resource_path }}/da280a/uppgifter/uppgift-6/) |
+| 22 | Kompletteringar |
+| 23 | - |
 
 ---
 

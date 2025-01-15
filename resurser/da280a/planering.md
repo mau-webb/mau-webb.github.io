@@ -5,7 +5,7 @@ title: "Planering (Webbutveckling 1)"
 
 # Planering
 
-*Nedan presenteras planering för kursen gällande vårterminen 2024.*
+*Nedan presenteras planering för kursen gällande vårterminen 2025.*
 
 ## Beskrivning
 

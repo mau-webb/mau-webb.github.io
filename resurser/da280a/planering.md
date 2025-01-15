@@ -9,7 +9,7 @@ title: "Planering (Webbutveckling 1)"
 
 ## Beskrivning
 
-Kursen är uppdelad i 6 moduler som behandlar olika områden inom grundläggande webbutveckling. Nedan presenteras en kort plan över dessa och därefter en kortare beskrivning av varje modul. Deadline för inlämningsuppgifterna i de olika modulerna finns på planeirngen här nedan och [Canvas](https://mau.instructure.com/login/saml), oftast är detta på söndagen (08:00) för den sista veckan för modulen.
+Kursen är uppdelad i 6 moduler som behandlar olika områden inom grundläggande webbutveckling. Nedan presenteras en kort plan över dessa och därefter en kortare beskrivning av varje modul. Deadline för inlämningsuppgifterna i de olika modulerna finns på planeirngen här nedan och [Canvas](https://mau.instructure.com/login/saml), oftast är detta på söndagen (23:59) för den sista veckan för modulen.
 
 ### Moduler
 

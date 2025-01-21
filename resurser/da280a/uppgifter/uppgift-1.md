@@ -11,13 +11,13 @@ Betyg: U/G
 
 I den första inlämningsuppgiften ska ni i del 1 bygga vår allra första webbplats. Innehållet på webbplatsen ska handla om en författare (tillsammans med minst en bild). Ni får väldigt fria händer vad gäller utformningen av webbplatsen - så länge ni följer den kravspecifikation som presenteras i slutet av uppgiften. Den innehåller bl.a. krav på vilka element ni måste använda (minst en gång) samt att sidan måste validera enligt standarden HTML5.
 
-Vi ska i del svara på några grundläggande frågor om webbutveckling. Svaren på dessa frågor ska ni presentera i form av en webbplats. Ni hittar svaren på dessa frågor antingen i kurslitteraturen eller genom att ni söker via webben.
+Vi ska i del 2 svara på några grundläggande frågor om webbutveckling. Svaren på dessa frågor ska ni presentera i form av en webbplats. Ni hittar svaren på dessa frågor antingen i kurslitteraturen eller genom att ni söker via webben.
 
-Detta innbär att ni ska skapa **två** stycken webbplatser (dvs. två stycken HTML-dokument) - mer om inlämningen finner ni i slutet av uppgiften.
+Detta innebär att ni ska skapa **två** stycken webbplatser (dvs. två stycken HTML-dokument) - mer om inlämningen finner ni i slutet av uppgiften.
 
 ## Syfte
 
-Syftet med denna inlämingsuppgift är att ni ska få en bra grund samt förståelse för hur märkspråket HTML fungerar. Ni ska efter slutförd uppgift ha kunskap om vilka element som används i olika situationer (beroende på vilket innehåll som ska presenteras). Ni ska även erhålla kunskap om W3Cs standard HTML5 och följa denna när ni skapar webbplatser för att dessa ska valideras (läs: vara korrekt skriven) enligt HTML5.
+Syftet med denna inlämningsuppgift är att ni ska få en bra grund samt förståelse för hur märkspråket HTML fungerar. Ni ska efter slutförd uppgift ha kunskap om vilka element som används i olika situationer (beroende på vilket innehåll som ska presenteras). Ni ska även erhålla kunskap om W3Cs standard HTML5 och följa denna när ni skapar webbplatser för att dessa ska valideras (läs: vara korrekt skriven) enligt HTML5.
 
 ## Uppgift
 
@@ -90,6 +90,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på webshare. En guide om detta finner du på canvas . Glöm inte att bifoga en länk till din sida i kommetarsfältet på Canvas.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på Canvas. Du ska även publicera din lösning på webshare. En guide om detta finner du på canvas . Glöm inte att bifoga en länk till din sida i kommentarsfältet på Canvas.
 
 Lycka till!

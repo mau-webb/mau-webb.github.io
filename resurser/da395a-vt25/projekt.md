@@ -20,6 +20,7 @@ Skulle ni inte lyckas att skapa en grupp (med 3 studenter i) innan deadline så 
 ## Kravspecifikation
 
 * Ni ska bygga en webbapplikation baserat på ett JS-ramverk/bibliotek (t.ex. `React`, `Vue`, `Angular`, `Svelte` etc.).
+* Er webbapplikation ska ha ett tydligt syfte och funktionalitet för er valda målgrupp (detta stäms av med, och godkänns av Anton)
 * Ni ska motivera ert val av detta ramverk/bibliotek genom en jämförelse med två andra (t.ex. om ni valt React, varför valde ni inte Vue eller Angular?).
   * Er motivation ska vara förankrad med relevanta referenser (behöver inte vara vetenskapliga artiklar)
 * Er webbapplikation ska använda sig av **minst** ett externt API (som tidigare **inte** använts i laborationerna eller uppgifterna).

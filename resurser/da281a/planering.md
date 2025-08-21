@@ -32,5 +32,5 @@ Kursen är uppdelad i 6 moduler som behandlar olika områden inom webbutveckling
 | 50 | [Modul 6 - Projekt](/{{ site.resource_path }}/da281a/moduler/modul-6/) ||
 | 51 | - ||
 | 52 | - | [Inlämningsuppgift 6](/{{ site.resource_path }}/da281a/uppgifter/uppgift-6/) |
-| 1 | - ||
+| 1 | Kompletteringar |
 | 2 | Kompletteringar |

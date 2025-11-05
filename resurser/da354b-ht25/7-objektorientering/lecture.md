@@ -1,0 +1,101 @@
+---
+id: da354b-ht25
+title: "Modul 7 - Objektorientering"
+---
+
+# Modul 7 - Objektorientering
+
+## Föreläsning
+
+<div class="frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/pr7OHLMp4to8h4" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+</div>
+
+<!--
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/lecture.pdf)
+
+---
+
+
+<div class="video-frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/fnxHLnkCXSg?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
+</div>
+-->
+
+---
+
+## Dagens exempel
+
+### MovieCollection.py
+
+Detta är en något utökad version av den kod som vi gick igenom på dagens föreläsning.
+
+```python
+from Movie import Movie
+
+class MovieCollection:
+
+    def __init__(self):
+        self.movies = []
+        self.menu()
+
+    def menu(self):
+        while True:
+            print("Meny")
+            print("----")
+            print("1) Visa alla filmer")
+            print("2) Lägg till en film")
+            print("3) Avsluta")
+            user_choice = input("Ange val: ")
+
+            if user_choice == "1":
+                self.print_movies()
+            elif user_choice == "2":
+                self.add_movie()
+            elif user_choice == "3":
+                break
+            else:
+                print("Du angav ett felaktigt val, försök igen")
+        
+
+    def add_movie(self):
+        print("\nLägg till en ny film")
+        title = input("Ange titel: ")
+        year = input("Ange år: ")
+        new_movie = Movie(title, year)
+        self.movies.append(new_movie)
+
+    def print_movies(self):
+        print("\nFilmer")
+        print("-----------------")
+        for movie in self.movies:
+            print(movie)
+
+MovieCollection()
+```
+
+### Movie.py
+
+```python
+class Movie:
+
+    def __init__(self, title, year):
+        self.title = title
+        self.year = year
+        self.actors = []
+        self.time = 0
+
+    def add_actor(self, actor):
+        self.actors.append(actor)
+
+    def print_full_info(self):
+        print(self.title)
+        print("="*12)
+        print(f"År: {self.year}")
+        print("> Skådespelare")
+        for actor in self.actors:
+            print(f"- {actor}")
+
+    def __str__(self):
+        return f"{self.title} ({self.year})"
+```

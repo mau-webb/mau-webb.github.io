@@ -3,7 +3,7 @@ id: da354b-ht25
 title: "Introduktion till programmering"
 ---
 
-# Introduktion till programmering (DA354A)
+# Introduktion till programmering (DA354B)
 
 Denna webbplats innehåller material från en grundkurs i programmering. De som läser [kursen](https://mau.se/sok-utbildning/kurser/DA354B/TS024-20252) är den primära målgruppen, men mycket kan förhoppningsvis vara användbart även för andra. Allt material är publicerat under en [fri licens](https://mit-license.org/), vilket gör att det kan återanvändas av andra, så länge upphovsman anges.
 

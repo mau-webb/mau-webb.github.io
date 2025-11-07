@@ -117,10 +117,10 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr>
             <td></td>
 			<td>26/11</td>
-			<td>08-10</td>
+			<td>10-12</td>
 			<td>F: If-satser &amp; Loopar (2)</td>
 			<td>Anton</td>
-			<td>NI:A0407</td>
+			<td>NI:B0E07</td>
 		</tr>
 		<tr>
             <td></td>
@@ -133,10 +133,10 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr class="odd">
 			<td>49</td>
 			<td>1/12</td>
-			<td>10-12</td>
+			<td>13-15</td>
 			<td>F: Listor &amp; Lexikon</td>
 			<td>Anton</td>
-			<td>NI:B0308</td>
+			<td>OR:D328</td>
 			<td rowspan="3">4</td>
 		</tr>
 		<tr class="odd">

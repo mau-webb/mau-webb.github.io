@@ -137,7 +137,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>F: Listor &amp; Lexikon</td>
 			<td>Anton</td>
 			<td>OR:D328</td>
-			<td rowspan="3">4</td>
+			<td rowspan="4">4</td>
 		</tr>
 		<tr class="odd">
             <td></td>
@@ -154,6 +154,14 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>L: Listor &amp; Lexikon</td>
 			<td>Anton & assistenter</td>
 			<td>NI:A0311, NI:A0318</td>
+		</tr>
+		<tr class="odd">
+            <td></td>
+			<td>5/12</td>
+			<td>13-16</td>
+			<td>Redovisning: Inl. 2 (frivillig)</td>
+			<td>Lärarassistenter</td>
+			<td>NI:A0304, NI:A0614, NI:C0309</td>
 		</tr>
 		<tr>
             <td>50</td>
@@ -187,7 +195,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>F: Python &amp; Webben</td>
 			<td>Anton</td>
 			<td>NI:A0306</td>
-			<td rowspan="3">6</td>
+			<td rowspan="4">6</td>
 		</tr>
 		<tr class="odd">
             <td></td>
@@ -204,6 +212,14 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>L: Python &amp; Webben</td>
 			<td>Anton & assistenter</td>
 			<td>NI:A0306, NI:A0314</td>
+		</tr>
+		<tr class="odd">
+            <td></td>
+			<td>19/12</td>
+			<td>13-16</td>
+			<td>Redovisning: Inl. 4 (frivillig)</td>
+			<td>Lärarassistenter</td>
+			<td>NI:A0304, NI:A0305, NI:B0303</td>
 		</tr>
 		<tr>
             <td>2</td>

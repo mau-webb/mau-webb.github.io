@@ -158,10 +158,10 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr class="odd">
             <td></td>
 			<td>5/12</td>
-			<td>13-16</td>
+			<td>13-15</td>
 			<td>Redovisning: Inl. 2 (frivillig)</td>
 			<td>Lärarassistenter</td>
-			<td>NI:A0304, NI:A0614, NI:C0309</td>
+			<td>NI:A0304, NI:C0309, NI:C0325</td>
 		</tr>
 		<tr>
             <td>50</td>
@@ -216,7 +216,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr class="odd">
             <td></td>
 			<td>19/12</td>
-			<td>13-16</td>
+			<td>13-15</td>
 			<td>Redovisning: Inl. 4 (frivillig)</td>
 			<td>Lärarassistenter</td>
 			<td>NI:A0304, NI:A0305, NI:B0303</td>

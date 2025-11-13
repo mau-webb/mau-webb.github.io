@@ -36,7 +36,7 @@ I denna övning finns det *två* fel som ni behöver identifiera och fixa till. 
 
 ### Övning 3
 
-I denna övning finns det *två* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som visas i terminalen, där ni dels får en beskrivning av felet och dels vilken rad felet framkallas på.
+I denna övning finns det *fyra* fel som ni behöver identifiera och fixa till. Tänk på att titta igenom det felmeddelande som visas i terminalen, där ni dels får en beskrivning av felet och dels vilken rad felet framkallas på.
 
 [Länk till filen](../files/py3.py)
 

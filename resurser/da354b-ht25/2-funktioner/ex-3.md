@@ -9,7 +9,8 @@ title: "Modul 2 - Funktioner"
 
 #### Rekommenderad läsning
 
-- [Think Python - Chapter 3 Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
+- [Think Python - Chapter 3  Functions](https://allendowney.github.io/ThinkPython/chap03.html)
+- Python från början - Kaptiel 8: Funktioner
 
 ### Inledning
 

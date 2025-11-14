@@ -17,7 +17,8 @@ Denna modul syftar till att introducera funktioner, med övningarna uppdelade i 
 
 | Innehåll | Kommentar |
 | --- | --- |
-| [Föreläsning](../lecture) | Se menyn till vänster |
+| [Föreläsning (1)](../lecture) | Introduktion till funktioner |
+| [Föreläsning (2)](../lecture-2) | Att använda inbyggda funktioner |
 | Ö.1: [Introduktion till funktioner](../ex-1) | Hur skapar man en funktion? |
 | Ö.2: [Argument och parametrar](../ex-2) | Hur skickar vi med data till en funktion? |
 | Ö.3: [Att returnera värden](../ex-3) | Hur returneras värden från funktioner? |
@@ -28,4 +29,7 @@ Denna modul syftar till att introducera funktioner, med övningarna uppdelade i 
 
 ### Rekommenderad läsning
 
-- [Think Python - Chapter 3  Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
+- [Think Python - Chapter 3  Functions](https://allendowney.github.io/ThinkPython/chap03.html)
+- Python från början - Kaptiel 2: Att räkna
+- Python från början - Kaptiel 8: Funktioner
+    - Obs. detta kapitel tar även upp loopar & if-satser, något vi kommer att titta på nästa vecka i kursen

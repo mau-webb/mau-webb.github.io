@@ -45,9 +45,9 @@ Uppgiften kan ge betyget godkänt. För att nå detta betyg behöver programmet 
 #### Specifika krav för uppgiften
 
 - Ni ska använda funktionen [`randint`](https://docs.python.org/2/library/random.html#random.randint) från standardmodulen [`random`](https://docs.python.org/2/library/random.html) för att "slå era tärningar" (generera ett tal mellan 1 och 6).
-- Ni ska ha en funktion vars enda uppgift är att _slå_ en tärning (genererar ett nummer mellan 1 och 6) och sedan returnerar tärningens värde.
+- Ni ska ha **en funktion** vars **enda uppgift** är att _slå_ en tärning (genererar ett nummer mellan 1 och 6) och sedan returnerar tärningens värde. Ni ska sedan köra denna funktion **tre gånger**.
 - Era funktioner ska använda sig utav parametrar där detta är lämpligt, och returnera värden där detta är lämpligt.
-- Även kvalitén på er kod kommer att bedömas.
+- Kvalitén på er kod kommer att bedömas (t.ex. er användning av funktioner, parametrar och returvärden).
 
 Tänk på att **alla** krav ovan ska vara uppfyllda, annars kommer uppgiften att **underkännas**.
 {: .info}
@@ -63,4 +63,4 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 Redovisa genom att ladda upp programmets källkod på Canvas i en Zip-fil.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2024-11-27_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2024-11-26_.

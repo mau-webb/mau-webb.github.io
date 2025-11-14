@@ -9,7 +9,8 @@ title: "Modul 2 - Funktioner"
 
 #### Rekommenderad läsning
 
-- [Think Python - Chapter 3  Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
+- [Think Python - Chapter 3  Functions](https://allendowney.github.io/ThinkPython/chap03.html)
+- Python från början - Kaptiel 8: Funktioner
 
 ### Inledning
 
@@ -77,7 +78,7 @@ print("Produkten av " + str(num_1) + " och " + str(num_2) + " är: " + str(produ
 print("--------------------------------")
 ```
 
-När ni skrivit klart funktionen så ska den köras __tre__ gånger. Funktionen ska även dokumenteras enligt beskrivningen ovan (genom `"""dina kommentarer""" __Tänk på__ att vara noga med indenteringen för funktionen.
+När ni skrivit klart funktionen så ska den köras __tre__ gånger. Funktionen ska även dokumenteras enligt beskrivningen ovan (genom `"""dina kommentarer"""` __Tänk på__ att vara noga med indenteringen för funktionen.
 
 Fungerar det som förväntat när du kör `print(multiply.__doc__)` för din funktion? Skrivs funktionens beskrivning ut på ett tydligt sätt?
 {: .info}

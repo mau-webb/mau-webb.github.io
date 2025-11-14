@@ -7,6 +7,9 @@ title: "Modul 2 - Funktioner"
 
 ## Moduler i Python
 
+- [Think Python - Chapter 3  Functions](https://allendowney.github.io/ThinkPython/chap03.html)
+- Python från början - Kaptiel 8: Funktioner
+
 ### Inledning
 
 När man i Python börjar att skriva större program, med mycket kod, så är det inte så smidigt att spara all kod i ett och samma dokument. Det blir dels svårt att hitta saker i ett långt dokument och dels försvåras underhållet av koden. Det kan då istället vara bra att dela upp koden i mindre delar och att spara de mindre delarna i separata filer. Man skulle t.ex. kunna ha alla funktioner som gör en typ av beräkning i en separat fil (modul) och alla funktioner som sköter huvudprogrammet i en annan. På så sätt blir programmet uppdelat i _moduler_ där varje fil representerar en modul.

@@ -7,18 +7,14 @@ title: "Modul 2 - Funktioner"
 
 ## Föreläsning - Funktioner
 
-Publiceras när föreläsningen ägt rum.
-
-<!--
-
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/JjfudWDsepck6o" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/87aYGG8cYtd50B" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 ---
 
-Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2024-Funktioner.pdf).
+Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2025-Funktioner.pdf).
 
+<!--
 ---
 
 <div class="video-frame">
@@ -26,6 +22,7 @@ Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2024-Funkti
 </div>
 
 ---
+-->
 
 ### Dagens exempel
 
@@ -42,55 +39,48 @@ def heading(message):
     print(message)
     print("="*40)
 
-def lunch_day(day, dish):
+def day_lunch(day, dish):
     """Skriver ut lunch för en given dag
-    
+
     Args:
         day: Dagen (t.ex. måndag)
         dish: Maträtten (t.ex. Spagetti Bolognaise)
+    
     """
-    print(day + ": " + dish)
+    print(f"Lunch {day}: {dish}")
 
-def weeks_lunch():
-    """Skriver ut veckans luncher"""
-    lunch_day("Monday", "Spagetti Bolognaise")
-    lunch_day("Tuesday", "Fish and chips")
-    lunch_day("Wednesday", "Hamburger")
-    lunch_day("Thursday", "Soup")
-    lunch_day("Friday", "Pizza")
-    lunch_day("Saturday", "Tacos")
+def weeks_lunches():
+    """Skriver ut en veckas matmeny"""
+    day_lunch("måndag", "Pasta Bolognaise")
+    day_lunch("tisdag", "Hamburgare")
+    day_lunch("onsdag", "Pizza")
+    day_lunch("torsdag", "Soppa")
+    day_lunch("fredag", "Tacos")
 
-
-def main():
-    heading("Welcome!")
-    weeks_lunch()
-    heading("Goodbye!")
-
-main()
+heading("Välkommen!")
+weeks_lunches()
+heading("Tack och hejdå!")
 ```
 
 #### Parametrar & argument
 
 ```python
-def shout(text):
-    """
-    Gör om en textsträng till stora bokstäver, och skriver ut strängen
-
+def sek_to_dollar(sek):
+    """Omvanldar sek till dollar
+    
     Args:
-        text: Den sträng som ska göras om till stora bokstäver och skrivas ut
+        sek: Antal kronor vi vill omvandla
     """
-    result = text.upper()
-    print(result)
+    dollar = 9.45
+    result = sek/dollar
+    return result
 
-shout("Anton är bäst!")
-shout("Python är roligt!")
-input_text = input("Ange text du vill skriva ut i stora bokstäver: ")
-shout(input_text)
-
-name = input("Vad heter du? ")
-print(name + " innehåller " + str(len(name)) + " tecken")
+user_sek = int(input("Hur många SEK vill du omvandla till dollar? "))
+x = sek_to_dollar(user_sek)
+print(round(x, 2))
 ```
 
+<!--
 #### Använda modulen random
 
 ```python
@@ -103,7 +93,5 @@ print(rand_nr)
 ```
 
 ---
-
-
 
 -->

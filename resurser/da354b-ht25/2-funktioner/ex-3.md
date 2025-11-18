@@ -71,7 +71,7 @@ Resultatet kan se ut såhär:
 
 Vi ska nu bygga en funktion som omvandlar yards till meter. En yard är 0,9144 meter. Funktionen ska heta `yards_to_meters` ha en parameter: `yards`. Funktionen ska returnera antalet meter. Ni ska (på samma sätt som övning 2) fråga användaren efter antalet yards som ska omvandlas och sedan använda er av funktion `yards_to_meters` för att göra själva omvandlingen. Resultatet ska se ut såhär:
 
-![](../images/vscode-yards-to-meters.png)
+![](../images/vscode-yards-to-meter.png)
 
 ### Övning 4 - Skapa din egna e-postadress
 

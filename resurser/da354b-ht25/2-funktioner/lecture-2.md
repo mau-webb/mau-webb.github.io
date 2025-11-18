@@ -7,17 +7,13 @@ title: "Modul 2 - Funktioner"
 
 ## Föreläsning - Funktioner (2)
 
-Publiceras när föreläsningen ägt rum.
-
-<!--
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/bqsN1Gwr1JRbI" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/rVQLjMPbPfDZkd" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
 
 ---
 
-Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2024-Funktioner2.pdf).
+Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2025-Funktioner-2.pdf).
 
 ---
 
@@ -26,10 +22,14 @@ Här kommer dagens exempelkod:
 ### Moduler i Python
 
 ```python
-from random import randint
+import random
+from math import pi
 
-# Skriv ut ett slumptal mellan 0 och 100
-print(randint(0,100))
+# Generera ett tal mellan 1-10
+random_number = random.randint(1,10)
+
+print(random_number)
+print(pi)
 ```
 
 ### Moduler - Låtar
@@ -97,11 +97,7 @@ if __name__ == "__main__":
 
 #### let_it_be.py
 
-```py
-'''
-This module presents the lyrics to the song: Let it be, by Beatles
-'''
-
+```python
 def song():
     '''
         Prints the full song
@@ -178,77 +174,93 @@ if __name__=="__main__":
 
 ### Fler funktioner (i exten modul)
 
-#### my_functions.py
-```py
-from datetime import date, datetime
+#### christmas.py
+```python
+from datetime import date
 
-def get_users_name():
-    """Hämtar användarens namn
-    
-    Returns:
-        str: Användarens namn
+def dagar_till_julafton(year, month, day):
+    """Räknar ut hur många dagar det är kvar till julafton (2025) från ett givet datum
+
+    Args:
+        year (int): Årtal, t.ex. 2025
+        month (int): Månad, t.ex. 7
+        day (int): Datum, t.ex. 23
+
+    Returns
+        int : Antal dagar kvar till julafton 2025
     """
-    user_name = input("Vad heter du? ")
-    return user_name
+    idag = date(year, month, day)
+    julafton = date(2025, 12, 24)
 
-def calculate_sum_of_two_numbers(first_number, second_number):
-    """Räknar ut summan av två tal
+    dagar_kvar = (julafton - idag).days
+
+    return dagar_kvar
+
+print("Välkommen! Räkna ut dagar kvar till julafton!")
+user_year = int(input("År: "))
+user_month = int(input("Månad: "))
+user_date = int(input("Datum: "))
+
+dagar_kvar = dagar_till_julafton(user_year, user_month, user_date)
+print(f"Det är {dagar_kvar} dagar kvar till julafton")
+```
+
+#### game.py
+```python
+from random import randint
+from time import sleep, time
+
+def play_reaction_game():
+    """Ett spel som mäter din reaktionstid"""
+    print("="*30)
+    print("Reaktionsspel")
+    print("="*30)
+    print("När det står 'GO!' ska du trycka Enter så snabbt du kan.")
+    input("Tryck enter för att starta")
+
+    waiting_time = randint(1, 5)
+    sleep(waiting_time)
+
+    print("GO!")
+    start = time()
+    input()
+    stop = time()
+
+    result = stop - start
+
+    print(f"Din reaktionstid: {result:.3f} sekunder")
+
+play_reaction_game()
+```
+
+#### units.py
+```python
+def american_units_to_meter(mile=0, yard=0, foot=0, inch=0, dec=2):
+    """Omvandlar amerkanska enheter till meter
     
     Args:
-        first_number: Det första talet vi vill räkna med
-        second_number: Det andra talet vi vill räkna med
-        
-    Returns:
-        int: Summan av de två talen
+        mile (int): Antal miles (frivillig)
+        yard (int): Antal yards (frivillig)
+        foot (int): Antal foot (frivillig)
+        inch (int): Antal inch (frivillig)
+        dec (int): Antal decimaler (frivillig)
+
+    Returns
+        int : Summa i meter
     """
-    sum_of_numbers = first_number + second_number
-    return sum_of_numbers
+    mile_to_meter = 1609.344
+    yard_to_meter = 0.9144
+    foot_to_meter = 0.3048
+    inch_to_meter = 0.0254
 
-def get_int_from_user():
-    """Frågar användaren efter ett heltal, och returnerar sedan detta som datatypen heltal
-    
-    Returns:
-        int: Det heltal som användaren angivit
-    """
-    number = input("Ange ett heltal: ")
-    return int(number)
+    total = mile*mile_to_meter + yard*yard_to_meter + foot*foot_to_meter + inch*inch_to_meter
 
-def days_to_christmas():
-    """Beräknar tid till julafton
-    
-    Returns:
-        datetime: Tid kvar till julafton
-    """
-    today = datetime.now()
-    christmas_date = datetime(2024, 12, 24)
-    days_left = christmas_date - today
-    return days_left
-```
+    return round(total, dec)
 
-#### demo.py
-```py
-from my_functions import get_users_name, calculate_sum_of_two_numbers, get_int_from_user
+# Kör funktionen: amerikan_units_to_meter
+km = american_units_to_meter(mile=1, yard=17, dec=1)/1000
+print(km)
 
-def main():
-    name = get_users_name()
-    number_1 = get_int_from_user()
-    number_2 = get_int_from_user()
-
-    result = calculate_sum_of_two_numbers(number_1, number_2)
-
-    print(name + " Summan blir: " + str(result))
-
-    print("{}, summan blir {}".format(name, result))
-    print(f"{name}, summan blir {result}")
-
-main()
-```
-
-#### demo_2.py
-```py
-from my_functions import days_to_christmas
-
-print(days_to_christmas())
 ```
 
 

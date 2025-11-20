@@ -7,6 +7,10 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning
 
+Publiceras efter att tillfället ägt rum.
+
+<!--
+
 Videoföreläsning (från tidigare år).
 
 <div class="video-frame">
@@ -272,3 +276,4 @@ def main():
 
 main()
 ```
+-->

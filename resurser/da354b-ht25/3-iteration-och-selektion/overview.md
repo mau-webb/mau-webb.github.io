@@ -29,5 +29,7 @@ En annan sak som ofta inträffar i programmering är att man vill att sitt progr
 
 ### Rekommenderad läsning
 
-- [Chapter 5  Conditionals and recursion](http://greenteapress.com/thinkpython2/html/thinkpython2006.html)
-- [Chapter 7  Iteration](http://greenteapress.com/thinkpython2/html/thinkpython2008.html)
+- [Think Python - Chapter 5  Conditionals and recursion](https://allendowney.github.io/ThinkPython/chap05.html)
+- [Think Python - Chapter 7  Iteration](https://allendowney.github.io/ThinkPython/chap07.html)
+- Python från början - Kaptiel 3: Att välja
+- Python från början - Kaptiel 4: Att upprepa

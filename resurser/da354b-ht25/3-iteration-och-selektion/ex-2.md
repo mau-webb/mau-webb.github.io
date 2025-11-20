@@ -9,7 +9,7 @@ title: "Modul 3 - Iteration & Selektion"
 
 ### Inledning
 
-#### Flera test i ett vilkor
+#### Flera test i ett villkor
 
 Ibland när man programmerar så räcker det inte med att man bara testar en sak i en if-sats (t.ex. `i < 10`, om `i` är mindre än 10), utan man vill testa två saker (t.ex. om `i < 10` och `i > 0`, alltså om `i` är mindre än 10 och större än 0). Detta kan man göra genom att kombinera olika test m.h.a. nyckelorden __och__ samt __eller__.
 
@@ -23,7 +23,7 @@ else:
 	print(f"{x} är inte mellan 0 och 10")
 ```
 
-För att vilkoret `x > 0 and x < 10` ska bli sant så behöver _både_ `x > 0` och `x < 10` vara sant. Man använder nyckelorder `and` för att kombinera fler olika test.
+För att villkoret `x > 0 and x < 10` ska bli sant så behöver _både_ `x > 0` och `x < 10` vara sant. Man använder nyckelorder `and` för att kombinera fler olika test.
 
 Men ibland vill man inte kontrollera att flera uttyck är sanna, utan kanske om _ett av flera_ uttryck är sanna. Detta gör man med hjälp av nyckelordet `or`. I exemplet nedan vill vi kontrollera ett tal är större _eller_ mindre än 0.
 
@@ -35,7 +35,7 @@ else:
 	print(f"{x} är 0")
 ```
 
-I exemplet ovan blir vilkoret sant om antingen `x > 0` eller  `x < 0` är sant. Beroende på vad man vill testa i en if-sats kan nyckelorden `and` och `or` vara till stor hjälp.
+I exemplet ovan blir villkoret sant om antingen `x > 0` eller  `x < 0` är sant. Beroende på vad man vill testa i en if-sats kan nyckelorden `and` och `or` vara till stor hjälp.
 
 #### Nästlade if-satser
 
@@ -101,7 +101,7 @@ Vi kan sedan förra inlämningsuppgiften slå tärningar (slumpa fram ett tal me
 Denna uppgift ska ni lösa på två olika sätt:
 
 1. Med nästlade if-satser
-2. Genom vilkor med flera tester (if, elif, else)
+2. Genom villkor med flera tester (if, elif, else)
 
 Slutresultatet ska bli detsamma får båda era lösningar och se ut på följande sätt:
 

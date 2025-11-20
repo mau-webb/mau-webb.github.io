@@ -12,13 +12,13 @@ title: "Modul 3 - Iteration & Selektion"
 Ofta när man programmerar så kommer man till tillfällen då man vill göra olika saker beroende på situationen. Ett exempel skulle kunna vara en meny i ett program: om användaren väljer alternativ 1 så körs funktion 1, om användaren väljer alternetiv 2 så körs funktion 2 osv. Alltså när man i vardagligt språk använder ordet _om_. Detta görs i Python genom en __if-sats__. Syntax för detta är:
 
 ```python
-if vilkor:
+if villkor:
     # Gör detta
 else:
     # Annars gör detta
 ```
 
-`vilkor` i exemplet ovan är ett _test_ som antingen resulterar i `true` eller `false` (antingen är testet sant eller falskt). Är vilkoret sant kommer den kod som finns vid kommentaren `# Gör detta` att köras, om det är falskt kommer den kod som finns vid kommentaren `# Annars gör detta` att köras.
+`villkor` i exemplet ovan är ett _test_ som antingen resulterar i `true` eller `false` (antingen är testet sant eller falskt). Är villkoret sant kommer den kod som finns vid kommentaren `# Gör detta` att köras, om det är falskt kommer den kod som finns vid kommentaren `# Annars gör detta` att köras.
 
 Här kommer ett exempel där vi vill kontrollera om ett tal är positivt eller inte, och skriver ut resultatet:
 
@@ -36,11 +36,11 @@ else:
     print(f"Talet: {number} är negativt!")
 ```
 
-Vårt vilkor i if-satserna ovan är `number > 0`, där vi kontrollerar om talet `number` är större än 0. Om talet är större än 0 körs kodraden `print("Talet: " + str(number) + " är positivt!")`, i alla andra fall körs kodraden `print("Talet: " + str(number) + " är negativt!")`. En testkörning ger således följande resultat:
+Vårt villkor i if-satserna ovan är `number > 0`, där vi kontrollerar om talet `number` är större än 0. Om talet är större än 0 körs kodraden `print("Talet: " + str(number) + " är positivt!")`, i alla andra fall körs kodraden `print("Talet: " + str(number) + " är negativt!")`. En testkörning ger således följande resultat:
 
 ![Idle](../images/positive-or-negative.png)
 
-Det ser ju ut att fungera bra! Men vad händer om vi skriver `number = 0` och sedan kör if-satsen? Då kommer ju vårt program att säga att talet är negativt (eftersom det _inte_ är positivt, vilket vi testar). Detta löser vi genom att lägga till ytterliggare ett alternativ i vår if-sats genom `elif vilkor:` (förkortning för _else if_). Alltså kommer koden att se ut såhär:
+Det ser ju ut att fungera bra! Men vad händer om vi skriver `number = 0` och sedan kör if-satsen? Då kommer ju vårt program att säga att talet är negativt (eftersom det _inte_ är positivt, vilket vi testar). Detta löser vi genom att lägga till ytterliggare ett alternativ i vår if-sats genom `elif villkor:` (förkortning för _else if_). Alltså kommer koden att se ut såhär:
 
 ```python
 number = 0
@@ -62,9 +62,9 @@ Koden i exemplet ovan körs enligt följande steg:
 	- Om nej: Vi hoppar vidare till nästa steg i if-satsen (`else:`)
 3. Eftersom talet varken är större än 0 eller exakt 0 så måste det vara mindre än 0. Så vi skriver ut att talet är negativt.
 
-Notera att man endast kommer till steg 3 om _både_ vilkoren i steg 1 och 2 är falska.
+Notera att man endast kommer till steg 3 om _både_ villkoren i steg 1 och 2 är falska.
 
-Vilka olika vanliga operatorer/vilkorssatser som finns i Python kan ni läsa om [här](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec56).
+Vilka olika vanliga operatorer/villkorssatser som finns i Python kan ni läsa om [här](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec56).
 
 ### Övningar
 

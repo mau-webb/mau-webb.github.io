@@ -7,6 +7,10 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning - Sten, sax, påse
 
+Publiceras efter att tillfället ägt rum.
+
+
+<!--
 Videoföreläsning (från tidigare år) på sten, sax, påse-spelet (+ lite extra).
 
 ---
@@ -288,3 +292,4 @@ def main():
 
 main()
 ```
+-->

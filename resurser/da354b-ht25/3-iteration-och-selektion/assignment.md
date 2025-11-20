@@ -9,7 +9,10 @@ title: "Modul 3 - Iteration & Selektion"
 
 ### Inledning
 
-Denna inlämningsuppgift har som syfte att examinera modul 3 som har fokus på iteration och selektion.
+Denna inlämningsuppgift har som syfte att fördjupa kunskapen kring modul 3 som har fokus på iteration och selektion.
+
+Denna inlämningsuppgift är **frivillig**. Om man gör uppgiften (lämnar in den på Canvas), samt genomför godkänd muntlig redovisning av uppgiften för en lärarassistent *fredagen den 5:e december kl. 13 - 15* (bokning av redovisning kommer inom kort) - så får man tillgodoräkna sig **2 poäng** till den ordinarie tentamen.
+{: .info}
 
 Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
 {: .warn}
@@ -98,4 +101,4 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 Redovisa genom att ladda upp programmets källkod på Canvas.
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2024-12-04_.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2025-12-03_.

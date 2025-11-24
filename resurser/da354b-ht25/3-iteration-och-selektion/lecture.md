@@ -7,7 +7,9 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning
 
-Publiceras efter att tillfället ägt rum.
+<div class="frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/ydf5eYjCMzSmXn" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+</div>
 
 <!--
 
@@ -22,8 +24,9 @@ Videoföreläsning (från tidigare år).
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/a641102ea36d48d69143e06850b0ce1b" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
+-->
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/Presentation.pdf)
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2025-Presentation.pdf)
 
 ---
 
@@ -32,23 +35,29 @@ Videoföreläsning (från tidigare år).
 ### Exempel på if-satser
 
 ```python
-def add(a, b):
-    result = int(a) + int(b)
-    print(f"Summan av {a} och {b} är {result}")
+def check_password(password):
+    if len(password) < 8:
+        print("Osäkert lösenord - Det är för kort")
+    elif password.isdigit():
+        print("Osäkert lösenord - Du har enbart siffror i ditt lösenord")
+    else:
+        print("Du har ett säkert lösenord")
+
+check_password("123456789a")
+```
+
+```python
+password = "secret"
+user = "Anton"
+
+user_user = input("Användarnamn: ")
+user_password = input("Lösenord: ")
 
 
-nr_1 = input("Ange tal 1: ")
-if nr_1.isdigit() == False:
-    print("Du måste ange en siffra")
-
-nr_2 = input("Ange tal 2: ")
-if nr_2.isdigit() == False:
-    print("Du måste ange en siffra")
-
-if nr_1.isdigit() == True and nr_2.isdigit() == True:
-    add(nr_1, nr_2)
+if user_password == password and user == user_user:
+    print("Inloggad!")
 else:
-    print("Du angav ju inte siffror, så jag vill inte räkna!")
+    print("Du angav fel användarnamn eller lösenord")
 ```
 
 ### Systembolagetkoll
@@ -57,34 +66,31 @@ else:
 age = input("Hur gammal är du? ")
 
 if age.isdigit():
-    if int(age) >= 20:
-        print("Välkommen in i butiken")
+    age = int(age)
+
+    if age < 18:
+        print("Du är en ungdom")
     else:
-        print("Du måste vara minst 20år för att få handla här.")
+        print("Du är vuxen")
 else:
-    # Inte en siffra
-    print("Du måste ange en siffra!")
+    print("Du angav inte en siffra! =(")
 ```
 
-### Exempel: while-loop
+### Exempel: loopar
 
 ```python
-nr = 1
-while nr <= 10:
-    print(nr)
-    nr = nr + 1
+for i in range(100):
+    print("I will never do anything stupid again...")
 
-# Asks the user to enter a positive number
-nr = int(input("Ange ett positivt tal: "))
-# Loop runs untill user enters a positive number
-while nr < 1:
-    print "Du skrev inte in ett positivt tal, försök igen!"
-    nr = int(input("Ange ett positivt tal: "))
-# Loop has finished running
-print("Snyggt jobbat!")
+question = "ja"
+while question == "ja":
+    print("=====")
+    print("Vi kör ett varv till i loopen")
+    print("=====")
+    question = input("Vill du göra igen?")
 ```
-
-### Exempel: Meny
+<!--
+### Exempel - bonus: Meny
 
 ```python
 def menu():
@@ -134,6 +140,7 @@ for i in range(1000):
 for i in range(12): # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     print(i)
 ```
+-->
 
 ### Rövarspråket
 

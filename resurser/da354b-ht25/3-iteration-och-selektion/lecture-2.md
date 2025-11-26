@@ -7,11 +7,9 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning - Sten, sax, påse
 
-Publiceras efter att tillfället ägt rum.
+Dagens föreläsning har ingen presentation, se koden nedan.
 
-
-<!--
-Videoföreläsning (från tidigare år) på sten, sax, påse-spelet (+ lite extra).
+Bonus - Videoföreläsning (från tidigare år) på sten, sax, påse-spelet (+ lite extra).
 
 ---
 
@@ -35,8 +33,10 @@ tie = 0
 def main():
     """Huvudfunktionen som styr programmet"""
 
+    # 1. Välkomna användaren
     welcome()
 
+    # 2. Köra en loop som visar en meny, där användaren väljer ett val (ända till användaren väljer att stänga av programmet)
     while True:
         print_menu()
         user_choice = input("Val: ")
@@ -46,59 +46,28 @@ def main():
             user_pick = get_user_pick()
             # 2. Datorns val (sten, sax, påse)
             cpu_pick = get_cpu_pick()
-            # 3. Utse vinnare
+            # 3. Utse (och skriva ut) vinnare
             get_result(user_pick, cpu_pick)
+
         elif user_choice == "2":
             # Visa statistik
             view_statistics()
         elif user_choice == "0":
             break
         else:
-            print("Felaktigt alternativ, försök igen")
+            print("Felaktivt alternativ valt, försök igen!")
 
 def view_statistics():
-    """Skriver ut aktuell poänställning"""
+    """Skriver ut aktuell statistik för spelet"""
     print("\nStatistik")
-    print("-----------")
+    print("--------------")
     print(f"Vinster: {win}")
     print(f"Förluster: {lose}")
     print(f"Lika: {tie}")
 
-def get_user_pick():
-    """Funktionen hämtar ett giltigt val av användaren
-
-    Ett giltigt val är: sten, sax, påse eller grävskopa
-
-    Return
-        str : Användarens val
-    """
-    choice = input("Vad gissar du på? ").lower()
-
-    while choice != "sten" and choice != "sax" and choice != "påse" and choice != "grävskopa":
-        choice = input("Vad gissar du på? ").lower()
-
-    return choice
-
-def get_cpu_pick():
-    """Funktionen slumpar fram en gissning åt datorn
-
-    En giltig gissning är: sten, sax eller påse
-
-    Return
-        str : Datorns val
-    """
-    choice = random.randint(0, 2)
-
-    if choice == 0:
-        return "sten"
-    elif choice == 1:
-        return "sax"
-    else:
-        return "påse"
-
 def get_result(user_choice, cpu_choice):
-    """Utser vinnare i spelet
-
+    """Utser vinnare i spelet, och uppdaterar statistiken
+    
     Regler för spelet:
         sten > sax
         sax > påse
@@ -106,21 +75,21 @@ def get_result(user_choice, cpu_choice):
 
     Args:
         user_choice (str) : Användarens gissning (sten, sax, påse)
-        cpu_choice (str) : Datorns gissning (sten, sax, påse)
+        cpu_choice (str) : Datorn gissning (sten, sax, påse)
     """
     global win
-    global lose
     global tie
-    
+    global lose
+
     print(f"Du valde: {user_choice}")
     print(f"Datorn valde: {cpu_choice}")
 
-    if user_choice == cpu_choice:
+    if user_choice == "grävskopa":
+        print("Snyggt jobbbat! Du får 100 extra poäng!!!")
+        win = win + 100
+    elif user_choice == cpu_choice:
         print("Lika!")
         tie += 1
-    elif user_choice == "grävskopa":
-        print("Du vann! Snyggt! Datorn hade inte en chans! ;)")
-        win += 1
     elif user_choice == "sten" and cpu_choice == "sax":
         print("Du vann!")
         win += 1
@@ -133,24 +102,59 @@ def get_result(user_choice, cpu_choice):
     else:
         print("Datorn vann!")
         lose += 1
+    
 
-def welcome():
-    """Skriver ut rubriken för programmet"""
-    print("*"*40)
-    print("Sten, sax, påse")
-    print("*"*40)
+def get_cpu_pick():
+    """Funktionen slumpar fram en gissning åt användaren
+    
+    En giltig gissning är: sten, sax eller på
+    
+    Returns
+        str : Datorns val
+    """
+    random_number = random.randint(0,2)
+
+    if random_number == 0:
+        return "sten"
+    elif random_number == 1:
+        return "sax"
+    else:
+        return "påse"
+
+def get_user_pick():
+    """Funktionen hämtar en giltig gissning från användaren
+    
+    En giltig gissning är: sten, sax, påse
+
+    Returns
+        str : Användarens val
+    """
+    choice = input("Vad gissar du på? ").lower()
+
+    while choice != "sten" and choice != "sax" and choice != "påse" and choice != "grävskopa":
+        print("Du valde ett felaktigt alternativ, välj något av: sten, sax, påse")
+        choice = input("Vad gissar du på? ").lower()
+
+    return choice
+
+
 
 def print_menu():
-    """Skriver ut programmets menu"""
+    """Skriver ut programmets meny"""
     print("\nMeny")
-    print("--------")
     print("1) Spela")
     print("2) Statistik")
-    print("0) Avsluta")
+    print("0) Avsluta programmet")
+
+def welcome():
+    """Skriver ut välkomstfram still användaren"""
+    print("*"*30)
+    print("Sten, sax, påse")
+    print("*"*30)
 
 main()
 ```
-
+<!--
 ### Rövarspråket
 
 ```python

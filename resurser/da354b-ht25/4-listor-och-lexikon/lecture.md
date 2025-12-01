@@ -7,7 +7,15 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning
 
-Ej publicerad ännu.
+<div class="frame">
+    <embed
+        src="../pdf/2025-listor.pdf"
+        type="application/pdf"
+        frameBorder="0"
+        scrolling="auto"
+        style="width: 100%; height: 55vh;"
+    >
+</div>
 
 <!--
 
@@ -24,7 +32,9 @@ Inspelad föreläsning (från föregående år).
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/0e9773ea9dd8419a915698bbf3afbca1" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
 
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2020-listor.pdf)
+-->
+
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/2025-listor.pdf)
 
 ## Dagens exempel
 
@@ -62,7 +72,7 @@ def get_first_and_last_character(text):
     print(f"Texten: {text} börjar på {text[0]} och slutar på {text[-1]}")
 
 # Frågar användaren efter hens namn
-user_text = input("Ange ditt namn: ")
+user_text = input("Ange en text: ")
 
 # Kör funktionen "get_first_and_last_character" och med användarens namn
 get_first_and_last_character(user_text)
@@ -72,65 +82,89 @@ get_first_and_last_character(user_text)
 
 ```python
 # En lista med siffror
-numbers = [1, 5, 10, 20, 50, 2, 100, 7]
+numbers = [5, 10, 20, 17, 18, 200]
 
-total_sum = 0
+# Frågar användaren efter ett nummer, och gör om det till ett tal
+user_number = int(input("Ange nummer: "))
 
-# Räknar ut summan av alla siffrorna i listan och sparar resultatet i "total_sum"
+# Lägger in talet först i listan
+numbers.insert(0, user_number)
+
+# Tar bort värdet 17 från listan
+numbers.remove(17)
+
+# Skriver ut alla tal i listan
 for nr in numbers:
-    total_sum += nr
-
-# Skriver ut medelvärdet av sifforna i listan
-print(total_sum/len(numbers))
+    print(nr, end=" ")
 ```
 
 ### En boklista
 
 ```python
-# En lista med 4st böcker
+def print_books(books):
+    """Skriver ut en lista med boktitlar
+
+    Args:
+        books (str) : En lista med boktitlar
+    """
+    print("Att läsa-lista")
+    print("--------------")
+    for book in books:
+        print(f"- {book}")
+
+# En lista med 5 st boktitlar
 books = [
-    "Dune",
-    "Name of the Wind",
-    "Think Python",
-    "Alkemisten"    
+    "Pride and prejudice",
+    "It ends with us",
+    "Jaktsäsong",
+    "Morgon i Jenin",
+    "Divine comedy"
 ]
 
-# Frågar användaren efter en boktitel
-new_book = input("Ange bok: ")
-# Lägger till boktiteln sist i vår lista
+# Skriver ut boktitlarna
+print_books(books)
+
+# Tar bort den sista boktiteln (Divine comedy) ur listan och sparar i variabeln: last_book
+last_book = books.pop()
+
+# Skriver ut vilken bok vi tog bort
+print(f"Vi tog bort {last_book}")
+
+# Skriver ut boktitlarna
+print_books(books)
+
+# Skapar boktiteln "If"
+new_book = "If"
+
+# Lägger till boktiteln "If" sist i listan av böcker
 books.append(new_book)
 
+# En loop som frågar användaren om man vill lägga till fler böcker (ända tills man svarar något annat än "ja")
+while input("Vill du lägga till en ny bok? ").lower() == "ja":
+    # Frågar användaren efter en boktitel
+    user_book = input("Ange titel på bok: ")
+    # Lägger till boktiteln sist i listan
+    books.append(user_book)
 
-# Skriver ut alla böckerna i listan "books"
-for book in books:
-    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
+# Skriver ut boktitlarna
+print_books(books)
 
-# Skriver ut en blank rad
-print()
+# Frågar användaren om vilken boktitel vi ska ta bort
+delete_book = input("Vilken bok vill du ta bort? ")
 
-# Lägger till boken "Mio min Mio" sist i listan "books"
-books.append("Mio min Mio")
-# Lägger till boken "Omgiven av idioter" sist i listan "books"
-books.append("Omgiven av idioter")
+# Kontrollerar om boktiteln finns i listan
+if delete_book in books:
+    # Boktiteln finns - tar bort den
+    books.remove(delete_book)
+else:
+    # Boktiteln finns inte - skriver ut felmeddelande
+    print("Boken du försöker ta bort finns inte i listan")
 
-# Tar bort boken "Think Python" från vår lista "books"
-books.remove("Think Python")
+# Sorterar böckerna i alfabetisk ordning
+books.sort()
 
-# Skriver ut alla böckerna i listan "books"
-for book in books:
-    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
-
-# Skriver ut en blank rad
-print()
-
-# Tar bort den sista bokentiteln och sparar den i variabeln "removed_book"
-removed_book = books.pop()
-# Skriver ut titeln på boken vi tog bort
-print(f"Vi tar bort boken {removed_book}")
-
-# Skriver ut alla böckerna i listan "books"
-for book in books:
-    print(book, end=", ") # end=", " gör att böckerna skrivs ut horisontellt med ett , mellan sig
+# Skriver ut boktitlarna
+print_books(books)
 ```
 
 ### Listor & Lexikon
@@ -141,33 +175,46 @@ Ett husdjur har följande:
     - namn
     - djur
     - ålder
+    - färger
 '''
 
-# En lista med två husdjur
-pets = [
-    {
-        "name": "Doug",
-        "animal": "hund",
-        "age": 3
-    },
-    {
-        "name": "Pigge",
-        "animal": "fisk",
-        "age": 1
-    }
-]
+def print_pet(pet):
+    """Skriver ut ett hurdjur
 
-# Skapar ett nytt husdjur
-new_pet = {}
-new_pet["name"] = input("Namn: ")
-new_pet["animal"] = input("Djur: ")
-new_pet["age"] = input("Ålder: ")
+    Args:
+        pet (dict) : Ett lexikon som representerar ett husdjur
+    """
+    print(pet["name"])
+    print("*"*10)
+    print(f"Djur: {pet['animal']}")
+    print(f"Ålder: {pet['age']}")
+    print(f"Färger: {", ".join(pet['colors'])}")
 
-# Lägger till det nya husdjuret i listan "pets"
-pets.append(new_pet)
 
-# Skriver ut alla våra husdjur i listan "pets"
-for pet in pets:
-    print(f"{pet['name']} är en {pet['animal']} och är {pet['age']}år")
+# Skapar en lista med två husdjur (varje husdjur är ett lexikon) 
+pets = [{
+    "name": "Pigge",
+    "animal": "Blåsfisk",
+    "age": 21,
+    "colors": ["grå"]
+}, {
+    "name": "Tiger",
+    "animal": "Katt",
+    "age": 7,
+    "colors": ["vit", "brun", "svart"]
+}]
+
+# Skapar ett tredje husdjur
+pet = {}
+pet["name"] = "Malte"
+pet["animal"] = "Hund"
+pet["age"] = 3
+pet["colors"] = ["vit", "svart"]
+
+# Lägger till husdjuret sist i listan
+pets.append(pet)
+
+# Skriver ut husdjuren
+for p in pets:
+    print_pet(p)
 ```
--->

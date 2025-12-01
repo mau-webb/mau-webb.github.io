@@ -126,8 +126,8 @@ Skapa en funktion `replace_word(sentence, old_word, new_word)` som utför följa
 
 Exempelkörning:
 ```python
-print(replace_word("hello world, welcome to the world", "world", "universe"))
-# Borde ge "hello universe, welcome to the universe"
+print(replace_word("hello world - welcome to the world", "world", "universe"))
+# Borde ge "hello universe - welcome to the universe"
 
 print(replace_word("this is a test", "is", "was"))
 # Borde ge "this was a test"

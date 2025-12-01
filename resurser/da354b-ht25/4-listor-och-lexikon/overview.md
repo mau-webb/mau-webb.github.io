@@ -16,11 +16,11 @@ Nu när vi lärt oss att bygga program i Python med hjälp av funktioner, loopar
 | [Föreläsning](../lecture-3)  | Nästlade listor & tre-i-rad |
 | [Ö.1: Introduktion till listor](../ex-1) | Hur fungerar listor? |
 | [Ö.2: Listor och strängar](../ex-2) | Hur strängar kan användas som listor |
-| [Ö.3: Nästlade listor](../ex-3) | Listor i listor |
-| [Ö.4: Introduktion till lexikon](../ex-4) | Hur fungerar lexikon? |
+| [Ö.3: Introduktion till lexikon](../ex-3) | Hur fungerar lexikon? |
+| [Ö.4: Nästlade listor](../ex-4) | Listor i listor |
 | [Inlämningsuppgift](../assignment) | Grundläggande kunskap inom listor & lexikon |
 
 ### Rekommenderad läsning
 
-- [Think Python - Chapter 10  Lists](http://www.greenteapress.com/thinkpython/html/thinkpython011.html)
-- [Think Python - Chapter 7  Iteration, speciellt 7.3](http://www.greenteapress.com/thinkpython/html/thinkpython008.html)
+- Python från början - Kaptiel 6: Listor och tupler
+- [Think Python - Chapter 9  Lists](https://allendowney.github.io/ThinkPython/chap09.html)

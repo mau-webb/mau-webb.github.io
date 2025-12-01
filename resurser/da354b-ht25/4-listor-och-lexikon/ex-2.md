@@ -61,10 +61,10 @@ Den första uppgiften går ut på att ni ska räkna antalet ord i en mening geno
 
 **Vi har gjort denna övning på en föreläsning tidigare - klarar du av att göra den själv nu?**
 
-I denna övning så ska vi översätta en mening i svenska till [rövarspråket](http://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket). Rövarspråket går kort och gått ut på att man efter varje konsonant lägger ett o (kort å-ljud) och därefter samma konsonant igen, till exempel byts b ut mot "bob" och f mot "fof". Vokalerna är förblir oförändrade. Till er hjälp får ni funktionen `isVowel(char)` där ni som argument skickar in en bokstav, så returnerar funktionen `True` om bokstaven är en vokal och `False` om det är en konsonant.
+I denna övning så ska vi översätta en mening i svenska till [rövarspråket](http://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket). Rövarspråket går kort och gått ut på att man efter varje konsonant lägger ett o (kort å-ljud) och därefter samma konsonant igen, till exempel byts b ut mot "bob" och f mot "fof". Vokalerna är förblir oförändrade. Till er hjälp får ni funktionen `is_vowel(char)` där ni som argument skickar in en bokstav, så returnerar funktionen `True` om bokstaven är en vokal och `False` om det är en konsonant.
 
 ```python
-def isVowel(char):
+def is_vowel(char):
     return char.lower() in 'aeiouåäö'
 ```
 

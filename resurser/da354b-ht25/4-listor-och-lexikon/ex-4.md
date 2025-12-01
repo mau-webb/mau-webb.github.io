@@ -49,17 +49,17 @@ Vi ska nu skapa en nästlad lista där vi sparar information om olika fotbollssp
 <table>
 	<tr>
 		<td>Viktor Claesson</td>
-		<td>31</td>
+		<td>33</td>
 		<td>FC Köpenhamn</td>
 	</tr>
 	<tr>
 		<td>Niklas Hult</td>
-		<td>33</td>
+		<td>35</td>
 		<td>Elfsborg</td>
 	</tr>
 	<tr>
 		<td>Jesper Karlsson</td>
-		<td>25</td>
+		<td>27</td>
 		<td>Bologna FC</td>
 	</tr>
 </table>
@@ -81,14 +81,16 @@ Vore det egentligen inte smidigare att spara fotbollsspelarna ovan i lexikon - d
 ```python
 {
     "name": "Jesper Karlsson",
-    "age": 25,
+    "age": 27,
     "club": "Bologna FC"
 }
 ```
 
 Utmaninen är nu att bygga samma program som ovan, men använda lexikon *istället* för listor för att representera fotbollsspelarna.
 
-#### Övning 4 - Konvertera strängar till olika format
+---
+
+#### Övning 4 - Konvertera strängar till olika format (**valfri**)
 I denna övning ska du skapa en funktion som konverterar en sträng till olika format, som till exempel [camel case](https://en.wikipedia.org/wiki/Camel_case), [snake case](https://en.wikipedia.org/wiki/Snake_case), och [kebab case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case). Funktionen ska ta en sträng som input och returnera den i de olika formaten.
 
 **Uppgift**:
@@ -111,7 +113,7 @@ print(convert_case("Convert THIS to different Cases"))
 # Borde ge ['convertThisToDifferentCases', 'convert_this_to_different_cases', 'convert-this-to-different-cases', 'Convert This To Different Cases']
 ```
 
-#### Övning 5 - Ord och deras längd
+#### Övning 5 - Ord och deras längd (**valfri**)
 I denna övning ska du skapa en funktion som tar en lista av ord och returnerar en lista av listor, där varje lista innehåller ett ord och dess längd. Listan ska vara sorterad i fallande ordning baserat på ordets längd.
 
 **Uppgift**:
@@ -132,7 +134,7 @@ print(word_length_counter(["a", "list", "of", "words"]))
 # Borde ge [['words', 5], ['list', 4], ['of', 2], ['a', 1]]
 ```
 
-#### Övning 6 - Ord och deras längd med lexikon
+#### Övning 6 - Ord och deras längd med lexikon (**valfri**)
 I denna övning ska du skapa en funktion som tar en lista av ord och returnerar en **lista av lexikon**, där varje lexikon innehåller ett ord och dess längd. Listan ska vara sorterad i fallande ordning baserat på ordets längd.
 
 **Uppgift**:

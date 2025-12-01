@@ -7,6 +7,10 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning
 
+Ej publicerad ännu.
+
+<!--
+
 Inspelad föreläsning (från föregående år).
 
 <div class="video-frame">
@@ -166,3 +170,4 @@ pets.append(new_pet)
 for pet in pets:
     print(f"{pet['name']} är en {pet['animal']} och är {pet['age']}år")
 ```
+-->

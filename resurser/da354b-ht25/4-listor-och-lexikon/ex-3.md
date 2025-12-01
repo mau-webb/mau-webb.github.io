@@ -72,9 +72,9 @@ I förra övningen (med listor) byggde vi ett filmhanteringsprogram. Nu ska vi b
 
 1. Visa filmer
     - Sortera filmer kronologiskt
-    - Sortera filmer efter bäst betyg
-	- Sortera filmer efter sämst betyg
-	- Sordera filmer i alfabetisk ordning
+    - Sortera filmer efter bäst betyg (*valfritt*)
+	- Sortera filmer efter sämst betyg (*valfritt*)
+	- Sordera filmer i alfabetisk ordning (*valfritt*)
 2. Lägg till en film (med betyg)
 3. Ta bort en film (med betyg)
 4. Avsluta programmet

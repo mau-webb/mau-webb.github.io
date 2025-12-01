@@ -7,6 +7,10 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning - Mer om listor & Tre-i-rad
 
+Extra resurs - publiceras när ordinarie föreläsningar varit.
+
+<!--
+
 Tre-i-rad börjar cikra **28 minuter** in i videon. Innan dess är det repetion kring listor.
 
 <div class="video-frame">
@@ -318,3 +322,4 @@ def print_game_board(board):
     
 game()
 ```
+-->

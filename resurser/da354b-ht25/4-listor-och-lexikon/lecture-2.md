@@ -7,6 +7,10 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning - Nästlade listor & bussbokningsprogram
 
+Ej publicerad ännu.
+
+<!--
+
 Inspelad föreläsning (från tidigare år).
 
 <div class="video-frame">
@@ -151,3 +155,4 @@ def print_bus(bus):
 
 main()
 ```
+-->

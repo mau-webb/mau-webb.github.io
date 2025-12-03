@@ -5,7 +5,7 @@ title: "Planering (Webbutveckling 1)"
 
 # Planering
 
-*Nedan presenteras planering för kursen gällande vårterminen 2025.*
+*Nedan presenteras planering för kursen gällande vårterminen 2026.*
 
 ## Beskrivning
 
@@ -70,4 +70,4 @@ I den femte modulen börjar vi arbeta med layout och positionering genom CSS. Vi
 
 ## Modul 6 - Responsive web design
 
-I den sjätte och sista modulen ska vi ta en titt på hur vi kan anpassa vår webbplats mot olika enheter (mobiler, surfplattor, m.m.). I dag är det fler som besöker webbplatser genom sin mobil och/eller surfplatta än de som använder sig av en stationär dator eller laptop - detta vill vi givetvis ha stöd för på vår webbplats!
+I den sjätte och sista modulen ska vi undersöka hur vi kan anpassa vår webbplats mot olika enheter (mobiler, surfplattor, m.m.). I dag är det fler som besöker webbplatser genom sin mobil och/eller surfplatta än de som använder sig av en stationär dator eller laptop - detta vill vi givetvis ha stöd för på vår webbplats!

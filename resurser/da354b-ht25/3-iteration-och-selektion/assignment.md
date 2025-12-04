@@ -99,6 +99,6 @@ Det här är en kort lista över delar som kommer att testas under rättningen. 
 
 ### Redovisning
 
-Redovisa genom att ladda upp programmets källkod på Canvas.
+Redovisas genom att ladda upp programmets källkod på Canvas, samt muntlig redovisning den *2025-12-05* (bokning sker via Canvas).
 
 Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast _onsdag: 2025-12-03_.

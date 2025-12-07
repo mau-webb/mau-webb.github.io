@@ -22,5 +22,7 @@ Något annat som är viktigt i programmering är att kunna hantera fel. Vi vill 
 
 ### Rekommenderad läsning
 
-- [Think Python - Chapter 14 - Files](http://greenteapress.com/thinkpython2/html/thinkpython2015.html)
-- [Think Python - Chapter 14.5 - Catching exceptions](http://greenteapress.com/thinkpython2/html/thinkpython2015.html#sec169)
+- Python från början - Kaptiel 10: Felhantering
+- Python från början - Kapitel 11: Textfiler
+- Python från början - Kapitel 12: Mängder och avbildningar
+- [Think Python - Chapter 12 - Files and databases](https://allendowney.github.io/ThinkPython/chap13.html)

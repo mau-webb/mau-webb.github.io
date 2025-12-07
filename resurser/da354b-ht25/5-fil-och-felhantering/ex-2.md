@@ -172,7 +172,9 @@ Ange antal timmar: stop
 Tack för att du använt Fångad i tid!
 ```
 
-Lycka till med att räkna ut rätt tid och hantera tidsmaskinens konstigheter! Om du har några frågor eller behöver ytterligare hjälp, är jag här för att assistera.
+Lycka till med att räkna ut rätt tid och hantera tidsmaskinens konstigheter! Om du har några frågor eller behöver ytterligare hjälp, är lärarassistenterna här för att assistera.
+
+<!--
 
 ### Exempellösningar
 
@@ -181,3 +183,5 @@ Lycka till med att räkna ut rätt tid och hantera tidsmaskinens konstigheter! O
 - [Övning 3 - Nolldivision](../ex-solutions/Ö2.3.py)
 - [Övning 4 - Trasig kalkylator](../ex-solutions/Ö2.4.py)
 - [Övning 4 - Fångad i tiden](../ex-solutions/Ö2.5.py)
+
+-->

@@ -9,11 +9,12 @@ title: "Modul 5 - Fil- och felhantering i Python"
 
 ### 1. Introduktion
 
-Denna inlämningsuppgift har som syfte att examinera modul 5 som har fokus på fil- och felhantering. Denna uppgift kan ge **VG** som betyg, se mer om detta under rubriken *bedömning*.
-
-Denna uppgift ska redovisas genom källkod (lösningen) till uppgiften, **samt en videoinspelning där ni går igenom och förklarar er kod**. Har ni inte gjort videoinspelningar tidigare rekommenderar jag att ni använder Zoom, där ni delar er skärm, och spelar in mötet. Ni har alla som studenter en Zoom-licens för detta. Har ni frågor kring detta så hojta till på en laboration så visar vi hur man gör detta.
+Denna inlämningsuppgift är **frivillig** och har som syfte att examinera modul 5 som har fokus på fil- och felhantering. 
 
 **Läs uppgiften noga innan du börjar med den.**
+
+Denna inlämningsuppgift är **frivillig**. Om man gör uppgiften (lämnar in den på Canvas), samt genomför godkänd muntlig redovisning av uppgiften för en lärarassistent fredagen den 19:e december kl. 13 - 16 (bokning av redovisning kommer inom kort) - så får man tillgodoräkna sig **2 poäng** till den ordinarie tentamen.
+{: .info}
 
 Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
 {: .warn}
@@ -52,7 +53,7 @@ Ni får själva avgöra om ni vill läsa/skriva till filen varje gång ni kör n
 
 ### Bedömning
 
-Uppgiften kan ge betyget väl godkänt.
+Uppgiften kan ge betyget godkänt.
 
 #### Krav för G
 
@@ -65,7 +66,9 @@ För att uppnå godkänt behöver programmet uppfylla uppgiftsbeskrivningen, var
   - följa angiven struktur (som beskrivs i uppgiftsbeskrivningen)
   - alternativt vara kompatibel med `pickle` eller `json`.
  - Även kvalitén på er kod kommer att bedömas.
- - **En tydlig och välgrundad genomgång av er kod, genom en videoinspelning**
+ - **Godkänd muntlig presentation och diskussion av uppgiften**
+
+<!--
 
 #### Krav för VG
 
@@ -80,26 +83,28 @@ Utöver att uppfylla kraven för godkänt kan man även implementera så att nä
 
 [Exempellösning på VG-utskrift](../files/ex_vg.txt)
 
+-->
+
 #### Detta testas vid rättning
 
-Det här är en kort lista över delar som kommer att testas under rättningen. Får ni rätt på det här brukar uppgiften kunna godkännas utan kompletteringar.
+Det här är en kort lista över delar som ska att testas under er demo för den muntliga presentationen. 
 
-1. Körning av programmet
+1. Körning av programmet (alla funktioner)
 2. Körning utan existerande fil
 3. Borttagning av existerande fil
 4. Inmatning med ogiltig indata
 5. Granskning av statistiken
 6. Radering av icke-existerande poster
 
+<!--
 För VG:
 
 7. Olika sorteringar av statstiken
 
+-->
+
 ### Redovisning
 
-Redovisa genom att på Canvas ladda upp programmets källkod, **samt** en videoinspelning där ni går igenom och förklarar er kod.
+Redovisas genom att ladda upp programmets källkod på Canvas, samt muntlig redovisning den *2025-12-19* (bokning sker via Canvas).
 
-Inlämningsuppgifter rättas varje vecka. Deadline för uppgiften är: senast _onsdag 2024-12-22_.
-
-Viktigt - Om du siktar på **VG** så skriv detta i en kommentar när du lämnar in på Canvas.
-{: .info}
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast onsdag: *2025-12-17*.

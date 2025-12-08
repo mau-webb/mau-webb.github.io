@@ -191,17 +191,17 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 		<tr class="odd">
 			<td>51</td>
 			<td>15/12</td>
-			<td>10-12</td>
+			<td>15-17</td>
 			<td>F: Python &amp; Webben</td>
 			<td>Anton</td>
-			<td>NI:A0306</td>
+			<td>NI:B0E15</td>
 			<td rowspan="4">6</td>
 		</tr>
 		<tr class="odd">
             <td></td>
 			<td>16/12</td>
-			<td>13-15</td>
-			<td>F: Python &amp; Webben (2)</td>
+			<td>13-17</td>
+			<td>W: Mjukvaruutveckling med AI</td>
 			<td>Anton</td>
 			<td>NI:A0306</td>
 		</tr>

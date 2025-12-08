@@ -7,17 +7,18 @@ title: "Modul 6 - Webbapplikationer"
 
 ## Översikt av modul 6
 
-Webbprogrammering är en av de mest populära tillämpningarna för Python. Det passar bra som fördjupning efter att ha gått igenom den grundläggande programmeringen i modul 1-5.
+Webbprogrammering är en av de mest populära tillämpningarna för Python. Det passar bra som fördjupning efter att ha gått igenom den grundläggande programmeringen i modul 1-5. Dessutom kommer vi att arbete med generativ AI för fördjupa vår kunskap inom området - det blir spännande och roligt! :)
 
 | Innehåll | Kommentar |
 | --- | --- |
-| [Föreläsning - Star Wars](../lecture) | Introduktion till webbapplikationer med Star Wars-tema |
-| [Föreläsning - Genomgång: Bottle](../lecture-2) | Videoinspelningar - Introduktion till Bottle |
-| [Föreläsning - Önskelista](../lecture-2) | Vi bygger en önskelista som webbapplikation med Bottle |
-| [Övning: Webbapplikation med Bottle](../ex-bottle) | Att skapa en första webbapplikation med Bottle |
-| [Övning: Webbapplikation med Flask](../ex-flask) | Att skapa en första webbapplikation med Flask |
-| [Övning: Webbapplikation med FastAPI](../ex-fastapi) | Att skapa en första webbapplikation med FastAPI |
-| [Inlämningsuppgift](../assignment) | Bygg din egen Wiki! |
+| [Föreläsning - Webbapplikationer](../lecture) | Introduktion till webbapplikationer |
+| [Workshop - Mjukvaruutveckling med AI](../workshop) | Workshop - Mjukvarutveckling med AI **OBS - Viktigt med närvaro** |
+| [Videoföreläsning - Introduktion till bottle](../lecture-2) | Videoinspelningar - Introduktion till Bottle |
+| [Videoföreläsning - Önskelista](../lecture-3) | Vi bygger en önskelista som webbapplikation med Bottle |
+| [Övning (frivillig): Webbapplikation med Bottle](../ex-bottle) | Att skapa en första webbapplikation med Bottle |
+| [Övning (frivillig): Webbapplikation med Flask](../ex-flask) | Att skapa en första webbapplikation med Flask |
+| [Övning (frivillig): Webbapplikation med FastAPI](../ex-fastapi) | Att skapa en första webbapplikation med FastAPI |
+| [Inlämningsuppgift](../assignment) | Bygg din egen Wiki med AI! |
 
 **OBS** - När det kommer till övningarna ovan så räcker det med att ni väljer **ett** av ramverken (`Bottle`, `Flask`, eller `FastAPI`). Vet ni inte vilket ni vill välja, så rekommenderar vi `Bottle`.
 

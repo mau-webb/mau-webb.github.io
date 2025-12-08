@@ -9,54 +9,54 @@ title: "Modul 6 - Webbapplikationer"
 
 ### Introduktion
 
-Denna uppgift går ut på att skapa en enkel webbapplikation, i form av en wiki. Just wiki passar bra, eftersom även en enkel sådan fångar in många viktiga koncept genom att skapa, spara och redigera innehåll.
+Denna uppgift går ut på att skapa en enkel webbapplikation, i form av en wiki **med hjälp av generativ AI - exempelvis ChatGPT**. Att bygga just en wiki passar bra, eftersom även en enkel sådan fångar in många viktiga koncept genom att skapa, spara och redigera innehåll på en webbsida.
 
-Denna uppgift ska redovisas genom källkod (lösningen) till uppgiften, **samt en videoinspelning där ni går igenom och förklarar er kod**. Har ni inte gjort videoinspelningar tidigare rekommenderar jag att ni använder Zoom, där ni delar er skärm, och spelar in mötet. Ni har alla som studenter en Zoom-licens för detta. Har ni frågor kring detta så hojta till på en laboration så visar vi hur man gör detta.
+Denna inlämningsuppgift **ska lösas** genom generativ AI. Detta innebär att uppgiften redovisas genom följande: **Källkod till din lösning**, **loggbok över dina prompts** och **reflektionsrapport över ditt arbete**.
+{: .info}
 
-Inlämningsuppgiften är individuell. Det betyder att studenten enskilt ska utforma och skriva sin inlämning samt kunna redogöra för alla delar av den. Det är så klart inte förbjudet att diskutera uppgiften. Men viktigt är alltså att det man lämnar in representerar ens egna arbete.
+Det är väldigt viktigt att ni deltar i workshopen om **Mjukvarutveckling med AI** tisdagen den 16:e december - där vi kommer att gå igenom förväntningar, instruktioner, samt påbörjar arbetet med inlämningsuppgiften.
+{: .info}
+
+Inlämningsuppgiften är individuell. Det betyder för denna uppgift att studenten enskilt ska utforma och skriva sin **loggbok över prompts** och **reflektionsrapport över sitt arbete**. Källkoden ska dock vara genererad av generativ AI.
 {: .warn}
 
-Det är förbjudet att använda hjälpmedel för att skapa/generera kod och/eller lösningar (eller delar av lösning) för uppgiften genom verktyg som t.ex. *ChatGPT*, *Github Copilot*, eller liknande/motsvarande verktyg, på exeminerande uppgifter (som denna) i denna kurs. Skulle detta ske betraktas det som *misstanke om fusk*, vilket kommer leda till en anmälan till disciplinnämnden och ev. avstängning från studier.
-{: .warn}
+### Din wiki - Vad du ska bygga
 
-### Din wiki
-
-I den minimala wikin kan man skapa, ändra och läsa artiklar. Detta är också problemet som du ska lösa.
+I denna wiki kan man skapa, ändra, läsa och radera artiklar. Utgå från videon nedan för att se hur detta kan fungera - det är upp till dig, med hjälp av ChatGPT hur ni ska lösa denna uppgift.
 
 #### Innehåll
 
 Wikins innehåll är enkelt: artiklar som har en titel och brödtext. Kärnproblemet som måste lösas är hur artiklarna ska sparas.
 
-Att använda en enkel databas hade passat bra - men det lämnar vi till databaskursen (eller, det är tillåtet om du absolut vill). Använd istället enkla textfiler - då kan artikelns titel vara filnamnet, och brödtexten blir filens innehåll. Innehållet kan till och med vara HTML, som ett enkelt sätt att möjliggöra rikare innehåll.
-
-Förslagsvis skapar du en undermapp som endast innehåller artikelfiler.
-
-Ett annat sätt att spara artiklarna skulle kunna vara genom `JSON`, det är upp till er hur ni vill lösa lagringen av information.
-{: .info}
+Att använda en enkel databas hade passat bra - men det lämnar vi till databaskursen (eller, det är tillåtet om du absolut vill). Använd istället formatet *JSON* eller enkla textfiler - då kan artikelns titel vara filnamnet, och brödtexten blir filens innehåll. Innehållet kan till och med vara HTML, som ett enkelt sätt att möjliggöra rikare innehåll.
 
 #### Gränssnitt och funktionalitet
 
-Det första gränssnittet till en webbapplikation är vilka adresser (URI:er) som används för att komma åt innehållet. Den HTML/CSS som utgör innehållet definierar sedan det grafiska gränssnittet.
+Följande vyer (som minimun) ska finnas på er webbplats:
 
-Dessa URI:er är en rekommenderad grund för wikin:
+- Startida: Lista upp alla artiklar i wikin
+- Artikelsida: Visar upp en specifik artikel för besökaren
+- Skapa artikel-sida: Här ska man kunna skapa en artikel med text och innehåll
+- Uppdatera artikel-sida: Här ska man kunna redigera en specifik artikel (rubrik och brödtext)
 
-* `/` (startsidan): Listar alla artiklar som finns i wikin, som klickbara länkar. Plus annan passande startsideinformation (ditt namn?).
-* `/wiki/<sidans namn>/`: Varje individuell artikel - titel och brödtext presenteras. Exakt adress beror på artikelns titel, precis som på Wikipedia (t. ex. `en.wikipedia.org/wiki/Sweden`).
-* `/new/`: Visar ett formulär som låter användaren mata in titel och brödtext för en ny artikel.
-* `/edit/<sidans namn>/`: Visar ett formulär som låter användaren uppdatera en befintlig artikel.
-* `/update/`: Hit skickas formuläret, och här sker uppdateringen/skapandet av artiklar. Formulärdata ska skickas hit med HTTP-metoden POST.
-
-Notera att om du valt `JSON` som sätt att lagra dina artiklar så bör du ha två resurser / vägar in till applikationen, t.ex. `/update/` (uppdaterar en artikel) och `/save/` (sparar en artikel). Använder ni `JSON` så kan det också vara lämpligt att använda ett **id** för att identifiera era artiklar.
-{: .info}
-
-Du kan absolut lägga till fler URI:er än så. Du bör använda _templates_ för att dela upp logik och presentation.
+Övriga krav som ska implementeras är:
+- Kunna radera en artikel
+- Felhantering: Man ska inte kunna surfa till en artikel som inte finns
+- Felhantering: Man ska inte kunna skapa/uppdatera en artiekl utan att ange titel eller brödtext
+- Snygga till er Wiki med CSS
 
 #### Exempelvideo
 
-Exempelvideo och förtydligande av funktionalitet för betyget **G**:
+Exempelvideo - Grundläggande funktionalitet
 
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/cPR-wAgrXbk?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
+</div>
+
+Exempelvideo - Felhantering och borttagning av artiklar
+
+<div class="video-frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/ywaO7I6mz3s?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
 
 #### Webbramverk - Bottle
@@ -69,37 +69,12 @@ Koden ska vara tydlig och lättläst med avseende på namngivning, strukturering
 
 ### Bedömning
 
-Följande krävs för godkänt på uppgiften:
+Följande delar bedöms vid er inlämning:
 
-- Den grundläggande kravspecifikationen finns ovan (text + video) ska implementeras.
-- **En tydlig och välgrundad genomgång av er kod, genom en videoinspelning**.
-
-#### VG
-
-Uppgiften kan ge VG - men det finns många olika förbättringar som alla kan göra wikin bättre. För VG implementera följande:
-
-* Lägg till möjligheten att ta bort artiklar.
-* God felhantering: se till att både titel och brödtext krävs för att ändra/skapa en artikel (validering ska minimum ske på serversidan, d.v.s. i python). Se till att en beskrivande felsida (fel 404) visas om man försöker surfa in på en artikel som inte existerar.
-* Använd dina kunskaper i HTML/CSS för att göra ett tilltalande gränssnitt. (Exempelvideon har ingen CSS alls.)
-
-Exempelvideo och förtydligande av funktionalitet för betyget **VG**:
-
-<div class="video-frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/ywaO7I6mz3s?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
-</div>
-
-### Tips
-
-- I ett template skriver man normalt ut en variabel såhär: <code>&#123;&#123; name &#125;&#125;</code>. För att skriva ut en variabel som innehåller HTML-kod, gör istället: <code>&#123;&#123;!name&#125;&#125;</code>.
-- Det är enkelt att utgå ifrån en mapp och få en lista med alla filnamn däri:
-
-```python
-from os import listdir
-
-files = listdir("wiki")
-print files # a list of all filenames in directory wiki
-```
+1. Källkoden för er lösning
+2. Prompt-loggbok
+3. Reflektionsrapport
 
 ### Redovisning
 
-Redovisa genom att på Cavnas laddar upp programmets källkod, **samt** en videoinspelning där ni går igenom och förklarar er kod. Deadline för modul 6 är söndag **2024-01-19**.
+Redovisa genom att på Canvas laddar upp programmets källkod, ert prompt-dagbok, samt er reflektionsrapport. Deadline för modul 6 är söndag **2025-01-18**.

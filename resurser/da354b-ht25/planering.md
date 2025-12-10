@@ -202,7 +202,7 @@ Inlämningsuppgifter som regel (undantag för inlämningsuppgift 5) har **deadli
 			<td>16/12</td>
 			<td>13-17</td>
 			<td>W: Mjukvaruutveckling med AI</td>
-			<td>Anton</td>
+			<td>Niclas, Anton</td>
 			<td>NI:A0306</td>
 		</tr>
 		<tr class="odd">

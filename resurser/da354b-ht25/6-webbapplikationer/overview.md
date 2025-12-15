@@ -42,7 +42,7 @@ Ni kan ladda ner bottle-filen för hand här: [https://bottlepy.org/bottle.py](h
 
 ### Komma igång med Bottle
 
-Istället för egna påhittade övningar rekommenderas den [tutorial som finns på bottle.org](http://bottlepy.org/docs/dev/tutorial.html#quickstart-hello-world). Den visar viktiga koncept med korta exempel för varje. För [uppgiften](/resurser/da354a/6-webbapplikationer/assignment/) kommer du bara behöva vissa av delarna, men det skadar inte att titta igenom all dokumentation.
+Istället för egna påhittade övningar rekommenderas den [tutorial som finns på bottle.org](http://bottlepy.org/docs/dev/tutorial.html#quickstart-hello-world). Den visar viktiga koncept med korta exempel för varje. För [uppgiften](../assignment) kommer du bara behöva vissa av delarna, men det skadar inte att titta igenom all dokumentation.
 
 #### Exempelprojekt
 
@@ -50,4 +50,4 @@ Viktiga delar av funktionaliteten i Bottle visas även i [detta exempelprojekt](
 
 ### Uppgift
 
-[Uppgift: bygg din egen wiki](/resurser/da354a/6-webbapplikationer/assignment/)!
+[Uppgift: bygg din egen wiki](../assignment)!

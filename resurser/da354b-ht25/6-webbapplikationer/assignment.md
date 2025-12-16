@@ -15,6 +15,9 @@ Denna uppgift går ut på att skapa en enkel webbapplikation, i form av en wiki 
 Denna inlämningsuppgift **ska lösas** genom generativ AI. Detta innebär att uppgiften redovisas genom följande: **Källkod till din lösning**, **loggbok över dina prompts** och **reflektionsrapport över ditt arbete**.
 {: .info}
 
+**Obs!** Tänk på att du måste skriva loggbok från och med **din första** prompt i projektet, annars kommer du inte att bli godkänd på uppgiften. Mallen för din prompt-loggbok hittar du på Canvas.
+{: .warn}
+
 Det är väldigt viktigt att ni deltar i workshopen om **Mjukvarutveckling med AI** tisdagen den 16:e december - där vi kommer att gå igenom förväntningar, instruktioner, samt påbörjar arbetet med inlämningsuppgiften.
 {: .info}
 

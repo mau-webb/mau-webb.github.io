@@ -24,6 +24,11 @@ Det är väldigt viktigt att ni deltar i workshopen om **Mjukvarutveckling med A
 Inlämningsuppgiften är individuell. Det betyder för denna uppgift att studenten enskilt ska utforma och skriva sin **loggbok över prompts** och **reflektionsrapport över sitt arbete**. Källkoden ska dock vara genererad av generativ AI.
 {: .warn}
 
+Tips för ditt arbete. Vi har tagit underlag för att skapa bra kontextfönster och underlag för att skriva prompts för denna uppgiften. **Läs gärna** dessa innan du börjar med uppgiften för att inspireras för hur du kan arbeta med generativ AI, t.ex. ChatGPT:
+
+- [Att arbeta med kontextfönster](../pdf/Kontextfonster.pdf)
+- [Promptbibliotek](../pdf/Prompt-Library.pdf)
+
 ### Din wiki - Vad du ska bygga
 
 I denna wiki kan man skapa, ändra, läsa och radera artiklar. Utgå från videon nedan för att se hur detta kan fungera - det är upp till dig, med hjälp av ChatGPT hur ni ska lösa denna uppgift.

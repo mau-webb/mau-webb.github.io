@@ -9,9 +9,6 @@ title: "Modul 6 - Webbapplikationer"
 
 ### Introduktion
 
-Publiceras i samband med workshopen den 16/12.
-
-<!--
 
 Denna uppgift går ut på att skapa en enkel webbapplikation, i form av en wiki **med hjälp av generativ AI - exempelvis ChatGPT**. Att bygga just en wiki passar bra, eftersom även en enkel sådan fångar in många viktiga koncept genom att skapa, spara och redigera innehåll på en webbsida.
 
@@ -77,5 +74,3 @@ Följande delar bedöms vid er inlämning:
 ### Redovisning
 
 Redovisa genom att på Canvas laddar upp programmets källkod, ert prompt-dagbok, samt er reflektionsrapport. Deadline för modul 6 är söndag **2025-01-18**.
-
--->

@@ -64,7 +64,7 @@ För att uppnå godkänt behöver programmet uppfylla uppgiftsbeskrivningen, var
 - Ni ska använda er av `try` och `except` för filhantering, t.ex. om filen inte skulle finnas, eller innehåller fel struktur ska lämpligt felmeddelande visas (och programmet ska inte krascha). Ni får gärna använda felhantering vid andra ställen som ni anser lämpliga.
 - Filens innehåll ska:
   - följa angiven struktur (som beskrivs i uppgiftsbeskrivningen)
-  - alternativt vara kompatibel med `pickle` eller `json`.
+  - sparas i formatet `CSV` (alternativt vara kompatibel med `pickle` eller `json`)
  - Även kvalitén på er kod kommer att bedömas.
  - **Godkänd muntlig presentation och diskussion av uppgiften**
 

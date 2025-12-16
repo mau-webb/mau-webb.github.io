@@ -107,4 +107,4 @@ För VG:
 
 Redovisas genom att ladda upp programmets källkod på Canvas, samt muntlig redovisning den *2025-12-19* (bokning sker via Canvas).
 
-Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 2: senast onsdag: *2025-12-17*.
+Inlämningsuppgifter rättas varje vecka, med onsdag som rullande deadline. Kursens tempo på en modul per vecka. Deadline för modul 5: senast onsdag: *2025-12-17*.

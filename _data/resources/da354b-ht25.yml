@@ -125,6 +125,8 @@ sidebar:
                 path: "overview"
               - label: "Föreläsning"
                 path: "lecture"
+              - label: "Workshop - AI"
+                path: "workshop"
               - label: "Föreläsning - Genomgång: Bottle"
                 path: "lecture-2"
               - label: "Föreläsning - Önskelista"

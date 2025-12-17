@@ -7,4 +7,17 @@ title: "Modul 6 - Webbapplikationer"
 
 ## Workshop - Mjukvaruutveckling med AI
 
-Publiceras när workshopen ägt rum.
+<div class="frame">
+    <embed
+        src="../pdf/AI-Workshop.pdf"
+        type="application/pdf"
+        frameBorder="0"
+        scrolling="auto"
+        style="width: 100%; height: 55vh;"
+    >
+</div>
+
+Länkar till de dokument som publicerades i samband med presentationen:
+
+- [Prompt-bibliotek](../pdf/Prompt-Library.pdf)
+- [Kontextfönster](../pdf/Kontextfonster.pdf)

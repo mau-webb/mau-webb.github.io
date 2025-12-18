@@ -23,7 +23,7 @@ I denna kurs introduceras webbutveckling genom HTML5 och CSS3. Kursens första d
 
 *Kursen syftar till att introducera grundläggande koncept och tekniker som ingår i webbutveckling. Studenten ska utveckla praktiska färdigheter i utveckling av webbplatser, liksom en teoretisk bakgrund till de begränsningar och möjligheter som ges av aktuella standarder och plattformar.*
 
-Det rekommenderas att läsa igenom den kompletta [kursplanen](https://edu.mah.se/sv/Course/DA280A#Syllabus).
+Det rekommenderas att läsa igenom den kompletta [kursplanen](https://utbildningsinfo.mau.se/kurs/kursplan/sv/a5cfcf24-3550-11ef-b71d-793543ab45b6/20261).
 
 ### Kurslitteratur
 

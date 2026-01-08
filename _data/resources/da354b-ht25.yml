@@ -139,12 +139,12 @@ sidebar:
                 path: "ex-fastapi"
               - label: "Inlämningsuppgift"
                 path: "assignment"
-#        - label: "7. Objektorientering"
-#          collapsed: true
-#          items:
-#              - label: "Översikt"
-#                path: overview"
-#              - label: "Föreläsning"
-#                path: "lecture"
-#              - label: "Övningar"
-#                path: "ex-1"
+        - label: "7. Objektorientering"
+          collapsed: true
+          items:
+              - label: "Översikt"
+                path: overview"
+              - label: "Föreläsning"
+                path: "lecture"
+              - label: "Övningar"
+                path: "ex-1"

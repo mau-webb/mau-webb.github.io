@@ -7,20 +7,18 @@ title: "Modul 7 - Objektorientering"
 
 ## Föreläsning
 
-<div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/pr7OHLMp4to8h4" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
-</div>
-
-<!--
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/lecture.pdf)
-
----
-
+**OBS - Föreläsning från tidigare år. Innehållet är relevant, men ev. kursinfo som presenteras är INTE det (t.ex. information om labortioner, inlämningsuppgifter, etc.).**
 
 <div class="video-frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/fnxHLnkCXSg?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 </div>
--->
+
+<div class="frame">
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/pr7OHLMp4to8h4" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+</div>
+
+
+[Ni kan ladda ner föreläsningen i PDF här](../pdf/lecture.pdf)
 
 ---
 

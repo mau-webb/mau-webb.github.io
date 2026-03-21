@@ -9,7 +9,7 @@ Betyg: U/G
 
 ## Inledning
 
-I den sista inlämningsuppgiften ska vi fortsätta att arbeta med layouter för webbplatser. Vi ska nu, utöver att titta på den övrgripande layouten även fokusera på att prsentera text tillsammans med bilder. Dessutom ska vi även ta en titt på hur vi kan mobilanpassa våra webbplatser (grundläggande).
+I den sista inlämningsuppgiften ska vi fortsätta att arbeta med layouter för webbplatser. Vi ska nu, utöver att titta på den övrgripande layouten även fokusera på att presentera text tillsammans med bilder. Dessutom ska vi även ta en titt på hur vi kan mobilanpassa våra webbplatser (grundläggande).
 
 ## Syfte
 

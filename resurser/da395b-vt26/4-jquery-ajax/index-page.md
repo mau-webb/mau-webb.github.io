@@ -11,7 +11,7 @@ Vi kommer även att titta på [Ajax](https://sv.wikipedia.org/wiki/AJAX) (*Async
 
 ## Veckans kurstillfälle
 
-- Onsdag kl. 08.15 - **Föreläsning**: [jQuery & Ajax](../f1/)
+- Måndag kl. 13.15 - **Föreläsning**: [jQuery & Ajax](../f1/)
 - Torsdag kl. 13.15 - **Laboration**: [Inlämningsuppgift 3.a.](../i1/) & [Inlämningsuppgift 3.b.](../i2/)
 
 ## Läshänvisningar

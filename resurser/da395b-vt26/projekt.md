@@ -8,15 +8,11 @@ title: "Projekt"
 Projektet ska göras i grupper om **tre (3) personer** (inte *två*, inte *fyra*, utan **tre personer**).
 {: .info}
 
-Mer information om projektet kommer att publiceras under kursens gång.
+Ni anmäler er projektgrupp via [Canvas](https://mau.instructure.com/courses/17006/groups). Anmäl er grupp **senast den 11:e Maj (23:59)** - det är **superviktigt** att ni gör detta i tid, så att ni får redovisa projektet vid redovisningstillfällena i slutet av kursen. *Har man inte anmält sig i en grupp om tre studenter då, är det alltså inte säkert att man får möjlighet att redovisa projektet vid ordinarie redovisningstillfälle.*
 
-<!--
+Hittar ni ingen projektgrupp så skriv (i god tid) i kanalen `#projektet-hitta-gruppmedlemmar` på Discord för att hitta andra studenter som också vill hitta en projektgrupp, eller dyk upp på labbtillfällena för att se om någon där också letar efter en grupp - det är upp till er att skapa grupper i detta projektet.
 
-Ni anmäler er projektgrupp via [Canvas](https://mau.instructure.com/courses/16863/groups#tab-18343). Anmäl er grupp **senast den 12:e Maj (23:59)** - det är **superviktigt** att ni gör detta i tid, så att ni får redovisa projektet vid redovisningstillfällena i slutet av kursen.
-
-Hittar ni ingen projektgrupp så skriv (i god tid) i kanalen `#hitta-projektgrupp` på Discord för att hitta andra studenter som också vill hitta en projektgrupp, eller dyk upp på labbtillfällena för att se om någon där också letar efter en grupp - det är upp till er att skapa grupper i detta projektet.
-
-Skulle ni inte lyckas att skapa en grupp (med 3 studenter i) innan deadline så **skapa en grupp med bara en person i (du)** - så kommer vi att slå ihop alla "en"- och "två"-grupper till "tre"-grupper den 13:e maj (dubbelkolla då den slutgiltiga gruppindelningen), ett Canvas-anslag kommer göras när grupperna är spikade.
+Skulle ni inte lyckas att skapa en grupp (med 3 studenter i) innan deadline så **skapa en grupp med bara en person i (du)** - så kommer vi att slå ihop alla "en"- och "två"-grupper till "tre"-grupper den 12:e maj (dubbelkolla då den slutgiltiga gruppindelningen), ett Canvas-anslag kommer göras när grupperna är spikade.
 
 
 ---
@@ -33,10 +29,10 @@ Skulle ni inte lyckas att skapa en grupp (med 3 studenter i) innan deadline så 
     * Till exempel ett filmbibliotek genom ett API för filmer.
     * Till exempel en lista över de senaste vädersökningarna, samt favoritplatser genom ett API för väderdata.
 * Er webbapplikation ska ha ett grafiskt gränssnitt med fokus på användbarhet på olika enheter (dvs. vara responsiv).
-* Ni ska använda er av Git i kombination med GitHub för att versionshantera ert projekt, och använda er av vettiga `commits`, `branches`, etc. Kvalitén på er versionshantering är ett av bedömningsunderlagen (samt att alla studenter bidragit till projektets kodbas på ett betydande sätt).
+* Ni ska använda er av Git i kombination med GitHub för att versionshantera ert projekt, och använda er av vettiga `commits`, `branches`, etc. (utgå från Johans föreläsning om utvecklingsmetodik, den ligger till grund för vad ni förväntas göra och är ett underlag för bedömning). Kvalitén på er versionshantering är ett av bedömningsunderlagen (samt att alla studenter bidragit till projektets kodbas på ett betydande sätt).
 * Ni ska skapa en sk. [README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) på GitHub där ni kort beskriver ert projekt **och** inkluderar jämförelsen mot de andra ramverken/biblioteken.
 
-Ni ska stämma av er projektidé med Anton på projekthandledning **senast** onsdagen den 21:e maj, men det rekommenderas att ni gör detta så fort som möjligt, antingen vid kurstillfället den 15:e maj, eller den 19:e maj. Tänk på att ni kan påbörja projektet **innan** ni stämt av idén, så ni behöver inte **vänta** på detta för att köra igång.
+Ni ska stämma av er projektidé med Anton på projekthandledning **senast** onsdagen den 20:e maj, men det rekommenderas att ni gör detta så fort som möjligt, antingen vid kurstillfället den 13:e maj, eller den 18:e maj. Tänk på att ni kan påbörja projektet **innan** ni stämt av idén, så ni behöver inte **vänta** på detta för att köra igång.
 {: .info}
 
 **Här är två sammanställningar över publika API:er:**
@@ -67,7 +63,7 @@ Varje projektgrupp kommer få cirka 10 minuter (plus 5 minuter för frågor) fö
 * Vilket ramverk/bibliotek ni valt och varför (inkludera referenser).
 * Vilka API:er ni använder av.
 * Strukturen på ert projekt (t.ex. komponent-hierarki-träd, etc.)
-  * Det är okej att använda verktyg för att visualisera detta, t.ex. [react-monocle](https://github.com/team-gryff/react-monocle) eller [React Sight](https://github.com/React-Sight/React-Sight). Verktyg finns för diverse ramverk/bibliotek (en googling bort).
+  * Det är okej att använda verktyg för att visualisera detta. Verktyg finns för diverse ramverk/bibliotek (en googling bort).
 * En kort demonstration av er webbapplikation.
 * En reflektion över hur arbetet har gått och vilka lärdomar ni tar med er från detta. **OBS. Denna är viktig**
 
@@ -75,5 +71,3 @@ Varje projektgrupp kommer få cirka 10 minuter (plus 5 minuter för frågor) fö
 
 Information om hur man bokar in en redovisningstid kommer i god tid innan presentationerna.
 {: .info}
-
--->

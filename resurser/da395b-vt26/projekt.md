@@ -40,7 +40,7 @@ Ni ska stämma av er projektidé med Anton på projekthandledning **senast** ons
 * [https://any-api.com](https://any-api.com)
 * [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
 
-Tänk på att projektet ska publiceras på github.com och därför är det viktigt att ni gått igenom inlämningsuppgift 5 noga innan så ni är någorlunda bekväma med Git + GitHub. För att ge er ytterligare stöd kring detta kan ni [klicka här för att läsa mer](https://github.com/trumtomte/introduktion-git-och-github/blob/master/working-with-github-desktop.md) (i detta fallet om hur ni använder det grafiska gränssnittet GitHub Desktop).
+Tänk på att projektet ska publiceras på github.com och därför är det viktigt att ni gått igenom inlämningsuppgift 5 noga innan så ni är någorlunda bekväma med Git + GitHub.
 {: .info}
 
 ---

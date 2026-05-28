@@ -8,6 +8,8 @@
 @import "entypo";
 @import "highlight";
 
+
+
 html, body {
     height: 100%;
     background-color: $bg-color;
@@ -989,4 +991,12 @@ body.resource.closed {
             font-size: 0.8em;
         }
     }
+}
+
+.abcdef {
+    color: #f5f5f5 !important;
+}
+
+.abcdef::selection {
+    color: #f5f5f5 !important;
 }

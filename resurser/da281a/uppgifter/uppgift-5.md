@@ -28,14 +28,7 @@ Nyckelordet `this` används mycket i dessa sammanhang och därför är det vikti
 * [Reacts startsida med quick start](https://react.dev/learn)
 * [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)(Obs: startfielrna är lite annorlunda men koden är fortfarande aktuell)
 * [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (video)
-* [React videos](https://egghead.io/courses/react-fundamentals)
 * [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
-
-
-**Extra**
-
-* [ES6](http://coenraets.org/present/es6/#22) (den nya syntaxen för JavaScript)
-* [React tutorial cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
 
 ## Uppgiften
 

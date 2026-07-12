@@ -26,7 +26,7 @@ Nyckelordet `this` används mycket i dessa sammanhang och därför är det vikti
 **React**
 
 * [Reacts startsida med quick start](https://react.dev/learn)
-* [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)(Obs: startfielrna är lite annorlunda men koden är fortfarande aktuell)
+* [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)(Obs: startfilerna är lite annorlunda men koden är fortfarande aktuell)
 * [React Tutorial](https://www.youtube.com/watch?v=jc9_Bqzy2YQ) (video)
 * [Allt om React](https://coenraets.org/react-js-tutorial-example/) (Se avsnitt 4.1, 4.2 och 4.3 för att göra en enkel React projekt)
 
@@ -38,7 +38,7 @@ För att ta ett kort exempel hade ni kunnat välja att göra en filmdatabas. Dä
 
 ## Kravspecifikation
 
-**Ni behöver inte placera all kod en en extern JavaScript fil.**
+**Ni behöver inte placera all kod i en extern JavaScript fil.**
 
 * På första raden i er fil ska ni använda raden `"use strict";` för att göra webbläsaren mer strikt i sin tolkning av er kod
 * Det får inte visas några felmeddelande i webbkonsollen
@@ -56,6 +56,6 @@ För att ta ett kort exempel hade ni kunnat välja att göra en filmdatabas. Dä
 
 **Glöm inte kontrollera att ni skickat med svar på alla uppgifter och att ni följt kravspecifikationen.**
 
-När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på Canvas. Döp denna enligt formatet `inl5_Förnamn_Efternamn.zip`. DU ska även ladda upp dessa filer på dvwebb och därefter ska du även inkludera länken dit.
+När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på Canvas. Döp denna enligt formatet `inl5_Förnamn_Efternamn.zip`. Du ska även ladda upp dessa filer på dvwebb och därefter ska du även inkludera länken dit.
 
 Lycka till!

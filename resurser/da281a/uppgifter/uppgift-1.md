@@ -63,7 +63,7 @@ var numbers = [128, 256, 512, 1024, 2048];
 ```
 
 1. Skapa en variabel med namnet `sumOfNumbers` vars värde är summan av alla siffrorna i arrayen `numbers`, skriv även ut denna i konsollen
-2. Skapa en variabel med namnet `avgNumber` vars värde är medelvärdet av alla siffrorna i krrayen `numbers` (detta görs genom `summan / antal`). Tänk på att medelvärdet ska kunna räknas ut även om vi själva lägger till eller tar bort ett par siffror, dvs. är det inte tillåtet att skriva `summan / 5` (för att vi har fem siffror). Skriv även ut medelvärdet i konsollen
+2. Skapa en variabel med namnet `avgNumber` vars värde är medelvärdet av alla siffrorna i arrayen `numbers` (detta görs genom `summan / antal`). Tänk på att medelvärdet ska kunna räknas ut även om vi själva lägger till eller tar bort ett par siffror, dvs. är det inte tillåtet att skriva `summan / 5` (för att vi har fem siffror). Skriv även ut medelvärdet i konsollen
 3. Lägg till ett element (siffra) i slutet av arrayen vars värde är summan av alla siffror (tips nyttja variabeln ni tidigare skapade), skriv även ut den nya arrayen i konsollen
 
 ### Uppgift 5

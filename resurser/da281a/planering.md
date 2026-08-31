@@ -5,7 +5,7 @@ title: "Planering (Webbutveckling 2: Klient)"
 
 # Planering
 
-*Nedan presenteras planering för kursen gällande höstterminen 2025.*
+*Nedan presenteras planering för kursen gällande höstterminen 2026.*
 
 ## Beskrivning
 

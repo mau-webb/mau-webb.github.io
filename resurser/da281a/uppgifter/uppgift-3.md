@@ -229,7 +229,7 @@ Tips: använd er av en stor `if`-sats med `else if ()` och slutligen en `else { 
 
 **Glöm inte kontrollera att ni skickat med svar på alla uppgifter och att ni följt kravspecifikationen.**
 
-När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på Canvas (på samma sätt som inlämningsuppfit 1). Döp denna enligt formatet `inl3_Förnamn_Efternamn.zip`. Du ska även ladda upp dessa filer på dvwebb och därefter ska du även inkludera länken dit.
+När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på Canvas (på samma sätt som inlämningsuppfit 1). Döp denna enligt formatet `inl3_Förnamn_Efternamn.zip`. Du ska även ladda upp dessa filer på Webshare och därefter ska du även inkludera länken dit.
 
 Lycka till!
 

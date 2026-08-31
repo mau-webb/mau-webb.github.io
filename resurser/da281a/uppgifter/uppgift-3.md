@@ -207,10 +207,10 @@ Utifrån ovanstående ska ni nu kunna färdigställa del 1.
 
 I del 2 så ska ni använda er av ett antal `if`-satser för att kontrollera värdena för respektive fält i formuläret. Nedan presenteras kraven för varje fält:
 
-* Förnamn - får endast innehålla `0` till `50` bokstäver
-* Efternamn - får endast innehålla `0` till `50` bokstäver
+* Förnamn - får endast innehålla `1` till `50` bokstäver
+* Efternamn - får endast innehålla `1` till `50` bokstäver
 * Ålder - måste vara en siffra (`number`) och vara mer än `0`
-* Epost - får endast innehålla `0` till `50` bokstäver
+* Epost - får endast innehålla `1` till `50` bokstäver
 * Husdjur - ett husdjur måste vara valt
 
 Om alla dessa kraven stämmer för samtliga fält kan ni anropa `event.target.submit()`, om något inte stämmer ska ni använda er av `alert()` med ett relevant meddelande för vad som var fel.

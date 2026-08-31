@@ -146,7 +146,7 @@ I uppgift 10 ska ni använda er av en `for`-loop för att slippa att manuellt an
 
 **Glöm inte kontrollera att ni skickat med svar på alla uppgifter och att ni följt kravspecifikationen.**
 
-Ni ska skriva all er JavaScript-kod i ett separat dokument (dvs. med filändelsen `.js`) (se exempelfilen main.js här nedan). Ni ska även skriva en enkel HTML-fil som länkar till Javascript-filen med en Script-tagg (se exempelfilen index.html här nedan). Skicka in dessa dokumentet (en HTML-fil och en JavaScript-fil) som en `.zip` på Canvas . Döp denna enligt formatet `inl1_Förnamn_Efternamn.zip`.Ni ska även ladda upp dessa filer på dvwebb (en [guide om detta finner du här](/{{ site.resource_path }}/da281a/material/m1_intro_dvwebb/)) - och därefter ska du även inkludera länken dit.
+Ni ska skriva all er JavaScript-kod i ett separat dokument (dvs. med filändelsen `.js`) (se exempelfilen main.js här nedan). Ni ska även skriva en enkel HTML-fil som länkar till Javascript-filen med en Script-tagg (se exempelfilen index.html här nedan). Skicka in dessa dokumentet (en HTML-fil och en JavaScript-fil) som en `.zip` på Canvas . Döp denna enligt formatet `inl1_Förnamn_Efternamn.zip. Ni ska även ladda upp dessa filer på webshare (se Guide till anslutning till Webshare på Canvas i Moduler) - och därefter ska du även inkludera länken dit.
 
 Glöm inte att skriva ert namn och datorid högst upp i filen!
 

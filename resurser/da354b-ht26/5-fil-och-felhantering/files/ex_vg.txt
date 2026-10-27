@@ -1,0 +1,112 @@
+Klubbmästerskap i minigolf
+**************************
+
+Meny
+****
+1) Visa resultat
+2) Registrera resultat
+3) Radera resultat
+4) Avsluta
+Val: 1
+
+*******************************
+Hur vill du sortera resultaten?
+*******************************
+0) Namn
+1) Varv 1
+2) Varv 2
+3) Varv 3
+4) Totalt
+5) Originalordning
+Val (0-5): 0
+
+Resultat
+********
+Namn	1	2	3	Totalt	Genomsnitt
+Anton	38	33	27	98	32.67
+Johan	44	29	34	107	35.67
+Oskar	23	47	45	115	38.33
+Sara	37	32	47	116	38.67
+
+Meny
+****
+1) Visa resultat
+2) Registrera resultat
+3) Radera resultat
+4) Avsluta
+Val: 1
+
+*******************************
+Hur vill du sortera resultaten?
+*******************************
+0) Namn
+1) Varv 1
+2) Varv 2
+3) Varv 3
+4) Totalt
+5) Originalordning
+Val (0-5): 1
+
+Resultat
+********
+Namn	1	2	3	Totalt	Genomsnitt
+Oskar	23	47	45	115	38.33
+Sara	37	32	47	116	38.67
+Anton	38	33	27	98	32.67
+Johan	44	29	34	107	35.67
+
+Meny
+****
+1) Visa resultat
+2) Registrera resultat
+3) Radera resultat
+4) Avsluta
+Val: 1
+
+*******************************
+Hur vill du sortera resultaten?
+*******************************
+0) Namn
+1) Varv 1
+2) Varv 2
+3) Varv 3
+4) Totalt
+5) Originalordning
+Val (0-5): 2
+
+Resultat
+********
+Namn	1	2	3	Totalt	Genomsnitt
+Johan	44	29	34	107	35.67
+Sara	37	32	47	116	38.67
+Anton	38	33	27	98	32.67
+Oskar	23	47	45	115	38.33
+
+Meny
+****
+1) Visa resultat
+2) Registrera resultat
+3) Radera resultat
+4) Avsluta
+Val: 1
+
+*******************************
+Hur vill du sortera resultaten?
+*******************************
+0) Namn
+1) Varv 1
+2) Varv 2
+3) Varv 3
+4) Totalt
+5) Originalordning
+Val (0-5): 3
+
+Resultat
+********
+Namn	1	2	3	Totalt	Genomsnitt
+Anton	38	33	27	98	32.67
+Johan	44	29	34	107	35.67
+Oskar	23	47	45	115	38.33
+Sara	37	32	47	116	38.67
+
+# => Osv.

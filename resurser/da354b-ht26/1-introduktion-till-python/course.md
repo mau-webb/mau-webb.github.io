@@ -7,7 +7,9 @@ title: "Modul 1 - Introduktion till Python"
 
 ## Kursintroduktion
 
-_Publiceras efter att kurstillfället ägt rum._
+<div class="frame">
+    <embed src="../pdf/kursintro-ht26.pdf" type="application/pdf" width="100%" height="485px">
+</div>
 
 <!--
 <div class="frame">

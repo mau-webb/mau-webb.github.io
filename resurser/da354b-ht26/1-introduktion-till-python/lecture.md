@@ -7,17 +7,11 @@ title: "Modul 1 - Introduktion till Python"
 
 ## Introduktion till programmering
 
-_Publiceras efter att kurstillfället ägt rum._
-
-<!--
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/28tCt4PibT0kj2" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+    <embed src="../pdf/h25-f1.pdf" type="application/pdf" width="100%" height="485px">
 </div>
 
-
-
-### Dagens exempel
+### Lite bra exempel (insprirerande från föreläsningen)
 
 #### En miniräknade
 

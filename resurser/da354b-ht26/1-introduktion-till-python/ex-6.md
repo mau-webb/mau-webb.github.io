@@ -5,7 +5,9 @@ title: "Modul 1 - Introduktion till Python"
 
 # Modul 1 - Introduktion till Python
 
-## Case (3) - Fler övningar
+## Case (3) - Fler övningar (Frivillig)
+
+**Övningarna nedan är väldigt bra att göra - men krävs inte för att bli godkänd på laborationen**
 
 ### Inledning
 

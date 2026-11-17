@@ -7,78 +7,63 @@ title: "Modul 2 - Funktioner"
 
 ## Föreläsning - Funktioner
 
-Publiceras när tillfället ägt rum.
-
-<!--
+<div class="frame">
+    <embed src="../pdf/2026-f.pdf" type="application/pdf" width="100%" height="485px">
+</div>
 
 ### Dagens exempel
 
 #### Lunchexempel
 
 ```python
-def heading(message):
-    """Skriver ut en rubrik
+def heading(text):
+    """
+    Prints a heading
 
     Args:
-        message: Titeln i rubriken som ska skrivas ut
+        text (str): Heading
     """
-    print("="*40)
-    print(message)
-    print("="*40)
+    print("-"*40)
+    print(text)
+    print("-"*40)
 
-def day_lunch(day, dish):
-    """Skriver ut lunch för en given dag
+def day_lunch(day, lunch):
+    """
+    Presents a day with a lunch
 
     Args:
-        day: Dagen (t.ex. måndag)
-        dish: Maträtten (t.ex. Spagetti Bolognaise)
-
+        day (str) : Weekday
+        lunch (str) : Lunch dish
     """
-    print(f"Lunch {day}: {dish}")
+    print("Lunch - " + day +": " + lunch)
 
 def weeks_lunches():
-    """Skriver ut en veckas matmeny"""
-    day_lunch("måndag", "Pasta Bolognaise")
-    day_lunch("tisdag", "Hamburgare")
-    day_lunch("onsdag", "Pizza")
-    day_lunch("torsdag", "Soppa")
-    day_lunch("fredag", "Tacos")
+    """
+    Presents the lunches this week
+    """
+    day_lunch("Monday", "Lasanga")
+    day_lunch("Tuesday", "Hamburger")
+    day_lunch("Wednesday", "Tacos")
+    day_lunch("Thursday",  "Pizza")
+    day_lunch("Friday", "Soup")
 
-heading("Välkommen!")
+
+heading("Welcome")
 weeks_lunches()
-heading("Tack och hejdå!")
+heading("Goodbye")
 ```
 
 #### Parametrar & argument
 
 ```python
-def sek_to_dollar(sek):
-    """Omvanldar sek till dollar
-
-    Args:
-        sek: Antal kronor vi vill omvandla
-    """
-    dollar = 9.45
-    result = sek/dollar
+def area(width, height):
+    """Calculates the area of a rectangle"""
+    result = int(width)*int(height)
     return result
 
-user_sek = int(input("Hur många SEK vill du omvandla till dollar? "))
-x = sek_to_dollar(user_sek)
-print(round(x, 2))
+
+user_width = input("Ange bredden: ")
+user_height = input("Ange höjden: ")
+calc_result = area(user_width, user_height)
+print("Resultat: " + str(calc_result))
 ```
-
-<!--
-#### Använda modulen random
-
-```python
-import random
-
-# Slumpa fram ett tal (1-10)
-rand_nr = random.randint(1,10)
-# Skriv ut det slumpade talet
-print(rand_nr)
-```
-
----
-
--->

@@ -7,20 +7,70 @@ title: "Modul 2 - Funktioner"
 
 ## Föreläsning - Funktioner (2)
 
-Publiceras när tillfället ägt rum.
-
-<!--
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/rVQLjMPbPfDZkd" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+    <embed src="../pdf/2026 -Funktioner-2.pdf" type="application/pdf" width="100%" height="485px">
 </div>
 
 ---
 
-Ni kan även ladda ner PDF-versionen av presentationen [här](../pdf/2025-Funktioner-2.pdf).
+### Dagens exempel
 
----
+#### useful_functions.py
 
+```python
+from random import sample
+
+def get_teacher_from_IA_program():
+    """
+    Returns a name of a teacher that teaches within the IA-program
+
+    Return
+        str
+    """
+    teachers = [
+        "Anton",
+        "Kristina",
+        "Johan",
+        "Claudia",
+        "Zara",
+        "Sven",
+        "Steve",
+        "Åse",
+        "Sally",
+        "Ahmed"
+    ]
+
+    random_teachers = sample(teachers, 1)
+
+    return random_teachers[0]
+
+def heading(text, divider="-", length=40):
+    print(divider*length)
+    print(text)
+    print(divider*length)
+```
+
+#### ex.py
+
+```python
+from useful_functions import get_teacher_from_IA_program, heading
+
+
+def print_programming_teacher(name="Anton"):
+    print("Lärare i programmeringskursen är {}".format(name))
+
+
+print_programming_teacher("Gustav")
+
+def main():
+    heading("!!!Dagens lärare!!!", "=", 50)
+    print(get_teacher_from_IA_program())
+    heading("Kom tillbaka imorgon för nästa dagens lärare!", "=", 50)
+
+#main()
+```
+
+<!--
 Här kommer dagens exempelkod:
 
 ### Moduler i Python

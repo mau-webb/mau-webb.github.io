@@ -7,6 +7,9 @@ title: "Modul 3 - Iteration & Selektion"
 
 ## Föreläsning - Sten, sax, påse
 
+Publiceras när tillfället ägt rum.
+
+<!--
 Dagens föreläsning har ingen presentation, se koden nedan.
 
 Bonus - Videoföreläsning (från tidigare år) på sten, sax, påse-spelet (+ lite extra).

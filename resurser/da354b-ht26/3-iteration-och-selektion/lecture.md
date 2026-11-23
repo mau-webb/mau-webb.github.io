@@ -5,13 +5,15 @@ title: "Modul 3 - Iteration & Selektion"
 
 # Modul 3 - Iteration & Selektion
 
+Publiceras när tillfället ägt rum.
+
+<!-->
+
 ## Föreläsning
 
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/ydf5eYjCMzSmXn" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
 </div>
-
-<!--
 
 Videoföreläsning (från tidigare år).
 
@@ -24,7 +26,7 @@ Videoföreläsning (från tidigare år).
 <div class="frame">
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/a641102ea36d48d69143e06850b0ce1b" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
--->
+
 
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/2025-Presentation.pdf)
 
@@ -141,7 +143,7 @@ for i in range(1000):
 for i in range(12): # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     print(i)
 ```
--->
+
 
 ### Rövarspråket
 

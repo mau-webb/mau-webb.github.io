@@ -5,30 +5,9 @@ title: "Modul 3 - Iteration & Selektion"
 
 # Modul 3 - Iteration & Selektion
 
-Publiceras när tillfället ägt rum.
-
-<!-->
-
-## Föreläsning
-
 <div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2696%; padding-top: 58px;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/ydf5eYjCMzSmXn" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no"></iframe></div>
+    <embed src="../pdf/ht-26-Presentation.pdf" type="application/pdf" width="100%" height="485px">
 </div>
-
-Videoföreläsning (från tidigare år).
-
-<div class="video-frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/eThWwiyfN_A?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
-</div>
-
----
-
-<div class="frame">
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/a641102ea36d48d69143e06850b0ce1b" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
-</div>
-
-
-[Ni kan ladda ner föreläsningen i PDF här](../pdf/2025-Presentation.pdf)
 
 ---
 
@@ -47,6 +26,8 @@ def check_password(password):
 
 check_password("123456789a")
 ```
+
+Andra exempel:
 
 ```python
 password = "secret"
@@ -91,59 +72,6 @@ while question == "ja":
     print("=====")
     question = input("Vill du göra igen?")
 ```
-
-<!--
-### Exempel - bonus: Meny
-
-```python
-def menu():
-    print("************")
-    print("Välkommen")
-    print("************")
-
-    user_choice = None
-
-    while user_choice != "0":
-        print("\n******")
-        print("Menu")
-        print("******")
-        print("1) Test")
-        print("2) Hej")
-        print("3) Hoppsan")
-        print("0) Avsluta")
-        user_choice = input("Ange val: ")
-
-        if user_choice == "1":
-            print("Du valde altenativ 1: Test")
-        elif user_choice == "2":
-            print("Du valde alternativ 2: Hej")
-        elif user_choice == "3":
-            print("Du valde alternativ 3: Hoppsan")
-        elif user_choice == "0":
-            pass
-        else:
-            print("Du valde inte ett korrekt alternativ")
-
-
-menu()
-```
-
-### Exempel: for-loop
-
-```python
-name = input("Vad heter du? ")
-times = input("Hur många gånger vill du skriva ut ditt namn? ")
-
-for i in range(int(times)):
-    print(f"{i}: {name}")
-
-for i in range(1000):
-    print("Anton är bäst!")
-
-for i in range(12): # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-    print(i)
-```
-
 
 ### Rövarspråket
 

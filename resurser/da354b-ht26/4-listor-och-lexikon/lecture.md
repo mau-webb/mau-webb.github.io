@@ -7,6 +7,10 @@ title: "Modul 4 - Listor & Lexikon"
 
 ## Föreläsning
 
+Publiceras när tillfället ägt rum.
+
+<!--
+
 <div class="frame">
     <embed
         src="../pdf/2025-listor.pdf"
@@ -16,8 +20,6 @@ title: "Modul 4 - Listor & Lexikon"
         style="width: 100%; height: 55vh;"
     >
 </div>
-
-<!--
 
 Inspelad föreläsning (från föregående år).
 
@@ -32,7 +34,7 @@ Inspelad föreläsning (från föregående år).
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/0e9773ea9dd8419a915698bbf3afbca1" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 </div>
 
--->
+
 
 [Ni kan ladda ner föreläsningen i PDF här](../pdf/2025-listor.pdf)
 
@@ -218,3 +220,4 @@ pets.append(pet)
 for p in pets:
     print_pet(p)
 ```
+-->
